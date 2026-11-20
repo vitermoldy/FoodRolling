@@ -188,3 +188,4 @@ export class BeltSim {
     return earned
   }
 
+  plateCount(): number {
