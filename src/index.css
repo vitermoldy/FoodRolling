@@ -8,3 +8,5 @@
 @theme {
   --font-sans: 'Urbanist Variable', ui-sans-serif, system-ui, sans-serif;
   --font-display: 'Urbanist Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'DM Mono', ui-monospace, monospace;
+
