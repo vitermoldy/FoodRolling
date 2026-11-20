@@ -258,3 +258,4 @@ export class StageRenderer {
     return this.def.dishes[dish]?.tier ?? 1
   }
 
+  private ensureRoom() {
