@@ -176,3 +176,4 @@ export class BeltSim {
     if (!chef || chef.state !== 'cooking') return false
     chef.progress = Math.min(1, chef.progress + BALANCE.helpProgress)
     chef.helped = 0
+    return true
