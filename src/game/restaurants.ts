@@ -48,3 +48,4 @@ export interface RestaurantDef {
   theme: ThemeDef
 }
 
+export const RESTAURANTS: RestaurantDef[] = [
