@@ -7,3 +7,4 @@ import { BeltSim, CHEF_SPOTS, SEAT_SPOTS, SLOT_COUNT, simConfig } from '@/game/s
 const jepang = RESTAURANTS[0]
 
 function state(patch: Partial<RestaurantState>): RestaurantState {
+  return { ...newRestaurantState(true), ...patch }
