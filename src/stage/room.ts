@@ -438,3 +438,4 @@ function prancis(ctx: Ctx, w: Wall) {
   ctx.fillRect(0, bottom - wh, W, wh)
   rr(ctx, 0, bottom - wh - u * 0.08, W, u * 0.1, 0, '#c9a227')
   ctx.strokeStyle = 'rgba(201,162,39,0.55)'
+  ctx.lineWidth = Math.max(1, u * 0.03)
