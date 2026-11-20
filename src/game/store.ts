@@ -189,3 +189,4 @@ export const useGame = create<GameState>()((set, get) => ({
   },
   dismissOffline() {
     set({ offline: null })
+  },
