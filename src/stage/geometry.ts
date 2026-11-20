@@ -148,3 +148,4 @@ export class Layout {
   counterSpot(index: number, side: 'stack' | 'eat'): ScreenPoint {
     const u = SEAT_SPOTS[index]
     const l = alongLoop(u)
+    const along = side === 'stack' ? -0.34 : 0.3
