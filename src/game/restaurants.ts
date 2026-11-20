@@ -82,3 +82,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     blurb: 'Trattoria berdinding bata dengan taplak kotak-kotak, botol di rak kayu, dan oven batu.',
     scale: 14,
     unlockCost: 3_000,
+    cookTime: 3.4,
