@@ -222,3 +222,4 @@ function NextRestaurant() {
         <p className="font-display text-lg font-semibold">Keenam restoran sudah buka.</p>
         <p className="mt-1 text-sm text-[#dfe3cf]">Sisa permainan: penuhi upgrade di tiap restoran.</p>
       </section>
+    )
