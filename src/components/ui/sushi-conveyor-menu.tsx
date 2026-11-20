@@ -701,3 +701,4 @@ export function SushiConveyorMenu({
       kick();
       return;
     }
+    if (cancelled || p.moved) return;
