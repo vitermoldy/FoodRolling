@@ -521,3 +521,4 @@ function floor(ctx: Ctx, id: RestaurantId, theme: ThemeDef, W: number, H: number
       for (let y = top; y < H; y += t) {
         for (let x = 0; x < W; x += t) {
           ctx.beginPath()
+          ctx.moveTo(x + t / 2, y + t * 0.18)
