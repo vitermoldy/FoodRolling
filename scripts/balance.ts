@@ -4,3 +4,4 @@ import { RESTAURANTS } from '../src/game/restaurants.ts'
 import * as E from '../src/game/economy.ts'
 
 const fmt = (n: number) => {
+  if (n < 1e3) return n.toFixed(1)
