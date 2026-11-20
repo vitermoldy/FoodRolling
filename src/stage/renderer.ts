@@ -358,3 +358,4 @@ export class StageRenderer {
       ctx.fill()
       if (i === tiers.length - 1) {
         ctx.fillStyle = this.def.theme.plate
+        ctx.beginPath()
