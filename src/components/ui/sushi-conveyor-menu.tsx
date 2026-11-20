@@ -165,3 +165,5 @@ function makeGeo(width: number, n: number, d: number, kb: number): Geo {
   g.height = Math.ceil(bottom - top) + 4;
   g.edgeTop = edge + g.ym;
   return g;
+}
+
