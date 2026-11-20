@@ -12,3 +12,4 @@ Keputusan pemilik (20 November 2026): gaya ilustrasi 2.5D (bukan pixel art, buka
 yang sudah dibeli tetap berjalan, dan enam restoran berurutan: Jepang, Italia, Indonesia, Meksiko,
 India, Prancis.
 
+Design read: game idle restoran untuk pemain santai yang senang melihat dapur bekerja, dalam bahasa
