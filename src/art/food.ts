@@ -250,3 +250,4 @@ function lasagna(rng: Rng) {
 }
 
 function tiramisu(rng: Rng) {
+  return shadow(rect(26, 26, 48, 50, 4, '#000')) +
