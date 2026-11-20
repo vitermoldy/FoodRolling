@@ -51,3 +51,4 @@ export function wrap(u: number): number {
 /** Signed shortest distance from b to a along the loop. */
 export function loopDelta(a: number, b: number): number {
   let d = wrap(a - b)
+  if (d > BELT_LENGTH / 2) d -= BELT_LENGTH
