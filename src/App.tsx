@@ -87,3 +87,4 @@ export default function App() {
                 className={`-mb-px min-h-[44px] border-b-[3px] px-4 text-[0.9375rem] font-semibold transition-colors ${tab === t.id ? 'border-accent text-olive' : 'border-transparent text-moss hover:text-olive'}`}
               >
                 {t.label}
+              </button>
