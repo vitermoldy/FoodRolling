@@ -10,3 +10,4 @@ function thumb(id: string) {
   let url = thumbs.get(id)
   if (!url) {
     url = toDataUrl(foodSvg(id, 64))
+    thumbs.set(id, url)
