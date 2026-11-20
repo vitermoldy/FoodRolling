@@ -233,3 +233,4 @@ function NextRestaurant() {
       <h2 id="next-heading" className="font-display text-lg font-semibold text-olive">
         {def.name}, {def.country}
       </h2>
+      <div className="mt-3 h-2.5 overflow-hidden rounded-full bg-stone" role="progressbar" aria-label={`Uang terkumpul untuk ${def.name}`} aria-valuemin={0} aria-valuemax={100} aria-valuenow={Math.floor(share * 100)}>
