@@ -58,3 +58,4 @@ export function alongLoop(u: number): LoopPoint {
 export interface ScreenPoint {
   x: number
   y: number
+  /** Perspective scale at this depth (1 at the front). */
