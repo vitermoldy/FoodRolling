@@ -179,3 +179,4 @@ export class Layout {
     for (let i = 0; i < SEAT_SPOTS.length; i++) take(this.seat(i), SIT_HEIGHT, 0.45, 0.3)
     for (let i = 0; i < CHEF_SPOTS.length; i++) take(this.chef(i), STAND_HEIGHT, 0.45, 0)
     const back = this.project(0, -this.depth - 0.5)
+    // Leave a band of back wall above the scene for the room's decoration.
