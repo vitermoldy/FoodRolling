@@ -552,3 +552,4 @@ function croissant(rng: Rng) {
   }
   out += path('M32 40 Q50 30 68 40 Q60 48 50 48 Q40 48 32 40Z', '#f0b25a', 'opacity="0.85"')
   out += path('M38 37 Q50 32 62 37', 'none', 'stroke="rgba(255,244,214,0.8)" stroke-width="2.2" stroke-linecap="round"')
+  return out + scatter(rng, 6, 50, 46, 12, [0.4, 0.7], ['#f8d38a'])
