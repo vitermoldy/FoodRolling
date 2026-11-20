@@ -392,3 +392,4 @@ export function SushiConveyorMenu({
     // Sub-steps keep the springs stable and the belt on real time when frames arrive late.
     const steps = Math.max(1, Math.ceil(dt / 0.017));
     const h = dt / steps;
+    const stopped = L.paused || L.active !== null || L.open;
