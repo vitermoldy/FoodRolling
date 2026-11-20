@@ -51,3 +51,5 @@ export default function App() {
       button?.scrollIntoView({ block: 'center', behavior: 'smooth' })
       button?.focus({ preventScroll: true })
     }, 60)
+  }
+
