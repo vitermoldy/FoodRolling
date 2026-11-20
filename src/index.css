@@ -81,3 +81,4 @@
 
 @layer components {
   .num {
+    font-family: var(--font-mono);
