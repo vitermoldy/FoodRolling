@@ -559,3 +559,4 @@ function crepe(rng: Rng) {
   const shape = 'M22 70 L22 32 Q50 22 76 46 Q60 66 22 70Z'
   let out = shadow(path(shape, '#000')) + path(shape, '#ecc27f', 'stroke="#c99752" stroke-width="1.2"')
   for (let i = 0; i < 14; i++) out += path(blob(rng, 26 + rng() * 40, 34 + rng() * 30, 1.6 + rng() * 2, 0.6, 6), '#c98e48', 'opacity="0.7"')
+  out += `<path d="M22 32 Q40 40 46 66" fill="none" stroke="#d9a862" stroke-width="1.4"/>`
