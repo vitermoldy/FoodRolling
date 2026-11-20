@@ -123,3 +123,4 @@ export function simConfig(def: RestaurantDef, state: RestaurantState): SimConfig
 const C = BALANCE.customer
 
 export class BeltSim {
+  offset = 0
