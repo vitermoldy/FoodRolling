@@ -536,3 +536,4 @@ function floor(ctx: Ctx, id: RestaurantId, theme: ThemeDef, W: number, H: number
   sk.addColorStop(0, 'rgba(0,0,0,0.22)')
   sk.addColorStop(1, 'rgba(0,0,0,0)')
   ctx.fillStyle = sk
+  ctx.fillRect(0, top, W, u * 0.6)
