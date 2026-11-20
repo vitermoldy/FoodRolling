@@ -276,3 +276,4 @@ function indonesia(ctx: Ctx, w: Wall) {
         ctx.ellipse(x, y, cell * 0.42, cell * 0.2, a + Math.PI / 4, 0, Math.PI * 2)
         ctx.fill()
       }
+      disc(ctx, x, y, cell * 0.06, '#4a2a16')
