@@ -479,3 +479,4 @@ function naan(rng: Rng) {
   return shadow(path(shape, '#000')) + path(shape, '#ecc58c', 'stroke="#c99a58" stroke-width="1.2"') +
     scatter(rng, 12, 50, 50, 22, [1.5, 3], ['#f5d9a8']) + char +
     path('M36 30 Q50 22 64 32', 'none', 'stroke="rgba(255,244,200,0.6)" stroke-width="4" stroke-linecap="round"') +
+    scatter(rng, 18, 50, 52, 20, [0.6, 1.1], ['#4d8a35', '#f8f1dc'])
