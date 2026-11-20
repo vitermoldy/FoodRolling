@@ -65,3 +65,4 @@ export class StageRenderer {
     if (!ctx) throw new Error('Canvas 2D is not available')
     this.ctx = ctx
     this.def = def
+    this.layout = new Layout(1, 1)
