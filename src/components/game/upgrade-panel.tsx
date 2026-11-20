@@ -176,3 +176,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
                 <div className="flex flex-wrap items-baseline justify-between gap-x-2">
                   <h3 className="font-semibold text-olive">{TITLES[kind]}</h3>
                   <span className="text-xs text-moss">{levelText(kind, st)}</span>
+                </div>
