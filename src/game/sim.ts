@@ -192,3 +192,4 @@ export class BeltSim {
     return this.slots.reduce((n, plate) => n + (plate ? 1 : 0), 0)
   }
 
+  private substep(h: number): number {
