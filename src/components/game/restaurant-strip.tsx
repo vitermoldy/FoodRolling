@@ -55,3 +55,4 @@ export function RestaurantStrip() {
               style={active ? { boxShadow: `inset 0 -3px 0 ${r.theme.accent}` } : undefined}
               className={`flex min-h-[52px] shrink-0 items-center gap-2.5 rounded-[10px] px-3 py-1.5 text-left transition-colors ${active ? 'bg-paper' : 'hover:bg-stone/70'}`}
             >
+              <span className="relative grid size-9 shrink-0 place-items-center rounded-full bg-[#fbf8f1] ring-2" style={{ ['--tw-ring-color' as string]: st.owned ? r.theme.accent : 'rgb(56 69 15 / 0.2)' }}>
