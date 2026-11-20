@@ -577,3 +577,4 @@ function counterAndBelt(ctx: Ctx, layout: Layout, id: RestaurantId, theme: Theme
   ctx.restore()
 
   // Counter front face, then the counter top.
+  ctx.fillStyle = theme.counterEdge
