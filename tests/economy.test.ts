@@ -41,3 +41,4 @@ describe('restaurants', () => {
 
 describe('upgrades', () => {
   it('every step costs more than the one before', () => {
+    for (const kind of UPGRADE_KINDS) {
