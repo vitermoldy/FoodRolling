@@ -146,3 +146,4 @@ function AmountPicker() {
         </button>
       ))}
     </div>
+  )
