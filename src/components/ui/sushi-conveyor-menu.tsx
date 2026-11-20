@@ -924,3 +924,4 @@ export function SushiConveyorMenu({
           {action && <div className="mt-3 flex justify-center">{action}</div>}
         </div>
       )}
+      {openIndex !== null && items[openIndex] && (
