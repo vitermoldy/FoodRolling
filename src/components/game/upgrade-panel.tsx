@@ -239,3 +239,4 @@ function NextRestaurant() {
       <div className="mt-2 flex items-baseline justify-between gap-2 text-sm">
         <span className="num text-olive">{formatCoins(Math.min(money, def.unlockCost))}</span>
         <span className="num text-moss">{formatCoins(def.unlockCost)}</span>
+      </div>
