@@ -113,3 +113,4 @@ export class Layout {
 
   /** Which way something at arc position u looks when it faces the belt from outside. */
   facingIn(u: number): Facing {
+    const l = alongLoop(u)
