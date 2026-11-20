@@ -399,3 +399,4 @@ export function SushiConveyorMenu({
         const w = 5.6;
         s.v += (w * w * (s.target - s.offset) - 2 * w * s.v) * h;
         s.offset += s.v * h;
+        if (Math.abs(s.target - s.offset) < 0.3 && Math.abs(s.v) < 4) { s.offset = s.target; s.v = 0; s.mode = RUN; }
