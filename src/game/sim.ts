@@ -242,3 +242,4 @@ export class BeltSim {
           if (seat.timer <= 0) { seat.state = 'waiting'; seat.waited = 0 }
           break
         case 'waiting': {
+          seat.waited += h
