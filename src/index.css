@@ -74,3 +74,4 @@
     outline: 2px solid var(--color-olive);
     outline-offset: 2px;
   }
+  dialog::backdrop {
