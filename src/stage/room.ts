@@ -397,3 +397,4 @@ function india(ctx: Ctx, w: Wall) {
       ctx.lineTo(x + k + aw, y + ah)
     }
     ctx.stroke()
+    ctx.restore()
