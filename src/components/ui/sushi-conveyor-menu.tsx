@@ -270,3 +270,4 @@ export function SushiConveyorMenu({
   const autoLast = React.useRef(null as number | null);
   const [size, setSize] = React.useState({ section: 0, stage: 0 });
   const [innerActive, setInnerActive] = React.useState(null as number | null);
+  const [innerPaused, setInnerPaused] = React.useState(false);
