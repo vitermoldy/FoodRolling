@@ -198,3 +198,4 @@ export class StageRenderer {
       const plate = sim.slots[i]
       if (!plate || flying.has(plate.id)) continue
       const p = L.belt(sim.slotPosition(i))
+      items.push({ y: p.y, draw: () => this.drawPlate(p.x, p.y, L.d * p.k * 0.9, this.tierOf(plate.dish), plate.dish) })
