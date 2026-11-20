@@ -727,3 +727,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
             ctx.lineTo(sx, y + s * 0.12)
             ctx.stroke()
             for (let k = 0; k < 3; k++) rr(ctx, sx - s * 0.04, y - s * 0.2 + k * s * 0.09, s * 0.08, s * 0.07, s * 0.02, '#8f4a22')
+          }
