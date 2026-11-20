@@ -50,3 +50,4 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
       key={def.id}
       items={items}
       legend={legend}
+      heading={`Menu ${def.name}`}
