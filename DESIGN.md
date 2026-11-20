@@ -29,3 +29,4 @@ Dial: ENERGY 2 / RHYTHM 2 / MOTION 2
 Seperti bar kaiten sungguhan, warna piring adalah harganya. Lima warna yang sama dipakai di sabuk,
 di tumpukan piring di depan pelanggan, di legenda menu, di ikon Pendapatan, dan di bar kemajuan.
 
+| Warna | Hex | Harga (x harga dasar restoran) |
