@@ -589,3 +589,4 @@ function counterAndBelt(ctx: Ctx, layout: Layout, id: RestaurantId, theme: Theme
   ctx.lineWidth = Math.max(1, d * 0.02)
   ctx.stroke()
 
+  // Belt bed between the rails.
