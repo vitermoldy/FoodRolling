@@ -347,3 +347,4 @@ function ayampop(rng: Rng) {
     scatter(rng, 7, 33, 30, 5, [0.5, 0.9], ['#f49a3a', '#ffcf7a'])
 }
 
+function rendang(rng: Rng) {
