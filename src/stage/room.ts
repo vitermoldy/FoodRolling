@@ -627,3 +627,5 @@ function counterAndBelt(ctx: Ctx, layout: Layout, id: RestaurantId, theme: Theme
     ctx.lineWidth = Math.max(0.8, d * 0.012)
     ctx.stroke()
   }
+}
+
