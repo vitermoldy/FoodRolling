@@ -604,3 +604,4 @@ function ratatouille(rng: Rng) {
   const discs: { x: number; y: number; k: number }[] = []
   let a = 0
   for (let i = 0; i < 46; i++) {
+    const r = 27 - i * 0.55
