@@ -34,3 +34,4 @@ export interface RestaurantDef {
   name: string
   country: string
   blurb: string
+  /** Price of a tier 1 plate at income level 1. */
