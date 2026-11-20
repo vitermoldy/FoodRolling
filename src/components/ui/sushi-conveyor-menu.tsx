@@ -328,3 +328,4 @@ export function SushiConveyorMenu({
     if (s.lane[i] !== lane) { s.lane[i] = lane; button.dataset.lane = lane; }
     const lift = lifts.current[i];
     if (lift) lift.style.transform = `translateY(${(LIFT_Y * e).toFixed(3)}%) scale(${(1 + LIFT_SCALE * e).toFixed(4)})`;
+    const shade = shades.current[i];
