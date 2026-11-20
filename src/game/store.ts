@@ -136,3 +136,4 @@ export const useGame = create<GameState>()((set, get) => ({
     const s = get()
     const st = s.restaurants[id]
     set({
+      money: s.money + amount,
