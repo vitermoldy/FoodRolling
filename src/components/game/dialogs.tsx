@@ -24,3 +24,5 @@ function Modal({ open, onClose, labelledBy, children }: { open: boolean; onClose
       {open && <div className="p-5">{children}</div>}
     </dialog>
   )
+}
+
