@@ -617,3 +617,4 @@ function ratatouille(rng: Rng) {
   return out + leaf(50, 46, 9, -50, '#3f7a35') + leaf(54, 52, 7, 20, '#4a8a3c')
 }
 
+const DRAW: Record<string, (rng: Rng) => string> = {
