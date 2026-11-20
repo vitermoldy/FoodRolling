@@ -155,3 +155,4 @@ export const useGame = create<GameState>()((set, get) => ({
       const live = s.liveId === def.id && now - s.liveAt < 1500
       if (live) continue
       const coins = incomeRate(def, st) * dt
+      if (coins <= 0) continue
