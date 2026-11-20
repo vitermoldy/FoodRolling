@@ -213,3 +213,5 @@ function pose(g: Geo, offset: number, i: number) {
 
 function centerOf(g: Geo, offset: number) {
   return ((Math.round((offset - g.s / 2) / g.pitch) % g.n) + g.n) % g.n;
+}
+
