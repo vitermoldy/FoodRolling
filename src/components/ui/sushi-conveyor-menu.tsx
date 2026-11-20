@@ -449,3 +449,5 @@ export function SushiConveyorMenu({
     if (!L.activeControlled) { L.active = next; setInnerActive(next); }
     L.onActiveChange?.(next);
     kick();
+  }, [kick]);
+
