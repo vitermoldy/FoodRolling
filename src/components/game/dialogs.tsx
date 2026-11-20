@@ -15,3 +15,4 @@ function Modal({ open, onClose, labelledBy, children }: { open: boolean; onClose
   }, [open])
   return (
     <dialog
+      ref={ref}
