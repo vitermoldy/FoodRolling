@@ -242,3 +242,4 @@ function NextRestaurant() {
       </div>
       <div className="mt-3 flex flex-wrap gap-2">
         <button type="button" className="btn btn-primary flex-1" disabled={!affordable} onClick={() => unlock(next)}>
+          {affordable ? 'Buka sekarang' : `Kurang ${formatCoins(def.unlockCost - money)}`}
