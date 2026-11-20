@@ -43,3 +43,4 @@ export function StageFrame() {
       onPointerDown={owned ? seeHint : undefined}
     >
       <StageBoundary>
+        <Stage ref={stage} className="absolute inset-0" />
