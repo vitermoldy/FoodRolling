@@ -320,3 +320,4 @@ function meksiko(ctx: Ctx, w: Wall) {
       ctx.moveTo(p.x - fw / 2, p.y)
       ctx.lineTo(p.x + fw / 2, p.y)
       ctx.lineTo(p.x + fw / 2, p.y + fh)
+      for (let z = 4; z >= 0; z--) ctx.lineTo(p.x - fw / 2 + (fw * z) / 4, p.y + fh - (z % 2 ? u * 0.08 : 0))
