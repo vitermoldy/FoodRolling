@@ -290,3 +290,4 @@ export class BeltSim {
 
   private newChef(): Chef {
     const chef: Chef = { state: 'cooking', progress: 0, dish: 0, plateId: 0, helped: 99 }
+    this.startDish(chef)
