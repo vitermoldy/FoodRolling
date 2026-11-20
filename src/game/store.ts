@@ -70,3 +70,4 @@ export function snapshot(s: SaveData): SaveData {
     v: 1,
     money: s.money,
     totalEarned: s.totalEarned,
+    current: s.current,
