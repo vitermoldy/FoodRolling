@@ -98,3 +98,4 @@ export function isDishUnlocked(index: number, incomeLevel: number): boolean {
   return (BALANCE.dishUnlock[index] ?? Infinity) <= incomeLevel
 }
 
+export function unlockedDishIndexes(def: RestaurantDef, state: RestaurantState): number[] {
