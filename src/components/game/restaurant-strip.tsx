@@ -41,3 +41,4 @@ export function RestaurantStrip() {
           const st = restaurants[r.id]
           const active = r.id === current
           return (
+            <button
