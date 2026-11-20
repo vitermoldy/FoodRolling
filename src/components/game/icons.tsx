@@ -96,3 +96,4 @@ export function CookIcon(props: IconProps) {
       <path d="M3.5 10h17v6.5a4 4 0 0 1-4 4h-9a4 4 0 0 1-4-4Z" fill="currentColor" />
       <rect x="2" y="8.4" width="20" height="2.6" rx="1.3" fill="currentColor" />
     </Svg>
+  )
