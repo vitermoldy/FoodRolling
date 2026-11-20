@@ -559,3 +559,4 @@ export function SushiConveyorMenu({
       s.v = live.current.reduced || live.current.paused ? 0 : live.current.speed;
     } else if (s.l > 0 && s.l !== geo.l) {
       const f = geo.l / s.l;
+      s.offset *= f;
