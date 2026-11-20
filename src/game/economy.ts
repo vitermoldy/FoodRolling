@@ -155,3 +155,4 @@ export function incomeRate(def: RestaurantDef, state: RestaurantState): number {
 export type Bottleneck = 'chefs' | 'seats'
 
 /** Which side holds the restaurant back: too few plates (chefs) or too few mouths (seats). */
+export function bottleneck(def: RestaurantDef, state: RestaurantState): Bottleneck {
