@@ -569,3 +569,4 @@ export class StageRenderer {
     ctx.lineJoin = 'round'
     for (const c of this.coins) {
       const t = (this.time - c.start) / 1.3
+      const y = c.y - (this.reduced ? 0 : t * L.d * 0.6)
