@@ -50,3 +50,4 @@ describe('belt simulation', () => {
     let paid = 0
     let reported = 0
     for (let t = 0; t < 300; t += 0.1) {
+      paid += sim.step(0.1)
