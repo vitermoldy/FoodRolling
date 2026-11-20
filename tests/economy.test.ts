@@ -114,3 +114,4 @@ describe('save', () => {
     const rs = edited.restaurants as Record<string, Record<string, unknown>>
     rs.jepang.chefs = 99
     rs.jepang.seats = -5
+    rs.jepang.income = 'lots'
