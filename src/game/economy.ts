@@ -12,3 +12,4 @@ export interface RestaurantState {
   speed: number
   chefs: number
   seats: number
+  /** Coins this restaurant has earned since it opened. */
