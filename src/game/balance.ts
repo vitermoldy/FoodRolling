@@ -4,3 +4,4 @@
 
 export const BALANCE = {
   chefs: { start: 1, max: 6 },
+  seats: { start: 4, max: 16 },
