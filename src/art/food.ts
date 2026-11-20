@@ -141,3 +141,5 @@ function slicedTopping(rng: Rng, y: number, base: string, edge: string, stripe: 
 function salmon(rng: Rng) {
   return shadow(rect(22, 25, 56, 50, 10, '#000')) +
     g('rotate(-6 50 50)', slicedTopping(rng, 37, '#f2875a', '#d86a3d', '#ffd8c4', 5) + slicedTopping(rng, 64, '#f2875a', '#d86a3d', '#ffd8c4', 5))
+}
+
