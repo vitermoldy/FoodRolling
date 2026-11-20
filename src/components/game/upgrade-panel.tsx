@@ -217,3 +217,4 @@ function NextRestaurant() {
   const current = useGame((s) => s.current)
   const next = nextLocked({ restaurants })
   if (!next) {
+    return (
