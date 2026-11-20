@@ -23,3 +23,4 @@
 
   /* Tokens the shadcn component in src/components/ui expects. */
   --color-background: var(--color-paper);
+  --color-foreground: var(--color-olive);
