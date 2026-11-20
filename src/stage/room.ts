@@ -371,3 +371,4 @@ function india(ctx: Ctx, w: Wall) {
     const y = bottom * 0.16
     const arch = (inset: number) => {
       ctx.beginPath()
+      ctx.moveTo(x + inset, y + ah)
