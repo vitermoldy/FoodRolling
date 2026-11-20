@@ -72,3 +72,4 @@ export class Layout {
   private ym = 0
   private a = 1
   private b = 0
+  private depth = 1
