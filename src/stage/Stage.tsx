@@ -163,3 +163,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
         if (next !== cursor) setCursor(next)
       }
       return
+    }
