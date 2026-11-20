@@ -55,3 +55,4 @@ export function alongLoop(u: number): LoopPoint {
   return { p: s / 2 + r * sin, q: -r * cos, np: sin, nq: -cos, tp: cos, tq: sin }
 }
 
+export interface ScreenPoint {
