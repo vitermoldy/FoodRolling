@@ -60,3 +60,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     rendererRef.current = renderer
     const media = window.matchMedia('(prefers-reduced-motion: reduce)')
     const applyMotion = () => { renderer.reduced = media.matches }
+    applyMotion()
