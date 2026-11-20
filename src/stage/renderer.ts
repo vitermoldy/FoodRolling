@@ -333,3 +333,5 @@ export class StageRenderer {
       ctx.drawImage(img, x - fs / 2, y - size * 0.01 - (fs * TILT) / 2, fs, fs * TILT)
     }
     ctx.restore()
+  }
+
