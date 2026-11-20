@@ -43,3 +43,5 @@ export function stepCost(def: RestaurantDef, kind: UpgradeKind, level: number): 
   if (kind === 'speed') return def.scale * c.speed.base * c.speed.growth ** (level - 1)
   if (kind === 'chefs') return def.scale * (c.chefs[level - BALANCE.chefs.start] ?? Infinity)
   return def.scale * c.seats.base * c.seats.growth ** (level - BALANCE.seats.start)
+}
+
