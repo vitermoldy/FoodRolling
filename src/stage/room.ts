@@ -162,3 +162,4 @@ function italia(ctx: Ctx, w: Wall) {
     for (let i = 0; i < 9; i++) {
       const a = Math.PI + (i / 8) * Math.PI
       const lx = x + ww / 2 + Math.cos(a) * (ww / 2 + u * 0.15)
+      const ly = y + ww / 2 + Math.sin(a) * (ww / 2 + u * 0.15)
