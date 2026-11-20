@@ -364,3 +364,4 @@ export function SushiConveyorMenu({
     if (!g) return null;
     let best = null as number | null;
     let bestY = -Infinity;
+    for (let i = 0; i < L.count; i++) {
