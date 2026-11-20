@@ -116,3 +116,4 @@ export function simConfig(def: RestaurantDef, state: RestaurantState): SimConfig
     seats: state.seats,
     dishes: unlockedDishIndexes(def, state),
     prices: def.dishes.map((dish) => dishPrice(def, dish, state.income)),
+    tiers: def.dishes.map((dish) => dish.tier),
