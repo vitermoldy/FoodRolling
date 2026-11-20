@@ -39,3 +39,4 @@ function levelText(kind: UpgradeKind, st: RestaurantState) {
 function effectText(kind: UpgradeKind, def: RestaurantDef, st: RestaurantState): string {
   if (kind === 'income') return `Harga piring x${formatDecimal(incomeMult(st.income), 2)}, naik ${Math.round((BALANCE.income.growth - 1) * 100)}% tiap level.`
   if (kind === 'speed') return `Masak ${formatDecimal(cookTime(def, st))} detik, makan ${formatDecimal(eatTime(def, st))} detik per piring. Sabuk ikut lebih cepat.`
+  if (kind === 'chefs') return `Dapur menyiapkan ${formatDecimal(production(def, st), 2)} piring per detik.`
