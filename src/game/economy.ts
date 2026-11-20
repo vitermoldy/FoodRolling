@@ -80,3 +80,4 @@ export function cookMult(level: number): number {
 export function eatMult(level: number): number {
   return 1 + BALANCE.speed.eat * (level - 1)
 }
+export function beltMult(level: number): number {
