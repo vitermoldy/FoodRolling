@@ -222,3 +222,5 @@ function legendEntries(items: ConveyorDish[], legend: { [tier: number]: string }
     if (label) out.push({ tier, label });
   }
   return out;
+}
+
