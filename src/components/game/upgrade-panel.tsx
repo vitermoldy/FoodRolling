@@ -24,3 +24,4 @@ import { formatCoins, formatDecimal, formatRate } from '@/lib/format'
 import { UPGRADE_ICONS } from './icons'
 
 const TITLES: Record<UpgradeKind, string> = {
+  income: 'Pendapatan',
