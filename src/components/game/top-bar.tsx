@@ -18,3 +18,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
             <p className="num text-lg font-medium text-olive sm:text-xl" aria-label={`Uang: ${formatCoins(money)} koin`}>
               {formatCoins(money)}
             </p>
+            <p className="num text-xs text-moss">+{formatRate(rate)}</p>
