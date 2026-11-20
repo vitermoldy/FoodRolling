@@ -1060,3 +1060,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
           {labels.close}
           <svg aria-hidden="true" viewBox="0 0 16 16" className="size-3.5" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round"><path d="M3.5 3.5l9 9M12.5 3.5l-9 9" /></svg>
         </button>
+        <div ref={figureRef} data-dish-figure className="relative mx-auto aspect-square w-full max-w-[min(42vh,22rem)]">
