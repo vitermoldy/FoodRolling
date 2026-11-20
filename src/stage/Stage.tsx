@@ -15,3 +15,4 @@ function describe(sim: BeltSim, name: string): string {
 
 export interface StageHandle {
   /** One push of cooking progress for the next chef in turn (keyboard alternative to tapping). */
+  helpNext: () => void
