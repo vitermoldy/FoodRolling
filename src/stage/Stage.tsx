@@ -102,3 +102,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
       Object.assign(window, { __stage: { get sim() { return simRef.current }, renderer } })
     }
     return () => {
+      cancelAnimationFrame(raf)
