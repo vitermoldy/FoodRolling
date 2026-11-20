@@ -85,3 +85,4 @@ export function StageFrame() {
               Seret sabuk untuk memutarnya. Ketuk chef untuk membantu memasak.
             </p>
           )}
+        </>
