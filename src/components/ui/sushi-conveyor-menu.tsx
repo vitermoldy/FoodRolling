@@ -493,3 +493,4 @@ export function SushiConveyorMenu({
     const s = sim.current;
     s.v = 0;
     s.mode = RUN;
+    live.current.open = true;
