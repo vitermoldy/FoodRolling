@@ -138,3 +138,4 @@ function along(g: Geo, u: number): Point {
   return { x: s / 2 + r * sin, z: -r * cos, nx: sin, nz: -cos, tx: cos, tz: sin };
 }
 
+/** Perspective-ish projection: the back lane shrinks to kb and the depth axis is foreshortened by TILT. */
