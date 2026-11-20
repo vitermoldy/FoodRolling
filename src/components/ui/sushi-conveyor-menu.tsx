@@ -666,3 +666,4 @@ export function SushiConveyorMenu({
         p.lastX = event.clientX;
         p.lastT = now;
         const scale = p.lane > 0 ? 1 : 1 / g.kb;
+        s.offset = p.start - p.lane * dx * scale;
