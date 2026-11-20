@@ -273,3 +273,4 @@ export class BeltSim {
               seat.state = 'waiting'
               seat.waited = 0
             }
+          }
