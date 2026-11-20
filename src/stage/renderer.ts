@@ -174,3 +174,4 @@ export class StageRenderer {
   }
 
   /** Screen movement per unit of arc length at u. */
+  tangent(u: number): { x: number; y: number } {
