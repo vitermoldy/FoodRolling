@@ -178,3 +178,4 @@ function halfSpan(g: Geo) {
   return span;
 }
 
+function edgePath(g: Geo, offset: number) {
