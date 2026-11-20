@@ -293,3 +293,4 @@ export class StageRenderer {
       }
     }
     ctx.lineCap = 'round'
+    path(0)
