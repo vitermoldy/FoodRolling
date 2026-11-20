@@ -272,3 +272,4 @@ export function SushiConveyorMenu({
   const [innerActive, setInnerActive] = React.useState(null as number | null);
   const [innerPaused, setInnerPaused] = React.useState(false);
   const [openIndex, setOpenIndex] = React.useState(null as number | null);
+  const [lifted, setLifted] = React.useState(null as number | null);
