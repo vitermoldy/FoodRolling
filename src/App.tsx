@@ -23,3 +23,4 @@ export default function App() {
   const tabRefs = React.useRef<(HTMLButtonElement | null)[]>([])
 
   // Restaurants off screen earn by the formula; save every few seconds and when the tab goes away.
+  React.useEffect(() => {
