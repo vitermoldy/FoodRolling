@@ -66,3 +66,4 @@ export function RestaurantStrip() {
                 </span>
               </span>
             </button>
+          )
