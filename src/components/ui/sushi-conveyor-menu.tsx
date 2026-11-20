@@ -23,3 +23,4 @@ export interface ConveyorDish {
   locked?: boolean;
 }
 
+export interface SushiConveyorMenuLabels {
