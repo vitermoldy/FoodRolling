@@ -678,3 +678,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
           ctx.stroke()
           ell(ctx, x + s * 0.12, y - s * 0.16, s * 0.08, s * 0.05, '#e8dcc4')
         } else {
+          plateStack(ctx, x - s * 0.22, y, s, ['#3a7cc2', '#3a7cc2', '#3a7cc2', '#3a7cc2'])
