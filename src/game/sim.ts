@@ -316,3 +316,4 @@ export class BeltSim {
     chef.state = 'cooking'
     chef.progress = 0
   }
+}
