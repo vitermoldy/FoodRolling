@@ -37,3 +37,4 @@ export function parseSave(text: string | null, now: number): SaveData | null {
   const data = raw as Partial<SaveData> & { restaurants?: Record<string, Partial<RestaurantState>> }
   if (data.v !== 1) return null
   const save = newSave(now)
+  save.money = finite(data.money, 0)
