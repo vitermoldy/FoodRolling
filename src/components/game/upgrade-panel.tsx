@@ -110,3 +110,4 @@ function Summary({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
   )
 }
 
+function Meter({ label, value, max, slow }: { label: string; value: number; max: number; slow: boolean }) {
