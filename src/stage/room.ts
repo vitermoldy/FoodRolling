@@ -117,3 +117,4 @@ function jepang(ctx: Ctx, w: Wall) {
 }
 
 function italia(ctx: Ctx, w: Wall) {
+  const { W, bottom, u, theme, rng } = w
