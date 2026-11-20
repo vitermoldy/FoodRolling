@@ -40,3 +40,4 @@ function scatter(rng: Rng, count: number, cx: number, cy: number, radius: number
   return out
 }
 
+/** Short grains (rice) scattered inside a circle. */
