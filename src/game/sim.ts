@@ -263,3 +263,4 @@ export class BeltSim {
             seat.eaten += 1
             seat.bill += price
             seat.stack.push(cfg.tiers[seat.dish] ?? 1)
+            seat.dish = -1
