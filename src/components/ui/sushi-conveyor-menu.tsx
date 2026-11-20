@@ -36,3 +36,4 @@ export interface SushiConveyorMenuProps extends React.ComponentProps<"section"> 
   items: ConveyorDish[];
   eyebrow?: string;
   heading?: string;
+  /** Shown under the belt while no plate is picked out. */
