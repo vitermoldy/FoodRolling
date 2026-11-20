@@ -522,3 +522,4 @@ export function SushiConveyorMenu({
     if (!L.pausedControlled) { L.paused = next; setInnerPaused(next); }
     L.onPausedChange?.(next);
     if (!next && L.active !== null && !focusVisible() && !sim.current.inside) setActive(null);
+    kick();
