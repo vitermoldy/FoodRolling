@@ -61,3 +61,4 @@ export function StageFrame() {
             </p>
           )}
           <div className="absolute bottom-3 left-3 flex gap-2">
+            <button
