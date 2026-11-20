@@ -134,3 +134,5 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
   }, [def, owned, income, speed, chefs, seats])
 
   // Pointer: drag the belt to roll it, tap a chef to help.
+  const drag = React.useRef<{ id: number; x: number; y: number; u: number; moved: boolean; chef: number; lastX: number; lastY: number; lastT: number; v: number } | null>(null)
+
