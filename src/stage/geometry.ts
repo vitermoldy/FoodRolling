@@ -123,3 +123,4 @@ export class Layout {
   chefFacing(index: number): Facing {
     const spot = CHEF_SPOTS[index]
     const sign = spot.facing === 'front' ? 1 : -1
+    const w = this.world(0, sign)
