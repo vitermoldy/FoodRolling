@@ -32,3 +32,4 @@ sushi kaiten di Jepang sampai bistro di Paris.
 Warna piring menandai harga: biru, hijau, merah, emas, hitam, dari termurah sampai termahal. Tab
 Menu menampilkan hidangan restoran di sabuk menu dari `Prompt.txt`.
 
+Progres tersimpan otomatis di `localStorage` setiap 5 detik dan saat tab ditutup. Selama game ditutup,
