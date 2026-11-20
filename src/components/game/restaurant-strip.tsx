@@ -32,3 +32,5 @@ export function RestaurantStrip() {
     e.preventDefault()
     refs.current[next]?.focus()
     select(RESTAURANTS[next].id)
+  }
+
