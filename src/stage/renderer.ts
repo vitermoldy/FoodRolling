@@ -259,3 +259,4 @@ export class StageRenderer {
   }
 
   private ensureRoom() {
+    const L = this.layout
