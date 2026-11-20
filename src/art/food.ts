@@ -492,3 +492,4 @@ function dal(rng: Rng) {
     leaf(56, 40, 6, 20, '#3f8a35') + leaf(40, 58, 5.5, -30, '#3f8a35')
 }
 
+function biryani(rng: Rng) {
