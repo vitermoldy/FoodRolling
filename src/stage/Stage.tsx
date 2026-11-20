@@ -126,3 +126,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     renderer?.setRestaurant(def, sim)
   }, [current, def, state.owned])
 
+  // Upgrades change the running belt in place.
