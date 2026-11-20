@@ -11,3 +11,4 @@ export interface DishDef {
 
 export type HatKind = 'hachimaki' | 'toque' | 'peci' | 'bandana' | 'cap' | 'tall'
 
+export interface ThemeDef {
