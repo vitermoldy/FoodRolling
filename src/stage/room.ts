@@ -488,3 +488,5 @@ function prancis(ctx: Ctx, w: Wall) {
   }
 }
 
+const WALLS: Record<RestaurantId, (ctx: Ctx, w: Wall) => void> = { jepang, italia, indonesia, meksiko, india, prancis }
+
