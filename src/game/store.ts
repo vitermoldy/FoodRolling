@@ -201,3 +201,4 @@ export const useGame = create<GameState>()((set, get) => ({
       return true
     } catch {
       if (!get().saveError) set({ saveError: true })
+      return false
