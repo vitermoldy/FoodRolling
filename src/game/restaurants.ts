@@ -41,3 +41,4 @@ export interface RestaurantDef {
   /** Seconds one chef needs for a dish at speed level 1. */
   cookTime: number
   /** Seconds a customer takes to eat one plate at speed level 1. */
+  eatTime: number
