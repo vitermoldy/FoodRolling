@@ -48,3 +48,4 @@ export function wrap(u: number): number {
   return ((u % BELT_LENGTH) + BELT_LENGTH) % BELT_LENGTH
 }
 
+/** Signed shortest distance from b to a along the loop. */
