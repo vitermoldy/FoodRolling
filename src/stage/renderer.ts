@@ -342,3 +342,4 @@ export class StageRenderer {
     const ry = rx * TILT
     ctx.save()
     ctx.globalAlpha = alpha
+    ctx.fillStyle = 'rgba(25,15,5,0.2)'
