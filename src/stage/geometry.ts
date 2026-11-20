@@ -60,3 +60,5 @@ export interface ScreenPoint {
   y: number
   /** Perspective scale at this depth (1 at the front). */
   k: number
+}
+
