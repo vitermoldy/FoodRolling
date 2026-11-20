@@ -21,3 +21,4 @@ export const STAND_HEIGHT = 1.75
 export type Orientation = 'landscape' | 'portrait'
 export type Facing = 'down' | 'up' | 'left' | 'right'
 
+export interface LoopPoint {
