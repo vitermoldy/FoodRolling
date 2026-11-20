@@ -32,3 +32,4 @@ export interface ThemeDef {
 export interface RestaurantDef {
   id: RestaurantId
   name: string
+  country: string
