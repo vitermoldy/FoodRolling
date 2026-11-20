@@ -469,3 +469,4 @@ export class StageRenderer {
     this.pulses = this.pulses.filter((pl) => this.time - pl.start < 0.5)
   }
 
+  private chefLook(index: number): Look {
