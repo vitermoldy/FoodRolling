@@ -459,3 +459,4 @@ export class StageRenderer {
       if (t > 1) continue
       ctx.save()
       ctx.globalAlpha = 1 - t
+      ctx.strokeStyle = this.def.theme.accent
