@@ -509,3 +509,4 @@ function butterchicken(rng: Rng) {
   for (const [x, y] of [[42, 42], [60, 46], [46, 60], [58, 62], [36, 54]] as [number, number][]) chunks += path(blob(rng, x, y, 5.5, 0.5, 7), '#c2602a', 'stroke="#9a4418" stroke-width="0.7"')
   return shadow(circle(50, 50, 31, '#000')) +
     circle(50, 50, 31, '#f3efe7', 'stroke="#dcd5c8" stroke-width="1.2"') + circle(50, 50, 26, '#e1712b') +
+    chunks + `<path d="M30 48 Q40 34 56 40 Q70 46 64 58 Q58 68 44 64" fill="none" stroke="#fff6ea" stroke-width="2.6" stroke-linecap="round"/>` +
