@@ -103,3 +103,4 @@ export const useGame = create<GameState>()((set, get) => ({
     const id = s.current
     const def = restaurantById(id)
     const st = s.restaurants[id]
+    if (!st.owned) return
