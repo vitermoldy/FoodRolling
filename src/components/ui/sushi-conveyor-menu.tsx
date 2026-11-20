@@ -601,3 +601,4 @@ export function SushiConveyorMenu({
     if (!playing || reduced || paused || openIndex !== null || count === 0 || !geoReady) return;
     let timer = 0;
     const show = () => {
+      const g = live.current.geo;
