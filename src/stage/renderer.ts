@@ -180,3 +180,4 @@ export class StageRenderer {
     return { x: (b.x - a.x) / 0.05, y: (b.y - a.y) / 0.05 }
   }
 
+  draw(dt: number) {
