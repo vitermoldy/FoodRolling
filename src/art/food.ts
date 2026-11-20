@@ -278,3 +278,4 @@ function cendol(rng: Rng) {
     worms +
     rect(56, 33, 10, 10, 2.5, 'rgba(255,255,255,0.6)', 'stroke="#e3f4f8" stroke-width="0.8" transform="rotate(18 61 38)"') +
     rect(33, 58, 9, 9, 2.5, 'rgba(255,255,255,0.55)', 'stroke="#e3f4f8" stroke-width="0.8" transform="rotate(-12 37 62)"') +
+    circle(64, 62, 3.4, '#e2413a') + circle(64, 62, 1.8, '#fff6f0') +
