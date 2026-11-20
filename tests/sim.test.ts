@@ -75,3 +75,5 @@ describe('belt simulation', () => {
     }
     expect(coins).toBeGreaterThan(0)
   })
+})
+
