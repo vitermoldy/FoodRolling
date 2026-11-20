@@ -158,3 +158,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     name: 'Rasoi Kesar',
     country: 'India',
     blurb: 'Dapur India dengan lengkungan jharokha, kalung bunga marigold, dan lampu kuningan.',
+    scale: 36_000,
