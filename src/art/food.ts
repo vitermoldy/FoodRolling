@@ -366,3 +366,4 @@ function rendang(rng: Rng) {
 
 function churros(rng: Rng) {
   let out = ''
+  for (let i = 0; i < 4; i++) {
