@@ -770,3 +770,5 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
         break
     }
   })
+}
+
