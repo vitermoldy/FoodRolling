@@ -21,3 +21,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
             <p className="num text-xs text-moss">+{formatRate(rate)}</p>
           </div>
         </div>
+        <button type="button" onClick={onSettings} className="btn btn-quiet px-3" aria-label="Pengaturan dan simpanan">
