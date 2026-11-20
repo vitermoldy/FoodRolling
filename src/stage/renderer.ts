@@ -129,3 +129,4 @@ export class StageRenderer {
         })
       } else if (e.type === 'pay') {
         const p = L.seat(e.seat)
+        const s = L.d * p.k
