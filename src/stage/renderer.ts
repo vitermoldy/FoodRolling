@@ -407,3 +407,4 @@ export class StageRenderer {
     const ctx = this.ctx
     ctx.save()
     ctx.strokeStyle = 'rgba(255,255,255,0.55)'
+    ctx.lineWidth = Math.max(1, s * 0.04)
