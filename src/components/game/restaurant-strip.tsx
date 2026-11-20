@@ -25,3 +25,4 @@ export function RestaurantStrip() {
   const onKeyDown = (e: React.KeyboardEvent, index: number) => {
     let next = -1
     if (e.key === 'ArrowRight') next = (index + 1) % RESTAURANTS.length
+    else if (e.key === 'ArrowLeft') next = (index - 1 + RESTAURANTS.length) % RESTAURANTS.length
