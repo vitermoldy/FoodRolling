@@ -74,3 +74,4 @@ export function bulkCost(
 export function incomeMult(level: number): number {
   return BALANCE.income.growth ** (level - 1)
 }
+export function cookMult(level: number): number {
