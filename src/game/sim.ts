@@ -180,3 +180,4 @@ export class BeltSim {
   }
 
   /** Advances the simulation and returns the coins customers paid during it. */
+  step(dt: number): number {
