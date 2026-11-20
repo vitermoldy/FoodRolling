@@ -785,3 +785,4 @@ export function paintRoom(ctx: Ctx, layout: Layout, def: RestaurantDef) {
   WALLS[def.id](ctx, { W, top: 0, bottom: wallBottom, u, theme, def, rng: makeRng(def.id.length * 977) })
   ctx.restore()
   floor(ctx, def.id, theme, W, H, wallBottom, u)
+  counterAndBelt(ctx, layout, def.id, theme)
