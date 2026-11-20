@@ -201,3 +201,4 @@ function margherita(rng: Rng) {
     scatter(rng, 10, 50, 50, 26, [0.4, 0.7], ['#3a6b2a', '#ffffff'])
 }
 
+function spaghetti(rng: Rng) {
