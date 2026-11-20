@@ -5,3 +5,4 @@ export interface DishDef {
   id: string
   name: string
   description: string
+  details: string[]
