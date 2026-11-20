@@ -412,3 +412,4 @@ function india(ctx: Ctx, w: Wall) {
   const lw = Math.min(W * 0.3, u * 5)
   const lx = W / 2 - lw / 2
   const ly = bottom * 0.55
+  rr(ctx, lx, ly, lw, u * 0.12, u * 0.04, '#7a3d1c')
