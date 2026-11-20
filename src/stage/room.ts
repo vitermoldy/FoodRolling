@@ -545,3 +545,4 @@ function checker(ctx: Ctx, size: number): CanvasPattern | null {
   const c = document.createElement('canvas')
   const n = Math.max(4, Math.round(size))
   c.width = n * 2
+  c.height = n * 2
