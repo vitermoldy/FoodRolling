@@ -454,3 +454,4 @@ function enchiladas(rng: Rng) {
     `<path d="M24 43 L76 43 M24 57 L76 57" stroke="#8f1f14" stroke-width="1.6" opacity="0.6"/>` +
     path(blob(rng, 42, 44, 7, 0.5), '#ffd47a') + path(blob(rng, 58, 56, 6, 0.5), '#ffd47a') + path(blob(rng, 62, 40, 4.5, 0.5), '#ffd98a') +
     `<path d="M28 36 L36 40 L44 34 L52 40 L60 34 L68 40 M30 62 L38 58 L46 64 L54 58 L62 64" fill="none" stroke="#fff8ec" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>` +
+    scatter(rng, 12, 50, 50, 22, [0.7, 1.1], ['#3f9a3a', '#2f7d2c'])
