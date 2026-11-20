@@ -176,3 +176,4 @@ function bruschetta(rng: Rng) {
     let top = ''
     for (let i = 0; i < 9; i++) {
       const cx = -6 + rng() * 12
+      const cy = -12 + rng() * 22
