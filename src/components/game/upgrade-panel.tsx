@@ -41,3 +41,5 @@ function effectText(kind: UpgradeKind, def: RestaurantDef, st: RestaurantState):
   if (kind === 'speed') return `Masak ${formatDecimal(cookTime(def, st))} detik, makan ${formatDecimal(eatTime(def, st))} detik per piring. Sabuk ikut lebih cepat.`
   if (kind === 'chefs') return `Dapur menyiapkan ${formatDecimal(production(def, st), 2)} piring per detik.`
   return `Pelanggan menghabiskan ${formatDecimal(capacity(def, st), 2)} piring per detik.`
+}
+
