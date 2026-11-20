@@ -26,3 +26,4 @@ Dial: ENERGY 2 / RHYTHM 2 / MOTION 2
 
 ## Motif identitas: warna piring
 
+Seperti bar kaiten sungguhan, warna piring adalah harganya. Lima warna yang sama dipakai di sabuk,
