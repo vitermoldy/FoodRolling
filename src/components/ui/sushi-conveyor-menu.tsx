@@ -487,3 +487,4 @@ export function SushiConveyorMenu({
     if (current !== null && current !== autoActive.current && !focusVisible()) setActive(null);
   };
 
+  const open = React.useCallback((index: number) => {
