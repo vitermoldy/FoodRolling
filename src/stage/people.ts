@@ -17,3 +17,4 @@ const HAIRS = ['#2a1c15', '#4a2f20', '#6e4b2e', '#1b1b1b', '#a7732f', '#8d8a86',
 const SHIRTS = ['#2f6f8f', '#c96f3a', '#6a8f3d', '#d9b44a', '#3c4a63', '#b84a4a', '#4f8f86', '#e7e1d4', '#7a6a5a', '#2e5e4e']
 
 export function lookFrom(seed: number): Look {
+  const rng = makeRng(seed)
