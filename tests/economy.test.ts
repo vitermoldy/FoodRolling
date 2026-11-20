@@ -19,3 +19,4 @@ import { formatCoins, formatDuration } from '@/lib/format'
 
 const jepang = RESTAURANTS[0]
 
+describe('restaurants', () => {
