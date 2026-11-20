@@ -182,3 +182,4 @@ function bruschetta(rng: Rng) {
     top += leaf(-2, -8, 7, 30, '#2f7d32') + leaf(4, 6, 6, -40, '#3b8d3a')
     out += shadow(ellipse(x, y, 12.5, 19, '#000'))
     out += g(`translate(${x} ${y}) rotate(${a})`,
+      ellipse(0, 0, 12.5, 19, '#b9783a') + ellipse(0, 0, 10.4, 16.8, '#e5b066') +
