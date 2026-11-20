@@ -216,3 +216,4 @@ export function restaurantById(id: RestaurantId): RestaurantDef {
 }
 
 export function restaurantIndex(id: RestaurantId): number {
+  return RESTAURANTS.findIndex((r) => r.id === id)
