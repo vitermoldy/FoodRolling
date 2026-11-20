@@ -115,3 +115,4 @@ function hairFront(ctx: Ctx, look: Look, hx: number, hy: number, r: number, faci
   }
   if (facing === 'down') {
     ctx.beginPath()
+    if (look.style === 1) {
