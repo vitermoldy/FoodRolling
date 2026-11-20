@@ -19,3 +19,4 @@ export interface ThemeDef {
   floor: string
   floorAlt: string
   counter: string
+  counterEdge: string
