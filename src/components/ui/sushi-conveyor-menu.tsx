@@ -199,3 +199,4 @@ function slatPath(g: Geo, offset: number, shift: number) {
     const p = along(g, offset + shift + j * pitch);
     const inner = project(g, p.x - p.nx * half, p.z - p.nz * half);
     const outer = project(g, p.x + p.nx * half, p.z + p.nz * half);
+    const mid = project(g, p.x + p.tx * bulge, p.z + p.tz * bulge);
