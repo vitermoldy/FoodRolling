@@ -784,3 +784,4 @@ export function SushiConveyorMenu({
       role="group"
       aria-label={heading ?? "Sushi conveyor belt"}
       aria-roledescription="conveyor belt"
+      className="relative w-full touch-pan-y select-none"
