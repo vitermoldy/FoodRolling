@@ -163,3 +163,4 @@ export class StageRenderer {
     let best = 0
     let bestD = Infinity
     const steps = 180
+    for (let i = 0; i < steps; i++) {
