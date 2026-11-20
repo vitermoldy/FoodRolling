@@ -223,3 +223,4 @@ function NextRestaurant() {
         <p className="mt-1 text-sm text-[#dfe3cf]">Sisa permainan: penuhi upgrade di tiap restoran.</p>
       </section>
     )
+  }
