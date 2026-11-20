@@ -131,3 +131,4 @@ export class BeltSim {
   chefs: Chef[] = []
   seats: Seat[] = []
   events: SimEvent[] = []
+  config: SimConfig
