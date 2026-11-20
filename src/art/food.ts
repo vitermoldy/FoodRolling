@@ -582,3 +582,5 @@ function quiche(rng: Rng) {
     path(inner, '#f0cd70') +
     scatter(rng, 12, 50, 46, 12, [1, 2.2], ['#4d7f2f', '#3e6d26']) +
     scatter(rng, 9, 50, 46, 13, [1.2, 2.4], ['#c98c3b', '#d9a24d'])
+}
+
