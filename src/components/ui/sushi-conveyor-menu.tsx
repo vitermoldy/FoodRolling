@@ -371,3 +371,4 @@ export function SushiConveyorMenu({
       const rx = (g.d * q.k * grow) / 2;
       const ry = (g.d * TILT * q.k * grow) / 2;
       const dx = (px - q.x) / rx;
+      const dy = (py - (q.y + (LIFT_Y / 100) * g.d * TILT * q.k * e)) / ry;
