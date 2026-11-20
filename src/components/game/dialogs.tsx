@@ -63,3 +63,5 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
         <p className="text-sm" role="status">
           {saveError ? 'Browser menolak penyimpanan. Progres hilang saat tab ditutup.' : savedAt ? `Tersimpan pukul ${savedAt}.` : ''}
         </p>
+      </div>
+
