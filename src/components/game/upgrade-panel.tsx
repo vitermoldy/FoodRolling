@@ -164,3 +164,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
         const { count, cost } = bulkCost(def, st, kind, amount, money)
         const affordable = !maxed && count > 0 && cost <= money
         const gain = maxed ? 0 : rateAfter(def, st, kind, count) - rate
+        const dish = kind === 'income' ? nextDish(def, st) : null
