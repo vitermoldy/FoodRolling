@@ -708,3 +708,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
           ell(ctx, x - s * 0.02, y - s * 0.16, s * 0.08, s * 0.04, '#3b8d3a')
         }
         break
+      case 'indonesia':
