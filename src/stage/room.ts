@@ -49,3 +49,4 @@ interface Wall {
   W: number
   top: number
   bottom: number
+  /** Decoration unit, about one plate at the back of the room. */
