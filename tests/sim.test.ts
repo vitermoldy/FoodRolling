@@ -49,3 +49,4 @@ describe('belt simulation', () => {
     const sim = new BeltSim(simConfig(jepang, state({ chefs: 3, seats: 4 })), 11)
     let paid = 0
     let reported = 0
+    for (let t = 0; t < 300; t += 0.1) {
