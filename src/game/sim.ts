@@ -84,3 +84,4 @@ export interface Seat {
   bill: number
   /** Plate colours stacked in front of the customer. */
   stack: number[]
+  /** The plate being eaten (dish index), or -1. */
