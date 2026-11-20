@@ -334,3 +334,4 @@ function meksiko(ctx: Ctx, w: Wall) {
         ctx.fill()
       }
     })
+  }
