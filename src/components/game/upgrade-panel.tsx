@@ -153,3 +153,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
   const money = useGame((s) => s.money)
   const amount = useGame((s) => s.buyAmount)
   const buy = useGame((s) => s.buy)
+  const best = bestValue(def, st)
