@@ -559,3 +559,4 @@ function checker(ctx: Ctx, size: number): CanvasPattern | null {
   return ctx.createPattern(c, 'repeat')
 }
 
+function counterAndBelt(ctx: Ctx, layout: Layout, id: RestaurantId, theme: ThemeDef) {
