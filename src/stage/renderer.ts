@@ -467,3 +467,5 @@ export class StageRenderer {
       ctx.restore()
     }
     this.pulses = this.pulses.filter((pl) => this.time - pl.start < 0.5)
+  }
+
