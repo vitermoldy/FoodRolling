@@ -554,3 +554,4 @@ export function SushiConveyorMenu({
     const s = sim.current;
     if (!geo) return;
     if (!s.init) {
+      s.init = true;
