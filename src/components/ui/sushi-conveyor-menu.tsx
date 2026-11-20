@@ -1040,3 +1040,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
     const first = controls[0];
     const last = controls.at(-1);
     if (!first || !last) return;
+    if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
