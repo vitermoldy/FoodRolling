@@ -474,3 +474,5 @@ export function SushiConveyorMenu({
     kick();
   }, [kick, paintAll]);
 
+  const focusVisible = () => !!stageRef.current?.querySelector("[data-dish]:focus-visible");
+
