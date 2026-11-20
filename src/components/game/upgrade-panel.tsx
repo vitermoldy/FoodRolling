@@ -138,3 +138,4 @@ function AmountPicker() {
         <button
           key={o.label}
           type="button"
+          aria-pressed={amount === o.value}
