@@ -107,3 +107,4 @@ function Summary({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
           : 'Dapur lebih cepat dari pelanggan, piring menumpuk di sabuk. Tambah tempat duduk atau kecepatan.'}
       </p>
     </section>
+  )
