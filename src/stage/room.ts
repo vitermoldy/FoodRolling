@@ -23,3 +23,4 @@ function disc(ctx: Ctx, x: number, y: number, r: number, fill: string) {
   ctx.fillStyle = fill
   ctx.beginPath()
   ctx.arc(x, y, r, 0, Math.PI * 2)
+  ctx.fill()
