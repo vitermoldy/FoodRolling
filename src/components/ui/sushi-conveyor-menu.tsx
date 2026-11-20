@@ -278,3 +278,4 @@ export function SushiConveyorMenu({
   const [center, setCenter] = React.useState(0);
   const [failed, setFailed] = React.useState({} as { [id: string]: boolean });
 
+  const requested = activeProp !== undefined ? activeProp : innerActive;
