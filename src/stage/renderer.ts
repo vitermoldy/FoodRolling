@@ -209,3 +209,4 @@ export class StageRenderer {
       items.push({ y: cp.y, draw: () => this.drawChef(i, cp, chef.state === 'cooking', chef.progress) })
     }
 
+    for (let i = 0; i < sim.seats.length; i++) {
