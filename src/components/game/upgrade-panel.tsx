@@ -91,3 +91,4 @@ export function UpgradePanel() {
 function Summary({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
   const p = production(def, st)
   const c = capacity(def, st)
+  const top = Math.max(p, c)
