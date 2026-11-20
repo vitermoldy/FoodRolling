@@ -786,3 +786,4 @@ export function paintRoom(ctx: Ctx, layout: Layout, def: RestaurantDef) {
   ctx.restore()
   floor(ctx, def.id, theme, W, H, wallBottom, u)
   counterAndBelt(ctx, layout, def.id, theme)
+  islandProps(ctx, layout, def.id)
