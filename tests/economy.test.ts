@@ -111,3 +111,4 @@ describe('save', () => {
     expect(parseSave('not json', 0)).toBeNull()
     expect(parseSave('{"v":2}', 0)).toBeNull()
     const edited = newSave(0) as unknown as Record<string, unknown>
+    const rs = edited.restaurants as Record<string, Record<string, unknown>>
