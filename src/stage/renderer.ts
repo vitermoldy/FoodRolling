@@ -554,3 +554,4 @@ export class StageRenderer {
         ctx.arc(x + (k - 1) * s * 0.12, y - bob, s * 0.035, 0, Math.PI * 2)
         ctx.fill()
       }
+    }
