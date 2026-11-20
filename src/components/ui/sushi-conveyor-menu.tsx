@@ -421,3 +421,4 @@ export function SushiConveyorMenu({
         s.vlift[i] = v;
       }
     }
+    let busy = s.mode !== RUN || s.v !== 0 || (!stopped && cruise > 0);
