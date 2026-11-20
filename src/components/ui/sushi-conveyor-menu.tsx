@@ -1076,3 +1076,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
             <span aria-hidden="true" className={`size-2 rounded-full ${tier.dot}`} />
             {pad(index + 1)} / {pad(total)}
           </p>
+          <h3 id={titleId} className="text-2xl font-medium tracking-tight sm:text-3xl">{item.name}</h3>
