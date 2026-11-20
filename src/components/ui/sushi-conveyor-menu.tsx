@@ -376,3 +376,4 @@ export function SushiConveyorMenu({
       if (i === L.active) return i;
       if (q.y > bestY) { best = i; bestY = q.y; }
     }
+    return best;
