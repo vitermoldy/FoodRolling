@@ -11,3 +11,4 @@ function readHintSeen() {
   try {
     return localStorage.getItem(HINT_KEY) === '1'
   } catch {
+    return false
