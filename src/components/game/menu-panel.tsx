@@ -63,3 +63,4 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
         >
           {owned ? 'Lihat upgrade Pendapatan' : 'Restoran belum dibuka'}
         </button>
+      ) : (
