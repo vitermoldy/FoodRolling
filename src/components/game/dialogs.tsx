@@ -65,3 +65,4 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
         </p>
       </div>
 
+      <div className="mt-5 rounded-[12px] border border-dashed border-line-strong p-3">
