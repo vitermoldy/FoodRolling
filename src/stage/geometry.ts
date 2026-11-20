@@ -121,3 +121,4 @@ export class Layout {
 
   /** Direction a chef faces: 'front' chefs look at the q = +R lane. */
   chefFacing(index: number): Facing {
+    const spot = CHEF_SPOTS[index]
