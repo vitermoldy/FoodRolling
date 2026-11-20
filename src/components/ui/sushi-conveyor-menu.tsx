@@ -40,3 +40,4 @@ export interface SushiConveyorMenuProps extends React.ComponentProps<"section"> 
   caption?: string;
   /** Call to action rendered under the caption. */
   action?: React.ReactNode;
+  /** Cruise speed of the belt in px/s, measured on the front lane. */
