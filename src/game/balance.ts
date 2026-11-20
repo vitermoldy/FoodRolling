@@ -21,3 +21,4 @@ export const BALANCE = {
   /** Income level at which each of the six dishes joins the menu. */
   dishUnlock: [1, 1, 5, 12, 20, 30],
 
+  customer: {
