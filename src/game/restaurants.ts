@@ -21,3 +21,4 @@ export interface ThemeDef {
   counter: string
   counterEdge: string
   island: string
+  islandEdge: string
