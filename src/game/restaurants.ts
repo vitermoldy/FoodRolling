@@ -181,3 +181,4 @@ export const RESTAURANTS: RestaurantDef[] = [
   },
   {
     id: 'prancis',
+    name: 'Bistro Lumière',
