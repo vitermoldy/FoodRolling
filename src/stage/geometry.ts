@@ -25,3 +25,4 @@ export interface LoopPoint {
   p: number
   q: number
   /** Outward normal. */
+  np: number
