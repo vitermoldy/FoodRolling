@@ -229,3 +229,4 @@ function indonesia(ctx: Ctx, w: Wall) {
   ctx.closePath()
   ctx.fill()
   rr(ctx, rx + rw * 0.06, ry + rh * 1.0, rw * 0.88, u * 0.1, 0, '#d9a521')
+  // Display window with stacked plates at the left.
