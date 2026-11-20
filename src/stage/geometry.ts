@@ -34,3 +34,4 @@ export interface LoopPoint {
 
 /** Point on the belt centre line in loop coordinates (p along the straights, q across). */
 export function alongLoop(u: number): LoopPoint {
+  const s = STRAIGHT
