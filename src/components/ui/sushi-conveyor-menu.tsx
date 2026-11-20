@@ -880,3 +880,4 @@ export function SushiConveyorMenu({
                 <span data-chip className={`absolute bottom-[7px] left-0 flex -translate-x-1/2 items-center gap-1.5 whitespace-nowrap rounded-full border border-border bg-card py-1 pl-2 pr-2.5 text-[11px] font-medium leading-none text-card-foreground shadow-[0_6px_16px_-6px_color-mix(in_oklab,var(--color-foreground)_40%,transparent)] transition-[opacity,translate] duration-300 motion-reduce:transition-none ${isActive && lifted !== i ? "translate-y-0 opacity-100" : "translate-y-1 opacity-0"}`}>
                   <span className={`size-1.5 rounded-full ${tier.dot}`} />
                   {item.name}
+                  <span className="tabular-nums text-muted-foreground">{item.price}</span>
