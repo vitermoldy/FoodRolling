@@ -76,3 +76,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     },
   },
   {
+    id: 'italia',
