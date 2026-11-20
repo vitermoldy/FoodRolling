@@ -513,3 +513,4 @@ function butterchicken(rng: Rng) {
     circle(58, 52, 2.8, '#ffe08a') + scatter(rng, 12, 50, 50, 20, [0.6, 1], ['#3f8a35', '#2f7d2c'])
 }
 
+function thali(rng: Rng) {
