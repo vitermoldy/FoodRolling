@@ -60,3 +60,4 @@ while (t < 12 * 3600) {
   t += dt
 }
 console.log(`${clock(t)}  selesai, pendapatan ${fmt(total())}/s`)
+RESTAURANTS.forEach((def, i) => {
