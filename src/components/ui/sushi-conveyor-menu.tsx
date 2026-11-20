@@ -868,3 +868,4 @@ export function SushiConveyorMenu({
               {!broken && (
                 <img
                   src={item.image}
+                  alt=""
