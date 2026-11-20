@@ -574,3 +574,4 @@ function quiche(rng: Rng) {
   const cy = 76
   const r = 52
   const p0 = [cx + Math.cos(a0) * r, cy + Math.sin(a0) * r]
+  const p1 = [cx + Math.cos(a1) * r, cy + Math.sin(a1) * r]
