@@ -49,3 +49,4 @@ function bestValue(def: RestaurantDef, st: RestaurantState): UpgradeKind | null 
   let bestScore = 0
   const now = incomeRate(def, st)
   for (const kind of UPGRADE_KINDS) {
+    if (isMaxed(st, kind)) continue
