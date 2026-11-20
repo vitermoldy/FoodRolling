@@ -531,3 +531,5 @@ export function SushiConveyorMenu({
     update();
     media.addEventListener("change", update);
     return () => media.removeEventListener("change", update);
+  }, []);
+
