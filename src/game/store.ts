@@ -214,3 +214,5 @@ export const useGame = create<GameState>()((set, get) => ({
     lastTick = Date.now()
     set({ ...newSave(Date.now()), offline: null, notice: null, announced: [], tab: 'upgrade', paused: false })
   },
+}))
+
