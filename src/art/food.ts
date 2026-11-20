@@ -606,3 +606,4 @@ function ratatouille(rng: Rng) {
   for (let i = 0; i < 46; i++) {
     const r = 27 - i * 0.55
     if (r < 3) break
+    discs.push({ x: 50 + Math.cos(a) * r, y: 50 + Math.sin(a) * r, k: i % 4 })
