@@ -43,3 +43,4 @@ export interface SushiConveyorMenuProps extends React.ComponentProps<"section"> 
   /** Cruise speed of the belt in px/s, measured on the front lane. */
   speed?: number;
   /** Stops the belt (controlled). */
+  paused?: boolean;
