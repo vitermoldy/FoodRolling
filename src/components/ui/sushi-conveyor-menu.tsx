@@ -927,3 +927,4 @@ export function SushiConveyorMenu({
       {openIndex !== null && items[openIndex] && (
         <DishDialog
           uid={uid}
+          item={items[openIndex]}
