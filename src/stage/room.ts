@@ -505,3 +505,4 @@ function floor(ctx: Ctx, id: RestaurantId, theme: ThemeDef, W: number, H: number
     }
   } else if (id === 'prancis') {
     const t = u * 0.6
+    for (let y = top, r = 0; y < H; y += t, r++) {
