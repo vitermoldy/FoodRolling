@@ -177,3 +177,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     const du = ((at.x - d.lastX) * t.x + (at.y - d.lastY) * t.y) / len2
     sim.drag(du)
     d.u += du
+    const dtMs = Math.max(1, e.timeStamp - d.lastT)
