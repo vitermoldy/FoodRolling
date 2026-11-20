@@ -36,3 +36,4 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
       image: plateUrl(dish.id, def.theme.plate),
       details: [...dish.details, open ? 'Ada di sabuk' : `Masuk menu di Pendapatan level ${BALANCE.dishUnlock[i]}`],
       locked: !open,
+    }
