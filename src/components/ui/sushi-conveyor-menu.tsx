@@ -642,3 +642,4 @@ export function SushiConveyorMenu({
     pointer.current = { id: event.pointerId, index: hit ?? -1, x: event.clientX, y: event.clientY, moved: false, start: sim.current.offset, lane: at.y >= g.ym ? 1 : -1, lastX: event.clientX, lastT: event.timeStamp, v: 0 };
   };
 
+  const onPointerMove = (event: React.PointerEvent) => {
