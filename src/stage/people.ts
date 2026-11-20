@@ -78,3 +78,4 @@ function shade(hex: string, amount: number): string {
 }
 
 /** Torso as a soft trapezoid from the shoulders down to the waist. */
+function torso(ctx: Ctx, cx: number, top: number, bottom: number, wTop: number, wBottom: number, color: string) {
