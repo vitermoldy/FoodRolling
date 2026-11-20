@@ -968,3 +968,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
   const titleId = `${uid}-dish-title`;
   const tier = tierStyle(item.tier);
 
+  React.useLayoutEffect(() => {
