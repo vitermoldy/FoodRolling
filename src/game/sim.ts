@@ -197,3 +197,4 @@ export class BeltSim {
     let earned = 0
 
     if (this.holding) this.velocity = 0
+    else {
