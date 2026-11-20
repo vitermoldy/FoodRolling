@@ -39,3 +39,4 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
     }
   }), [def, income, owned])
 
+  const legend = React.useMemo(() => {
