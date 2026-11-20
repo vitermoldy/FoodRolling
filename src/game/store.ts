@@ -139,3 +139,4 @@ export const useGame = create<GameState>()((set, get) => ({
       money: s.money + amount,
       totalEarned: s.totalEarned + amount,
       restaurants: { ...s.restaurants, [id]: { ...st, earned: st.earned + amount } },
+    })
