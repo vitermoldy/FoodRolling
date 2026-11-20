@@ -433,3 +433,4 @@ export class StageRenderer {
       action: cooking ? 'cook' : 'idle',
       still: this.reduced,
     })
+    // Progress ring beside the head.
