@@ -188,3 +188,4 @@ export class Layout {
     const d = Math.min((this.width * pad) / (maxX - minX), (room * pad) / (maxY - minY))
     this.d = Math.max(8, d)
     this.cx = this.width / 2 - ((minX + maxX) / 2) * this.d
+    const used = (maxY - minY) * this.d
