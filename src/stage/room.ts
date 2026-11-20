@@ -187,3 +187,4 @@ function italia(ctx: Ctx, w: Wall) {
   ctx.strokeStyle = 'rgba(40,30,20,0.6)'
   ctx.lineWidth = Math.max(1, u * 0.025)
   ctx.beginPath()
+  pts.forEach((p, i) => (i ? ctx.lineTo(p.x, p.y) : ctx.moveTo(p.x, p.y)))
