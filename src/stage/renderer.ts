@@ -461,3 +461,4 @@ export class StageRenderer {
       ctx.globalAlpha = 1 - t
       ctx.strokeStyle = this.def.theme.accent
       ctx.lineWidth = Math.max(2, s * 0.05)
+      ctx.beginPath()
