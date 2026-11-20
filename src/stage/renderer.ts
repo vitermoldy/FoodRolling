@@ -158,3 +158,4 @@ export class StageRenderer {
     return best
   }
 
+  /** Closest belt position to a point and its distance in plate diameters. */
