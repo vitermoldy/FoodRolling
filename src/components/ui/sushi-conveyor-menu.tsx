@@ -808,3 +808,4 @@ export function SushiConveyorMenu({
     >
       {g && (
         <div aria-hidden="true" data-counter className="pointer-events-none absolute inset-x-0" style={{ top: Math.max(0, g.edgeTop - g.d * 0.34), height: g.ym - Math.max(0, g.edgeTop - g.d * 0.34), background: "linear-gradient(to bottom, color-mix(in oklab, var(--color-foreground) 9%, transparent) 0 1px, transparent 1px, color-mix(in oklab, var(--color-foreground) 5%, transparent) 40%, transparent)", WebkitMaskImage: "linear-gradient(to right, transparent, black 18%, black 82%, transparent)", maskImage: "linear-gradient(to right, transparent, black 18%, black 82%, transparent)" }} />
+      )}
