@@ -629,3 +629,5 @@ function counterAndBelt(ctx: Ctx, layout: Layout, id: RestaurantId, theme: Theme
   }
 }
 
+/* ------------------------------- island props ------------------------------- */
+
