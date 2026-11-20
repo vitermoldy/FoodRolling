@@ -544,3 +544,4 @@ export function SushiConveyorMenu({
       setSize((old) => (old.section === next.section && old.stage === next.stage ? old : next));
     };
     measure();
+    const observer = new ResizeObserver(measure);
