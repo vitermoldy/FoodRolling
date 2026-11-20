@@ -200,3 +200,4 @@ function indonesia(ctx: Ctx, w: Wall) {
   const bandH = Math.min(bottom * 0.2, u * 0.7)
   ctx.fillStyle = '#6e1f15'
   ctx.fillRect(0, 0, W, bandH)
+  ctx.fillStyle = '#1f1410'
