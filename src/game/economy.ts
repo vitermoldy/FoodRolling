@@ -132,3 +132,4 @@ export const SEAT_OVERHEAD = (C.arrive + C.leave + (C.respawnMin + C.respawnMax)
 /** Average wait for a plate to reach a seated customer when the belt carries enough food (measured in tests). */
 export const GRAB_WAIT = 0.15
 
+/** Plates per second the chefs can put on the belt. */
