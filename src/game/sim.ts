@@ -177,3 +177,5 @@ export class BeltSim {
     chef.progress = Math.min(1, chef.progress + BALANCE.helpProgress)
     chef.helped = 0
     return true
+  }
+
