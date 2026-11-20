@@ -502,3 +502,4 @@ export class StageRenderer {
     const u = SEAT_SPOTS[index]
     const outer = L.belt(u, 2.4)
     const x = p.x + (outer.x - p.x) * out * 0.6
+    const y = p.y + (outer.y - p.y) * out * 0.6
