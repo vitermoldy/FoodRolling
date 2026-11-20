@@ -8,3 +8,4 @@ import { CookIcon, LockIcon, PauseIcon, PlayIcon } from './icons'
 const HINT_KEY = 'foodrolling.hint-seen'
 
 function readHintSeen() {
+  try {
