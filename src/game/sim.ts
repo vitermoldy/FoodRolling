@@ -22,3 +22,5 @@ export const PITCH = BELT_LENGTH / SLOT_COUNT
 const frontU = (x: number) => STRAIGHT / 2 - x
 const backU = (x: number) => STRAIGHT + Math.PI * RADIUS + (x + STRAIGHT / 2)
 const leftU = (f: number) => STRAIGHT + RADIUS * f
+const rightU = (f: number) => 2 * STRAIGHT + Math.PI * RADIUS + RADIUS * f
+
