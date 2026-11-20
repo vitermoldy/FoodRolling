@@ -257,3 +257,4 @@ function indonesia(ctx: Ctx, w: Wall) {
         ctx.fill()
       }
     }
+  }
