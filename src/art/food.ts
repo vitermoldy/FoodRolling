@@ -153,3 +153,4 @@ function ikura(rng: Rng) {
       const d = Math.sqrt(rng())
       const cx = x + Math.cos(a) * d * 9.5
       const cy = 50 + Math.sin(a) * d * 12
+      out += circle(cx, cy, 3.1, '#ff7a29', 'stroke="#e0571a" stroke-width="0.5"') + circle(cx - 1, cy - 1.1, 0.9, '#fff3e0')
