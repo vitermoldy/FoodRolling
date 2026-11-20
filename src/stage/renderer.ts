@@ -248,3 +248,4 @@ export class StageRenderer {
     for (const dish of def.dishes) {
       if (this.food.has(dish.id)) continue
       const img = new Image()
+      img.decoding = 'async'
