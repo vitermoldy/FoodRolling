@@ -339,3 +339,4 @@ function meksiko(ctx: Ctx, w: Wall) {
   for (const x of [u * 1.2, W - u * 1.2]) {
     const base = ty
     ctx.fillStyle = '#3f8a4a'
+    rr(ctx, x - u * 0.22, base - u * 1.5, u * 0.44, u * 1.5, u * 0.22, '#3f8a4a')
