@@ -634,3 +634,4 @@ export function SushiConveyorMenu({
   };
 
   const onPointerDown = (event: React.PointerEvent) => {
+    const g = live.current.geo;
