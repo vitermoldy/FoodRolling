@@ -53,3 +53,4 @@ function roundRect(ctx: Ctx, x: number, y: number, w: number, h: number, r: numb
 }
 
 function limb(ctx: Ctx, x1: number, y1: number, x2: number, y2: number, width: number, color: string) {
+  ctx.strokeStyle = color
