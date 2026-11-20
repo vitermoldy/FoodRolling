@@ -135,3 +135,4 @@ export class BeltSim {
   private rng: () => number
   private nextPlate = 1
 
+  constructor(config: SimConfig, seed = 1) {
