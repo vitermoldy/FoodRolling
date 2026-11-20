@@ -136,3 +136,4 @@ export class StageRenderer {
         for (const c of this.coins) {
           if (now - c.start < 0.6 && Math.abs(c.x - p.x) < L.d * 1.6 && Math.abs(c.y - y) < lineH) y = c.y - lineH
         }
+        this.coins.push({ x: p.x, y, text: `+${formatCoins(e.amount)}`, start: now })
