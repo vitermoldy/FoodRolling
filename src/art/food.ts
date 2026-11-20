@@ -586,3 +586,4 @@ function quiche(rng: Rng) {
 
 function brulee(rng: Rng) {
   let flute = ''
+  for (let i = 0; i < 24; i++) {
