@@ -215,3 +215,4 @@ function spaghetti(rng: Rng) {
     // A darker edge under each strand keeps the strands apart at small sizes.
     pasta += `<path d="${arc}" fill="none" stroke="#c5953c" stroke-width="3.6" stroke-linecap="round"/>`
     pasta += `<path d="${arc}" fill="none" stroke="${i % 3 === 0 ? '#f7dc8c' : '#efcb6a'}" stroke-width="2.2" stroke-linecap="round"/>`
+  }
