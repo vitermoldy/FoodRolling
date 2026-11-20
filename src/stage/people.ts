@@ -410,3 +410,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
     dot(ctx, dir * armX, armY, 0.07, look.skin)
   }
   ctx.restore()
+}
