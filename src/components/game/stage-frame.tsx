@@ -76,3 +76,4 @@ export function StageFrame() {
               disabled={paused}
               onClick={() => { stage.current?.helpNext(); seeHint() }}
             >
+              <CookIcon />
