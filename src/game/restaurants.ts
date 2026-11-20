@@ -111,3 +111,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     cookTime: 3.8,
     eatTime: 4.8,
     beltSpeed: 1.95,
+    dishes: [
