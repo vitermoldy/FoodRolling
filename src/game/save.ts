@@ -47,3 +47,4 @@ export function parseSave(text: string | null, now: number): SaveData | null {
     const st = save.restaurants[id]
     st.owned = id === 'jepang' ? true : r.owned === true
     for (const kind of UPGRADE_KINDS) {
+      const min = kind === 'chefs' ? BALANCE.chefs.start : kind === 'seats' ? BALANCE.seats.start : 1
