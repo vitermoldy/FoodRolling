@@ -62,3 +62,4 @@ export interface SushiConveyorMenuProps extends React.ComponentProps<"section"> 
   dialogAction?: (item: ConveyorDish, close: () => void) => React.ReactNode;
 }
 
+const SPACING = 1.35;
