@@ -752,3 +752,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
         break
       case 'prancis':
         if (side === 0) {
+          for (const [dx, dy] of [[-0.2, 0], [0.2, 0.03]]) {
