@@ -576,3 +576,4 @@ export class StageRenderer {
       ctx.globalAlpha = t < 0.7 ? 1 : 1 - (t - 0.7) / 0.3
       ctx.lineWidth = Math.max(3, size * 0.22)
       ctx.strokeStyle = 'rgba(255,253,246,0.95)'
+      ctx.strokeText(c.text, x, y)
