@@ -37,3 +37,4 @@ export function RestaurantStrip() {
   return (
     <nav aria-label="Restoran" className="border-b border-line bg-bone">
       <div role="tablist" aria-label="Pilih restoran" className="relative flex gap-1 overflow-x-auto px-3 py-2 sm:px-5 [scrollbar-width:thin]">
+        {RESTAURANTS.map((r, i) => {
