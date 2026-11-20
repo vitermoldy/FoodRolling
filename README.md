@@ -18,3 +18,5 @@ sushi kaiten di Jepang sampai bistro di Paris.
 3. **Bantu sendiri.** Seret sabuk untuk memutarnya, ketuk chef untuk mempercepat masakannya. Di keyboard,
    tombol "Bantu chef" melakukan hal yang sama.
 4. **Buka restoran berikutnya.** Setiap restoran harus dibeli, dan hanya bisa dibuka berurutan. Restoran
+   lama tetap berjalan dan menghasilkan uang, juga saat kamu melihat restoran lain.
+
