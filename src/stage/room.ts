@@ -154,3 +154,4 @@ function italia(ctx: Ctx, w: Wall) {
     ctx.lineWidth = Math.max(1.5, u * 0.06)
     ctx.beginPath()
     ctx.moveTo(x + ww / 2, y)
+    ctx.lineTo(x + ww / 2, y + wh)
