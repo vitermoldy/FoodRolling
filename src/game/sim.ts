@@ -24,3 +24,4 @@ const backU = (x: number) => STRAIGHT + Math.PI * RADIUS + (x + STRAIGHT / 2)
 const leftU = (f: number) => STRAIGHT + RADIUS * f
 const rightU = (f: number) => 2 * STRAIGHT + Math.PI * RADIUS + RADIUS * f
 
+/** Seat positions in the order they are bought: centre of both straights first, the curves last. */
