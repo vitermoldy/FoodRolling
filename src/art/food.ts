@@ -605,3 +605,4 @@ function ratatouille(rng: Rng) {
   let a = 0
   for (let i = 0; i < 46; i++) {
     const r = 27 - i * 0.55
+    if (r < 3) break
