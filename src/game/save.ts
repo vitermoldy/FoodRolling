@@ -20,3 +20,4 @@ export function newSave(now: number): SaveData {
   return { v: 1, money: 0, totalEarned: 0, current: 'jepang', restaurants, startedAt: now, savedAt: now }
 }
 
+function finite(value: unknown, fallback: number, min = 0): number {
