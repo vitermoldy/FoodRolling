@@ -64,3 +64,4 @@ export function StageFrame() {
             <button
               type="button"
               className="btn btn-quiet shadow-[0_2px_8px_rgb(40_30_10/0.14)]"
+              aria-pressed={paused}
