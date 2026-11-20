@@ -51,3 +51,4 @@ function grains(rng: Rng, count: number, cx: number, cy: number, radius: number,
   return out
 }
 
+/** A leaf with a midrib, pointing along `angle` degrees. */
