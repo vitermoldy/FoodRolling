@@ -67,3 +67,5 @@ describe('upgrades', () => {
     const full = { ...st, chefs: BALANCE.chefs.max }
     expect(isMaxed(full, 'chefs')).toBe(true)
     expect(bulkCost(jepang, full, 'chefs', 'max', 1e30).count).toBe(0)
+  })
+
