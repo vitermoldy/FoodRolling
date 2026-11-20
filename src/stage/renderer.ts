@@ -93,3 +93,4 @@ export class StageRenderer {
   }
 
   pulse(chef: number) {
+    this.pulses.push({ chef, start: this.time })
