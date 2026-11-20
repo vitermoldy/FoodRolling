@@ -493,3 +493,4 @@ const WALLS: Record<RestaurantId, (ctx: Ctx, w: Wall) => void> = { jepang, itali
 /* ---------------------------------- floors ---------------------------------- */
 
 function floor(ctx: Ctx, id: RestaurantId, theme: ThemeDef, W: number, H: number, top: number, u: number) {
+  ctx.fillStyle = theme.floor
