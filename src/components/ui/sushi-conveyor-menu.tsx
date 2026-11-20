@@ -467,3 +467,4 @@ export function SushiConveyorMenu({
     const s = sim.current;
     const g = live.current.geo;
     if (!g) return;
+    const base = g.s / 2 + index * g.pitch;
