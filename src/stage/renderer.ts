@@ -120,3 +120,4 @@ export class StageRenderer {
         const spot = L.counterSpot(e.seat, 'eat')
         this.flights.push({
           plateId: e.plateId,
+          dish,
