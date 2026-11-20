@@ -103,3 +103,4 @@ function jepang(ctx: Ctx, w: Wall) {
     const cy = bottom * 0.3
     hang(ctx, x, 0, cy - u * 0.45, u)
     rr(ctx, x - u * 0.2, cy - u * 0.5, u * 0.4, u * 0.1, u * 0.03, '#2a2220')
+    ctx.fillStyle = theme.accent
