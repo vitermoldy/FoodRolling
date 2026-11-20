@@ -425,3 +425,4 @@ export class StageRenderer {
     const ctx = this.ctx
     const s = this.layout.d * p.k
     const chef = this.def.theme.chef
+    drawPerson(ctx, p.x, p.y, s, {
