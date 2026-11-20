@@ -145,3 +145,4 @@ export class StageRenderer {
   hitChef(x: number, y: number): number {
     const sim = this.sim
     if (!sim) return -1
+    let best = -1
