@@ -80,3 +80,4 @@ function jepang(ctx: Ctx, w: Wall) {
     for (let rI = 1; rI < 5; rI++) { ctx.moveTo(x, bottom * 0.1 + (sh * rI) / 5); ctx.lineTo(x + sw, bottom * 0.1 + (sh * rI) / 5) }
     ctx.stroke()
   }
+  // Noren curtain in the middle with a round crest.
