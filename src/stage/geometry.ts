@@ -111,3 +111,4 @@ export class Layout {
     return this.at(l.p + l.np * across, l.q + l.nq * across)
   }
 
+  /** Which way something at arc position u looks when it faces the belt from outside. */
