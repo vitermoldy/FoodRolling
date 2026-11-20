@@ -39,3 +39,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
   React.useImperativeHandle(ref, () => ({
     helpNext() {
       const sim = simRef.current
+      if (!sim || sim.chefs.length === 0) return
