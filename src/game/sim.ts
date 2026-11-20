@@ -300,3 +300,4 @@ export class BeltSim {
       timer: 0.4 + this.rng() * 1.2,
       look: Math.floor(this.rng() * 1e9),
       want: 1,
+      eaten: 0,
