@@ -301,3 +301,4 @@ export class BeltSim {
       look: Math.floor(this.rng() * 1e9),
       want: 1,
       eaten: 0,
+      bill: 0,
