@@ -389,3 +389,4 @@ function nachos(rng: Rng) {
     const rot = rng() * 360
     out += g(`translate(${f(x)} ${f(y)}) rotate(${f(rot)})`, shadow(path('M0 -10 L9 7 L-9 7Z', '#000'), 1, 1.6) + path('M0 -10 L9 7 L-9 7Z', i % 2 ? '#f1c35a' : '#eab64b', 'stroke="#c8902e" stroke-width="0.8" stroke-linejoin="round"'))
   }
+  out += path(blob(rng, 46, 46, 8, 0.6), '#ffb21f') + path(blob(rng, 60, 58, 6, 0.6), '#ffb21f') + path(blob(rng, 36, 60, 5, 0.6), '#ffbd34')
