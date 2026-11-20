@@ -385,3 +385,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
   // Neck and head.
   ctx.fillStyle = look.skin
   roundRect(ctx, -0.07, headY + 0.18, 0.14, shoulder - headY - 0.12, 0.04)
+  ctx.fill()
