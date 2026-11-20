@@ -87,3 +87,4 @@ function jepang(ctx: Ctx, w: Wall) {
   rr(ctx, nx - u * 0.2, ny - u * 0.06, nw + u * 0.4, u * 0.12, u * 0.06, '#5a3d27')
   const panels = 4
   for (let i = 0; i < panels; i++) {
+    const px = nx + (nw / panels) * i + u * 0.03
