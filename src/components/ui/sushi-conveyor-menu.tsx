@@ -1024,3 +1024,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
       const dialog = dialogRef.current;
       if (!dialog || dialog.contains(event.target as Node)) return;
       if (event.key === "Escape") { event.preventDefault(); dismiss(); }
+      else if (event.key === "Tab") {
