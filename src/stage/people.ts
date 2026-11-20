@@ -215,3 +215,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
       ctx.fillStyle = '#f4f1ea'
       roundRect(ctx, hx - r * 1.04, hy - r * 0.62, r * 2.08, r * 0.34, r * 0.12)
       ctx.fill()
+      ctx.fillStyle = chef.trim
