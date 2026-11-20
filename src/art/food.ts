@@ -430,3 +430,4 @@ function quesadilla(rng: Rng) {
       const t = 0.35 + k * 0.22
       out += line(cx + Math.cos(a0 + 0.15) * r * t, cy + Math.sin(a0 + 0.15) * r * t, cx + Math.cos(a1 - 0.15) * r * t, cy + Math.sin(a1 - 0.15) * r * t, '#b47a2e', 1.8, 'opacity="0.75"')
     }
+    out += circle(cx + Math.cos(a0 + 0.05) * 18, cy + Math.sin(a0 + 0.05) * 18, 2.6, '#ffd23f')
