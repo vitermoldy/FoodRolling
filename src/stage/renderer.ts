@@ -149,3 +149,4 @@ export class StageRenderer {
     let bestY = -Infinity
     for (let i = 0; i < sim.chefs.length; i++) {
       const p = this.layout.chef(i)
+      const s = this.layout.d * p.k
