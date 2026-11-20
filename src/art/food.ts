@@ -179,3 +179,4 @@ function bruschetta(rng: Rng) {
       const cy = -12 + rng() * 22
       top += rect(cx - 2.4, cy - 2.4, 4.8, 4.8, 1.2, i % 3 === 0 ? '#b52f1f' : '#d8412d', `transform="rotate(${f(rng() * 90)} ${f(cx)} ${f(cy)})"`)
     }
+    top += leaf(-2, -8, 7, 30, '#2f7d32') + leaf(4, 6, 6, -40, '#3b8d3a')
