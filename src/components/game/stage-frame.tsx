@@ -93,3 +93,4 @@ export function StageFrame() {
   )
 }
 
+function LockedCard() {
