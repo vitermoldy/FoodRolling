@@ -105,3 +105,5 @@ export interface SimConfig {
   dishes: number[]
   prices: number[]
   tiers: number[]
+}
+
