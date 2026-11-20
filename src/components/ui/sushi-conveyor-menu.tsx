@@ -815,3 +815,4 @@ export function SushiConveyorMenu({
             <defs>
               <filter id={`${uid}-soft`} x="-10%" y="-30%" width="120%" height="160%">
                 <feGaussianBlur stdDeviation={(g.d * 0.06).toFixed(1)} />
+              </filter>
