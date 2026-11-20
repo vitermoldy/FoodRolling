@@ -537,3 +537,4 @@ export function SushiConveyorMenu({
 
   React.useLayoutEffect(() => {
     const section = sectionRef.current;
+    const stage = stageRef.current;
