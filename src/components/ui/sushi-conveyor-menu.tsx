@@ -591,3 +591,4 @@ export function SushiConveyorMenu({
     if (node && observer) observer.observe(node);
     document.addEventListener("visibilitychange", update);
     update();
+    return () => { observer?.disconnect(); document.removeEventListener("visibilitychange", update); };
