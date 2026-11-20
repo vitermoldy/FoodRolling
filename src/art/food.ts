@@ -71,3 +71,4 @@ function blob(rng: Rng, cx: number, cy: number, r: number, wobble: number, point
   for (let i = 0; i < points; i++) {
     const p0 = pts[i]
     const p1 = pts[(i + 1) % points]
+    const m = [(p0[0] + p1[0]) / 2, (p0[1] + p1[1]) / 2]
