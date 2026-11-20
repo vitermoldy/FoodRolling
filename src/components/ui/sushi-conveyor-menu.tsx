@@ -510,3 +510,4 @@ export function SushiConveyorMenu({
     if (count === 0) return;
     const next = ((index % count) + count) % count;
     stop();
+    if (focus) plates.current[next]?.focus({ preventScroll: true });
