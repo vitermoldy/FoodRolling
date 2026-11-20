@@ -485,3 +485,4 @@ function naan(rng: Rng) {
 function dal(rng: Rng) {
   return shadow(circle(50, 50, 31, '#000')) +
     circle(50, 50, 31, '#b8702f', 'stroke="#8f521d" stroke-width="1.2"') + circle(50, 50, 28.5, '#d18a45') + circle(50, 50, 25, '#e6ad38') +
+    `<path d="M32 50 Q40 36 54 40 Q66 44 62 56 Q58 64 48 60" fill="none" stroke="#f6d27a" stroke-width="2.4" stroke-linecap="round"/>` +
