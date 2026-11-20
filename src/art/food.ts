@@ -653,3 +653,4 @@ function svgDoc(inner: string, size: number) {
 }
 
 export function toDataUrl(svg: string) {
+  return `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`
