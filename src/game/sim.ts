@@ -3,3 +3,4 @@ import {
   beltSpeed,
   cookTime,
   dishPrice,
+  eatTime,
