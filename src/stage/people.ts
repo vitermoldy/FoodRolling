@@ -317,3 +317,5 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
   ctx.fillStyle = 'rgba(30,20,10,0.16)'
   ctx.beginPath()
   ctx.ellipse(0, 0.04, 0.36, 0.13, 0, 0, Math.PI * 2)
+  ctx.fill()
+
