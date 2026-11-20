@@ -69,3 +69,4 @@ export function UpgradePanel() {
           Upgrade {def.name} muncul setelah restoran ini dibuka. Restoran yang sudah buka tetap menghasilkan uang selama kamu melihat-lihat.
         </p>
         <NextRestaurant />
+      </div>
