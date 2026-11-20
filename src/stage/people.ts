@@ -37,3 +37,4 @@ export interface ChefStyle {
 export interface PersonOptions {
   facing: Facing
   look: Look
+  chef?: ChefStyle
