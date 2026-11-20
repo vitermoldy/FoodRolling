@@ -545,3 +545,4 @@ function croissant(rng: Rng) {
   let out = shadow(path(body, '#000')) + path(body, '#d68a37', 'stroke="#a8621e" stroke-width="1.2"')
   for (const x of [24, 36, 50, 64, 76]) {
     const dx = Math.abs(x - 50)
+    const top = 30 + dx * 0.42
