@@ -175,3 +175,4 @@ export class Layout {
       minY = Math.min(minY, pt.y - up * pt.k)
       maxY = Math.max(maxY, pt.y + down * pt.k)
     }
+    for (const pt of this.ring(BAND / 2 + COUNTER, 120)) take(pt, 0, 0, 0.45)
