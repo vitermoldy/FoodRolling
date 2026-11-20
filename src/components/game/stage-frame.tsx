@@ -146,3 +146,4 @@ class StageBoundary extends React.Component<{ children: React.ReactNode }, { fai
     return { failed: true }
   }
   render() {
+    if (this.state.failed) {
