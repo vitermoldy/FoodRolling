@@ -661,3 +661,4 @@ export function SushiConveyorMenu({
         if (stage.isConnected) stage.setPointerCapture(event.pointerId);
       }
       if (p.moved) {
+        const v = (event.clientX - p.lastX) / Math.max(1, now - p.lastT);
