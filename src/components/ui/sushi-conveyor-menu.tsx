@@ -821,3 +821,4 @@ export function SushiConveyorMenu({
                 <stop offset="1" style={{ stopColor: "var(--island-low)" }} />
               </linearGradient>
             </defs>
+            <path d={paths.outer} transform={`translate(0 ${(g.side + g.d * 0.07).toFixed(1)})`} fill="black" className="opacity-[0.18] dark:opacity-60" filter={`url(#${uid}-soft)`} />
