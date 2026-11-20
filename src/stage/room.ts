@@ -762,3 +762,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
           rr(ctx, x - s * 0.03, y - s * 0.2, s * 0.06, s * 0.22, s * 0.02, '#cfc9c0')
           ell(ctx, x, y - s * 0.2, s * 0.4, s * 0.22, '#f3efe8')
           const cols = ['#a8c97b', '#e8778e', '#f1e1bc', '#c9a0d9', '#f2c45a']
+          for (let i = 0; i < 7; i++) {
