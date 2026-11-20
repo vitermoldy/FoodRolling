@@ -61,3 +61,5 @@ export interface Plate {
   dish: number
 }
 
+export type ChefState = 'cooking' | 'ready'
+
