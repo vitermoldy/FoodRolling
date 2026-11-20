@@ -35,3 +35,4 @@ function hang(ctx: Ctx, x: number, y0: number, y1: number, u: number) {
   ctx.stroke()
 }
 
+/** A drooping string across the wall, as points. */
