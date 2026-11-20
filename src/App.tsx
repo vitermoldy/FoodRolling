@@ -96,3 +96,4 @@ export default function App() {
             aria-labelledby={`panel-tab-${tab}`}
             className="flex-1 px-4 py-4 sm:px-5 lg:overflow-y-auto"
           >
+            {tab === 'upgrade' ? <UpgradePanel /> : <MenuPanel onShowIncome={showIncome} />}
