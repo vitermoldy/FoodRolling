@@ -24,3 +24,5 @@ interface UiState {
   /** Restaurants we already told the player they can afford. */
   announced: RestaurantId[]
   saveError: boolean
+}
+
