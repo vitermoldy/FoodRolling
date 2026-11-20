@@ -5,3 +5,4 @@ import { useGame } from '@/game/store'
 import { formatCoins } from '@/lib/format'
 import { LockIcon } from './icons'
 
+const thumbs = new Map<string, string>()
