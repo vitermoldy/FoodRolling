@@ -379,3 +379,4 @@ function churros(rng: Rng) {
   return out
 }
 
+function nachos(rng: Rng) {
