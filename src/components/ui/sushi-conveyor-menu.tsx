@@ -1033,3 +1033,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
     return () => document.removeEventListener("keydown", onKey);
   }, [dismiss]);
 
+  const onKeyDown = (event: React.KeyboardEvent) => {
