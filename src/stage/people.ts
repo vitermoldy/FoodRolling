@@ -373,3 +373,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
     roundRect(ctx, -0.13, shoulder - 0.04, 0.26, 0.08, 0.04)
     ctx.fill()
   } else if (facing === 'down') {
+    ctx.fillStyle = shade(look.shirt, 18)
