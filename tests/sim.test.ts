@@ -88,3 +88,4 @@ describe('the income formula matches the running belt', () => {
   for (const [name, patch] of cases) {
     it(name, () => {
       const st = state(patch)
+      const got = measure(st)
