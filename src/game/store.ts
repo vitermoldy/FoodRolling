@@ -18,3 +18,4 @@ interface UiState {
   tab: PanelTab
   /** Restaurant whose belt is being simulated on screen, and when it last drew a frame. */
   liveId: RestaurantId | null
+  liveAt: number
