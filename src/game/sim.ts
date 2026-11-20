@@ -260,3 +260,4 @@ export class BeltSim {
           if (seat.timer <= 0) {
             // Each empty plate is paid straight away, so coins keep coming even at the start.
             const price = cfg.prices[seat.dish] ?? 0
+            seat.eaten += 1
