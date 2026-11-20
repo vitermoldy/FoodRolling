@@ -55,3 +55,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
   React.useLayoutEffect(() => {
     const canvas = canvasRef.current
     const wrap = wrapRef.current
+    if (!canvas || !wrap) return
