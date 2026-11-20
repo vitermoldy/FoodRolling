@@ -45,3 +45,5 @@ export interface PersonOptions {
   still?: boolean
 }
 
+type Ctx = CanvasRenderingContext2D
+
