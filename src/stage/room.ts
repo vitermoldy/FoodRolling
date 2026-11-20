@@ -714,3 +714,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
             ell(ctx, x + dx * s, y + dy * s, s * 0.17, s * 0.1, '#fbf6ea')
             ell(ctx, x + dx * s, y + dy * s - s * 0.02, s * 0.1, s * 0.06, c)
           }
+        } else {
