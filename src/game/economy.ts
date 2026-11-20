@@ -137,3 +137,4 @@ export function production(def: RestaurantDef, state: RestaurantState): number {
   return state.chefs / cookTime(def, state)
 }
 
+/** Plates per second the seated customers can eat. */
