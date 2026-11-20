@@ -32,3 +32,4 @@ export interface SushiConveyorMenuLabels {
   pause?: string;
 }
 
+export interface SushiConveyorMenuProps extends React.ComponentProps<"section"> {
