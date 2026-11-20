@@ -432,3 +432,4 @@ export function SushiConveyorMenu({
       if (hit !== null && hit !== L.active) hoverRef.current(hit);
     }
     paintAll();
+    if (busy) s.raf = requestAnimationFrame(tick);
