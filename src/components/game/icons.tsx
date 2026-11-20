@@ -58,3 +58,4 @@ export function SeatIcon(props: IconProps) {
       <ellipse cx="12" cy="11.6" rx="7.6" ry="3" fill="#7a5538" />
       <ellipse cx="12" cy="10.6" rx="7.6" ry="3" fill="#b07a4f" />
     </Svg>
+  )
