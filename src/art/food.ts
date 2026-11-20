@@ -6,3 +6,4 @@ type Rng = () => number
 
 const f = (n: number) => Math.round(n * 100) / 100
 
+function circle(cx: number, cy: number, r: number, fill: string, extra = '') {
