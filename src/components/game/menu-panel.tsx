@@ -30,3 +30,4 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
     return {
       id: dish.id,
       name: dish.name,
+      description: dish.description,
