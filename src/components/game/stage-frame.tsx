@@ -77,3 +77,4 @@ export function StageFrame() {
               onClick={() => { stage.current?.helpNext(); seeHint() }}
             >
               <CookIcon />
+              Bantu chef
