@@ -151,3 +151,4 @@ function ikura(rng: Rng) {
     for (let i = 0; i < 16; i++) {
       const a = rng() * Math.PI * 2
       const d = Math.sqrt(rng())
+      const cx = x + Math.cos(a) * d * 9.5
