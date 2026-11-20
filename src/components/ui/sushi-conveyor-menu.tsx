@@ -781,3 +781,4 @@ export function SushiConveyorMenu({
     <div
       ref={stageRef}
       data-stage
+      role="group"
