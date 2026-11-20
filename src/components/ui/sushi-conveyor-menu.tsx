@@ -948,3 +948,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
   uid: string;
   item: ConveyorDish;
   index: number;
+  total: number;
