@@ -247,3 +247,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
       ctx.fill()
       if (chef.hat === 'tall') {
         ctx.strokeStyle = 'rgba(80,70,60,0.18)'
+        ctx.lineWidth = r * 0.05
