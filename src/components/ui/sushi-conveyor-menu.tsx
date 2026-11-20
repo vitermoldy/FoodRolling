@@ -914,3 +914,4 @@ export function SushiConveyorMenu({
             {stage}
             {controls}
           </div>
+        </div>
