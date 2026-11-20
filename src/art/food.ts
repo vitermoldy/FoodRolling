@@ -143,3 +143,4 @@ function salmon(rng: Rng) {
     g('rotate(-6 50 50)', slicedTopping(rng, 37, '#f2875a', '#d86a3d', '#ffd8c4', 5) + slicedTopping(rng, 64, '#f2875a', '#d86a3d', '#ffd8c4', 5))
 }
 
+function ikura(rng: Rng) {
