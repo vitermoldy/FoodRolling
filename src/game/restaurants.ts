@@ -107,3 +107,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     country: 'Indonesia',
     blurb: 'Rumah makan Padang beratap gonjong, dengan ukiran kayu Minang dan tumpukan piring di etalase.',
     scale: 190,
+    unlockCost: 180_000,
