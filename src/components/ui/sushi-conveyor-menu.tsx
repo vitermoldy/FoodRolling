@@ -18,3 +18,4 @@ export interface ConveyorDish {
   /** Top-down photo of the plate, centred on a transparent square canvas. */
   image: string;
   /** Short facts such as the piece count or allergens, listed as chips in the dialog. */
+  details?: string[];
