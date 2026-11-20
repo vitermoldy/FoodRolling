@@ -8,3 +8,4 @@ const UNITS: [number, string][] = [
   [1e3, 'rb'],
 ]
 
+const formatters = new Map<number, Intl.NumberFormat>()
