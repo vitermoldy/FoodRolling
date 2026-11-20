@@ -21,3 +21,4 @@ export function lookFrom(seed: number): Look {
   return {
     skin: SKINS[Math.floor(rng() * SKINS.length)],
     hair: HAIRS[Math.floor(rng() * HAIRS.length)],
+    style: Math.floor(rng() * 5),
