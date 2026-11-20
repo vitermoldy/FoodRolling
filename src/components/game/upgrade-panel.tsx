@@ -219,3 +219,4 @@ function NextRestaurant() {
   if (!next) {
     return (
       <section aria-label="Restoran berikutnya" className="rounded-[14px] bg-olive p-4 text-bone">
+        <p className="font-display text-lg font-semibold">Keenam restoran sudah buka.</p>
