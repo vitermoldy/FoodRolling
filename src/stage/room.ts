@@ -428,3 +428,4 @@ function india(ctx: Ctx, w: Wall) {
   }
 }
 
+function prancis(ctx: Ctx, w: Wall) {
