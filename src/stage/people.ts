@@ -101,3 +101,4 @@ function hairBack(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facin
     dot(ctx, hx, hy - r * 0.15, r * 1.32, look.hair)
   } else if (look.style === 2 && facing !== 'down') {
     dot(ctx, hx, hy - r * 1.05, r * 0.42, look.hair)
+  }
