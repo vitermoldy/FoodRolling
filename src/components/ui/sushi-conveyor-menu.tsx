@@ -536,3 +536,4 @@ export function SushiConveyorMenu({
   React.useEffect(() => { setPlaying(autoplay); }, [autoplay]);
 
   React.useLayoutEffect(() => {
+    const section = sectionRef.current;
