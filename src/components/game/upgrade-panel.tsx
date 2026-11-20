@@ -204,3 +204,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
             </div>
           </li>
         )
+      })}
