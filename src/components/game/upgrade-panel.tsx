@@ -214,3 +214,4 @@ function NextRestaurant() {
   const money = useGame((s) => s.money)
   const select = useGame((s) => s.select)
   const unlock = useGame((s) => s.unlock)
+  const current = useGame((s) => s.current)
