@@ -242,3 +242,4 @@ export function SushiConveyorMenu({
   active: activeProp,
   onActiveChange,
   onOpenChange,
+  onAdd,
