@@ -716,3 +716,4 @@ export function SushiConveyorMenu({
     if (!["ArrowRight", "ArrowLeft", "Home", "End"].includes(event.key) || count === 0) return;
     event.preventDefault();
     const own = (event.target as HTMLElement).closest("[data-dish]")?.getAttribute("data-dish");
+    const from = own != null ? Number(own) : (active ?? center);
