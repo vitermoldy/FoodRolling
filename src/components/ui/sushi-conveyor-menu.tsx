@@ -547,3 +547,4 @@ export function SushiConveyorMenu({
     const observer = new ResizeObserver(measure);
     observer.observe(section);
     observer.observe(stage);
+    return () => observer.disconnect();
