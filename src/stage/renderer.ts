@@ -351,3 +351,4 @@ export class StageRenderer {
       ctx.fillStyle = tierColor(tier)
       ctx.beginPath()
       ctx.ellipse(p.x, y, rx, ry, 0, 0, Math.PI * 2)
+      ctx.fill()
