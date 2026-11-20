@@ -38,3 +38,4 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
     if (!open) { setConfirm(false); setSavedAt(null) }
   }, [open])
 
+  const saveNow = () => {
