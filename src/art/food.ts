@@ -661,3 +661,4 @@ export function foodSvg(id: string, size = 256) {
   return svgDoc(foodMarkup(id), size)
 }
 
+/** The dish on a plate seen from above, for the menu belt and the dialog. */
