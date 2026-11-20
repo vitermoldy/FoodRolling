@@ -97,3 +97,4 @@ export function OfflineDialog() {
   return (
     <Modal open={!!offline} onClose={dismiss} labelledBy="offline-title">
       {offline && (
+        <>
