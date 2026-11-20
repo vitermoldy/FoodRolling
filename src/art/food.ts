@@ -567,3 +567,4 @@ function crepe(rng: Rng) {
   return out + scatter(rng, 30, 46, 48, 22, [0.3, 0.6], ['#ffffff'])
 }
 
+function quiche(rng: Rng) {
