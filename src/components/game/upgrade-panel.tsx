@@ -84,3 +84,4 @@ export function UpgradePanel() {
         <UpgradeRows def={def} st={st} />
       </section>
       <NextRestaurant />
+    </div>
