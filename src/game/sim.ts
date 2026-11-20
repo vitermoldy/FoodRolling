@@ -283,3 +283,4 @@ export class BeltSim {
             seat.stack = []
           }
           break
+      }
