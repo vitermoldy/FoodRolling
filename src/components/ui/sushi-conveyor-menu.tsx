@@ -691,3 +691,4 @@ export function SushiConveyorMenu({
       s.mode = RUN;
       // Holding still before letting go bleeds the flick away (about 70 ms time constant).
       const carry = Math.exp(-Math.max(0, event.timeStamp - p.lastT) / 70);
+      s.v = live.current.reduced ? 0 : clamp(s.v * carry, -1400, 1400);
