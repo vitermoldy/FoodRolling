@@ -21,3 +21,4 @@ function plateUrl(id: string, plate: string) {
 /** The restaurant's dishes on the conveyor menu from the prompt. Plate colour marks the price. */
 export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
   const current = useGame((s) => s.current)
+  const income = useGame((s) => s.restaurants[s.current].income)
