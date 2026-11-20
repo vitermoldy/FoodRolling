@@ -133,3 +133,4 @@ export class StageRenderer {
         let y = p.y - s * (SIT_HEIGHT + 0.25)
         // Two neighbours paying at once would print over each other; lift the newer number.
         const lineH = Math.max(14, L.d * 0.38)
+        for (const c of this.coins) {
