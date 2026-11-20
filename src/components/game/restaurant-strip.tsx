@@ -49,3 +49,4 @@ export function RestaurantStrip() {
               id={`tab-${r.id}`}
               aria-controls="restaurant-view"
               aria-selected={active}
+              tabIndex={active ? 0 : -1}
