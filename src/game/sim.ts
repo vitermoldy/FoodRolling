@@ -151,3 +151,4 @@ export class BeltSim {
   configure(config: SimConfig) {
     this.config = config
     while (this.chefs.length < config.chefs) this.chefs.push(this.newChef())
+    this.chefs.length = Math.min(this.chefs.length, config.chefs)
