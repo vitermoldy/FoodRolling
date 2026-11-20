@@ -13,3 +13,4 @@ type Ctx = CanvasRenderingContext2D
 
 interface Flight {
   plateId: number
+  dish: number
