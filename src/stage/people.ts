@@ -179,3 +179,4 @@ function face(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facing: F
   }
   if (facing === 'up') {
     // Ears peeking out from the hair.
+    ctx.fillStyle = look.skin
