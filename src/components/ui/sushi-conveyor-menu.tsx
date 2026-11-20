@@ -451,3 +451,4 @@ export function SushiConveyorMenu({
     kick();
   }, [kick]);
 
+  const stop = React.useCallback(() => {
