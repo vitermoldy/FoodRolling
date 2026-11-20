@@ -608,3 +608,4 @@ export function SushiConveyorMenu({
       autoLast.current = index;
       autoActive.current = index;
       setActive(index);
+      seekTo(index);
