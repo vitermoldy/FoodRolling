@@ -485,3 +485,4 @@ function prancis(ctx: Ctx, w: Wall) {
     hang(ctx, x, 0, bottom * 0.2, u)
     rr(ctx, x - u * 0.08, bottom * 0.2 - u * 0.05, u * 0.16, u * 0.1, u * 0.02, '#c9a227')
     disc(ctx, x, bottom * 0.2 + u * 0.28, u * 0.3, '#fbf6e8')
+  }
