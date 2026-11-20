@@ -10,3 +10,4 @@ const DRAG_START = 6
 function describe(sim: BeltSim, name: string): string {
   const seated = sim.seats.filter((s) => s.state === 'waiting' || s.state === 'eating').length
   const waiting = sim.seats.filter((s) => s.state === 'waiting').length
+  return `${name}: ${sim.chefs.length} chef memasak, ${seated} dari ${sim.seats.length} kursi terisi, ${waiting} pelanggan menunggu makanan, ${sim.plateCount()} piring di sabuk.`
