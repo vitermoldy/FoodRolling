@@ -67,3 +67,4 @@ export function totalRate(restaurants: Record<RestaurantId, RestaurantState>): n
 }
 
 /** What the restaurants earned while the game was closed, capped at BALANCE.offlineCapHours. */
+export function offlineEarnings(save: SaveData, now: number): { seconds: number; coins: number } {
