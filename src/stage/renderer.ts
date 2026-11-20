@@ -207,3 +207,5 @@ export class StageRenderer {
       const cp = L.chef(i)
       items.push({ y: st.y, draw: () => this.drawStation(i, st, chef.state === 'ready', chef.dish, chef.progress, flying.has(chef.plateId)) })
       items.push({ y: cp.y, draw: () => this.drawChef(i, cp, chef.state === 'cooking', chef.progress) })
+    }
+
