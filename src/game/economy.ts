@@ -75,3 +75,4 @@ export function incomeMult(level: number): number {
   return BALANCE.income.growth ** (level - 1)
 }
 export function cookMult(level: number): number {
+  return 1 + BALANCE.speed.cook * (level - 1)
