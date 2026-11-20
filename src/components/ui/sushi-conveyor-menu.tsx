@@ -268,3 +268,4 @@ export function SushiConveyorMenu({
   const returnFocus = React.useRef(null as number | null);
   const autoActive = React.useRef(null as number | null);
   const autoLast = React.useRef(null as number | null);
+  const [size, setSize] = React.useState({ section: 0, stage: 0 });
