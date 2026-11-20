@@ -46,3 +46,4 @@ export function StageFrame() {
         <Stage ref={stage} className="absolute inset-0" />
       </StageBoundary>
 
+      <div className="pointer-events-none absolute left-3 top-3 rounded-[10px] border border-line bg-paper/95 px-3 py-1.5 shadow-[0_2px_8px_rgb(40_30_10/0.12)]">
