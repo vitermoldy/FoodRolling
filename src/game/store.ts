@@ -142,3 +142,4 @@ export const useGame = create<GameState>()((set, get) => ({
     })
   },
 
+  tick(now) {
