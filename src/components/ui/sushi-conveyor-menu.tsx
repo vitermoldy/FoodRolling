@@ -533,3 +533,5 @@ export function SushiConveyorMenu({
     return () => media.removeEventListener("change", update);
   }, []);
 
+  React.useEffect(() => { setPlaying(autoplay); }, [autoplay]);
+
