@@ -164,3 +164,4 @@ function italia(ctx: Ctx, w: Wall) {
       const lx = x + ww / 2 + Math.cos(a) * (ww / 2 + u * 0.15)
       const ly = y + ww / 2 + Math.sin(a) * (ww / 2 + u * 0.15)
       ctx.fillStyle = i % 2 ? '#4f7f3a' : '#6a9a48'
+      ctx.beginPath()
