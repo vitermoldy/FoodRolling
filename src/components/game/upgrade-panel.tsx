@@ -82,3 +82,4 @@ export function UpgradePanel() {
           <AmountPicker />
         </div>
         <UpgradeRows def={def} st={st} />
+      </section>
