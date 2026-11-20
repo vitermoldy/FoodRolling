@@ -54,3 +54,4 @@ function grains(rng: Rng, count: number, cx: number, cy: number, radius: number,
 /** A leaf with a midrib, pointing along `angle` degrees. */
 function leaf(cx: number, cy: number, len: number, angle: number, fill: string, rib = 'rgba(255,255,255,0.35)') {
   const w = len * 0.42
+  return g(`translate(${f(cx)} ${f(cy)}) rotate(${f(angle)})`,
