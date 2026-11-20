@@ -196,3 +196,4 @@ export class StageRenderer {
 
     for (let i = 0; i < SLOT_COUNT; i++) {
       const plate = sim.slots[i]
+      if (!plate || flying.has(plate.id)) continue
