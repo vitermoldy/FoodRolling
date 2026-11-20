@@ -202,3 +202,5 @@ export class BeltSim {
       const k = 1 - Math.exp(-2.6 * h)
       this.velocity += (cfg.beltSpeed - this.velocity) * k
     }
+    this.offset = wrap(this.offset + this.velocity * h)
+
