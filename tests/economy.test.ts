@@ -138,3 +138,4 @@ describe('save', () => {
 describe('format', () => {
   it('uses the Indonesian short scale and a decimal comma', () => {
     expect(formatCoins(0.05)).toBe('0,05')
+    expect(formatCoins(27.64)).toBe('27,6')
