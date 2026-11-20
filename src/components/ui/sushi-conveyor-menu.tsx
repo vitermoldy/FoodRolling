@@ -80,3 +80,4 @@ const DEFAULT_LABELS: SushiConveyorMenuLabels = { add: "Add to order", close: "C
 const TIERS = [
   { ring: "border-chart-1", dot: "bg-chart-1" },
   { ring: "border-chart-2", dot: "bg-chart-2" },
+  { ring: "border-chart-3", dot: "bg-chart-3" },
