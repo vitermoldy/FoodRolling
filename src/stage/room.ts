@@ -383,3 +383,4 @@ function india(ctx: Ctx, w: Wall) {
     ctx.fill()
     ctx.fillStyle = '#f7e2b0'
     arch(0)
+    ctx.fill()
