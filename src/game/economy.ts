@@ -88,3 +88,4 @@ export function cookTime(def: RestaurantDef, state: RestaurantState): number {
   return def.cookTime / cookMult(state.speed)
 }
 export function eatTime(def: RestaurantDef, state: RestaurantState): number {
+  return def.eatTime / eatMult(state.speed)
