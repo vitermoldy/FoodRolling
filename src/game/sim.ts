@@ -250,3 +250,4 @@ export class BeltSim {
             seat.state = 'eating'
             seat.timer = cfg.eatTime
             seat.dish = plate.dish
+            seat.plateId = plate.id
