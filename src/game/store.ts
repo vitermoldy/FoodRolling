@@ -5,3 +5,4 @@ import { newSave, offlineEarnings, parseSave, SAVE_KEY, type SaveData } from './
 
 export type PanelTab = 'upgrade' | 'menu'
 
+export interface Notice {
