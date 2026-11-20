@@ -4,3 +4,5 @@ import type { RestaurantDef, RestaurantId, ThemeDef } from '../game/restaurants.
 import { makeRng } from '../game/rng.ts'
 import { BAND, COUNTER, type Layout, type ScreenPoint } from './geometry.ts'
 
+type Ctx = CanvasRenderingContext2D
+
