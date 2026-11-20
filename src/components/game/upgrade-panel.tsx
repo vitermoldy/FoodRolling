@@ -19,3 +19,4 @@ import {
 } from '@/game/economy'
 import { BALANCE } from '@/game/balance'
 import { restaurantById, type RestaurantDef } from '@/game/restaurants'
+import { canUnlock, nextLocked, useGame } from '@/game/store'
