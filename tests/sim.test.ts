@@ -61,3 +61,4 @@ describe('belt simulation', () => {
   it('a tap on a chef moves cooking forward', () => {
     const sim = new BeltSim(simConfig(jepang, state({})), 5)
     const before = sim.chefs[0].progress
+    expect(sim.help(0)).toBe(true)
