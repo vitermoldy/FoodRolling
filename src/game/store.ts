@@ -20,3 +20,4 @@ interface UiState {
   liveId: RestaurantId | null
   liveAt: number
   offline: { seconds: number; coins: number } | null
+  notice: Notice | null
