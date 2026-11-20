@@ -40,3 +40,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     helpNext() {
       const sim = simRef.current
       if (!sim || sim.chefs.length === 0) return
+      for (let k = 0; k < sim.chefs.length; k++) {
