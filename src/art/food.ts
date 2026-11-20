@@ -663,3 +663,4 @@ export function foodSvg(id: string, size = 256) {
 
 /** The dish on a plate seen from above, for the menu belt and the dialog. */
 export function plateSvg(id: string, plate = '#fbf8f1', size = 512) {
+  const body =
