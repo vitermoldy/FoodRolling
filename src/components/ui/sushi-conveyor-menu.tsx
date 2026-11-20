@@ -1022,3 +1022,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
   React.useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
       const dialog = dialogRef.current;
+      if (!dialog || dialog.contains(event.target as Node)) return;
