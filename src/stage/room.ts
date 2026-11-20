@@ -88,3 +88,4 @@ function jepang(ctx: Ctx, w: Wall) {
   const panels = 4
   for (let i = 0; i < panels; i++) {
     const px = nx + (nw / panels) * i + u * 0.03
+    rr(ctx, px, ny + u * 0.04, nw / panels - u * 0.06, Math.min(bottom * 0.5, u * 1.5), [0, 0, u * 0.05, u * 0.05], theme.chef.apron)
