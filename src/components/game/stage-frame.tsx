@@ -103,3 +103,5 @@ function LockedCard() {
   const isNext = next === current
   const affordable = canUnlock({ restaurants, money }, current)
   const previous = RESTAURANTS[restaurantIndex(current) - 1]
+  const blocking = next ? restaurantById(next) : null
+
