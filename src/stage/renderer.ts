@@ -69,3 +69,4 @@ export class StageRenderer {
     this.loadFood(def)
   }
 
+  resize(width: number, height: number, dpr: number) {
