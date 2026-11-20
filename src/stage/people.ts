@@ -204,3 +204,4 @@ function face(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facing: F
     ctx.moveTo(hx + dir * r * 0.3, hy)
     ctx.lineTo(hx - dir * r * 0.4, hy - r * 0.05)
     ctx.stroke()
+  }
