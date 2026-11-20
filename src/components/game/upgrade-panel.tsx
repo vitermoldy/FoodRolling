@@ -78,3 +78,4 @@ export function UpgradePanel() {
       <Summary def={def} st={st} />
       <section aria-labelledby="upgrade-heading" className="flex flex-col gap-3">
         <div className="flex flex-wrap items-center justify-between gap-2">
+          <h2 id="upgrade-heading" className="font-display text-lg font-semibold text-olive">Upgrade</h2>
