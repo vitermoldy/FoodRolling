@@ -146,3 +146,4 @@ function face(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facing: F
   const ink = '#2a1d17'
   if (facing === 'down') {
     dot(ctx, hx - r * 0.36, hy + r * 0.05, r * 0.11, ink)
+    dot(ctx, hx + r * 0.36, hy + r * 0.05, r * 0.11, ink)
