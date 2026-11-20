@@ -107,3 +107,4 @@ describe('save', () => {
     expect(back?.current).toBe('italia')
   })
 
+  it('rejects garbage and clamps edited values', () => {
