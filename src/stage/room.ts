@@ -277,3 +277,4 @@ function indonesia(ctx: Ctx, w: Wall) {
         ctx.fill()
       }
       disc(ctx, x, y, cell * 0.06, '#4a2a16')
+    }
