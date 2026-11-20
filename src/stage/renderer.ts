@@ -254,3 +254,4 @@ export class StageRenderer {
     }
   }
 
+  private tierOf(dish: number) {
