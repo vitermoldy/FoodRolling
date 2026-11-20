@@ -83,3 +83,4 @@ describe('the income formula matches the running belt', () => {
     ['chef-bound', { chefs: 1, seats: 12 }],
     ['seat-bound', { chefs: 6, seats: 4 }],
     ['balanced mid game', { chefs: 3, seats: 8, speed: 8, income: 10 }],
+    ['late game', { chefs: 6, seats: 16, speed: 25, income: 40 }],
