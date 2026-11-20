@@ -278,3 +278,4 @@ export class StageRenderer {
     const ctx = this.ctx
     const L = this.layout
     const slats = Math.round(BELT_LENGTH / 0.34)
+    const pitch = BELT_LENGTH / slats
