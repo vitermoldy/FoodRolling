@@ -98,3 +98,4 @@ function hairBack(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facin
     roundRect(ctx, hx - r * 1.08, hy - r * 0.2, r * 2.16, r * 1.75, r * 0.5)
     ctx.fill()
   } else if (look.style === 4) {
+    dot(ctx, hx, hy - r * 0.15, r * 1.32, look.hair)
