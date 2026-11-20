@@ -85,3 +85,5 @@ export class StageRenderer {
     this.pulses = []
     this.roomKey = ''
     this.loadFood(def)
+  }
+
