@@ -363,3 +363,4 @@ export function SushiConveyorMenu({
     const s = sim.current;
     if (!g) return null;
     let best = null as number | null;
+    let bestY = -Infinity;
