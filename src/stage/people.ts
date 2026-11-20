@@ -226,3 +226,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
         ctx.fill()
         limb(ctx, kx, hy - r * 0.4, kx - dir * r * 0.25, hy + r * 0.15, r * 0.13, '#f4f1ea')
       }
+      break
