@@ -1051,3 +1051,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
     timer.current = window.setTimeout(dismiss, reduced ? 0 : 450);
   };
 
+  return createPortal(
