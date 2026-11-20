@@ -111,3 +111,4 @@ export function OfflineDialog() {
           </button>
         </>
       )}
+    </Modal>
