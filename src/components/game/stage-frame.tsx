@@ -116,3 +116,4 @@ function LockedCard() {
         <p className="mt-2 text-sm leading-relaxed text-olive">{def.blurb}</p>
         <div className="mt-4 flex items-baseline justify-between gap-3 border-t border-line pt-3">
           <span className="text-sm text-moss">Harga buka</span>
+          <span className="num text-lg font-medium text-olive">{formatCoins(def.unlockCost)}</span>
