@@ -190,3 +190,4 @@ function bruschetta(rng: Rng) {
 }
 
 function margherita(rng: Rng) {
+  let cheese = ''
