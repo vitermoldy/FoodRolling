@@ -1016,3 +1016,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
       { transform: `translate(${dx * 0.58}px, ${dy * 0.58 - 36}px) scale(${(sx + 1) / 2}, ${(sy + 1) / 2})`, offset: 0.55 },
       { transform: `translate(${dx}px, ${dy}px) scale(${sx}, ${sy})` },
     ], { duration: 540, easing: "cubic-bezier(.45,0,.55,1)", fill: "forwards" });
+    animation.onfinish = () => onClose();
