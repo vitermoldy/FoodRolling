@@ -124,3 +124,4 @@ function italia(ctx: Ctx, w: Wall) {
   ctx.fillStyle = '#e8d6c2'
   ctx.fillRect(0, 0, W, bottom)
   for (let row = 0, y = 0; y < bottom; row++, y += bh) {
+    for (let x = row % 2 ? -bw / 2 : 0; x < W; x += bw) {
