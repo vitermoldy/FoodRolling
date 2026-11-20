@@ -986,3 +986,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
       animation = figure.animate([
         { transform: `translate(${dx}px, ${dy}px) scale(${sx}, ${sy})` },
         { transform: `translate(${dx * 0.42}px, ${dy * 0.42 - rise}px) scale(${((sx + 1) / 2) * 1.05}, ${((sy + 1) / 2) * 1.05}) rotate(${dx > 0 ? -6 : 6}deg)`, offset: 0.5 },
+        { transform: "none" },
