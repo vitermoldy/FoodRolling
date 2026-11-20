@@ -111,3 +111,4 @@ function LockedCard() {
         <p className="flex items-center gap-2 text-sm text-moss">
           <LockIcon width={16} height={16} />
           Belum dibuka
+        </p>
