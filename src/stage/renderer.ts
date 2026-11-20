@@ -210,3 +210,4 @@ export class StageRenderer {
     }
 
     for (let i = 0; i < sim.seats.length; i++) {
+      const seat = sim.seats[i]
