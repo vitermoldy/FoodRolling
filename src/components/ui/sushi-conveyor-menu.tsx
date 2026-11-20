@@ -234,3 +234,4 @@ export function SushiConveyorMenu({
   heading,
   caption,
   action,
+  speed = 26,
