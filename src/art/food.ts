@@ -375,3 +375,4 @@ function churros(rng: Rng) {
       line(17, y - 2, 67, y - 2, '#f0bd6c', 1.1) + line(17, y + 1, 67, y + 1, '#c07e30', 1) + line(17, y + 3, 67, y + 3, '#f0bd6c', 0.8) +
       scatter(rng, 10, 42, y, 4, [0.4, 0.8], ['#fff8ec', '#f6e6c8']))
   }
+  out += shadow(circle(74, 68, 12, '#000')) + circle(74, 68, 12, '#f4efe6', 'stroke="#ddd3c2" stroke-width="1"') + circle(74, 68, 9.4, '#4b2312') + ellipse(71, 65, 3.4, 1.6, 'rgba(255,255,255,0.4)')
