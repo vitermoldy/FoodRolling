@@ -174,3 +174,4 @@ export class Layout {
       maxX = Math.max(maxX, pt.x + half * pt.k)
       minY = Math.min(minY, pt.y - up * pt.k)
       maxY = Math.max(maxY, pt.y + down * pt.k)
+    }
