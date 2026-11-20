@@ -30,3 +30,4 @@ export function IncomeIcon(props: IconProps) {
   )
 }
 
+export function SpeedIcon(props: IconProps) {
