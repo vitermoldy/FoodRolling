@@ -235,3 +235,4 @@ export class BeltSim {
             seat.bill = 0
             seat.stack = []
             seat.waited = 0
+          }
