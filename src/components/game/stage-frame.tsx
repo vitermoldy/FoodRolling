@@ -60,3 +60,4 @@ export function StageFrame() {
               Sabuk dijeda. Restoran tetap menghasilkan uang.
             </p>
           )}
+          <div className="absolute bottom-3 left-3 flex gap-2">
