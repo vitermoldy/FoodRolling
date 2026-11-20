@@ -85,3 +85,4 @@ function blob(rng: Rng, cx: number, cy: number, r: number, wobble: number, point
 function edamame(rng: Rng) {
   let pods = ''
   const spots: [number, number, number][] = [[40, 40, 30], [58, 38, -20], [64, 54, 70], [46, 58, 10], [36, 52, 80], [54, 48, 45], [50, 66, -30], [62, 66, 20], [34, 64, -50]]
+  for (const [x, y, a] of spots) {
