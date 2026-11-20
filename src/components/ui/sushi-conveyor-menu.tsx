@@ -602,3 +602,4 @@ export function SushiConveyorMenu({
     let timer = 0;
     const show = () => {
       const g = live.current.geo;
+      if (!g) return;
