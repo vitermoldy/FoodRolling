@@ -79,3 +79,4 @@ export interface Seat {
   timer: number
   /** Seed for the customer's look; changes with every new customer. */
   look: number
+  want: number
