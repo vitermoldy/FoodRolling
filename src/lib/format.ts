@@ -9,3 +9,4 @@ const UNITS: [number, string][] = [
 ]
 
 const formatters = new Map<number, Intl.NumberFormat>()
+function number(value: number, digits: number) {
