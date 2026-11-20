@@ -116,3 +116,4 @@ export class Layout {
     const l = alongLoop(u)
     const w = this.world(-l.np, -l.nq)
     if (Math.abs(w.z) >= Math.abs(w.x) * 0.9) return w.z > 0 ? 'down' : 'up'
+    return w.x > 0 ? 'right' : 'left'
