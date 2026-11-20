@@ -493,3 +493,4 @@ function dal(rng: Rng) {
 }
 
 function biryani(rng: Rng) {
+  return shadow(circle(50, 52, 29, '#000')) +
