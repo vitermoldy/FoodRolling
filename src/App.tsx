@@ -31,3 +31,4 @@ export default function App() {
     const onVisibility = () => { if (document.hidden) flush() }
     window.addEventListener('pagehide', flush)
     document.addEventListener('visibilitychange', onVisibility)
+    return () => {
