@@ -319,3 +319,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
   ctx.ellipse(0, 0.04, 0.36, 0.13, 0, 0, Math.PI * 2)
   ctx.fill()
 
+  if (!standing && facing === 'up') {
