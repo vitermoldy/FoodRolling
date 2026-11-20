@@ -60,3 +60,4 @@ export class StageRenderer {
   private time = 0
 
   constructor(canvas: HTMLCanvasElement, def: RestaurantDef) {
+    this.canvas = canvas
