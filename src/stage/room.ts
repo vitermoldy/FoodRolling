@@ -207,3 +207,4 @@ function indonesia(ctx: Ctx, w: Wall) {
   for (let x = u * 0.4; x < W; x += u * 0.9) {
     ctx.beginPath()
     ctx.arc(x, bandH * 0.5, bandH * 0.26, Math.PI * 0.2, Math.PI * 1.7)
+    ctx.arc(x + u * 0.45, bandH * 0.5, bandH * 0.26, Math.PI * 1.2, Math.PI * 2.7)
