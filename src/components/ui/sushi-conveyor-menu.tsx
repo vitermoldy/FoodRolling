@@ -499,3 +499,4 @@ export function SushiConveyorMenu({
     live.current.onOpenChange?.(index);
   }, [stop, setActive, paintBelt]);
 
+  const close = React.useCallback(() => {
