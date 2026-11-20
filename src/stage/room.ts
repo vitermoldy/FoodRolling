@@ -266,3 +266,4 @@ function indonesia(ctx: Ctx, w: Wall) {
   ctx.save()
   ctx.beginPath()
   ctx.rect(bx, by, bw, eh)
+  ctx.clip()
