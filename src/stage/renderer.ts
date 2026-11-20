@@ -277,3 +277,4 @@ export class StageRenderer {
   private drawSeams(sim: BeltSim) {
     const ctx = this.ctx
     const L = this.layout
+    const slats = Math.round(BELT_LENGTH / 0.34)
