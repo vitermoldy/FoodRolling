@@ -606,3 +606,4 @@ export function SushiConveyorMenu({
       const last = autoLast.current;
       const index = last === null ? centerOf(g, sim.current.offset + live.current.speed * 0.25) : (last + 1) % count;
       autoLast.current = index;
+      autoActive.current = index;
