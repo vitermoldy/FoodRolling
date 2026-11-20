@@ -345,3 +345,4 @@ export function SushiConveyorMenu({
     const s = sim.current;
     if (!g) return;
     seamRef.current?.setAttribute("d", slatPath(g, s.offset, 0));
+    glintRef.current?.setAttribute("d", slatPath(g, s.offset, -Math.max(1.4, g.d * 0.024)));
