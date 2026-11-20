@@ -14,3 +14,4 @@ export interface Notice {
 
 interface UiState {
   buyAmount: BuyAmount
+  paused: boolean
