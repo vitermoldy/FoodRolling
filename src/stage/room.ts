@@ -586,3 +586,4 @@ function counterAndBelt(ctx: Ctx, layout: Layout, id: RestaurantId, theme: Theme
   ctx.fillStyle = id === 'italia' ? checker(ctx, d * 0.28) ?? theme.counter : theme.counter
   ctx.fill()
   ctx.strokeStyle = 'rgba(255,255,255,0.35)'
+  ctx.lineWidth = Math.max(1, d * 0.02)
