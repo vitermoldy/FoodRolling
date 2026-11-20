@@ -265,3 +265,4 @@ function cendol(rng: Rng) {
   let worms = ''
   for (let i = 0; i < 18; i++) {
     const a = rng() * Math.PI * 2
+    const d = Math.sqrt(rng()) * 19
