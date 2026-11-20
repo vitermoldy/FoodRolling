@@ -102,3 +102,4 @@ export function OfflineDialog() {
           <p className="mt-2 text-sm leading-relaxed">
             Selama {formatDuration(offline.seconds)} kamu pergi, restoranmu tetap melayani pelanggan dan menghasilkan:
           </p>
+          <p className="num mt-3 text-3xl font-medium tracking-[-0.03em]">+{formatCoins(offline.coins)}</p>
