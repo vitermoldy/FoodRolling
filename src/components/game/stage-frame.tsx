@@ -42,3 +42,4 @@ export function StageFrame() {
       className="relative h-[min(72svh,660px)] min-h-[460px] overflow-hidden bg-stone lg:h-auto lg:min-h-0"
       onPointerDown={owned ? seeHint : undefined}
     >
+      <StageBoundary>
