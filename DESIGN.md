@@ -84,3 +84,4 @@ sungguhan. Semua angka (harga, waktu masak, pendapatan) adalah aturan permainan 
   terendah 4,95:1, teks #56622f di atas #e1dfd9). Bar aksen di atas jalurnya paling rendah 3,67:1.
 - Semua kontrol minimal 44 px, punya nama yang bisa dibaca pembaca layar, dan cincin fokus zaitun.
 - Skip link ke panel, tab restoran dan tab panel dengan tombol panah, dialog asli `<dialog>` yang
+  tertutup dengan Escape.
