@@ -92,3 +92,4 @@ export class StageRenderer {
     this.roomKey = ''
   }
 
+  pulse(chef: number) {
