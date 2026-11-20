@@ -189,3 +189,4 @@ function italia(ctx: Ctx, w: Wall) {
   ctx.beginPath()
   pts.forEach((p, i) => (i ? ctx.lineTo(p.x, p.y) : ctx.moveTo(p.x, p.y)))
   ctx.stroke()
+  pts.forEach((p, i) => { if (i % 2 === 0) disc(ctx, p.x, p.y + u * 0.12, u * 0.09, '#ffd98a') })
