@@ -118,3 +118,4 @@ export const useGame = create<GameState>()((set, get) => ({
     const def = restaurantById(id)
     set({
       money: s.money - def.unlockCost,
+      restaurants: { ...s.restaurants, [id]: { ...s.restaurants[id], owned: true } },
