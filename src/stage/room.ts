@@ -683,3 +683,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
         }
         break
       case 'italia':
+        if (side === 0) {
