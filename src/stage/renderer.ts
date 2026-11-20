@@ -285,3 +285,4 @@ export class StageRenderer {
       ctx.beginPath()
       for (let j = 0; j < slats; j++) {
         const u = sim.offset + shift + j * pitch
+        const a = L.belt(u, -half)
