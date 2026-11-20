@@ -303,3 +303,4 @@ function sate(rng: Rng) {
   return out + circle(72, 70, 2.6, 'none', 'stroke="#c99bc0" stroke-width="1.3"') + circle(77, 66, 2.2, 'none', 'stroke="#c99bc0" stroke-width="1.2"')
 }
 
+function nasgor(rng: Rng) {
