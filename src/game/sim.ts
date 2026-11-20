@@ -271,3 +271,4 @@ export class BeltSim {
               seat.timer = C.leave
             } else {
               seat.state = 'waiting'
+              seat.waited = 0
