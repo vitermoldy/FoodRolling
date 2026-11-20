@@ -238,3 +238,4 @@ function ravioli(rng: Rng) {
 }
 
 function lasagna(rng: Rng) {
+  const body = rect(23, 28, 54, 44, 4, '#000')
