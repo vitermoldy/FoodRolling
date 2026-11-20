@@ -262,3 +262,4 @@ export class StageRenderer {
     const L = this.layout
     const key = `${this.def.id}:${L.width}x${L.height}:${this.dpr}`
     if (key === this.roomKey && this.room) return
+    this.roomKey = key
