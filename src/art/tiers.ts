@@ -5,3 +5,4 @@ export const TIER_NAMES = ['Biru', 'Hijau', 'Merah', 'Emas', 'Hitam'] as const
 
 export function tierColor(tier: number): string {
   return TIER_COLORS[Math.max(1, Math.min(5, Math.round(tier))) - 1]
+}
