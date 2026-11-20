@@ -86,3 +86,4 @@ export class Layout {
     const kb = landscape ? 0.8 : 0.7
     this.depth = landscape ? RADIUS + SEAT_OUT : STRAIGHT / 2 + RADIUS + SEAT_OUT
     this.a = (1 + kb) / 2
+    this.b = (1 - kb) / (2 * this.depth)
