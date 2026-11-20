@@ -441,3 +441,5 @@ export function SushiConveyorMenu({
     if (s.raf || !s.visible) return;
     s.last = 0;
     s.raf = requestAnimationFrame(tick);
+  }, [tick]);
+
