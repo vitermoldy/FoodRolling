@@ -194,3 +194,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     if (d.moved) {
       sim.holding = false
       // Letting go after holding still drops most of the flick.
+      const carry = Math.exp(-Math.max(0, e.timeStamp - d.lastT) / 80)
