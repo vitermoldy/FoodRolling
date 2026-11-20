@@ -54,3 +54,4 @@ export function ChefIcon(props: IconProps) {
 export function SeatIcon(props: IconProps) {
   return (
     <Svg {...props}>
+      <path d="M8 12.5 6.5 21.5M16 12.5l1.5 9M9.2 17.4h5.6" stroke="#7a5538" strokeWidth="1.8" strokeLinecap="round" />
