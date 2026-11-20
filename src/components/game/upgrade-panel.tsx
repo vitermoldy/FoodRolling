@@ -170,3 +170,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
           <li key={kind} className={`rounded-[12px] border bg-paper p-3 ${best === kind ? 'border-olive' : 'border-line'}`}>
             <div className="flex items-start gap-3">
               <span className="mt-0.5 grid size-10 shrink-0 place-items-center rounded-[10px] bg-stone text-olive">
+                <Icon width={24} height={24} />
