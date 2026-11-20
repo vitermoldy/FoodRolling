@@ -198,3 +198,4 @@ export const RESTAURANTS: RestaurantDef[] = [
       { id: 'ratatouille', name: 'Ratatouille', tier: 5, description: 'Irisan terung, zukini, dan tomat yang disusun melingkar lalu dipanggang.', details: ['1 piring', 'Vegan', 'Pilihan chef'] },
     ],
     theme: {
+      accent: '#1e3a5f',
