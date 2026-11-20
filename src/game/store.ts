@@ -10,3 +10,5 @@ export interface Notice {
   text: string
   /** Restaurant to show when the notice's button is pressed. */
   goTo?: RestaurantId
+}
+
