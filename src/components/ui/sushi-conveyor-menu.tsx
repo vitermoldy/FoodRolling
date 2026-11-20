@@ -433,3 +433,4 @@ export function SushiConveyorMenu({
     }
     paintAll();
     if (busy) s.raf = requestAnimationFrame(tick);
+    else s.last = 0;
