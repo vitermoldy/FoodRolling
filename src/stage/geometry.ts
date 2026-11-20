@@ -87,3 +87,4 @@ export class Layout {
     this.depth = landscape ? RADIUS + SEAT_OUT : STRAIGHT / 2 + RADIUS + SEAT_OUT
     this.a = (1 + kb) / 2
     this.b = (1 - kb) / (2 * this.depth)
+    this.fit()
