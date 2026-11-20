@@ -155,3 +155,4 @@ export const RESTAURANTS: RestaurantDef[] = [
   },
   {
     id: 'india',
+    name: 'Rasoi Kesar',
