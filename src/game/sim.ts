@@ -67,3 +67,4 @@ export interface Chef {
   state: ChefState
   progress: number
   dish: number
+  plateId: number
