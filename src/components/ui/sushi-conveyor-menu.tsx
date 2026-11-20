@@ -456,3 +456,4 @@ export function SushiConveyorMenu({
     const s = sim.current;
     s.touched = true;
     if (s.mode === SEEK) s.mode = RUN;
+    const auto = autoActive.current;
