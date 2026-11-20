@@ -568,3 +568,4 @@ export class StageRenderer {
     ctx.textBaseline = 'middle'
     ctx.lineJoin = 'round'
     for (const c of this.coins) {
+      const t = (this.time - c.start) / 1.3
