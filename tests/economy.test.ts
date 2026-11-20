@@ -10,3 +10,4 @@ import {
   nextDish,
   rateAfter,
   stepCost,
+  unlockedDishIndexes,
