@@ -48,3 +48,4 @@ export function alongLoop(u: number): LoopPoint {
   }
   t -= arc
   if (t < s) return { p: -s / 2 + t, q: -r, np: 0, nq: -1, tp: 1, tq: 0 }
+  t -= s
