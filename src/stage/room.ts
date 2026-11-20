@@ -109,3 +109,4 @@ function jepang(ctx: Ctx, w: Wall) {
     ctx.fill()
     ctx.strokeStyle = 'rgba(80,20,10,0.35)'
     ctx.lineWidth = Math.max(1, u * 0.025)
+    ctx.beginPath()
