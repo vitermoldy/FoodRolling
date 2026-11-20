@@ -1058,3 +1058,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
         <div aria-hidden="true" className={`absolute inset-0 rounded-[2rem] border border-border bg-card shadow-2xl transition-[opacity,scale] duration-300 motion-reduce:transition-none ${shown ? "scale-100 opacity-100" : "scale-[0.97] opacity-0"}`} />
         <button ref={closeRef} type="button" onClick={dismiss} className={`absolute right-3 top-3 z-10 inline-flex min-h-11 items-center gap-1.5 rounded-full px-4 py-1.5 text-sm font-medium text-muted-foreground outline-none transition-[opacity,color] duration-300 hover:text-foreground focus-visible:ring-2 focus-visible:ring-ring motion-reduce:transition-none ${shown ? "opacity-100" : "opacity-0"}`}>
           {labels.close}
+          <svg aria-hidden="true" viewBox="0 0 16 16" className="size-3.5" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round"><path d="M3.5 3.5l9 9M12.5 3.5l-9 9" /></svg>
