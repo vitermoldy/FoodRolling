@@ -124,3 +124,4 @@ function kappa(rng: Rng) {
       out += circle(x, y, 3.8, '#5c9a39') + circle(x, y, 2.3, '#b2d98f') + circle(x - 0.6, y - 0.4, 0.6, '#f0f8e2')
     }
   }
+  return out
