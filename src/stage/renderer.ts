@@ -417,3 +417,4 @@ export class StageRenderer {
       ctx.moveTo(x + k * s * 0.12, yy)
       ctx.quadraticCurveTo(x + k * s * 0.12 + s * 0.06, yy - s * 0.08, x + k * s * 0.12, yy - s * 0.16)
       ctx.stroke()
+    }
