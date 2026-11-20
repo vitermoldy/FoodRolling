@@ -626,3 +626,4 @@ const DRAW: Record<string, (rng: Rng) => string> = {
   macaron, croissant, crepe, quiche, brulee, ratatouille,
 }
 
+function seedOf(id: string) {
