@@ -58,3 +58,4 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
         <button
           type="button"
           className="btn btn-primary"
+          onClick={() => { close(); onShowIncome() }}
