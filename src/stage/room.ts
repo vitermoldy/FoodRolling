@@ -382,3 +382,4 @@ function india(ctx: Ctx, w: Wall) {
     arch(-u * 0.14)
     ctx.fill()
     ctx.fillStyle = '#f7e2b0'
+    arch(0)
