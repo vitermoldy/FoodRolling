@@ -13,3 +13,4 @@ export interface RestaurantState {
   chefs: number
   seats: number
   /** Coins this restaurant has earned since it opened. */
+  earned: number
