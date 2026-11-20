@@ -700,3 +700,4 @@ export function SushiConveyorMenu({
       }
       kick();
       return;
+    }
