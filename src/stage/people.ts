@@ -212,3 +212,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
   const dir = facing === 'left' ? -1 : 1
   switch (chef.hat) {
     case 'hachimaki': {
+      ctx.fillStyle = '#f4f1ea'
