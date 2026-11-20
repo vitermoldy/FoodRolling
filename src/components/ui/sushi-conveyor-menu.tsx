@@ -863,3 +863,4 @@ export function SushiConveyorMenu({
             </span>
             <span ref={(node) => { lifts.current[i] = node; }} data-lift className="absolute inset-0">
               <span aria-hidden="true" data-placeholder className={`absolute rounded-[50%] border border-border bg-card ${broken ? "inset-[3%] shadow-sm" : "inset-[6%]"}`}>
+                <span className="absolute inset-[30%] rounded-[50%] bg-muted-foreground/20" />
