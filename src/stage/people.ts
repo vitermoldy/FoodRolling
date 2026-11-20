@@ -189,3 +189,4 @@ function face(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facing: F
   const dir = facing === 'right' ? 1 : -1
   dot(ctx, hx + dir * r * 0.5, hy + r * 0.02, r * 0.11, ink)
   ctx.fillStyle = look.skin
+  ctx.beginPath()
