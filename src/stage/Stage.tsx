@@ -57,3 +57,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     const wrap = wrapRef.current
     if (!canvas || !wrap) return
     const renderer = new StageRenderer(canvas, restaurantById(useGame.getState().current))
+    rendererRef.current = renderer
