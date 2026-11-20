@@ -249,3 +249,4 @@ function lasagna(rng: Rng) {
     leaf(58, 42, 10, -25, '#2c7d32')
 }
 
+function tiramisu(rng: Rng) {
