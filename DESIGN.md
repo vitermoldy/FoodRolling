@@ -69,3 +69,4 @@ sungguhan. Semua angka (harga, waktu masak, pendapatan) adalah aturan permainan 
 
 ## Gerak
 
+- Sabuk berjalan terus selama restoran dibuka; tombol Jeda menghentikannya (restoran tetap menghasilkan
