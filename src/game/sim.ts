@@ -270,3 +270,4 @@ export class BeltSim {
               seat.state = 'leaving'
               seat.timer = C.leave
             } else {
+              seat.state = 'waiting'
