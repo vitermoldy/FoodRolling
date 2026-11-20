@@ -59,3 +59,4 @@ export function bulkCost(
   let cost = 0
   let count = 0
   const limit = amount === 'max' ? Infinity : amount
+  while (count < limit && level < maxOf(kind)) {
