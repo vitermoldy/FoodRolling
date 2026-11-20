@@ -106,3 +106,4 @@ function jepang(ctx: Ctx, w: Wall) {
     ctx.fillStyle = theme.accent
     ctx.beginPath()
     ctx.ellipse(x, cy, u * 0.34, u * 0.44, 0, 0, Math.PI * 2)
+    ctx.fill()
