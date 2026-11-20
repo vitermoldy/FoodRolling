@@ -59,3 +59,4 @@ export class StageRenderer {
   private looks = new Map<number, Look>()
   private time = 0
 
+  constructor(canvas: HTMLCanvasElement, def: RestaurantDef) {
