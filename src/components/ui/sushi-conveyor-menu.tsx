@@ -229,3 +229,4 @@ function pad(value: number) {
 }
 
 export function SushiConveyorMenu({
+  items,
