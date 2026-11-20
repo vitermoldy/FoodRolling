@@ -1031,3 +1031,5 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
     };
     document.addEventListener("keydown", onKey);
     return () => document.removeEventListener("keydown", onKey);
+  }, [dismiss]);
+
