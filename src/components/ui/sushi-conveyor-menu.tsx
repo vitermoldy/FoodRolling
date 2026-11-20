@@ -285,3 +285,4 @@ export function SushiConveyorMenu({
   const narrow = size.section > 0 && size.section < 480;
   const kb = narrow ? 0.6 : 0.68;
 
+  const geo = React.useMemo(() => {
