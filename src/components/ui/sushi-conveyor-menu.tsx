@@ -500,3 +500,4 @@ export function SushiConveyorMenu({
   }, [stop, setActive, paintBelt]);
 
   const close = React.useCallback(() => {
+    live.current.open = false;
