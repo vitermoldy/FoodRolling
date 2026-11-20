@@ -7,3 +7,4 @@ export const SAVE_KEY = 'foodrolling.save'
 export interface SaveData {
   v: 1
   money: number
+  totalEarned: number
