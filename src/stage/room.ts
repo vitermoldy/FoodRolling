@@ -325,3 +325,4 @@ function meksiko(ctx: Ctx, w: Wall) {
       ctx.fill()
       ctx.fillStyle = theme.wall
       for (const [dx, dy] of [[0, 0.22], [-0.13, 0.42], [0.13, 0.42]] as [number, number][]) {
+        ctx.beginPath()
