@@ -293,3 +293,4 @@ export function SushiConveyorMenu({
     return makeGeo(size.stage, count, Math.round(clamp(fit, Math.min(96, cap), cap)), kb);
   }, [size.stage, size.section, count, kb, wide]);
 
+  const live = React.useRef({
