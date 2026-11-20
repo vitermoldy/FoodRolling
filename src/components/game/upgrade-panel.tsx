@@ -183,3 +183,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
                     Level {dish.level}: {dish.dish.name} masuk menu.
                   </p>
                 )}
+                {best === kind && <p className="mt-1 text-xs font-semibold text-olive">Paling untung untuk harganya</p>}
