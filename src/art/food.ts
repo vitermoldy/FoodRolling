@@ -627,3 +627,4 @@ const DRAW: Record<string, (rng: Rng) => string> = {
 }
 
 function seedOf(id: string) {
+  let h = 2166136261
