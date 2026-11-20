@@ -539,3 +539,4 @@ export class StageRenderer {
       const x = p.x + s * 0.34
       const y = p.y - s * (SIT_HEIGHT + 0.12)
       ctx.fillStyle = 'rgba(255,255,255,0.94)'
+      ctx.beginPath()
