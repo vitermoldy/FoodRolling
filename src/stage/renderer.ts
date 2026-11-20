@@ -520,3 +520,4 @@ export class StageRenderer {
     this.flights = this.flights.filter((f) => this.time - f.start < f.duration)
     for (const f of this.flights) {
       const t = ease(Math.min(1, (this.time - f.start) / f.duration))
+      const to = f.to()
