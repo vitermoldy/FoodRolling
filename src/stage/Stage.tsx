@@ -211,3 +211,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
         className="absolute inset-0 block size-full touch-pan-y select-none"
         style={{ cursor }}
         onPointerDown={onPointerDown}
+        onPointerMove={onPointerMove}
