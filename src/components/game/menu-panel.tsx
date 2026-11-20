@@ -68,3 +68,4 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
       )}
     />
   )
+}
