@@ -44,3 +44,5 @@ export function StageFrame() {
     >
       <StageBoundary>
         <Stage ref={stage} className="absolute inset-0" />
+      </StageBoundary>
+
