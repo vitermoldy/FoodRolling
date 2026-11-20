@@ -265,3 +265,4 @@ export class StageRenderer {
     this.roomKey = key
     const c = this.room ?? document.createElement('canvas')
     c.width = Math.round(L.width * this.dpr)
+    c.height = Math.round(L.height * this.dpr)
