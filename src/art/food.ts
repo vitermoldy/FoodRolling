@@ -332,3 +332,4 @@ function gado(rng: Rng) {
   return out + scatter(rng, 14, 50, 50, 24, [0.6, 1.1], ['#7e4317', '#9b5a24'])
 }
 
+function ayampop(rng: Rng) {
