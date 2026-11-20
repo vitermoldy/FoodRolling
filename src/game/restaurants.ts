@@ -6,3 +6,4 @@ export interface DishDef {
   name: string
   description: string
   details: string[]
+  tier: Tier
