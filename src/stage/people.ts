@@ -219,3 +219,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
       roundRect(ctx, hx - r * 1.04, hy - r * 0.5, r * 2.08, r * 0.1, r * 0.05)
       ctx.fill()
       if (facing === 'up' || side) {
+        const kx = side ? hx - dir * r * 0.95 : hx
