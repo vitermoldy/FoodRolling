@@ -348,3 +348,4 @@ function ayampop(rng: Rng) {
 }
 
 function rendang(rng: Rng) {
+  let out = ''
