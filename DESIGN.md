@@ -65,3 +65,5 @@ di tumpukan piring di depan pelanggan, di legenda menu, di ikon Pendapatan, dan 
 Nama restoran (Kaiten Hinoki, Trattoria Basilico, Rumah Makan Gonjong, Taquería Nopal, Rasoi Kesar,
 Bistro Lumière) adalah fiksi permainan. Pelanggan dan chef adalah karakter ilustrasi acak, bukan orang
 sungguhan. Semua angka (harga, waktu masak, pendapatan) adalah aturan permainan dari
+`src/game/balance.ts` dan `src/game/restaurants.ts`.
+
