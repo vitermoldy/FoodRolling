@@ -622,3 +622,4 @@ function counterAndBelt(ctx: Ctx, layout: Layout, id: RestaurantId, theme: Theme
     ctx.lineWidth = Math.max(2, d * width)
     ctx.stroke()
     ctx.beginPath()
+    polygon(ctx, pts, -d * 0.05)
