@@ -241,3 +241,4 @@ export function SushiConveyorMenu({
   interval = 3000,
   active: activeProp,
   onActiveChange,
+  onOpenChange,
