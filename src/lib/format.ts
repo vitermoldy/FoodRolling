@@ -14,3 +14,4 @@ function number(value: number, digits: number) {
   if (!fmt) {
     fmt = new Intl.NumberFormat('id-ID', { maximumFractionDigits: digits, minimumFractionDigits: 0 })
     formatters.set(digits, fmt)
+  }
