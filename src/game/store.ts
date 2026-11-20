@@ -91,3 +91,4 @@ export const useGame = create<GameState>()((set, get) => ({
   ...boot(Date.now()),
   buyAmount: 1,
   paused: false,
+  tab: 'upgrade',
