@@ -189,3 +189,4 @@ function edgePath(g: Geo, offset: number) {
   return `${d}Z`;
 }
 
+/** Crescent slat seams across the belt, redrawn every frame so they travel with the plates (and round the curves). */
