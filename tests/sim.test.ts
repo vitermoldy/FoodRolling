@@ -26,3 +26,5 @@ describe('belt layout', () => {
     expect(SEAT_SPOTS.length).toBe(BALANCE.seats.max)
     expect(CHEF_SPOTS.length).toBe(BALANCE.chefs.max)
   })
+})
+
