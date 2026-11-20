@@ -7,3 +7,4 @@ import { restaurantById } from '@/game/restaurants'
 import { useGame } from '@/game/store'
 import { formatCoins } from '@/lib/format'
 
+const plates = new Map<string, string>()
