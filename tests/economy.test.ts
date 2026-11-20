@@ -50,3 +50,4 @@ describe('upgrades', () => {
         last = cost
       }
       expect(stepCost(jepang, kind, maxOf(kind))).toBe(Infinity)
+    }
