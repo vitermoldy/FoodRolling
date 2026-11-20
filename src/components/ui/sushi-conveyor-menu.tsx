@@ -158,3 +158,4 @@ function makeGeo(width: number, n: number, d: number, kb: number): Geo {
     const plate = project(g, p.x, p.z);
     const half = (plate.k * d * TILT) / 2;
     edge = Math.min(edge, rim.y);
+    top = Math.min(top, rim.y, plate.y + (LIFT_Y / 100) * half * 2 - half * (1 + LIFT_SCALE) - CHIP_ROOM);
