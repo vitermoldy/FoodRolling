@@ -117,3 +117,4 @@ describe('save', () => {
     rs.jepang.income = 'lots'
     rs.india.owned = true
     edited.money = -50
+    const back = parseSave(JSON.stringify(edited), 10)!
