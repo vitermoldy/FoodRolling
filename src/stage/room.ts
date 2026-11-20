@@ -365,3 +365,4 @@ function india(ctx: Ctx, w: Wall) {
   ctx.fillStyle = grad
   ctx.fillRect(0, 0, W, bottom)
   // Jharokha arches with lattice.
+  const aw = Math.min(W * 0.13, u * 2.2)
