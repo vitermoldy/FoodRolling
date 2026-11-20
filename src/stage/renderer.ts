@@ -51,3 +51,4 @@ export class StageRenderer {
   private roomKey = ''
   def: RestaurantDef
   sim: BeltSim | null = null
+  reduced = false
