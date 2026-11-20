@@ -267,3 +267,4 @@ export class StageRenderer {
     c.width = Math.round(L.width * this.dpr)
     c.height = Math.round(L.height * this.dpr)
     const g = c.getContext('2d')
+    if (!g) return
