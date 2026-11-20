@@ -199,3 +199,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
       setCursor('grab')
       return
     }
+    if (!cancelled && d.chef >= 0 && sim.help(d.chef)) rendererRef.current?.pulse(d.chef)
