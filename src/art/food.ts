@@ -321,3 +321,4 @@ function gado(rng: Rng) {
   out += scatter(rng, 7, 50, 50, 22, [5, 8], ['#bcd98d', '#d9ebb7'])
   for (let i = 0; i < 6; i++) {
     const x = 30 + rng() * 40
+    const y = 30 + rng() * 40
