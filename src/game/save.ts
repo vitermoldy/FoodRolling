@@ -21,3 +21,4 @@ export function newSave(now: number): SaveData {
 }
 
 function finite(value: unknown, fallback: number, min = 0): number {
+  return typeof value === 'number' && Number.isFinite(value) ? Math.max(min, value) : fallback
