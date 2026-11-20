@@ -4,3 +4,5 @@ import { incomeRate, newRestaurantState, platesPerSecond, type RestaurantState }
 import { RESTAURANTS } from '@/game/restaurants'
 import { BeltSim, CHEF_SPOTS, SEAT_SPOTS, SLOT_COUNT, simConfig } from '@/game/sim'
 
+const jepang = RESTAURANTS[0]
+
