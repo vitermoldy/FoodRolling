@@ -111,3 +111,4 @@
     box-shadow: none;
   }
   .btn-primary:disabled {
+    background: transparent;
