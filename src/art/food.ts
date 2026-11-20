@@ -510,3 +510,4 @@ function butterchicken(rng: Rng) {
   return shadow(circle(50, 50, 31, '#000')) +
     circle(50, 50, 31, '#f3efe7', 'stroke="#dcd5c8" stroke-width="1.2"') + circle(50, 50, 26, '#e1712b') +
     chunks + `<path d="M30 48 Q40 34 56 40 Q70 46 64 58 Q58 68 44 64" fill="none" stroke="#fff6ea" stroke-width="2.6" stroke-linecap="round"/>` +
+    circle(58, 52, 2.8, '#ffe08a') + scatter(rng, 12, 50, 50, 20, [0.6, 1], ['#3f8a35', '#2f7d2c'])
