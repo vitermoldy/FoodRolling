@@ -568,3 +568,4 @@ export function SushiConveyorMenu({
       if (!s.touched) s.offset = geo.s / 2;
     }
     s.l = geo.l;
+    s.z = [];
