@@ -96,3 +96,4 @@ type Geo = {
   width: number; height: number; d: number; r: number; s: number; l: number; pitch: number; n: number;
   kb: number; cx: number; ym: number; a: number; b: number; band: number; slats: number; side: number; edgeTop: number;
 };
+type Point = { x: number; z: number; nx: number; nz: number; tx: number; tz: number };
