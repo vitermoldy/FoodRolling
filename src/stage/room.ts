@@ -506,3 +506,4 @@ function floor(ctx: Ctx, id: RestaurantId, theme: ThemeDef, W: number, H: number
   } else if (id === 'prancis') {
     const t = u * 0.6
     for (let y = top, r = 0; y < H; y += t, r++) {
+      for (let x = 0, c = 0; x < W; x += t, c++) if ((r + c) % 2) { ctx.fillStyle = theme.floorAlt; ctx.fillRect(x, y, t, t) }
