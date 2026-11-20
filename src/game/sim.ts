@@ -53,3 +53,5 @@ export function loopDelta(a: number, b: number): number {
   let d = wrap(a - b)
   if (d > BELT_LENGTH / 2) d -= BELT_LENGTH
   return d
+}
+
