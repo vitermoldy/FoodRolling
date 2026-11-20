@@ -44,3 +44,4 @@ export interface RestaurantDef {
   eatTime: number
   /** Belt speed in plate diameters per second at speed level 1. */
   beltSpeed: number
+  dishes: DishDef[]
