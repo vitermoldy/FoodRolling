@@ -507,3 +507,4 @@ export class StageRenderer {
     if (!look) {
       look = lookFrom(seed)
       if (this.looks.size > 400) this.looks.clear()
+      this.looks.set(seed, look)
