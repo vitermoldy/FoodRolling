@@ -24,3 +24,4 @@ export function StageFrame() {
   const stage = React.useRef<StageHandle>(null)
   const [hintSeen, setHintSeen] = React.useState(readHintSeen)
 
+  const seeHint = () => {
