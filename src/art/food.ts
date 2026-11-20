@@ -229,3 +229,4 @@ function ravioli(rng: Rng) {
       const a = (rng() - 0.5) * 16
       out += shadow(rect(x - 9.5, y - 9.5, 19, 19, 3, '#000'))
       out += g(`rotate(${f(a)} ${x} ${y})`,
+        rect(x - 9.5, y - 9.5, 19, 19, 3, '#f0d391', 'stroke="#d3ac5e" stroke-width="1.6" stroke-dasharray="1.6 1.4"') +
