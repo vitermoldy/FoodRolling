@@ -247,3 +247,4 @@ export function SushiConveyorMenu({
   labels = DEFAULT_LABELS,
   dialogAction,
   className,
+  ref,
