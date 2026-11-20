@@ -80,3 +80,4 @@ sungguhan. Semua angka (harga, waktu masak, pendapatan) adalah aturan permainan 
 
 ## Aksesibilitas
 
+- Semua pasangan teks lulus WCAG AA untuk teks normal (diperiksa dengan `antislop-human/contrast-check.py`;
