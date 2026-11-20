@@ -16,3 +16,4 @@ const TABS: { id: PanelTab; label: string }[] = [
 ]
 
 export default function App() {
+  const current = useGame((s) => s.current)
