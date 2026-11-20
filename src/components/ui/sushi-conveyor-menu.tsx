@@ -906,3 +906,4 @@ export function SushiConveyorMenu({
       {wide ? (
         <div className="mx-auto grid w-full max-w-7xl grid-cols-[minmax(0,24rem)_minmax(0,1fr)] items-center gap-12 px-10 py-14">
           <div className="flex flex-col items-start gap-6">
+            {header}
