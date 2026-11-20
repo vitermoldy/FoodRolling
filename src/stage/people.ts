@@ -346,3 +346,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
 
   hairBack(ctx, look, 0, headY, r, facing)
 
+  if (side) {
