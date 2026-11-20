@@ -240,3 +240,4 @@ function NextRestaurant() {
         <span className="num text-olive">{formatCoins(Math.min(money, def.unlockCost))}</span>
         <span className="num text-moss">{formatCoins(def.unlockCost)}</span>
       </div>
+      <div className="mt-3 flex flex-wrap gap-2">
