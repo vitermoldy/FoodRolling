@@ -648,3 +648,4 @@ function tub(ctx: Ctx, x: number, y: number, rx: number, h: number, side: string
   ctx.ellipse(x, y, rx, ry, 0, Math.PI, 0, true)
   ctx.closePath()
   ctx.fill()
+  ell(ctx, x, y, rx, ry, top)
