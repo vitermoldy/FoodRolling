@@ -529,3 +529,4 @@ function floor(ctx: Ctx, id: RestaurantId, theme: ThemeDef, W: number, H: number
           ctx.fill()
         }
       }
+    }
