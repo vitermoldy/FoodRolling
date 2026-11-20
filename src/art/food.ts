@@ -161,3 +161,4 @@ function ikura(rng: Rng) {
 }
 
 function otoro(rng: Rng) {
+  let out = shadow(rect(22, 25, 56, 50, 10, '#000'))
