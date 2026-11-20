@@ -215,3 +215,4 @@ export function restaurantById(id: RestaurantId): RestaurantDef {
   return found
 }
 
+export function restaurantIndex(id: RestaurantId): number {
