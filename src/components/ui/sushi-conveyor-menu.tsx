@@ -207,3 +207,4 @@ function slatPath(g: Geo, offset: number, shift: number) {
 
 function pose(g: Geo, offset: number, i: number) {
   const p = along(g, offset - i * g.pitch);
+  const q = project(g, p.x, p.z);
