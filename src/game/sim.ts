@@ -166,3 +166,4 @@ export class BeltSim {
   }
 
   /** Moves the belt by hand (the player dragging it). */
+  drag(du: number) {
