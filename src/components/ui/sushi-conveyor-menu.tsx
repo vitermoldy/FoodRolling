@@ -625,3 +625,4 @@ export function SushiConveyorMenu({
     if (openIndex !== null || lifted !== null || returnFocus.current === null) return;
     const index = returnFocus.current;
     returnFocus.current = null;
+    plates.current[index]?.focus({ preventScroll: true });
