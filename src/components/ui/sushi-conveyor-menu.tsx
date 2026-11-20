@@ -74,3 +74,4 @@ const CHIP_ROOM = 34;
 const WIDE = 1024;
 const HOLD = 1400;
 const RUN = 0;
+const SEEK = 1;
