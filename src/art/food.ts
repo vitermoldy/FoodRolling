@@ -106,3 +106,4 @@ function tamago(rng: Rng) {
   for (const y of [36, 64]) {
     out += shadow(rect(23, y - 11, 54, 22, 6, '#000'))
     out += nigiriRice(rng, y)
+    out += rect(22, y - 12, 56, 20, 5, '#f4c443', 'stroke="#d9a027" stroke-width="0.9"')
