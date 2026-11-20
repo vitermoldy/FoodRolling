@@ -466,3 +466,4 @@ function samosa(rng: Rng) {
     out += g(`translate(${x} ${y}) rotate(${a})`,
       shadow(path(tri, '#000')) + path(tri, '#d8a04a', 'stroke="#b17426" stroke-width="1.2"') +
       scatter(rng, 9, 0, 2, 9, [0.8, 1.6], ['#ebbd6a', '#c98a35']) +
+      `<path d="M-12 11 L12 11" stroke="#b17426" stroke-width="1.6" stroke-dasharray="1.5 1.8"/>`)
