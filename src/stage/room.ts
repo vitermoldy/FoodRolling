@@ -393,3 +393,4 @@ function india(ctx: Ctx, w: Wall) {
     for (let k = -ah; k < aw + ah; k += u * 0.3) {
       ctx.moveTo(x + k, y - aw)
       ctx.lineTo(x + k - ah * 1.2, y + ah)
+      ctx.moveTo(x + k - ah * 1.2 + aw, y - aw)
