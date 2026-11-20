@@ -548,3 +548,5 @@ export function SushiConveyorMenu({
     observer.observe(section);
     observer.observe(stage);
     return () => observer.disconnect();
+  }, [count > 0]);
+
