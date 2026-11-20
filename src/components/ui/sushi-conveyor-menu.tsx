@@ -1036,3 +1036,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
   const onKeyDown = (event: React.KeyboardEvent) => {
     if (event.key === "Escape") { event.preventDefault(); dismiss(); return; }
     if (event.key !== "Tab") return;
+    const controls = [...(dialogRef.current?.querySelectorAll("button") ?? [])].filter((node) => !node.disabled);
