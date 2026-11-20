@@ -341,3 +341,4 @@ export class StageRenderer {
     const rx = s * 0.3
     const ry = rx * TILT
     ctx.save()
+    ctx.globalAlpha = alpha
