@@ -430,3 +430,4 @@ function india(ctx: Ctx, w: Wall) {
 
 function prancis(ctx: Ctx, w: Wall) {
   const { W, bottom, u, theme, def } = w
+  ctx.fillStyle = theme.wall
