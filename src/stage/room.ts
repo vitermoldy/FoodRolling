@@ -664,3 +664,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
   const ends = [layout.at(-(4.2 + 0.5), 0), layout.at(4.2 + 0.5, 0)]
   ends.forEach((p, side) => {
     const s = layout.d * p.k
+    const x = p.x
