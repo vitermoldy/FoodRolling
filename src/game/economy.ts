@@ -41,3 +41,4 @@ export function stepCost(def: RestaurantDef, kind: UpgradeKind, level: number): 
   if (level >= maxOf(kind)) return Infinity
   if (kind === 'income') return def.scale * c.income.base * c.income.growth ** (level - 1)
   if (kind === 'speed') return def.scale * c.speed.base * c.speed.growth ** (level - 1)
+  if (kind === 'chefs') return def.scale * (c.chefs[level - BALANCE.chefs.start] ?? Infinity)
