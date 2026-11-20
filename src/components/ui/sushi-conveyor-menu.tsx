@@ -696,3 +696,4 @@ export function SushiConveyorMenu({
         const at = local(event);
         s.lock = true;
         s.lockX = at.x;
+        s.lockY = at.y;
