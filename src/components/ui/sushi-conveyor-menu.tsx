@@ -874,3 +874,4 @@ export function SushiConveyorMenu({
                   className={`pointer-events-none absolute inset-0 size-full select-none object-fill ${item.locked ? "opacity-45 grayscale" : ""}`}
                 />
               )}
+              {!broken && <span ref={(node) => { shades.current[i] = node; }} aria-hidden="true" className="pointer-events-none absolute inset-0 bg-black" style={{ opacity: 0, WebkitMask: mask, mask }} />}
