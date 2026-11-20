@@ -96,3 +96,4 @@ export class Layout {
   }
 
   project(x: number, z: number): ScreenPoint {
+    const k = this.a + this.b * z
