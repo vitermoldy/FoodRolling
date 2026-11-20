@@ -330,3 +330,4 @@ export class StageRenderer {
     if (img && img.complete && img.naturalWidth > 0 && foodLeft > 0) {
       const fs = size * 0.86 * (0.55 + 0.45 * foodLeft)
       ctx.globalAlpha = alpha * Math.min(1, 0.35 + foodLeft)
+      ctx.drawImage(img, x - fs / 2, y - size * 0.01 - (fs * TILT) / 2, fs, fs * TILT)
