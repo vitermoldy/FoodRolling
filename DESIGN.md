@@ -76,3 +76,5 @@ sungguhan. Semua angka (harga, waktu masak, pendapatan) adalah aturan permainan 
 - Angka koin naik di atas pelanggan yang baru membayar, lalu memudar.
 - `prefers-reduced-motion`: lengan chef dan pelanggan diam, uap dan gelembung tunggu berhenti, piring
   berpindah tanpa busur, angka koin memudar di tempat. Sabuk tetap berjalan karena itu inti permainan,
+  dan tombol Jeda selalu tersedia.
+
