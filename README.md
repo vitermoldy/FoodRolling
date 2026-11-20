@@ -17,3 +17,4 @@ sushi kaiten di Jepang sampai bistro di Paris.
    Pilih x1, x10, atau Maks untuk membeli beberapa level sekaligus.
 3. **Bantu sendiri.** Seret sabuk untuk memutarnya, ketuk chef untuk mempercepat masakannya. Di keyboard,
    tombol "Bantu chef" melakukan hal yang sama.
+4. **Buka restoran berikutnya.** Setiap restoran harus dibeli, dan hanya bisa dibuka berurutan. Restoran
