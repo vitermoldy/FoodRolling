@@ -27,3 +27,4 @@ export const BALANCE = {
     respawnMin: 0.8,
     respawnMax: 2,
     /** Plates one customer eats before paying. */
+    wantMin: 1,
