@@ -209,3 +209,5 @@ function pose(g: Geo, offset: number, i: number) {
   const p = along(g, offset - i * g.pitch);
   const q = project(g, p.x, p.z);
   return { x: q.x, y: q.y, k: q.k, depth: (p.z + g.r) / (2 * g.r) };
+}
+
