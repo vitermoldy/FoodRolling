@@ -163,3 +163,4 @@ function makeGeo(width: number, n: number, d: number, kb: number): Geo {
   }
   g.ym = Math.ceil(-top) + 2;
   g.height = Math.ceil(bottom - top) + 4;
+  g.edgeTop = edge + g.ym;
