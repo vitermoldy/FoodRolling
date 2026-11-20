@@ -17,3 +17,5 @@ export const STRAIGHT = BELT.straight
 export const RADIUS = BELT.radius
 export const BELT_LENGTH = 2 * STRAIGHT + 2 * Math.PI * RADIUS
 export const SLOT_COUNT = BELT.slots
+export const PITCH = BELT_LENGTH / SLOT_COUNT
+
