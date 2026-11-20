@@ -532,3 +532,4 @@ function floor(ctx: Ctx, id: RestaurantId, theme: ThemeDef, W: number, H: number
     }
   }
   // Skirting where the wall meets the floor.
+  const sk = ctx.createLinearGradient(0, top, 0, top + u * 0.6)
