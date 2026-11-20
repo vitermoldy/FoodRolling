@@ -25,3 +25,4 @@ export interface ThemeDef {
   belt: string
   beltSide: string
   rail: string
+  plate: string
