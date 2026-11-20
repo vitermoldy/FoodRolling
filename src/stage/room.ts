@@ -434,3 +434,4 @@ function prancis(ctx: Ctx, w: Wall) {
   ctx.fillRect(0, 0, W, bottom)
   // Wainscot.
   const wh = bottom * 0.36
+  ctx.fillStyle = theme.wallLow
