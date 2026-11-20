@@ -272,3 +272,4 @@ export class BeltSim {
             } else {
               seat.state = 'waiting'
               seat.waited = 0
+            }
