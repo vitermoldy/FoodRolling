@@ -163,3 +163,4 @@ function ikura(rng: Rng) {
 function otoro(rng: Rng) {
   let out = shadow(rect(22, 25, 56, 50, 10, '#000'))
   out += g('rotate(5 50 50)', slicedTopping(rng, 37, '#f1a0a2', '#d97c80', '#fde4e2', 7) + slicedTopping(rng, 64, '#f1a0a2', '#d97c80', '#fde4e2', 7))
+  out += path(blob(rng, 79, 77, 5, 0.4), '#9dc240', 'stroke="#76992b" stroke-width="0.7"')
