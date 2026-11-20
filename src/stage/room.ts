@@ -502,3 +502,4 @@ function floor(ctx: Ctx, id: RestaurantId, theme: ThemeDef, W: number, H: number
       ctx.fillStyle = 'rgba(0,0,0,0.12)'
       ctx.fillRect(0, y, W, Math.max(1, u * 0.02))
       ctx.fillStyle = theme.floorAlt
+    }
