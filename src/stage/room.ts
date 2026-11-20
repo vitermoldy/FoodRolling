@@ -464,3 +464,4 @@ function prancis(ctx: Ctx, w: Wall) {
     ctx.lineTo(x + mw * 0.6, y + mh * 0.3)
     ctx.stroke()
   }
+  // Chalkboard with the day's dishes.
