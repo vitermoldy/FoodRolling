@@ -421,3 +421,4 @@ export class StageRenderer {
     ctx.restore()
   }
 
+  private drawChef(index: number, p: ScreenPoint, cooking: boolean, progress: number) {
