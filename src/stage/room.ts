@@ -442,3 +442,4 @@ function prancis(ctx: Ctx, w: Wall) {
   for (let x = u * 0.3; x + u * 1.4 < W; x += u * 1.8) ctx.strokeRect(x, bottom - wh + u * 0.18, u * 1.4, wh - u * 0.36)
   // Gold-framed mirrors.
   const mw = Math.min(W * 0.13, u * 2.2)
+  const mh = (bottom - wh) * 0.78
