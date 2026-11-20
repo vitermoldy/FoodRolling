@@ -471,3 +471,4 @@ export class StageRenderer {
 
   private chefLook(index: number): Look {
     const key = 1000 + index + this.def.id.length * 31
+    let look = this.looks.get(key)
