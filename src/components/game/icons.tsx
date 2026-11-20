@@ -40,3 +40,5 @@ export function SpeedIcon(props: IconProps) {
       <circle cx="12" cy="13.5" r="1.4" fill="currentColor" />
     </Svg>
   )
+}
+
