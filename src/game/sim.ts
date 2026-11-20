@@ -70,3 +70,5 @@ export interface Chef {
   plateId: number
   /** Seconds since the last tap, for the renderer's sparkle. */
   helped: number
+}
+
