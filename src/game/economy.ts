@@ -20,3 +20,4 @@ export function newRestaurantState(owned: boolean): RestaurantState {
   return { owned, income: 1, speed: 1, chefs: BALANCE.chefs.start, seats: BALANCE.seats.start, earned: 0 }
 }
 
+export function levelOf(state: RestaurantState, kind: UpgradeKind): number {
