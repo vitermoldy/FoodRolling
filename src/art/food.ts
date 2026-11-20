@@ -96,3 +96,4 @@ function edamame(rng: Rng) {
     pods + scatter(rng, 26, 50, 52, 20, [0.5, 0.9], ['#ffffff', '#f2efe6'])
 }
 
+function nigiriRice(rng: Rng, y: number, w = 50) {
