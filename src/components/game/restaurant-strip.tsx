@@ -50,3 +50,4 @@ export function RestaurantStrip() {
               aria-controls="restaurant-view"
               aria-selected={active}
               tabIndex={active ? 0 : -1}
+              onClick={() => select(r.id)}
