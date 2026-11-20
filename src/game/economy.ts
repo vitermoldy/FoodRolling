@@ -135,3 +135,5 @@ export const GRAB_WAIT = 0.15
 /** Plates per second the chefs can put on the belt. */
 export function production(def: RestaurantDef, state: RestaurantState): number {
   return state.chefs / cookTime(def, state)
+}
+
