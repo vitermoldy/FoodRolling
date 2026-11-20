@@ -378,3 +378,4 @@ function india(ctx: Ctx, w: Wall) {
       ctx.lineTo(x + aw - inset, y + ah)
       ctx.closePath()
     }
+    ctx.fillStyle = theme.accent
