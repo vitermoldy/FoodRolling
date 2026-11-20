@@ -606,3 +606,4 @@ function counterAndBelt(ctx: Ctx, layout: Layout, id: RestaurantId, theme: Theme
   polygon(ctx, island)
   ctx.fillStyle = theme.islandEdge
   ctx.fill()
+  ctx.beginPath()
