@@ -106,3 +106,4 @@ function hairBack(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facin
 
 /** Hair on top of the head for the given facing. */
 function hairFront(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facing: Facing) {
+  ctx.fillStyle = look.hair
