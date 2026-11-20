@@ -3,3 +3,5 @@ import { bulkCost, incomeRate, type BuyAmount, type UpgradeKind } from './econom
 import { RESTAURANTS, restaurantById, restaurantIndex, type RestaurantId } from './restaurants.ts'
 import { newSave, offlineEarnings, parseSave, SAVE_KEY, type SaveData } from './save.ts'
 
+export type PanelTab = 'upgrade' | 'menu'
+
