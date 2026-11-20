@@ -26,3 +26,4 @@ while (t < 12 * 3600) {
     const st = states[i]
     if (!st.owned) return
     for (const kind of E.UPGRADE_KINDS) {
+      if (E.isMaxed(st, kind)) continue
