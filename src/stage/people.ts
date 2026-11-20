@@ -5,3 +5,4 @@ import type { HatKind } from '../game/restaurants.ts'
 import type { Facing } from './geometry.ts'
 
 export interface Look {
+  skin: string
