@@ -64,3 +64,4 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
           {owned ? 'Lihat upgrade Pendapatan' : 'Restoran belum dibuka'}
         </button>
       ) : (
+        <p className="text-sm text-muted-foreground">Chef sedang memasaknya.</p>
