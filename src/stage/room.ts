@@ -235,3 +235,4 @@ function indonesia(ctx: Ctx, w: Wall) {
   const ex = u * 0.5
   const ey = bottom - eh - u * 0.3
   rr(ctx, ex - u * 0.08, ey - u * 0.08, ew + u * 0.16, eh + u * 0.16, u * 0.06, '#5a2e18')
+  rr(ctx, ex, ey, ew, eh, u * 0.03, '#e9f2f1')
