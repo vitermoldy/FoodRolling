@@ -150,3 +150,4 @@ function ikura(rng: Rng) {
     out += ellipse(x, 50, 15, 18, '#1d291c', 'stroke="#2f3d2c" stroke-width="1"') + ellipse(x, 50, 12.2, 15, '#d5521b')
     for (let i = 0; i < 16; i++) {
       const a = rng() * Math.PI * 2
+      const d = Math.sqrt(rng())
