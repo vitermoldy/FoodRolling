@@ -298,3 +298,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
  */
 export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonOptions) {
   const { facing, look, chef } = o
+  const standing = !!chef
