@@ -111,3 +111,4 @@ function jepang(ctx: Ctx, w: Wall) {
     ctx.lineWidth = Math.max(1, u * 0.025)
     ctx.beginPath()
     for (let k = -2; k <= 2; k++) { ctx.moveTo(x - u * 0.33 * Math.cos((k / 3) * 1.2), cy + k * u * 0.14); ctx.lineTo(x + u * 0.33 * Math.cos((k / 3) * 1.2), cy + k * u * 0.14) }
+    ctx.stroke()
