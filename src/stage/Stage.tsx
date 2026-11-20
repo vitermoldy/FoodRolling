@@ -47,3 +47,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
           helpTurn.current = i + 1
           return
         }
+      }
