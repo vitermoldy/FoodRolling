@@ -211,3 +211,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
   const side = facing === 'left' || facing === 'right'
   const dir = facing === 'left' ? -1 : 1
   switch (chef.hat) {
+    case 'hachimaki': {
