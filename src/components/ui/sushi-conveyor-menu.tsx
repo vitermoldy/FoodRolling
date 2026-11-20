@@ -51,3 +51,4 @@ export interface SushiConveyorMenuProps extends React.ComponentProps<"section"> 
   interval?: number;
   /** Index of the lifted plate (controlled). */
   active?: number | null;
+  onActiveChange?: (index: number | null) => void;
