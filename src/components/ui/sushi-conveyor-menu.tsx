@@ -643,3 +643,4 @@ export function SushiConveyorMenu({
   };
 
   const onPointerMove = (event: React.PointerEvent) => {
+    const s = sim.current;
