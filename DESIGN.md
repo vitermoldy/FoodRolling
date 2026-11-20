@@ -39,3 +39,4 @@ di tumpukan piring di depan pelanggan, di legenda menu, di ikon Pendapatan, dan 
 
 ## Keputusan dan alasannya
 
+| Keputusan | Alasan |
