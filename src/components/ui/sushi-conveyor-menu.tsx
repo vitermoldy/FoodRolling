@@ -446,3 +446,4 @@ export function SushiConveyorMenu({
   const setActive = React.useCallback((next: number | null) => {
     const L = live.current;
     if (L.active === next) return;
+    if (!L.activeControlled) { L.active = next; setInnerActive(next); }
