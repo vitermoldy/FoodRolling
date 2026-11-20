@@ -326,3 +326,4 @@ function gado(rng: Rng) {
     out += g(`rotate(${f(a)} ${f(x)} ${f(y)})`, rect(x - 9, y - 1.6, 18, 3.2, 1.6, '#4c9636'))
   }
   for (const [x, y] of [[38, 40], [60, 62], [56, 36]] as [number, number][]) out += rect(x - 4.5, y - 4.5, 9, 9, 1.5, '#efc987', 'stroke="#c99a52" stroke-width="0.8"')
+  for (const [x, y] of [[40, 63], [64, 46]] as [number, number][]) out += rect(x - 6, y - 4, 12, 8, 1.5, '#c9a46a') + scatter(rng, 5, x, y, 3.5, [0.6, 1], ['#f2dfb3'])
