@@ -246,3 +246,4 @@ function lasagna(rng: Rng) {
     scatter(rng, 14, 50, 46, 17, [1.2, 2.6], ['#b8652a', '#c97b34', '#a95421']) +
     scatter(rng, 10, 50, 46, 16, [0.8, 1.6], ['#f7d27e']) +
     path(blob(rng, 34, 34, 4, 0.5), '#c7381f') + path(blob(rng, 68, 58, 3.5, 0.5), '#c7381f')) +
+    leaf(58, 42, 10, -25, '#2c7d32')
