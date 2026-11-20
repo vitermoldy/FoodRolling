@@ -43,3 +43,4 @@ export function alongLoop(u: number): LoopPoint {
   if (t < arc) {
     const f = t / r
     const sin = Math.sin(f)
+    const cos = Math.cos(f)
