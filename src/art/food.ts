@@ -287,3 +287,4 @@ function sate(rng: Rng) {
     `<path d="M26 64 Q34 58 42 66 Q46 70 40 72" fill="none" stroke="#3a1c0b" stroke-width="2.4" stroke-linecap="round"/>` +
     scatter(rng, 8, 36, 66, 10, [0.6, 1.1], ['#e9c08a', '#7a3f16'])
   for (let k = 0; k < 4; k++) {
+    const ox = k * 8 - 12
