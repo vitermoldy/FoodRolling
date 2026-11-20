@@ -202,3 +202,4 @@ export class StageRenderer {
     }
 
     for (let i = 0; i < sim.chefs.length; i++) {
+      const chef = sim.chefs[i]
