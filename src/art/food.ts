@@ -156,3 +156,4 @@ function ikura(rng: Rng) {
       out += circle(cx, cy, 3.1, '#ff7a29', 'stroke="#e0571a" stroke-width="0.5"') + circle(cx - 1, cy - 1.1, 0.9, '#fff3e0')
     }
   }
+  out += path('M44 26 Q50 20 56 26 Q50 30 44 26Z', '#8fbf5a', 'stroke="#5b8c34" stroke-width="0.8"')
