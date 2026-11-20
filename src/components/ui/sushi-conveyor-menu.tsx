@@ -603,3 +603,4 @@ export function SushiConveyorMenu({
     const show = () => {
       const g = live.current.geo;
       if (!g) return;
+      const last = autoLast.current;
