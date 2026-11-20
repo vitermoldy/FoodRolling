@@ -18,3 +18,4 @@ const TABS: { id: PanelTab; label: string }[] = [
 export default function App() {
   const current = useGame((s) => s.current)
   const tab = useGame((s) => s.tab)
+  const setTab = useGame((s) => s.setTab)
