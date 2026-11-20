@@ -761,3 +761,4 @@ export function SushiConveyorMenu({
     </div>
   );
 
+  const controls = count > 1 && (
