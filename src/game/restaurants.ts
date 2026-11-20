@@ -180,3 +180,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     },
   },
   {
+    id: 'prancis',
