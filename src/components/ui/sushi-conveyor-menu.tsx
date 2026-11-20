@@ -1029,3 +1029,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
         if (first) { event.preventDefault(); first.focus(); }
       }
     };
+    document.addEventListener("keydown", onKey);
