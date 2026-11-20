@@ -128,3 +128,4 @@ function AmountPicker() {
   const amount = useGame((s) => s.buyAmount)
   const setAmount = useGame((s) => s.setBuyAmount)
   const options: { value: BuyAmount; label: string }[] = [
+    { value: 1, label: 'x1' },
