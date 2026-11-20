@@ -894,3 +894,4 @@ export function SushiConveyorMenu({
     <section
       {...rest}
       ref={setSectionRef}
+      data-slot="sushi-conveyor-menu"
