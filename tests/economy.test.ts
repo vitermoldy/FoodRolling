@@ -140,3 +140,4 @@ describe('format', () => {
     expect(formatCoins(0.05)).toBe('0,05')
     expect(formatCoins(27.64)).toBe('27,6')
     expect(formatCoins(1234)).toBe('1,23 rb')
+    expect(formatCoins(15_000_000_000)).toBe('15 M')
