@@ -253,3 +253,4 @@ export function SushiConveyorMenu({
   const uid = React.useId().replace(/[^a-zA-Z0-9_-]/g, "");
   const count = items.length;
   const sectionRef = React.useRef(null as HTMLElement | null);
+  const stageRef = React.useRef(null as HTMLDivElement | null);
