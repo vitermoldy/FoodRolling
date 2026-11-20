@@ -119,3 +119,4 @@ export class Layout {
     return w.x > 0 ? 'right' : 'left'
   }
 
+  /** Direction a chef faces: 'front' chefs look at the q = +R lane. */
