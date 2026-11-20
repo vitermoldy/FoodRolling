@@ -369,3 +369,4 @@ function india(ctx: Ctx, w: Wall) {
   const ah = bottom * 0.72
   for (const x of [u * 0.6, W - u * 0.6 - aw]) {
     const y = bottom * 0.16
+    const arch = (inset: number) => {
