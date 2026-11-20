@@ -185,3 +185,4 @@ export class StageRenderer {
     const ctx = this.ctx
     const L = this.layout
     ctx.setTransform(this.dpr, 0, 0, this.dpr, 0, 0)
+    this.ensureRoom()
