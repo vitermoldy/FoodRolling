@@ -38,3 +38,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
 
   React.useImperativeHandle(ref, () => ({
     helpNext() {
+      const sim = simRef.current
