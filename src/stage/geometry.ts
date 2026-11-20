@@ -92,3 +92,4 @@ export class Layout {
 
   /** Loop coordinates to world (x across the screen, z towards the viewer). */
   world(p: number, q: number): { x: number; z: number } {
+    return this.orientation === 'landscape' ? { x: p, z: q } : { x: q, z: p }
