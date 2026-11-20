@@ -185,3 +185,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
   }
 
   const finish = (e: React.PointerEvent, cancelled: boolean) => {
+    const d = drag.current
