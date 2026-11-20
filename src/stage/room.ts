@@ -15,3 +15,4 @@ function polygon(ctx: Ctx, pts: ScreenPoint[], dy = 0) {
 function rr(ctx: Ctx, x: number, y: number, w: number, h: number, r: number | number[], fill: string) {
   ctx.fillStyle = fill
   ctx.beginPath()
+  ctx.roundRect(x, y, w, h, r)
