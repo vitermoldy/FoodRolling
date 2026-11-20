@@ -194,3 +194,4 @@ function margherita(rng: Rng) {
   const spots: [number, number, number][] = [[38, 38, 7.5], [60, 36, 6.5], [64, 58, 7.5], [42, 62, 7], [52, 50, 6], [30, 52, 5]]
   for (const [x, y, r] of spots) cheese += path(blob(rng, x, y, r, 0.35), '#fff3da', 'stroke="#efdcb3" stroke-width="0.6"')
   return shadow(circle(50, 50, 34, '#000')) +
+    circle(50, 50, 34, '#d9a05a', 'stroke="#b97b37" stroke-width="1"') +
