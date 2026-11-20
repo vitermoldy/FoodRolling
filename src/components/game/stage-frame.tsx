@@ -22,3 +22,5 @@ export function StageFrame() {
   const setPaused = useGame((s) => s.setPaused)
   const def = restaurantById(current)
   const stage = React.useRef<StageHandle>(null)
+  const [hintSeen, setHintSeen] = React.useState(readHintSeen)
+
