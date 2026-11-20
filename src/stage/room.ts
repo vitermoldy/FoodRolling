@@ -289,3 +289,4 @@ function meksiko(ctx: Ctx, w: Wall) {
   // Talavera tile band near the floor.
   const th = Math.min(bottom * 0.22, u * 0.7)
   const ty = bottom - th
+  for (let x = 0, i = 0; x < W; x += th, i++) {
