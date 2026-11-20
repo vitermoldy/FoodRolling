@@ -370,3 +370,4 @@ function churros(rng: Rng) {
     const y = 30 + i * 11
     const a = -18 + i * 4
     out += shadow(rect(14, y - 4.5, 56, 9, 4.5, '#000'))
+    out += g(`rotate(${a} 42 ${y})`,
