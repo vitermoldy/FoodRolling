@@ -506,3 +506,4 @@ export function SushiConveyorMenu({
     kick();
   }, [kick]);
 
+  const go = (index: number, focus: boolean) => {
