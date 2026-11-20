@@ -218,3 +218,4 @@ function NextRestaurant() {
   const next = nextLocked({ restaurants })
   if (!next) {
     return (
+      <section aria-label="Restoran berikutnya" className="rounded-[14px] bg-olive p-4 text-bone">
