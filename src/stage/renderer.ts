@@ -106,3 +106,4 @@ export class StageRenderer {
         const plate = sim.slots[e.slot]
         if (!plate) continue
         this.flights.push({
+          plateId: e.plateId,
