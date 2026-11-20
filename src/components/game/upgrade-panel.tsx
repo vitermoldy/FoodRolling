@@ -103,3 +103,4 @@ function Summary({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
       </div>
       <p className="mt-3 text-sm leading-snug text-olive">
         {slow === 'chefs'
+          ? 'Pelanggan menunggu makanan. Tambah chef atau kecepatan supaya piring lebih cepat keluar.'
