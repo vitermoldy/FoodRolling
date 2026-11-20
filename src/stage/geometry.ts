@@ -170,3 +170,4 @@ export class Layout {
     let minY = Infinity
     let maxY = -Infinity
     const take = (pt: ScreenPoint, up = 0, half = 0, down = 0) => {
+      minX = Math.min(minX, pt.x - half * pt.k)
