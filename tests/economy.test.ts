@@ -60,3 +60,4 @@ describe('upgrades', () => {
     expect(bulkCost(jepang, st, 'income', 10, 0)).toEqual({ count: 10, cost: sum })
   })
 
+  it('"Maks" buys what the money covers and stops at the cap', () => {
