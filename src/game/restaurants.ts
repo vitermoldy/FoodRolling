@@ -194,3 +194,4 @@ export const RESTAURANTS: RestaurantDef[] = [
       { id: 'croissant', name: 'Croissant', tier: 2, description: 'Pastri berlapis mentega yang renyah di luar dan lembut di dalam.', details: ['1 buah', 'Susu', 'Gandum'] },
       { id: 'crepe', name: 'Crêpe stroberi', tier: 2, description: 'Crêpe tipis terlipat dengan stroberi dan gula halus.', details: ['1 lembar', 'Telur', 'Susu'] },
       { id: 'quiche', name: 'Quiche bayam', tier: 3, description: 'Pai gurih berisi telur, krim, bayam, dan keju gruyère.', details: ['1 potong', 'Telur', 'Susu'] },
+      { id: 'brulee', name: 'Crème brûlée', tier: 4, description: 'Custard vanila dengan lapisan gula karamel yang diketuk pecah.', details: ['1 ramekin', 'Telur', 'Susu'] },
