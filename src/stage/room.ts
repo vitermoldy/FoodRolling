@@ -469,3 +469,4 @@ function prancis(ctx: Ctx, w: Wall) {
   const ch = Math.min((bottom - wh) * 0.78, u * 1.9)
   const cx = W / 2 - cw / 2
   const cy = (bottom - wh) * 0.1
+  rr(ctx, cx - u * 0.1, cy - u * 0.1, cw + u * 0.2, ch + u * 0.2, u * 0.05, '#6b4a2b')
