@@ -160,3 +160,4 @@ function makeGeo(width: number, n: number, d: number, kb: number): Geo {
     edge = Math.min(edge, rim.y);
     top = Math.min(top, rim.y, plate.y + (LIFT_Y / 100) * half * 2 - half * (1 + LIFT_SCALE) - CHIP_ROOM);
     bottom = Math.max(bottom, rim.y + g.side + d * 0.06, plate.y + half + d * 0.08);
+  }
