@@ -208,3 +208,4 @@ export class BeltSim {
       const chef = this.chefs[i]
       chef.helped += h
       if (chef.state === 'cooking') {
+        chef.progress += h / cfg.cookTime
