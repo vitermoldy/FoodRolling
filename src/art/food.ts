@@ -111,3 +111,4 @@ function tamago(rng: Rng) {
     out += rect(45.5, y - 13.5, 9, 23, 1.6, '#1f2b1d')
     out += line(47.5, y - 11, 47.5, y + 7, 'rgba(255,255,255,0.12)', 0.8)
   }
+  return out
