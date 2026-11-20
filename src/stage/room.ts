@@ -660,3 +660,4 @@ function plateStack(ctx: Ctx, x: number, y: number, s: number, colors: string[])
   ell(ctx, x, y - (colors.length - 1) * s * 0.07 - s * 0.02, s * 0.2, s * 0.12, '#fbf8f1')
 }
 
+function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
