@@ -40,3 +40,5 @@ interface Actions {
   dismissNotice: () => void
   save: () => boolean
   reset: () => void
+}
+
