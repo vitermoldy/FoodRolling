@@ -401,3 +401,4 @@ export function SushiConveyorMenu({
         s.offset += s.v * h;
         if (Math.abs(s.target - s.offset) < 0.3 && Math.abs(s.v) < 4) { s.offset = s.target; s.v = 0; s.mode = RUN; }
       } else if (s.mode === RUN) {
+        if (stopped) {
