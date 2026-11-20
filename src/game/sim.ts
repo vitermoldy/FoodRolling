@@ -265,3 +265,4 @@ export class BeltSim {
             seat.stack.push(cfg.tiers[seat.dish] ?? 1)
             seat.dish = -1
             earned += price
+            this.events.push({ type: 'pay', seat: i, amount: price })
