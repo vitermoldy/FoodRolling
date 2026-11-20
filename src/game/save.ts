@@ -40,3 +40,4 @@ export function parseSave(text: string | null, now: number): SaveData | null {
   save.money = finite(data.money, 0)
   save.totalEarned = finite(data.totalEarned, save.money)
   save.startedAt = finite(data.startedAt, now)
+  save.savedAt = Math.min(now, finite(data.savedAt, now))
