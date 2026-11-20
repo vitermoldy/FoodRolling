@@ -207,3 +207,4 @@ export class BeltSim {
     for (let i = 0; i < this.chefs.length; i++) {
       const chef = this.chefs[i]
       chef.helped += h
+      if (chef.state === 'cooking') {
