@@ -44,3 +44,4 @@ export default function App() {
     document.documentElement.style.setProperty('--accent', restaurantById(current).theme.accent)
   }, [current])
 
+  const showIncome = () => {
