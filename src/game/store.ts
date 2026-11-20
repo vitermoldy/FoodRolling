@@ -144,3 +144,4 @@ export const useGame = create<GameState>()((set, get) => ({
 
   tick(now) {
     const dt = Math.max(0, (now - lastTick) / 1000)
+    lastTick = now
