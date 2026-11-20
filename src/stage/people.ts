@@ -408,3 +408,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
     const armX = o.action === 'eat' ? reachX - bite * 0.24 : reachX
     limb(ctx, dir * 0.02, shoulder + 0.1, dir * armX, armY, 0.13, sleeve)
     dot(ctx, dir * armX, armY, 0.07, look.skin)
+  }
