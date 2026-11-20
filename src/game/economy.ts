@@ -47,3 +47,4 @@ export function stepCost(def: RestaurantDef, kind: UpgradeKind, level: number): 
 
 export type BuyAmount = 1 | 10 | 'max'
 
+/** How many steps of an upgrade the amount buys and what they cost together. */
