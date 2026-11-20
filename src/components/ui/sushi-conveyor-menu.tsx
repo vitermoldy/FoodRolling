@@ -560,3 +560,4 @@ export function SushiConveyorMenu({
     } else if (s.l > 0 && s.l !== geo.l) {
       const f = geo.l / s.l;
       s.offset *= f;
+      s.target *= f;
