@@ -164,3 +164,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
       }
       return
     }
+    if (!sim) return
