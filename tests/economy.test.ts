@@ -8,3 +8,4 @@ import {
   maxOf,
   newRestaurantState,
   nextDish,
+  rateAfter,
