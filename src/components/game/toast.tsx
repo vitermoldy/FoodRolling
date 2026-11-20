@@ -24,3 +24,4 @@ export function Toast() {
             </button>
           )}
           <button type="button" className="btn w-11 p-0 text-bone hover:bg-olive-soft" onClick={dismiss} aria-label="Tutup pemberitahuan">
+            <CloseIcon width={18} height={18} />
