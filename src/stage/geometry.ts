@@ -153,3 +153,4 @@ export class Layout {
     return this.at(l.p + l.np * out + l.tp * along, l.q + l.nq * out + l.tq * along)
   }
 
+  /** Outline of the loop at `across` diameters from the centre line, as screen points. */
