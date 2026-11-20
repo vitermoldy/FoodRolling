@@ -465,3 +465,4 @@ function samosa(rng: Rng) {
     const tri = 'M0 -17 Q2 -16 16 10 Q16 13 12 13 L-12 13 Q-16 13 -16 10 Q-2 -16 0 -17Z'
     out += g(`translate(${x} ${y}) rotate(${a})`,
       shadow(path(tri, '#000')) + path(tri, '#d8a04a', 'stroke="#b17426" stroke-width="1.2"') +
+      scatter(rng, 9, 0, 2, 9, [0.8, 1.6], ['#ebbd6a', '#c98a35']) +
