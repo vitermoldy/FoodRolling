@@ -146,3 +146,4 @@ export const RESTAURANTS: RestaurantDef[] = [
       { id: 'enchiladas', name: 'Enchiladas', tier: 5, description: 'Tortila gulung bersiram saus cabai merah dan keju panggang.', details: ['3 gulung', 'Pedas', 'Pilihan chef'] },
     ],
     theme: {
+      accent: '#1f5fa8',
