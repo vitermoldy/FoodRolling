@@ -280,3 +280,4 @@ export class StageRenderer {
     const slats = Math.round(BELT_LENGTH / 0.34)
     const pitch = BELT_LENGTH / slats
     const half = BAND * 0.46
+    const lift = -L.d * 0.05
