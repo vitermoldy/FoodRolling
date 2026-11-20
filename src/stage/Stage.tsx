@@ -49,3 +49,5 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
         }
       }
     },
+  }), [])
+
