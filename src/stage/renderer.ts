@@ -578,3 +578,4 @@ export class StageRenderer {
       ctx.strokeStyle = 'rgba(255,253,246,0.95)'
       ctx.strokeText(c.text, x, y)
       ctx.fillStyle = '#2f3a0c'
+      ctx.fillText(c.text, x, y)
