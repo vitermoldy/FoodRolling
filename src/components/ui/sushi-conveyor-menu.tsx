@@ -436,3 +436,4 @@ export function SushiConveyorMenu({
     else s.last = 0;
   }, [hitTest, paintAll]);
 
+  const kick = React.useCallback(() => {
