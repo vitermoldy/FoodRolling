@@ -41,3 +41,4 @@ export function alongLoop(u: number): LoopPoint {
   t -= s
   const arc = Math.PI * r
   if (t < arc) {
+    const f = t / r
