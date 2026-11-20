@@ -125,3 +125,4 @@ const C = BALANCE.customer
 export class BeltSim {
   offset = 0
   velocity = 0
+  /** True while the player holds the belt; cruise speed is suspended. */
