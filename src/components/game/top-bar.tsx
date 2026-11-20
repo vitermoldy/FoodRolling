@@ -13,3 +13,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
       <p className="font-display text-[1.375rem] font-semibold tracking-[-0.03em] text-olive">FoodRolling</p>
       <div className="ml-auto flex items-center gap-3 sm:gap-5">
         <div className="flex items-center gap-2" aria-live="off">
+          <CoinIcon width={26} height={26} />
