@@ -129,3 +129,4 @@
     transform: translateY(1px);
   }
   .btn-quiet[aria-pressed='true'] {
+    background: var(--color-olive);
