@@ -163,3 +163,4 @@ export const useGame = create<GameState>()((set, get) => ({
     if (gained > 0) {
       patch.money = s.money + gained
       patch.totalEarned = s.totalEarned + gained
+      patch.restaurants = restaurants
