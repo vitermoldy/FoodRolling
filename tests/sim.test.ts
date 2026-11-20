@@ -55,3 +55,4 @@ describe('belt simulation', () => {
       sim.events.length = 0
     }
     expect(paid).toBeGreaterThan(0)
+    expect(reported).toBeCloseTo(paid, 6)
