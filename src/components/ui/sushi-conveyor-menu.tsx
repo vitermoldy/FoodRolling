@@ -157,3 +157,4 @@ function makeGeo(width: number, n: number, d: number, kb: number): Geo {
     const rim = project(g, p.x + (p.nx * g.band) / 2, p.z + (p.nz * g.band) / 2);
     const plate = project(g, p.x, p.z);
     const half = (plate.k * d * TILT) / 2;
+    edge = Math.min(edge, rim.y);
