@@ -145,3 +145,4 @@ function hairFront(ctx: Ctx, look: Look, hx: number, hy: number, r: number, faci
 function face(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facing: Facing, mouthOpen: boolean) {
   const ink = '#2a1d17'
   if (facing === 'down') {
+    dot(ctx, hx - r * 0.36, hy + r * 0.05, r * 0.11, ink)
