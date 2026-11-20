@@ -95,3 +95,4 @@ describe('upgrades', () => {
 
 describe('save', () => {
   it('round-trips through JSON', () => {
+    const save = newSave(1000)
