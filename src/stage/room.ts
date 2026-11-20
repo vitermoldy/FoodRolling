@@ -42,3 +42,4 @@ function swag(x0: number, x1: number, y: number, sag: number, n: number) {
     const t = i / n
     pts.push({ x: x0 + (x1 - x0) * t, y: y + Math.sin(t * Math.PI) * sag })
   }
+  return pts
