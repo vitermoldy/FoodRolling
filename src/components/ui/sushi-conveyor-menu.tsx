@@ -318,3 +318,4 @@ export function SushiConveyorMenu({
     const g = L.geo;
     const s = sim.current;
     const button = plates.current[i];
+    if (!g || !button) return;
