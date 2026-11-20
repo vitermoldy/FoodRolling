@@ -101,3 +101,4 @@ function Summary({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
         <Meter label="Dapur" value={p} max={top} slow={slow === 'chefs'} />
         <Meter label="Kursi" value={c} max={top} slow={slow === 'seats'} />
       </div>
+      <p className="mt-3 text-sm leading-snug text-olive">
