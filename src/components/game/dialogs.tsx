@@ -60,3 +60,4 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
 
       <div className="mt-4 flex flex-wrap items-center gap-3">
         <button type="button" className="btn btn-primary" onClick={saveNow}>Simpan sekarang</button>
+        <p className="text-sm" role="status">
