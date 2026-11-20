@@ -63,3 +63,4 @@ export function UpgradePanel() {
   const def = restaurantById(current)
 
   if (!st.owned) {
+    return (
