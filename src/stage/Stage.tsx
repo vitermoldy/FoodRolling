@@ -141,3 +141,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     return { x: e.clientX - box.left, y: e.clientY - box.top }
   }
 
+  const onPointerDown = (e: React.PointerEvent) => {
