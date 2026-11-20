@@ -31,3 +31,4 @@ interface Coin {
 
 const STATION_TOP: Record<RestaurantId, [string, string]> = {
   jepang: ['#efdcb6', '#c9a774'],
+  italia: ['#eeebe5', '#c9c3b8'],
