@@ -22,3 +22,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
           </div>
         </div>
         <button type="button" onClick={onSettings} className="btn btn-quiet px-3" aria-label="Pengaturan dan simpanan">
+          <SettingsIcon />
