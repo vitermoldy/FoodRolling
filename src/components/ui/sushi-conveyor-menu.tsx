@@ -302,3 +302,4 @@ export function SushiConveyorMenu({
     onAdd: undefined as ((item: ConveyorDish) => void) | undefined,
   });
   live.current = {
+    geo, active, paused, reduced, open: openIndex !== null, count, speed: Math.max(0, speed),
