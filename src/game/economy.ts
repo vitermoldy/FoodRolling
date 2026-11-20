@@ -107,3 +107,4 @@ export function nextDish(def: RestaurantDef, state: RestaurantState): { dish: Di
   for (let i = 0; i < def.dishes.length; i++) {
     const level = BALANCE.dishUnlock[i]
     if (level > state.income) return { dish: def.dishes[i], level }
+  }
