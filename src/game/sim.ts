@@ -226,3 +226,4 @@ export class BeltSim {
       switch (seat.state) {
         case 'empty':
           seat.timer -= h
+          if (seat.timer <= 0) {
