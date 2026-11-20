@@ -68,3 +68,4 @@ export default function App() {
       </a>
       <TopBar onSettings={() => setSettings(true)} />
       <RestaurantStrip />
+      <main className="grid flex-1 lg:min-h-0 lg:grid-cols-[minmax(0,1fr)_minmax(380px,420px)]">
