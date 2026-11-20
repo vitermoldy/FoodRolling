@@ -94,3 +94,4 @@ export const useGame = create<GameState>()((set, get) => ({
   tab: 'upgrade',
   liveId: null,
   liveAt: 0,
+  notice: null,
