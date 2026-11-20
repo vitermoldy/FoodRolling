@@ -432,3 +432,4 @@ export class StageRenderer {
       time: this.time + index * 0.7,
       action: cooking ? 'cook' : 'idle',
       still: this.reduced,
+    })
