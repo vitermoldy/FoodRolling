@@ -245,3 +245,4 @@ export class BeltSim {
           seat.waited += h
           const slot = this.nearestSlot(SEAT_SPOTS[i])
           const plate = this.slots[slot]
+          if (plate) {
