@@ -56,3 +56,4 @@ export function alongLoop(u: number): LoopPoint {
 }
 
 export interface ScreenPoint {
+  x: number
