@@ -27,3 +27,4 @@ export interface LoopPoint {
   /** Outward normal. */
   np: number
   nq: number
+  /** Direction of travel. */
