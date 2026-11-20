@@ -386,3 +386,4 @@ export function SushiConveyorMenu({
     const L = live.current;
     const g = L.geo;
     s.raf = 0;
+    if (!g || !s.visible) { s.last = 0; return; }
