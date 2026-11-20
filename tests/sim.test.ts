@@ -30,3 +30,4 @@ describe('belt layout', () => {
 
 describe('belt simulation', () => {
   it('never loses or duplicates a plate', () => {
+    const sim = new BeltSim(simConfig(jepang, state({ chefs: 6, seats: 5, speed: 10 })), 3)
