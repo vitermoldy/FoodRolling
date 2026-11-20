@@ -94,3 +94,4 @@ describe('upgrades', () => {
 })
 
 describe('save', () => {
+  it('round-trips through JSON', () => {
