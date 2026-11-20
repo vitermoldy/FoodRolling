@@ -209,3 +209,4 @@ function face(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facing: F
 
 function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facing: Facing) {
   const side = facing === 'left' || facing === 'right'
+  const dir = facing === 'left' ? -1 : 1
