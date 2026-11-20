@@ -772,3 +772,4 @@ export function SushiConveyorMenu({
           : <svg aria-hidden="true" viewBox="0 0 16 16" className="size-3.5" fill="currentColor"><rect x="4" y="3" width="2.6" height="10" rx="0.8" /><rect x="9.4" y="3" width="2.6" height="10" rx="0.8" /></svg>}
       </button>
       <button type="button" data-control="next" aria-label={labels.next} onClick={() => go((live.current.active ?? sim.current.center) + 1, false)} className={control}>
+        <svg aria-hidden="true" viewBox="0 0 16 16" className="size-3.5" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"><path d="M6 3.5 10.5 8 6 12.5" /></svg>
