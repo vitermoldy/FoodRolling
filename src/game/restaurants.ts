@@ -42,3 +42,4 @@ export interface RestaurantDef {
   cookTime: number
   /** Seconds a customer takes to eat one plate at speed level 1. */
   eatTime: number
+  /** Belt speed in plate diameters per second at speed level 1. */
