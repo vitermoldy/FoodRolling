@@ -222,3 +222,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
         const kx = side ? hx - dir * r * 0.95 : hx
         ctx.fillStyle = '#f4f1ea'
         ctx.beginPath()
+        ctx.ellipse(kx, hy - r * 0.45, r * 0.18, r * 0.14, 0, 0, Math.PI * 2)
