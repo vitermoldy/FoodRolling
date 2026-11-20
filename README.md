@@ -42,3 +42,4 @@ npm install
 npm run dev        # http://localhost:5191
 npm run build      # hasil di dist/, bisa dibuka dari host statis mana pun
 npm test           # tes aturan game dan simulasi sabuk (vitest)
+npm run balance    # bot rakus memainkan game dan mencetak kapan tiap restoran terbuka
