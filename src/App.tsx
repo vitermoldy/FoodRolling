@@ -24,3 +24,4 @@ export default function App() {
 
   // Restaurants off screen earn by the formula; save every few seconds and when the tab goes away.
   React.useEffect(() => {
+    const { tick, save } = useGame.getState()
