@@ -65,3 +65,4 @@ function boot(now: number): SaveData & Pick<UiState, 'offline'> {
 let lastTick = Date.now()
 let noticeId = 1
 
+export function snapshot(s: SaveData): SaveData {
