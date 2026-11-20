@@ -184,3 +184,4 @@ export class BeltSim {
     let earned = 0
     const steps = Math.max(1, Math.ceil(dt / (1 / 60)))
     const h = dt / steps
+    for (let s = 0; s < steps; s++) earned += this.substep(h)
