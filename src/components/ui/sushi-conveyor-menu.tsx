@@ -853,3 +853,4 @@ export function SushiConveyorMenu({
             aria-describedby={`${uid}-caption`}
             aria-haspopup="dialog"
             aria-current={isActive || undefined}
+            className="absolute left-0 top-0 cursor-pointer rounded-[50%] outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ring"
