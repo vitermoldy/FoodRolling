@@ -17,3 +17,5 @@ function rr(ctx: Ctx, x: number, y: number, w: number, h: number, r: number | nu
   ctx.beginPath()
   ctx.roundRect(x, y, w, h, r)
   ctx.fill()
+}
+
