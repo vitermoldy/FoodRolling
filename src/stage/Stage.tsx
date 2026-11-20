@@ -210,3 +210,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
         aria-label={label || def.name}
         className="absolute inset-0 block size-full touch-pan-y select-none"
         style={{ cursor }}
+        onPointerDown={onPointerDown}
