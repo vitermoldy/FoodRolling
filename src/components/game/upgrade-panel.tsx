@@ -3,3 +3,4 @@ import {
   bulkCost,
   capacity,
   cookTime,
+  eatTime,
