@@ -40,3 +40,5 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
 
   const saveNow = () => {
     if (save()) setSavedAt(new Date().toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' }))
+  }
+
