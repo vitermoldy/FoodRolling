@@ -326,3 +326,4 @@ export function SushiConveyorMenu({
     if (s.z[i] !== z) { s.z[i] = z; button.style.zIndex = String(z); }
     const lane = q.depth >= 0.5 ? "front" : "back";
     if (s.lane[i] !== lane) { s.lane[i] = lane; button.dataset.lane = lane; }
+    const lift = lifts.current[i];
