@@ -36,3 +36,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
   const [label, setLabel] = React.useState('')
   const [cursor, setCursor] = React.useState('default')
 
+  React.useImperativeHandle(ref, () => ({
