@@ -67,3 +67,4 @@ export function StageFrame() {
               aria-pressed={paused}
               onClick={() => setPaused(!paused)}
             >
+              {paused ? <PlayIcon /> : <PauseIcon />}
