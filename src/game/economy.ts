@@ -24,3 +24,4 @@ export function levelOf(state: RestaurantState, kind: UpgradeKind): number {
   return state[kind]
 }
 
+export function maxOf(kind: UpgradeKind): number {
