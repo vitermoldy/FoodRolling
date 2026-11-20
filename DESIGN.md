@@ -81,3 +81,4 @@ sungguhan. Semua angka (harga, waktu masak, pendapatan) adalah aturan permainan 
 ## Aksesibilitas
 
 - Semua pasangan teks lulus WCAG AA untuk teks normal (diperiksa dengan `antislop-human/contrast-check.py`;
+  terendah 4,95:1, teks #56622f di atas #e1dfd9). Bar aksen di atas jalurnya paling rendah 3,67:1.
