@@ -28,3 +28,4 @@ function finite(value: unknown, fallback: number, min = 0): number {
 export function parseSave(text: string | null, now: number): SaveData | null {
   if (!text) return null
   let raw: unknown
+  try {
