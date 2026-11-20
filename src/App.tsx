@@ -98,3 +98,4 @@ export default function App() {
           >
             {tab === 'upgrade' ? <UpgradePanel /> : <MenuPanel onShowIncome={showIncome} />}
           </div>
+        </aside>
