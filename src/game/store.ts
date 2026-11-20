@@ -87,3 +87,4 @@ export function canUnlock(s: Pick<SaveData, 'restaurants' | 'money'>, id: Restau
   return nextLocked(s) === id && s.money >= restaurantById(id).unlockCost
 }
 
+export const useGame = create<GameState>()((set, get) => ({
