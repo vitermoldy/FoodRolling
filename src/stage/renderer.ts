@@ -83,3 +83,4 @@ export class StageRenderer {
     this.flights = []
     this.coins = []
     this.pulses = []
+    this.roomKey = ''
