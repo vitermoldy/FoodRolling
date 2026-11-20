@@ -103,3 +103,4 @@ export class StageRenderer {
     const now = this.time
     for (const e of events) {
       if (e.type === 'drop') {
+        const plate = sim.slots[e.slot]
