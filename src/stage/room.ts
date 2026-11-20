@@ -239,3 +239,4 @@ function indonesia(ctx: Ctx, w: Wall) {
   const dishes = ['#c9351f', '#5a2c14', '#e9b23c', '#2f6b2a', '#a8642a', '#d9542e']
   let k = 0
   // Shelves in the window, each with a row of dishes piled on plates, the Padang way.
+  for (let row = 0; row < 3; row++) {
