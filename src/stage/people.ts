@@ -311,3 +311,5 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
   const shirt = chef ? chef.coat : look.shirt
   const sleeve = chef ? chef.coat : shade(look.shirt, -14)
   const dir = facing === 'left' ? -1 : 1
+  const side = facing === 'left' || facing === 'right'
+
