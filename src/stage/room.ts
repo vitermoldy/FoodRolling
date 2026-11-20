@@ -740,3 +740,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
           for (let i = 0; i < 4; i++) ell(ctx, x, y - s * 0.07 - i * s * 0.03, s * 0.24, s * 0.14, i % 2 ? '#ecd08d' : '#e6c47a')
         }
         break
+      case 'india':
