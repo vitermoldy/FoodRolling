@@ -161,3 +161,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
       {UPGRADE_KINDS.map((kind) => {
         const Icon = UPGRADE_ICONS[kind]
         const maxed = isMaxed(st, kind)
+        const { count, cost } = bulkCost(def, st, kind, amount, money)
