@@ -127,3 +127,4 @@ export class StageRenderer {
           start: now,
           duration: this.reduced ? 0.01 : 0.32,
         })
+      } else if (e.type === 'pay') {
