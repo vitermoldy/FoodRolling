@@ -39,3 +39,4 @@ export interface SushiConveyorMenuProps extends React.ComponentProps<"section"> 
   /** Shown under the belt while no plate is picked out. */
   caption?: string;
   /** Call to action rendered under the caption. */
+  action?: React.ReactNode;
