@@ -261,3 +261,4 @@ function indonesia(ctx: Ctx, w: Wall) {
   // Kawung batik panel at the right.
   const bw = Math.min(W * 0.17, u * 3)
   const bx = W - u * 0.5 - bw
+  const by = bottom - eh - u * 0.3
