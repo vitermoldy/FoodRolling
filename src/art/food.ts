@@ -18,3 +18,4 @@ function rect(x: number, y: number, w: number, h: number, rx: number, fill: stri
 function path(d: string, fill: string, extra = '') {
   return `<path d="${d}" fill="${fill}" ${extra}/>`
 }
+function line(x1: number, y1: number, x2: number, y2: number, stroke: string, width: number, extra = '') {
