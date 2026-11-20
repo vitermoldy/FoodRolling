@@ -59,3 +59,4 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
       </p>
 
       <div className="mt-4 flex flex-wrap items-center gap-3">
+        <button type="button" className="btn btn-primary" onClick={saveNow}>Simpan sekarang</button>
