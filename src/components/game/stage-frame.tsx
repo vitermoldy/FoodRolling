@@ -106,3 +106,4 @@ function LockedCard() {
   const blocking = next ? restaurantById(next) : null
 
   return (
+    <div className="absolute inset-0 grid place-items-center bg-[linear-gradient(to_bottom,rgb(36_40_20/0.15),rgb(36_40_20/0.45))] p-4">
