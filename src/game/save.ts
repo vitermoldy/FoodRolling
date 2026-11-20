@@ -31,3 +31,4 @@ export function parseSave(text: string | null, now: number): SaveData | null {
   try {
     raw = JSON.parse(text)
   } catch {
+    return null
