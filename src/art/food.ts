@@ -44,3 +44,4 @@ function scatter(rng: Rng, count: number, cx: number, cy: number, radius: number
 function grains(rng: Rng, count: number, cx: number, cy: number, radius: number, colors: string[], size = 1.3) {
   let out = ''
   for (let i = 0; i < count; i++) {
+    const a = rng() * Math.PI * 2
