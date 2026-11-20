@@ -567,3 +567,4 @@ export class StageRenderer {
     ctx.textAlign = 'center'
     ctx.textBaseline = 'middle'
     ctx.lineJoin = 'round'
+    for (const c of this.coins) {
