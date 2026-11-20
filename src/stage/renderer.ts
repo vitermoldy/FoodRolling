@@ -523,3 +523,4 @@ export class StageRenderer {
       const to = f.to()
       const x = f.from.x + (to.x - f.from.x) * t
       const k = f.from.k + (to.k - f.from.k) * t
+      const y = f.from.y + (to.y - f.from.y) * t - Math.sin(t * Math.PI) * L.d * k * 0.35
