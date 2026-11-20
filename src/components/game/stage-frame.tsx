@@ -113,3 +113,4 @@ function LockedCard() {
           Belum dibuka
         </p>
         <h2 className="mt-1 font-display text-2xl font-semibold tracking-[-0.02em] text-olive">{def.name}</h2>
+        <p className="mt-2 text-sm leading-relaxed text-olive">{def.blurb}</p>
