@@ -580,3 +580,4 @@ export class StageRenderer {
       ctx.fillStyle = '#2f3a0c'
       ctx.fillText(c.text, x, y)
     }
+    ctx.restore()
