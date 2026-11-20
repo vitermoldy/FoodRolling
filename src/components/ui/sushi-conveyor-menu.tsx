@@ -650,3 +650,4 @@ export function SushiConveyorMenu({
     if (!stage || !g) return;
     const at = local(event);
     if (event.pointerType === "mouse") { s.px = at.x; s.py = at.y; s.inside = true; }
+    if (p.id === event.pointerId) {
