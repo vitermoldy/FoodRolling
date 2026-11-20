@@ -16,3 +16,4 @@ export const BALANCE = {
     seats: { base: 20, growth: 1.48 },
   },
 
+  /** Price of each plate colour (tier 1 to 5), times the restaurant scale. Same colour, same price. */
