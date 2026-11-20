@@ -63,3 +63,4 @@ export function SeatIcon(props: IconProps) {
 
 export function LockIcon(props: IconProps) {
   return (
+    <Svg {...props}>
