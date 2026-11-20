@@ -224,3 +224,4 @@ function indonesia(ctx: Ctx, w: Wall) {
   ctx.quadraticCurveTo(rx + rw * 0.54, ry + rh * 0.75, rx + rw * 0.58, ry + rh * 0.05)
   ctx.quadraticCurveTo(rx + rw * 0.67, ry + rh * 0.2, rx + rw * 0.75, ry + rh * 0.9)
   ctx.quadraticCurveTo(rx + rw * 0.88, ry + rh * 0.85, rx + rw, ry)
+  ctx.lineTo(rx + rw * 0.94, ry + rh * 1.05)
