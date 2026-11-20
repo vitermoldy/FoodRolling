@@ -376,3 +376,4 @@ function churros(rng: Rng) {
       scatter(rng, 10, 42, y, 4, [0.4, 0.8], ['#fff8ec', '#f6e6c8']))
   }
   out += shadow(circle(74, 68, 12, '#000')) + circle(74, 68, 12, '#f4efe6', 'stroke="#ddd3c2" stroke-width="1"') + circle(74, 68, 9.4, '#4b2312') + ellipse(71, 65, 3.4, 1.6, 'rgba(255,255,255,0.4)')
+  return out
