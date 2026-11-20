@@ -67,3 +67,4 @@ export function LockIcon(props: IconProps) {
       <path d="M7.5 10.5V8a4.5 4.5 0 0 1 9 0v2.5" fill="none" stroke="currentColor" strokeWidth="2" />
       <rect x="5" y="10.2" width="14" height="10.6" rx="2.2" fill="currentColor" />
       <circle cx="12" cy="15.3" r="1.6" fill="#fbf8f1" />
+    </Svg>
