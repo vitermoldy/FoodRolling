@@ -499,3 +499,4 @@ function biryani(rng: Rng) {
     path(blob(rng, 40, 46, 7, 0.4), '#b5531f', 'stroke="#7d3412" stroke-width="0.8"') +
     path(blob(rng, 60, 58, 6.5, 0.4), '#b5531f', 'stroke="#7d3412" stroke-width="0.8"') +
     path(blob(rng, 58, 40, 5.5, 0.4), '#c0602a', 'stroke="#7d3412" stroke-width="0.8"') +
+    `<path d="M30 60 q4 -3 8 0 M44 66 q4 -3 8 0 M64 46 q3 -3 7 0 M36 36 q4 -2 7 1" fill="none" stroke="#8a4a1a" stroke-width="1.6" stroke-linecap="round"/>` +
