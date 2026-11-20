@@ -118,3 +118,4 @@ function tierStyle(tier: number | undefined) {
 
 /** Position on the stadium loop. u is arc length on the belt, the front lane runs right to left and the back lane left to right. */
 function along(g: Geo, u: number): Point {
+  const { s, r } = g;
