@@ -394,3 +394,4 @@ export function SushiConveyorMenu({
     const h = dt / steps;
     const stopped = L.paused || L.active !== null || L.open;
     const cruise = L.reduced ? 0 : L.speed;
+    for (let step = 0; step < steps; step++) {
