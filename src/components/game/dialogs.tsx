@@ -74,3 +74,4 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
               <button
                 type="button"
                 className="btn bg-danger text-white hover:bg-[#82220f]"
+                onClick={() => { reset(); onClose() }}
