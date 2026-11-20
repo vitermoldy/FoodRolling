@@ -129,3 +129,4 @@ export class Layout {
   }
 
   chef(index: number): ScreenPoint {
+    const spot = CHEF_SPOTS[index]
