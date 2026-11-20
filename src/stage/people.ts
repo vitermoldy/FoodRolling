@@ -352,3 +352,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
     torso(ctx, 0, shoulder, waist, standing ? 0.66 : 0.6, standing ? 0.56 : 0.5, shirt)
   }
 
+  if (chef) {
