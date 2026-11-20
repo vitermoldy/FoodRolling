@@ -257,3 +257,4 @@ export class BeltSim {
         }
         case 'eating':
           seat.timer -= h
+          if (seat.timer <= 0) {
