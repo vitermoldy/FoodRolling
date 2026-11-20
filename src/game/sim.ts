@@ -96,3 +96,4 @@ export type SimEvent =
   | { type: 'grab'; seat: number; slot: number; plateId: number }
   | { type: 'pay'; seat: number; amount: number }
 
+export interface SimConfig {
