@@ -301,3 +301,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
   const standing = !!chef
   const t = o.still ? 0 : o.time
   ctx.save()
+  ctx.translate(x, y)
