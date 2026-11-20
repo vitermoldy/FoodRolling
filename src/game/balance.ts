@@ -14,3 +14,5 @@ export const BALANCE = {
     // Chef 2 to 6.
     chefs: [60, 700, 7000, 60000, 500000],
     seats: { base: 20, growth: 1.48 },
+  },
+
