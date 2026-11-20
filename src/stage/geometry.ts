@@ -18,3 +18,4 @@ export const CHEF_IN = RADIUS - 0.3
 export const SIT_HEIGHT = 1.3
 export const STAND_HEIGHT = 1.75
 
+export type Orientation = 'landscape' | 'portrait'
