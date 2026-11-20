@@ -119,3 +119,4 @@ export const RESTAURANTS: RestaurantDef[] = [
       { id: 'ayampop', name: 'Ayam pop', tier: 4, description: 'Ayam kampung rebus air kelapa yang digoreng sebentar, dengan sambal merah.', details: ['1 potong', 'Pedas'] },
       { id: 'rendang', name: 'Rendang', tier: 5, description: 'Daging sapi dimasak berjam-jam dalam santan dan rempah sampai kering.', details: ['3 potong', 'Daging sapi', 'Pilihan chef'] },
     ],
+    theme: {
