@@ -1084,3 +1084,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
             </ul>
           )}
           <div className="mt-2 flex flex-wrap items-center justify-center gap-4 sm:justify-start">
+            <p className="text-2xl font-semibold tabular-nums tracking-tight">{item.price}</p>
