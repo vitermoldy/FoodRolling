@@ -16,3 +16,5 @@ export const STATION_IN = BAND / 2 + 0.5
 export const CHEF_IN = RADIUS - 0.3
 /** Screen height of a person per plate diameter (seated and standing). */
 export const SIT_HEIGHT = 1.3
+export const STAND_HEIGHT = 1.75
+
