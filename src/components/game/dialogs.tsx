@@ -36,3 +36,5 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
 
   React.useEffect(() => {
     if (!open) { setConfirm(false); setSavedAt(null) }
+  }, [open])
+
