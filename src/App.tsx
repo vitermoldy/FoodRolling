@@ -37,3 +37,5 @@ export default function App() {
       window.removeEventListener('pagehide', flush)
       document.removeEventListener('visibilitychange', onVisibility)
     }
+  }, [])
+
