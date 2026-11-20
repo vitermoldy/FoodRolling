@@ -127,3 +127,4 @@ export class BeltSim {
   velocity = 0
   /** True while the player holds the belt; cruise speed is suspended. */
   holding = false
+  slots: (Plate | null)[] = Array.from({ length: SLOT_COUNT }, () => null)
