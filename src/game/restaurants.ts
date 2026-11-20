@@ -113,3 +113,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     beltSpeed: 1.95,
     dishes: [
       { id: 'cendol', name: 'Es cendol', tier: 1, description: 'Cendol hijau pandan dengan santan dan gula aren cair.', details: ['1 gelas', 'Santan'] },
+      { id: 'sate', name: 'Sate ayam', tier: 2, description: 'Tusuk ayam bakar arang dengan saus kacang dan kecap manis.', details: ['5 tusuk', 'Kacang'] },
