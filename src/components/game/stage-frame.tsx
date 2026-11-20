@@ -37,3 +37,4 @@ export function StageFrame() {
   return (
     <section
       id="restaurant-view"
+      role="tabpanel"
