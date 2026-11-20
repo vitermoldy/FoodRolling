@@ -83,3 +83,4 @@ export function nextLocked(s: Pick<SaveData, 'restaurants'>): RestaurantId | nul
   return def ? def.id : null
 }
 
+export function canUnlock(s: Pick<SaveData, 'restaurants' | 'money'>, id: RestaurantId): boolean {
