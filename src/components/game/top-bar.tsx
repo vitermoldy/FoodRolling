@@ -19,3 +19,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
               {formatCoins(money)}
             </p>
             <p className="num text-xs text-moss">+{formatRate(rate)}</p>
+          </div>
