@@ -255,3 +255,4 @@ export class StageRenderer {
   }
 
   private tierOf(dish: number) {
+    return this.def.dishes[dish]?.tier ?? 1
