@@ -414,3 +414,4 @@ function india(ctx: Ctx, w: Wall) {
   const ly = bottom * 0.55
   rr(ctx, lx, ly, lw, u * 0.12, u * 0.04, '#7a3d1c')
   for (let i = 0; i < 5; i++) {
+    const x = lx + u * 0.4 + (i * (lw - u * 0.8)) / 4
