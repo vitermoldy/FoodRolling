@@ -662,3 +662,4 @@ export function SushiConveyorMenu({
       }
       if (p.moved) {
         const v = (event.clientX - p.lastX) / Math.max(1, now - p.lastT);
+        p.v = p.v * 0.6 + v * 0.4;
