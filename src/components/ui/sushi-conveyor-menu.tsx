@@ -139,3 +139,4 @@ function along(g: Geo, u: number): Point {
 }
 
 /** Perspective-ish projection: the back lane shrinks to kb and the depth axis is foreshortened by TILT. */
+function project(g: Geo, x: number, z: number) {
