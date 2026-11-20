@@ -12,3 +12,4 @@ sushi kaiten di Jepang sampai bistro di Paris.
    - **Pendapatan** menaikkan harga semua piring 10% per level, dan di level 5, 12, 20, dan 30
      menambah hidangan yang lebih mahal ke menu.
    - **Kecepatan** mempercepat chef memasak, pelanggan makan, dan sabuk berputar.
+   - **Jumlah chef** menambah chef di pulau tengah (sampai 6).
