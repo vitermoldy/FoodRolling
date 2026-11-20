@@ -332,3 +332,4 @@ function meksiko(ctx: Ctx, w: Wall) {
         ctx.lineTo(p.x + dx * u - u * 0.06, p.y + dy * u)
         ctx.closePath()
         ctx.fill()
+      }
