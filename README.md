@@ -60,3 +60,4 @@ Vite sudah dikunci ke satu ejaan lewat `vite.config.ts`. Tambahkan `?debug` ke a
 | `src/components/game` | Panel, strip restoran, dialog, notifikasi, ikon. |
 | `tests` | Tes ekonomi, simpanan, dan kecocokan simulasi dengan rumus pendapatan. |
 
+Restoran yang sedang dilihat dihitung lewat simulasi sabuk; restoran lain dan waktu offline memakai
