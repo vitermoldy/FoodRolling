@@ -249,3 +249,4 @@ function indonesia(ctx: Ctx, w: Wall) {
         const cy = sy - u * 0.08 - h * u * 0.13
         ctx.fillStyle = '#fbf6ea'
         ctx.beginPath()
+        ctx.ellipse(cx, cy, ew * 0.12, u * 0.08, 0, 0, Math.PI * 2)
