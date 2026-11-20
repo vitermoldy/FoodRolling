@@ -56,3 +56,4 @@ export function RestaurantStrip() {
               className={`flex min-h-[52px] shrink-0 items-center gap-2.5 rounded-[10px] px-3 py-1.5 text-left transition-colors ${active ? 'bg-paper' : 'hover:bg-stone/70'}`}
             >
               <span className="relative grid size-9 shrink-0 place-items-center rounded-full bg-[#fbf8f1] ring-2" style={{ ['--tw-ring-color' as string]: st.owned ? r.theme.accent : 'rgb(56 69 15 / 0.2)' }}>
+                <img src={thumb(r.dishes[5].id)} alt="" width={28} height={28} className={st.owned ? '' : 'opacity-40 grayscale'} />
