@@ -51,3 +51,4 @@ function bestValue(def: RestaurantDef, st: RestaurantState): UpgradeKind | null 
   for (const kind of UPGRADE_KINDS) {
     if (isMaxed(st, kind)) continue
     const gain = rateAfter(def, st, kind) - now
+    const score = gain / stepCost(def, kind, st[kind])
