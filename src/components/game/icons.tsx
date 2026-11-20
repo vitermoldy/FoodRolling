@@ -42,3 +42,4 @@ export function SpeedIcon(props: IconProps) {
   )
 }
 
+export function ChefIcon(props: IconProps) {
