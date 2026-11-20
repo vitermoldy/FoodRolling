@@ -232,3 +232,4 @@ export function SushiConveyorMenu({
   items,
   eyebrow,
   heading,
+  caption,
