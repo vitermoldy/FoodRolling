@@ -17,3 +17,4 @@ export interface ThemeDef {
   wall: string
   wallLow: string
   floor: string
+  floorAlt: string
