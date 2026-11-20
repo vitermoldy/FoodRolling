@@ -172,3 +172,4 @@ function halfSpan(g: Geo) {
   for (let j = 0; j < 120; j++) {
     const p = along(g, (j / 120) * g.l);
     const rim = project(g, p.x + (p.nx * g.band) / 2, p.z + (p.nz * g.band) / 2);
+    const plate = project(g, p.x, p.z);
