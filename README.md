@@ -38,3 +38,4 @@ restoran tetap menghasilkan uang sampai 8 jam.
 ## Menjalankan
 
 ```bash
+npm install
