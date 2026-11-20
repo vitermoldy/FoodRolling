@@ -98,3 +98,4 @@ export function OfflineDialog() {
     <Modal open={!!offline} onClose={dismiss} labelledBy="offline-title">
       {offline && (
         <>
+          <h2 id="offline-title" className="font-display text-xl font-semibold">Selamat datang kembali</h2>
