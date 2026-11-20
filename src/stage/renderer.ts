@@ -181,3 +181,4 @@ export class StageRenderer {
   }
 
   draw(dt: number) {
+    this.time += dt
