@@ -514,3 +514,4 @@ function butterchicken(rng: Rng) {
 }
 
 function thali(rng: Rng) {
+  const bowls: [string, string][] = [['#e6ad38', '#f6d27a'], ['#e1712b', '#f39a5a'], ['#4f8a3a', '#7fb35f'], ['#f6f2e6', '#ffffff'], ['#b8321f', '#da5a3f'], ['#8a5a2a', '#a8763f']]
