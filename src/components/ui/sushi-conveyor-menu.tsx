@@ -303,3 +303,4 @@ export function SushiConveyorMenu({
   });
   live.current = {
     geo, active, paused, reduced, open: openIndex !== null, count, speed: Math.max(0, speed),
+    activeControlled: activeProp !== undefined, pausedControlled: pausedProp !== undefined,
