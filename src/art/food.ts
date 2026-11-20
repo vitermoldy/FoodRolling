@@ -80,3 +80,5 @@ function blob(rng: Rng, cx: number, cy: number, r: number, wobble: number, point
   return d + 'Z'
 }
 
+/* ---------------------------------- Jepang ---------------------------------- */
+
