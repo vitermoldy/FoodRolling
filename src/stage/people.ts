@@ -23,3 +23,4 @@ export function lookFrom(seed: number): Look {
     hair: HAIRS[Math.floor(rng() * HAIRS.length)],
     style: Math.floor(rng() * 5),
     shirt: SHIRTS[Math.floor(rng() * SHIRTS.length)],
+    glasses: rng() < 0.16,
