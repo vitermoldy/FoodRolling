@@ -250,3 +250,4 @@ export class StageRenderer {
       const img = new Image()
       img.decoding = 'async'
       img.src = toDataUrl(foodSvg(dish.id, 256))
+      this.food.set(dish.id, img)
