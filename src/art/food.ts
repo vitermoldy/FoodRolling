@@ -218,3 +218,4 @@ function spaghetti(rng: Rng) {
   }
   return shadow(circle(50, 50, 30, '#000')) + circle(50, 50, 29, '#d7a94c') + pasta +
     path(blob(rng, 50, 49, 12, 0.4), '#c63a22', 'stroke="#a52a16" stroke-width="0.8"') +
+    scatter(rng, 6, 50, 49, 7, [1.4, 2.2], ['#d9533a']) +
