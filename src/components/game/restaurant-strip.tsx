@@ -31,3 +31,4 @@ export function RestaurantStrip() {
     if (next < 0) return
     e.preventDefault()
     refs.current[next]?.focus()
+    select(RESTAURANTS[next].id)
