@@ -34,3 +34,4 @@ export function formatRate(value: number): string {
   return `${formatCoins(value)}/detik`
 }
 
+export function formatDecimal(value: number, digits = 1): string {
