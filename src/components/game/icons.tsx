@@ -22,3 +22,4 @@ export function CoinIcon(props: IconProps) {
 export function IncomeIcon(props: IconProps) {
   return (
     <Svg {...props}>
+      <ellipse cx="12" cy="18" rx="8.5" ry="3.2" fill="#3a7cc2" />
