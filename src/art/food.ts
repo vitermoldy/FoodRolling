@@ -333,3 +333,4 @@ function gado(rng: Rng) {
 }
 
 function ayampop(rng: Rng) {
+  // A drumstick: round meaty end at the top left, a narrowing shaft and the bone knob at the bottom right.
