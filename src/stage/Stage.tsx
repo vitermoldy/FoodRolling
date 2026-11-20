@@ -145,3 +145,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     const renderer = rendererRef.current
     if (!renderer || !simRef.current || e.button !== 0) return
     const at = local(e)
+    const chef = renderer.hitChef(at.x, at.y)
