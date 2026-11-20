@@ -56,3 +56,5 @@ describe('belt simulation', () => {
     }
     expect(paid).toBeGreaterThan(0)
     expect(reported).toBeCloseTo(paid, 6)
+  })
+
