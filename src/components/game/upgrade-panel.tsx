@@ -234,3 +234,4 @@ function NextRestaurant() {
         {def.name}, {def.country}
       </h2>
       <div className="mt-3 h-2.5 overflow-hidden rounded-full bg-stone" role="progressbar" aria-label={`Uang terkumpul untuk ${def.name}`} aria-valuemin={0} aria-valuemax={100} aria-valuenow={Math.floor(share * 100)}>
+        <div className="h-full rounded-full" style={{ width: `${share * 100}%`, background: def.theme.accent }} />
