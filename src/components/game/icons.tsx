@@ -64,3 +64,4 @@ export function SeatIcon(props: IconProps) {
 export function LockIcon(props: IconProps) {
   return (
     <Svg {...props}>
+      <path d="M7.5 10.5V8a4.5 4.5 0 0 1 9 0v2.5" fill="none" stroke="currentColor" strokeWidth="2" />
