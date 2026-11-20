@@ -312,3 +312,4 @@ function meksiko(ctx: Ctx, w: Wall) {
     pts.forEach((p, i) => (i ? ctx.lineTo(p.x, p.y) : ctx.moveTo(p.x, p.y)))
     ctx.stroke()
     pts.forEach((p, i) => {
+      if (i === pts.length - 1) return
