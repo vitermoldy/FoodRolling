@@ -73,3 +73,4 @@ export const RESTAURANTS: RestaurantDef[] = [
       counter: '#e2c08d', counterEdge: '#b98d55', island: '#d9b47d', islandEdge: '#a77b45',
       belt: '#9aa3a8', beltSide: '#6b7479', rail: '#d7dde0', plate: '#fbf8f1',
       chef: { hat: 'hachimaki', coat: '#f7f5ef', apron: '#2f3a4f', trim: '#c8432b' },
+    },
