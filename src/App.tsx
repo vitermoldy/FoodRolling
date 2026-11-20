@@ -73,3 +73,4 @@ export default function App() {
         <aside id="panel" aria-label="Panel restoran" tabIndex={-1} className="flex flex-col border-line bg-bone lg:min-h-0 lg:border-l">
           <div role="tablist" aria-label="Isi panel" className="flex gap-1 border-b border-line px-4 pt-3 sm:px-5">
             {TABS.map((t, i) => (
+              <button
