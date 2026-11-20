@@ -110,3 +110,4 @@ function LockedCard() {
       <div className="w-full max-w-sm rounded-[14px] border border-line-strong bg-paper p-5 shadow-[0_18px_40px_-12px_rgb(30_25_10/0.45)]">
         <p className="flex items-center gap-2 text-sm text-moss">
           <LockIcon width={16} height={16} />
+          Belum dibuka
