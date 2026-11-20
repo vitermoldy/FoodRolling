@@ -244,3 +244,4 @@ export function SushiConveyorMenu({
   onOpenChange,
   onAdd,
   legend,
+  labels = DEFAULT_LABELS,
