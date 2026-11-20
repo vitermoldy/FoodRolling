@@ -222,3 +222,4 @@ export class BeltSim {
     }
 
     for (let i = 0; i < this.seats.length; i++) {
+      const seat = this.seats[i]
