@@ -34,3 +34,4 @@ export const SEAT_SPOTS: number[] = [
 
 export type Facing = 'front' | 'back'
 
+/** Chefs stand in one row on the island, alternately facing the front and the rear lane. */
