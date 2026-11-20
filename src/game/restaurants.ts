@@ -51,3 +51,4 @@ export interface RestaurantDef {
 export const RESTAURANTS: RestaurantDef[] = [
   {
     id: 'jepang',
+    name: 'Kaiten Hinoki',
