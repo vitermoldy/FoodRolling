@@ -131,3 +131,5 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
   React.useEffect(() => {
     const sim = simRef.current
     if (sim && owned) sim.configure(simConfig(def, { owned, income, speed, chefs, seats, earned: 0 }))
+  }, [def, owned, income, speed, chefs, seats])
+
