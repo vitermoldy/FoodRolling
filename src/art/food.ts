@@ -294,3 +294,4 @@ function sate(rng: Rng) {
       const t = 0.18 + i * 0.19
       const x = 18 + ox + t * 60
       const y = 74 + oy - t * 50
+      meat += g(`rotate(-40 ${f(x)} ${f(y)})`, rect(x - 5, y - 4.4, 10, 8.8, 3, '#a2562a', 'stroke="#6b3214" stroke-width="0.7"') +
