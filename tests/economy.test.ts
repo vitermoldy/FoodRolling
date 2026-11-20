@@ -24,3 +24,4 @@ describe('restaurants', () => {
     expect(RESTAURANTS.map((r) => r.id)).toEqual(['jepang', 'italia', 'indonesia', 'meksiko', 'india', 'prancis'])
     expect(RESTAURANTS[0].unlockCost).toBe(0)
     for (let i = 1; i < RESTAURANTS.length; i++) {
+      expect(RESTAURANTS[i].unlockCost).toBeGreaterThan(RESTAURANTS[i - 1].unlockCost)
