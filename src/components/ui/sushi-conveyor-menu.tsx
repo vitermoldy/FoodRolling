@@ -659,3 +659,4 @@ export function SushiConveyorMenu({
         setActive(null);
         s.mode = DRAG;
         if (stage.isConnected) stage.setPointerCapture(event.pointerId);
+      }
