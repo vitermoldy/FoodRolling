@@ -334,3 +334,4 @@ function gado(rng: Rng) {
 
 function ayampop(rng: Rng) {
   // A drumstick: round meaty end at the top left, a narrowing shaft and the bone knob at the bottom right.
+  const leg = 'M24 40 Q22 22 40 22 Q56 22 60 38 Q62 46 66 52 L72 60 Q66 66 60 62 L52 56 Q44 58 34 56 Q24 52 24 40Z'
