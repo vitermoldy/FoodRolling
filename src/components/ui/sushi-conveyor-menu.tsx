@@ -982,3 +982,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
       const sy = from.height / to.height;
       const dx = from.left + from.width / 2 - (to.left + to.width / 2);
       const dy = from.top + from.height / 2 - (to.top + to.height / 2);
+      const rise = Math.min(120, Math.abs(dy) * 0.3 + 40);
