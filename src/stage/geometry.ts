@@ -24,3 +24,4 @@ export type Facing = 'down' | 'up' | 'left' | 'right'
 export interface LoopPoint {
   p: number
   q: number
+  /** Outward normal. */
