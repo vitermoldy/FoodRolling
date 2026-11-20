@@ -58,3 +58,4 @@ function boot(now: number): SaveData & Pick<UiState, 'offline'> {
   const away = offlineEarnings(loaded, now)
   loaded.money += away.coins
   loaded.totalEarned += away.coins
+  // Short absences are not worth a dialog; the coins are still added.
