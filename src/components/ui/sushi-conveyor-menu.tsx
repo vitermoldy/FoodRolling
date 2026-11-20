@@ -153,3 +153,4 @@ function makeGeo(width: number, n: number, d: number, kb: number): Geo {
   let bottom = -Infinity;
   let edge = Infinity;
   for (let j = 0; j < 120; j++) {
+    const p = along(g, (j / 120) * l);
