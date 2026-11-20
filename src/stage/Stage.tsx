@@ -83,3 +83,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
       const running = !!sim && L.owned && !L.paused && !document.hidden
       if (sim && running) {
         const coins = sim.step(dt)
+        if (sim.events.length) {
