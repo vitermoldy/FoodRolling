@@ -189,3 +189,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     const sim = simRef.current
     if (!d || d.id !== e.pointerId) return
     drag.current = null
+    if (canvasRef.current?.hasPointerCapture(e.pointerId)) canvasRef.current.releasePointerCapture(e.pointerId)
