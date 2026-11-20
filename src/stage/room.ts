@@ -417,3 +417,4 @@ function india(ctx: Ctx, w: Wall) {
     const x = lx + u * 0.4 + (i * (lw - u * 0.8)) / 4
     ctx.fillStyle = '#c99a2e'
     ctx.beginPath()
+    ctx.ellipse(x, ly - u * 0.05, u * 0.24, u * 0.1, 0, 0, Math.PI)
