@@ -866,3 +866,4 @@ export function SushiConveyorMenu({
                 <span className="absolute inset-[30%] rounded-[50%] bg-muted-foreground/20" />
               </span>
               {!broken && (
+                <img
