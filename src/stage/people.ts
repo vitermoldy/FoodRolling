@@ -132,3 +132,4 @@ function hairFront(ctx: Ctx, look: Look, hx: number, hy: number, r: number, faci
     if (look.style === 2) dot(ctx, hx, hy - r * 1.1, r * 0.4, look.hair)
     return
   }
+  // Side view: hair over the top and the back half.
