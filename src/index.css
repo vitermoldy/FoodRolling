@@ -45,3 +45,5 @@
   color-scheme: light;
   /* Follows the restaurant on screen (App sets it). Used for graphics only, never for text. */
   --accent: #c8432b;
+}
+
