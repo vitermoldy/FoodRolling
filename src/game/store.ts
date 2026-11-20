@@ -60,3 +60,5 @@ function boot(now: number): SaveData & Pick<UiState, 'offline'> {
   loaded.totalEarned += away.coins
   // Short absences are not worth a dialog; the coins are still added.
   return { ...loaded, offline: away.seconds >= 60 && away.coins > 0 ? away : null }
+}
+
