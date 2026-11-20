@@ -533,3 +533,4 @@ function macaron(rng: Rng) {
   let out = ''
   for (const [x, y, c, e] of shells) {
     out += shadow(circle(x, y, 13.5, '#000'))
+    out += circle(x, y, 13.5, e) + circle(x, y, 12, c) + ellipse(x - 3, y - 4, 6, 3.2, 'rgba(255,255,255,0.4)')
