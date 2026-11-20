@@ -65,3 +65,4 @@ export interface SushiConveyorMenuProps extends React.ComponentProps<"section"> 
 const SPACING = 1.35;
 const CURVE = 0.95;
 const BAND = 1.22;
+const TILT = 0.8;
