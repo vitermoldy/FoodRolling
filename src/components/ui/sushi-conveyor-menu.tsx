@@ -152,3 +152,4 @@ function makeGeo(width: number, n: number, d: number, kb: number): Geo {
   let top = Infinity;
   let bottom = -Infinity;
   let edge = Infinity;
+  for (let j = 0; j < 120; j++) {
