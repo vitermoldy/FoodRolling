@@ -150,3 +150,4 @@ export const useGame = create<GameState>()((set, get) => ({
     let restaurants = s.restaurants
     for (const def of RESTAURANTS) {
       const st = restaurants[def.id]
+      if (!st.owned) continue
