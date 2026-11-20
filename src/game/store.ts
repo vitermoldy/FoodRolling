@@ -216,3 +216,4 @@ export const useGame = create<GameState>()((set, get) => ({
   },
 }))
 
+export function restaurantProgress(id: RestaurantId): number {
