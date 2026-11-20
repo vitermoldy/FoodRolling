@@ -531,3 +531,4 @@ export class StageRenderer {
   private drawBubbles(sim: BeltSim) {
     const ctx = this.ctx
     const L = this.layout
+    for (let i = 0; i < sim.seats.length; i++) {
