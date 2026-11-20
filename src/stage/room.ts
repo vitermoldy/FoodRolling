@@ -772,3 +772,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
   })
 }
 
+/** Paints the room into `ctx` (already scaled to CSS pixels). */
