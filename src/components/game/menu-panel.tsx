@@ -18,3 +18,4 @@ function plateUrl(id: string, plate: string) {
   return url
 }
 
+/** The restaurant's dishes on the conveyor menu from the prompt. Plate colour marks the price. */
