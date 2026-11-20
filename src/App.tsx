@@ -13,3 +13,5 @@ import { useGame, type PanelTab } from '@/game/store'
 const TABS: { id: PanelTab; label: string }[] = [
   { id: 'upgrade', label: 'Upgrade' },
   { id: 'menu', label: 'Menu' },
+]
+
