@@ -73,3 +73,4 @@ const BACK_SHADE = 0.15;
 const CHIP_ROOM = 34;
 const WIDE = 1024;
 const HOLD = 1400;
+const RUN = 0;
