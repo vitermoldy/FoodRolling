@@ -138,3 +138,5 @@ export class Layout {
     const spot = CHEF_SPOTS[index]
     const sign = spot.facing === 'front' ? 1 : -1
     return this.at(spot.p, sign * (RADIUS - STATION_IN))
+  }
+
