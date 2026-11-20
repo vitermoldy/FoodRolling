@@ -109,3 +109,4 @@ describe('save', () => {
 
   it('rejects garbage and clamps edited values', () => {
     expect(parseSave('not json', 0)).toBeNull()
+    expect(parseSave('{"v":2}', 0)).toBeNull()
