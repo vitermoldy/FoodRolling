@@ -61,3 +61,4 @@ export function RestaurantStrip() {
               </span>
               <span className="leading-tight">
                 <span className="block text-sm font-semibold text-olive">{r.name}</span>
+                <span className="block text-xs text-moss">
