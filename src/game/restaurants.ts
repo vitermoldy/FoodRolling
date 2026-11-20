@@ -164,3 +164,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     eatTime: 5.6,
     beltSpeed: 2,
     dishes: [
+      { id: 'samosa', name: 'Samosa', tier: 1, description: 'Pastri segitiga isi kentang berbumbu dengan chutney mint.', details: ['2 buah', 'Gandum', 'Vegan'] },
