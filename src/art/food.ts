@@ -97,3 +97,4 @@ function edamame(rng: Rng) {
 }
 
 function nigiriRice(rng: Rng, y: number, w = 50) {
+  return rect(50 - w / 2, y - 8, w, 19, 9, '#f6f2e8', 'stroke="#ded7c6" stroke-width="0.8"') +
