@@ -33,3 +33,4 @@ describe('belt simulation', () => {
     const sim = new BeltSim(simConfig(jepang, state({ chefs: 6, seats: 5, speed: 10 })), 3)
     const seen = new Set<number>()
     for (let t = 0; t < 400; t += 0.1) {
+      sim.step(0.1)
