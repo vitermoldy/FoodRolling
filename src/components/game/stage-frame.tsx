@@ -135,3 +135,4 @@ function LockedCard() {
           </p>
         )}
       </div>
+    </div>
