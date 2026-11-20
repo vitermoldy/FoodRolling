@@ -525,3 +525,4 @@ export function SushiConveyorMenu({
     kick();
   };
 
+  React.useEffect(() => {
