@@ -242,3 +242,4 @@ function lasagna(rng: Rng) {
   return shadow(body) + g('rotate(-7 50 50)',
     rect(22, 27, 56, 46, 5, '#b3311c') +
     rect(22, 64, 56, 9, 3, '#f1d79e') + rect(22, 67, 56, 2.4, 1, '#9a2c18') + rect(22, 70.5, 56, 2.5, 1, '#f1d79e') +
+    rect(24, 29, 52, 36, 4, '#e9a74b') +
