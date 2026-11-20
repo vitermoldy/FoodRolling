@@ -109,3 +109,4 @@ export class StageRenderer {
           plateId: e.plateId,
           dish: plate.dish,
           tier: this.def.dishes[plate.dish]?.tier ?? 1,
+          from: L.station(e.chef),
