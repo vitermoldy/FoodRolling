@@ -108,3 +108,4 @@ export function OfflineDialog() {
           )}
           <button type="button" className="btn btn-primary mt-5 w-full" onClick={dismiss} autoFocus>
             Lanjut main
+          </button>
