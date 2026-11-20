@@ -991,3 +991,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
     }
     const raf = requestAnimationFrame(() => setShown(true));
     return () => {
+      cancelAnimationFrame(raf);
