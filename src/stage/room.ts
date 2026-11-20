@@ -290,3 +290,4 @@ function meksiko(ctx: Ctx, w: Wall) {
   const th = Math.min(bottom * 0.22, u * 0.7)
   const ty = bottom - th
   for (let x = 0, i = 0; x < W; x += th, i++) {
+    rr(ctx, x + 1, ty + 1, th - 2, th - 2, u * 0.03, '#f6f1e6')
