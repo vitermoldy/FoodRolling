@@ -131,3 +131,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     id: 'meksiko',
     name: 'Taquería Nopal',
     country: 'Meksiko',
+    blurb: 'Taqueria berdinding terakota dengan bendera kertas papel picado dan ubin talavera biru.',
