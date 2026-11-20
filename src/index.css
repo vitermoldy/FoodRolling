@@ -106,3 +106,4 @@
     background: var(--color-olive-soft);
     transform: translateY(-1px);
   }
+  .btn-primary:active:not(:disabled) {
