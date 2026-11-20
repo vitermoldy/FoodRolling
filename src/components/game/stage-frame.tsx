@@ -15,3 +15,4 @@ function readHintSeen() {
   }
 }
 
+export function StageFrame() {
