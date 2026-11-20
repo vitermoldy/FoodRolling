@@ -1044,3 +1044,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
     else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
   };
 
+  const add = () => {
