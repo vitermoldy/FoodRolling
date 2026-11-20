@@ -689,3 +689,4 @@ export function SushiConveyorMenu({
     pointer.current = { ...p, id: -1 };
     if (s.mode === DRAG) {
       s.mode = RUN;
+      // Holding still before letting go bleeds the flick away (about 70 ms time constant).
