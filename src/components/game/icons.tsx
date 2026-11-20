@@ -121,3 +121,4 @@ export const UPGRADE_ICONS = {
   income: IncomeIcon,
   speed: SpeedIcon,
   chefs: ChefIcon,
+  seats: SeatIcon,
