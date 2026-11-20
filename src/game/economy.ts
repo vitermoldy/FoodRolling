@@ -65,3 +65,4 @@ export function bulkCost(
     if (amount === 'max' && cost + next > money) break
     cost += next
     level += 1
+    count += 1
