@@ -588,3 +588,4 @@ export function SushiConveyorMenu({
       else if (s.raf) { cancelAnimationFrame(s.raf); s.raf = 0; s.last = 0; }
     };
     const observer = node && typeof IntersectionObserver === "function" ? new IntersectionObserver((entries) => { inView = entries.some((entry) => entry.isIntersecting); update(); }) : null;
+    if (node && observer) observer.observe(node);
