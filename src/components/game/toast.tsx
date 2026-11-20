@@ -17,3 +17,4 @@ export function Toast() {
     <div role="status" aria-live="polite" className="pointer-events-none fixed inset-x-0 bottom-4 z-40 flex justify-center px-4">
       {notice && (
         <div key={notice.id} className="pointer-events-auto flex max-w-md items-center gap-3 rounded-[12px] bg-olive py-2 pl-4 pr-2 text-sm text-bone shadow-[0_14px_30px_-10px_rgb(20_20_5/0.55)]">
+          <p className="flex-1">{notice.text}</p>
