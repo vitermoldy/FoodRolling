@@ -42,3 +42,4 @@ describe('restaurants', () => {
 describe('upgrades', () => {
   it('every step costs more than the one before', () => {
     for (const kind of UPGRADE_KINDS) {
+      const start = kind === 'chefs' ? BALANCE.chefs.start : kind === 'seats' ? BALANCE.seats.start : 1
