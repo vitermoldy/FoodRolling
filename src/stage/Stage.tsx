@@ -74,3 +74,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     let raf = 0
     let last = performance.now()
     let labelAt = 0
+    const frame = (now: number) => {
