@@ -690,3 +690,4 @@ export function SushiConveyorMenu({
     if (s.mode === DRAG) {
       s.mode = RUN;
       // Holding still before letting go bleeds the flick away (about 70 ms time constant).
+      const carry = Math.exp(-Math.max(0, event.timeStamp - p.lastT) / 70);
