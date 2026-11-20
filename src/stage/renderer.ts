@@ -303,3 +303,4 @@ export class StageRenderer {
     ctx.stroke()
   }
 
+  private drawPlate(x: number, y: number, size: number, tier: number, dish: number, foodLeft = 1, alpha = 1) {
