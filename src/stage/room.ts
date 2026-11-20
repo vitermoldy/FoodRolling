@@ -346,3 +346,4 @@ function meksiko(ctx: Ctx, w: Wall) {
     rr(ctx, x + u * 0.18, base - u * 0.85, u * 0.46, u * 0.22, u * 0.11, '#4a9a55')
     disc(ctx, x, base - u * 1.55, u * 0.12, '#e8508a')
     ctx.fillStyle = '#b5532f'
+    ctx.beginPath()
