@@ -130,3 +130,4 @@ export class BeltSim {
   slots: (Plate | null)[] = Array.from({ length: SLOT_COUNT }, () => null)
   chefs: Chef[] = []
   seats: Seat[] = []
+  events: SimEvent[] = []
