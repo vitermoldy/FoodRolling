@@ -324,3 +324,4 @@ function gado(rng: Rng) {
     const y = 30 + rng() * 40
     const a = rng() * 180
     out += g(`rotate(${f(a)} ${f(x)} ${f(y)})`, rect(x - 9, y - 1.6, 18, 3.2, 1.6, '#4c9636'))
+  }
