@@ -498,3 +498,4 @@ export class StageRenderer {
   }
 
   private drawCustomer(index: number, p: ScreenPoint, alpha: number, out: number, seed: number, action: 'idle' | 'eat' | 'wait') {
+    const L = this.layout
