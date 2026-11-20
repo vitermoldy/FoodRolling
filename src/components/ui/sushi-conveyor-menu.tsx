@@ -936,3 +936,4 @@ export function SushiConveyorMenu({
           source={openSource}
           onLift={onLift}
           onAdd={onDialogAdd}
+          onClose={onDialogClose}
