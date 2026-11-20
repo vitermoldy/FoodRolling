@@ -671,3 +671,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
       case 'jepang':
         if (side === 0) {
           tub(ctx, x, y - s * 0.12, s * 0.42, s * 0.2, '#b98652', '#d6a66a', '#f7f4ec')
+          ctx.strokeStyle = '#8a5a2a'
