@@ -478,3 +478,4 @@ function naan(rng: Rng) {
   for (let i = 0; i < 10; i++) char += path(blob(rng, 34 + rng() * 32, 26 + rng() * 52, 2 + rng() * 3, 0.6, 6), i % 2 ? '#a7692b' : '#8c5520')
   return shadow(path(shape, '#000')) + path(shape, '#ecc58c', 'stroke="#c99a58" stroke-width="1.2"') +
     scatter(rng, 12, 50, 50, 22, [1.5, 3], ['#f5d9a8']) + char +
+    path('M36 30 Q50 22 64 32', 'none', 'stroke="rgba(255,244,200,0.6)" stroke-width="4" stroke-linecap="round"') +
