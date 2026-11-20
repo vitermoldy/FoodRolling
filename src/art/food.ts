@@ -603,3 +603,4 @@ function ratatouille(rng: Rng) {
   let out = shadow(circle(50, 50, 33, '#000')) + circle(50, 50, 32, '#c4482f', 'opacity="0.85"')
   const discs: { x: number; y: number; k: number }[] = []
   let a = 0
+  for (let i = 0; i < 46; i++) {
