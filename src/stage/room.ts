@@ -717,3 +717,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
         } else {
           // Charcoal grill with satay.
           rr(ctx, x - s * 0.5, y - s * 0.16, s * 1.0, s * 0.34, s * 0.05, '#3a2a22')
+          rr(ctx, x - s * 0.45, y - s * 0.14, s * 0.9, s * 0.2, s * 0.04, '#e0582a')
