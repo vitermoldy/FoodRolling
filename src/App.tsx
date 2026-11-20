@@ -50,3 +50,4 @@ export default function App() {
       const button = document.getElementById('upgrade-income')
       button?.scrollIntoView({ block: 'center', behavior: 'smooth' })
       button?.focus({ preventScroll: true })
+    }, 60)
