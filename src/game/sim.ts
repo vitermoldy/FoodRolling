@@ -266,3 +266,4 @@ export class BeltSim {
             seat.dish = -1
             earned += price
             this.events.push({ type: 'pay', seat: i, amount: price })
+            if (seat.eaten >= seat.want) {
