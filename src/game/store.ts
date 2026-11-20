@@ -26,3 +26,4 @@ interface UiState {
   saveError: boolean
 }
 
+interface Actions {
