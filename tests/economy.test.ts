@@ -77,3 +77,5 @@ describe('upgrades', () => {
     expect(bottleneck(jepang, full)).toBe('seats')
     expect(rateAfter(jepang, full, 'chefs')).toBeCloseTo(incomeRate(jepang, full), 9)
     expect(rateAfter(jepang, full, 'seats')).toBeGreaterThan(incomeRate(jepang, full))
+  })
+
