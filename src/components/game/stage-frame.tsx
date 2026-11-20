@@ -80,3 +80,4 @@ export function StageFrame() {
               Bantu chef
             </button>
           </div>
+          {!hintSeen && !paused && (
