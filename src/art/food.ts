@@ -609,3 +609,4 @@ function ratatouille(rng: Rng) {
     discs.push({ x: 50 + Math.cos(a) * r, y: 50 + Math.sin(a) * r, k: i % 4 })
     a += 8.4 / Math.max(6, r)
   }
+  for (const d of discs) {
