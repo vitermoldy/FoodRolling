@@ -125,3 +125,4 @@ export class Layout {
     const sign = spot.facing === 'front' ? 1 : -1
     const w = this.world(0, sign)
     if (w.z !== 0) return w.z > 0 ? 'down' : 'up'
+    return w.x > 0 ? 'right' : 'left'
