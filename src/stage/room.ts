@@ -710,3 +710,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
         break
       case 'indonesia':
         if (side === 0) {
+          for (const [dx, dy, c] of [[-0.24, 0.06, '#c9351f'], [0.24, 0.06, '#5a2c14'], [0, 0.1, '#e9b23c'], [-0.12, -0.08, '#2f6b2a'], [0.12, -0.08, '#a8642a'], [0, -0.22, '#c9351f']] as [number, number, string][]) {
