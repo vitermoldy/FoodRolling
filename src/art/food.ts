@@ -384,3 +384,4 @@ function nachos(rng: Rng) {
   for (let i = 0; i < 11; i++) {
     const a = rng() * Math.PI * 2
     const d = Math.sqrt(rng()) * 21
+    const x = 50 + Math.cos(a) * d
