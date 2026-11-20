@@ -577,3 +577,4 @@ function quiche(rng: Rng) {
   const p1 = [cx + Math.cos(a1) * r, cy + Math.sin(a1) * r]
   const shape = `M${cx} ${cy}L${f(p0[0])} ${f(p0[1])}A${r} ${r} 0 0 1 ${f(p1[0])} ${f(p1[1])}Z`
   const inner = `M${cx} ${cy - 5}L${f(p0[0] + 4)} ${f(p0[1] + 6)}A${r - 7} ${r - 7} 0 0 1 ${f(p1[0] - 4)} ${f(p1[1] + 6)}Z`
+  return shadow(path(shape, '#000')) + path(shape, '#d4a058', 'stroke="#b07f3c" stroke-width="1.2"') +
