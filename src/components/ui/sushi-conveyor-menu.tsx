@@ -594,3 +594,5 @@ export function SushiConveyorMenu({
     return () => { observer?.disconnect(); document.removeEventListener("visibilitychange", update); };
   }, [kick]);
 
+  React.useEffect(() => () => { const s = sim.current; if (s.raf) cancelAnimationFrame(s.raf); s.raf = 0; s.last = 0; }, []);
+
