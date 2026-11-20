@@ -355,3 +355,5 @@ function meksiko(ctx: Ctx, w: Wall) {
     ctx.fill()
     rr(ctx, x - u * 0.56, base - u * 0.5, u * 1.12, u * 0.16, u * 0.04, '#c8653a')
   }
+}
+
