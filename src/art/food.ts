@@ -158,3 +158,5 @@ function ikura(rng: Rng) {
   }
   out += path('M44 26 Q50 20 56 26 Q50 30 44 26Z', '#8fbf5a', 'stroke="#5b8c34" stroke-width="0.8"')
   return out
+}
+
