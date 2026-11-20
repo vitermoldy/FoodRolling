@@ -133,3 +133,5 @@ describe('save', () => {
     const capped = offlineEarnings(save, 100 * 3600_000)
     expect(capped.seconds).toBe(BALANCE.offlineCapHours * 3600)
   })
+})
+
