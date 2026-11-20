@@ -54,3 +54,4 @@ export function RestaurantStrip() {
               onKeyDown={(e) => onKeyDown(e, i)}
               style={active ? { boxShadow: `inset 0 -3px 0 ${r.theme.accent}` } : undefined}
               className={`flex min-h-[52px] shrink-0 items-center gap-2.5 rounded-[10px] px-3 py-1.5 text-left transition-colors ${active ? 'bg-paper' : 'hover:bg-stone/70'}`}
+            >
