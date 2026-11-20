@@ -26,3 +26,4 @@ export interface ConveyorDish {
 export interface SushiConveyorMenuLabels {
   add: string;
   close: string;
+  previous: string;
