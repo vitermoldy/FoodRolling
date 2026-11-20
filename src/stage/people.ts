@@ -388,3 +388,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
   ctx.fill()
   dot(ctx, side ? dir * 0.03 : 0, headY + fidget, r, look.skin)
   hairFront(ctx, look, side ? dir * 0.03 : 0, headY + fidget, r, facing)
+  face(ctx, look, side ? dir * 0.03 : 0, headY + fidget, r, facing, bite > 0.6)
