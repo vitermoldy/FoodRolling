@@ -46,3 +46,4 @@ export function parseSave(text: string | null, now: number): SaveData | null {
     if (!r || typeof r !== 'object') continue
     const st = save.restaurants[id]
     st.owned = id === 'jepang' ? true : r.owned === true
+    for (const kind of UPGRADE_KINDS) {
