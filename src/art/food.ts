@@ -488,3 +488,4 @@ function dal(rng: Rng) {
     `<path d="M32 50 Q40 36 54 40 Q66 44 62 56 Q58 64 48 60" fill="none" stroke="#f6d27a" stroke-width="2.4" stroke-linecap="round"/>` +
     scatter(rng, 7, 50, 50, 18, [1.6, 2.6], ['#ffd65a']) +
     g('rotate(30 42 44)', ellipse(42, 44, 4.5, 1.5, '#b2261b')) + g('rotate(-20 60 58)', ellipse(60, 58, 4.2, 1.4, '#b2261b')) +
+    scatter(rng, 24, 50, 50, 20, [0.4, 0.8], ['#5b3a1a']) +
