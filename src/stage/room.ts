@@ -45,3 +45,4 @@ function swag(x0: number, x1: number, y: number, sag: number, n: number) {
   return pts
 }
 
+interface Wall {
