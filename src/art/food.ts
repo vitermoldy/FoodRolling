@@ -620,3 +620,4 @@ function ratatouille(rng: Rng) {
 const DRAW: Record<string, (rng: Rng) => string> = {
   edamame, tamago, kappa, salmon, ikura, otoro,
   bruschetta, margherita, spaghetti, ravioli, lasagna, tiramisu,
+  cendol, sate, nasgor, gado, ayampop, rendang,
