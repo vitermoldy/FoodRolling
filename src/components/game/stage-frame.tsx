@@ -134,3 +134,4 @@ function LockedCard() {
             Buka {blocking?.name ?? previous?.name} dulu. Restoran terbuka berurutan.
           </p>
         )}
+      </div>
