@@ -29,3 +29,4 @@ export default function App() {
     const saver = window.setInterval(save, 5000)
     const flush = () => { tick(Date.now()); save() }
     const onVisibility = () => { if (document.hidden) flush() }
+    window.addEventListener('pagehide', flush)
