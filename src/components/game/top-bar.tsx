@@ -8,3 +8,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
   const restaurants = useGame((s) => s.restaurants)
   const rate = totalRate(restaurants)
 
+  return (
