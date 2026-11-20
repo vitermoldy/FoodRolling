@@ -63,3 +63,4 @@ export default function App() {
 
   return (
     <div className="flex min-h-svh flex-col lg:h-svh">
+      <a href="#panel" className="sr-only-focusable fixed left-3 top-3 z-50 rounded-[10px] bg-olive px-4 py-3 font-semibold text-bone">
