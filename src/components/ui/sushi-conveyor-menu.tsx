@@ -1020,3 +1020,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
   }, [source, reduced, onClose]);
 
   React.useEffect(() => {
+    const onKey = (event: KeyboardEvent) => {
