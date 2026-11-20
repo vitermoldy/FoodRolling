@@ -363,3 +363,4 @@ function india(ctx: Ctx, w: Wall) {
   grad.addColorStop(0, theme.wall)
   grad.addColorStop(1, theme.wallLow)
   ctx.fillStyle = grad
+  ctx.fillRect(0, 0, W, bottom)
