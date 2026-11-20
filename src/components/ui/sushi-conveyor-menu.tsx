@@ -892,3 +892,4 @@ export function SushiConveyorMenu({
 
   return (
     <section
+      {...rest}
