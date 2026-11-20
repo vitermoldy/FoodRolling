@@ -301,3 +301,5 @@ export class StageRenderer {
     ctx.strokeStyle = 'rgba(255,255,255,0.22)'
     ctx.lineWidth = Math.max(0.8, L.d * 0.009)
     ctx.stroke()
+  }
+
