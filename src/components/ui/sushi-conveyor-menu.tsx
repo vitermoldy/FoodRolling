@@ -211,3 +211,4 @@ function pose(g: Geo, offset: number, i: number) {
   return { x: q.x, y: q.y, k: q.k, depth: (p.z + g.r) / (2 * g.r) };
 }
 
+function centerOf(g: Geo, offset: number) {
