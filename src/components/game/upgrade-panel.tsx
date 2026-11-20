@@ -36,3 +36,4 @@ function levelText(kind: UpgradeKind, st: RestaurantState) {
   return `Level ${st[kind]} dari ${maxOf(kind)}`
 }
 
+function effectText(kind: UpgradeKind, def: RestaurantDef, st: RestaurantState): string {
