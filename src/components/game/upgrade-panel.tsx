@@ -125,3 +125,4 @@ function Meter({ label, value, max, slow }: { label: string; value: number; max:
 }
 
 function AmountPicker() {
+  const amount = useGame((s) => s.buyAmount)
