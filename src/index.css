@@ -133,3 +133,4 @@
     color: var(--color-bone);
     border-color: var(--color-olive);
   }
+  .sr-only-focusable:not(:focus) {
