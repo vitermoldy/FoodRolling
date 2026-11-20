@@ -175,3 +175,4 @@ function bruschetta(rng: Rng) {
   for (const [x, y, a] of slices) {
     let top = ''
     for (let i = 0; i < 9; i++) {
+      const cx = -6 + rng() * 12
