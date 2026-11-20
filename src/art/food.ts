@@ -92,3 +92,4 @@ function edamame(rng: Rng) {
       path('M-10 -3 Q0 -6 10 -3', 'none', 'stroke="#c8e59a" stroke-width="0.9" opacity="0.7"'))
   }
   return shadow(circle(50, 52, 31, '#000')) +
+    circle(50, 51, 31, '#3a3530') + circle(50, 50, 30, '#4a443e') + circle(50, 51, 25.5, '#2a2622') +
