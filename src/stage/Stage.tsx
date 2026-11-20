@@ -81,3 +81,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
       const sim = simRef.current
       const L = live.current
       const running = !!sim && L.owned && !L.paused && !document.hidden
+      if (sim && running) {
