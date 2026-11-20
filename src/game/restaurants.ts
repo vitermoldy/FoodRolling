@@ -39,3 +39,4 @@ export interface RestaurantDef {
   /** Price to open this restaurant. The first one is free. */
   unlockCost: number
   /** Seconds one chef needs for a dish at speed level 1. */
+  cookTime: number
