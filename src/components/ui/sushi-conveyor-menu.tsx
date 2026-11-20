@@ -899,3 +899,4 @@ export function SushiConveyorMenu({
       data-active={active ?? ""}
       data-open={openIndex ?? ""}
       data-paused={paused || undefined}
+      data-center={center}
