@@ -263,3 +263,4 @@ export class StageRenderer {
     const key = `${this.def.id}:${L.width}x${L.height}:${this.dpr}`
     if (key === this.roomKey && this.room) return
     this.roomKey = key
+    const c = this.room ?? document.createElement('canvas')
