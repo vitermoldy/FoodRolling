@@ -166,3 +166,4 @@ export class StageRenderer {
     for (let i = 0; i < steps; i++) {
       const u = (i / steps) * BELT_LENGTH
       const p = this.layout.belt(u)
+      const dd = (p.x - x) ** 2 + (p.y - y) ** 2
