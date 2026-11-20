@@ -57,3 +57,4 @@ export function RestaurantStrip() {
             >
               <span className="relative grid size-9 shrink-0 place-items-center rounded-full bg-[#fbf8f1] ring-2" style={{ ['--tw-ring-color' as string]: st.owned ? r.theme.accent : 'rgb(56 69 15 / 0.2)' }}>
                 <img src={thumb(r.dishes[5].id)} alt="" width={28} height={28} className={st.owned ? '' : 'opacity-40 grayscale'} />
+                {!st.owned && <LockIcon width={14} height={14} className="absolute -bottom-1 -right-1 rounded-full bg-paper p-[1px] text-olive" />}
