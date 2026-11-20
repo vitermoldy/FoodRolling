@@ -216,3 +216,4 @@ export class BeltSim {
         if (!this.slots[slot]) {
           this.slots[slot] = { id: chef.plateId, dish: chef.dish }
           this.events.push({ type: 'drop', chef: i, slot, plateId: chef.plateId })
+          this.startDish(chef)
