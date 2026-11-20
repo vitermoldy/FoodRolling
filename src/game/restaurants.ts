@@ -26,3 +26,4 @@ export interface ThemeDef {
   beltSide: string
   rail: string
   plate: string
+  chef: { hat: HatKind; coat: string; apron: string; trim: string }
