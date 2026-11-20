@@ -124,3 +124,5 @@ describe('save', () => {
     expect(back.money).toBe(0)
     // India cannot be open while Italia is still closed.
     expect(back.restaurants.india.owned).toBe(false)
+  })
+
