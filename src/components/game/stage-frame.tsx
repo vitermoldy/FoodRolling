@@ -79,3 +79,4 @@ export function StageFrame() {
               <CookIcon />
               Bantu chef
             </button>
+          </div>
