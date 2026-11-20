@@ -241,3 +241,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
       ctx.arc(hx - r * 0.45, hy - r * (1.6 * tall), r * 0.5, 0, Math.PI * 2)
       ctx.arc(hx + r * 0.45, hy - r * (1.6 * tall), r * 0.5, 0, Math.PI * 2)
       ctx.arc(hx, hy - r * (1.85 * tall), r * 0.55, 0, Math.PI * 2)
+      ctx.fill()
