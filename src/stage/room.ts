@@ -739,3 +739,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
           tub(ctx, x, y - s * 0.06, s * 0.34, s * 0.18, '#c8653a', '#e07a45', '#efe0c0')
           for (let i = 0; i < 4; i++) ell(ctx, x, y - s * 0.07 - i * s * 0.03, s * 0.24, s * 0.14, i % 2 ? '#ecd08d' : '#e6c47a')
         }
+        break
