@@ -95,3 +95,4 @@ export default function App() {
             id={`panel-${tab}`}
             aria-labelledby={`panel-tab-${tab}`}
             className="flex-1 px-4 py-4 sm:px-5 lg:overflow-y-auto"
+          >
