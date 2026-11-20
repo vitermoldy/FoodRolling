@@ -58,3 +58,5 @@ di tumpukan piring di depan pelanggan, di legenda menu, di ikon Pendapatan, dan 
 | Tombol nonaktif bergaris putus-putus | Status nonaktif dibedakan oleh bentuk juga, bukan hanya warna. |
 | Ikon digambar sendiri | Tumpukan piring (Pendapatan), stopwatch (Kecepatan), toque (Chef), bangku (Kursi), panci beruap (Bantu chef), gembok, koin. Bentuk penuh, bukan pustaka ikon bergaris tipis. |
 | Tanpa logo gambar | Nama FoodRolling ditulis dengan huruf tampilan. Favicon (`public/favicon.svg`) masih sementara: piring merah dengan salmon nigiri dari set hidangan yang sama, sampai pemilik memilih ikon sendiri. |
+| Tombol kecil komponen prompt dinaikkan ke 44 px | Tombol sebelumnya, jeda, dan berikutnya di sabuk menu (asli 32 px) dan tombol Tutup di dialognya mengikuti batas sentuh 44 px. |
+
