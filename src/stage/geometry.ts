@@ -185,3 +185,4 @@ export class Layout {
     const pad = this.orientation === 'landscape' ? 0.97 : 0.98
     // Keep the bottom strip free for the stage's pause and help buttons.
     const room = this.height - Math.min(60, this.height * 0.1)
+    const d = Math.min((this.width * pad) / (maxX - minX), (room * pad) / (maxY - minY))
