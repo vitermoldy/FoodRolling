@@ -71,3 +71,4 @@ export class Layout {
   private cx = 0
   private ym = 0
   private a = 1
+  private b = 0
