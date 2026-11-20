@@ -133,3 +133,4 @@ export const SEAT_OVERHEAD = (C.arrive + C.leave + (C.respawnMin + C.respawnMax)
 export const GRAB_WAIT = 0.15
 
 /** Plates per second the chefs can put on the belt. */
+export function production(def: RestaurantDef, state: RestaurantState): number {
