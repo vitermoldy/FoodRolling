@@ -27,3 +27,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
         </button>
       </div>
     </header>
+  )
