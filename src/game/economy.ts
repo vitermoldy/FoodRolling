@@ -6,3 +6,4 @@ export const UPGRADE_KINDS: UpgradeKind[] = ['income', 'speed', 'chefs', 'seats'
 
 export interface RestaurantState {
   owned: boolean
+  /** Income level, 1 to BALANCE.income.max. */
