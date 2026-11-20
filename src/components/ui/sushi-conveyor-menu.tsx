@@ -836,3 +836,4 @@ export function SushiConveyorMenu({
           </svg>
         )}
       </div>
+      {g && items.map((item, i) => {
