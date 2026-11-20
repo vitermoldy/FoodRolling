@@ -126,3 +126,4 @@ export const useGame = create<GameState>()((set, get) => ({
     get().save()
   },
 
+  select(id) {
