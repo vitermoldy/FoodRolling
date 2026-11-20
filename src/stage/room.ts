@@ -66,3 +66,4 @@ function jepang(ctx: Ctx, w: Wall) {
     ctx.fillRect(x, 0, u * 0.9, bottom)
     ctx.fillStyle = 'rgba(120,80,40,0.12)'
     ctx.fillRect(x, 0, Math.max(1, u * 0.02), bottom)
+  }
