@@ -524,3 +524,4 @@ export class StageRenderer {
       const x = f.from.x + (to.x - f.from.x) * t
       const k = f.from.k + (to.k - f.from.k) * t
       const y = f.from.y + (to.y - f.from.y) * t - Math.sin(t * Math.PI) * L.d * k * 0.35
+      this.drawPlate(x, y, L.d * k * 0.86, f.tier, f.dish)
