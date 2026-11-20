@@ -516,3 +516,4 @@ export class StageRenderer {
   }
 
   private drawFlights() {
+    const L = this.layout
