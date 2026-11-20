@@ -101,3 +101,4 @@ export function OfflineDialog() {
           <h2 id="offline-title" className="font-display text-xl font-semibold">Selamat datang kembali</h2>
           <p className="mt-2 text-sm leading-relaxed">
             Selama {formatDuration(offline.seconds)} kamu pergi, restoranmu tetap melayani pelanggan dan menghasilkan:
+          </p>
