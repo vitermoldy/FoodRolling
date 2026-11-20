@@ -43,3 +43,5 @@ export interface PersonOptions {
   action: 'idle' | 'eat' | 'cook' | 'wait'
   /** Freeze arm motion (reduced motion). */
   still?: boolean
+}
+
