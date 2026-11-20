@@ -106,3 +106,4 @@ export default function App() {
       <SettingsDialog open={settings} onClose={() => setSettings(false)} />
       <OfflineDialog />
       <Toast />
+    </div>
