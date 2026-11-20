@@ -224,3 +224,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
         ctx.beginPath()
         ctx.ellipse(kx, hy - r * 0.45, r * 0.18, r * 0.14, 0, 0, Math.PI * 2)
         ctx.fill()
+        limb(ctx, kx, hy - r * 0.4, kx - dir * r * 0.25, hy + r * 0.15, r * 0.13, '#f4f1ea')
