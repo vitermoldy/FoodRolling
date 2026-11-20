@@ -5,3 +5,5 @@ import { CloseIcon } from './icons'
 export function Toast() {
   const notice = useGame((s) => s.notice)
   const dismiss = useGame((s) => s.dismissNotice)
+  const select = useGame((s) => s.select)
+
