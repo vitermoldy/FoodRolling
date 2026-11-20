@@ -147,3 +147,4 @@ function face(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facing: F
   if (facing === 'down') {
     dot(ctx, hx - r * 0.36, hy + r * 0.05, r * 0.11, ink)
     dot(ctx, hx + r * 0.36, hy + r * 0.05, r * 0.11, ink)
+    ctx.fillStyle = 'rgba(230,110,90,0.28)'
