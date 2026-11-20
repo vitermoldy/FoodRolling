@@ -258,3 +258,4 @@ function indonesia(ctx: Ctx, w: Wall) {
       }
     }
   }
+  // Kawung batik panel at the right.
