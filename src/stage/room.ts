@@ -6,3 +6,4 @@ import { BAND, COUNTER, type Layout, type ScreenPoint } from './geometry.ts'
 
 type Ctx = CanvasRenderingContext2D
 
+function polygon(ctx: Ctx, pts: ScreenPoint[], dy = 0) {
