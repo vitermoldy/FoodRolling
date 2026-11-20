@@ -6,3 +6,4 @@ sushi kaiten di Jepang sampai bistro di Paris.
 
 ## Cara main
 
+1. **Lihat meter Dapur dan Kursi.** Pendapatan mengikuti sisi yang lebih lambat: kalau pelanggan
