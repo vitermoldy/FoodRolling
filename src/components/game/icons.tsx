@@ -92,3 +92,4 @@ export function PlayIcon(props: IconProps) {
 export function CookIcon(props: IconProps) {
   return (
     <Svg {...props}>
+      <path d="M8.5 6.5c-1-1.3 1-2.2 0-3.6M12 6.5c-1-1.3 1-2.2 0-3.6M15.5 6.5c-1-1.3 1-2.2 0-3.6" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
