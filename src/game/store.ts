@@ -182,3 +182,4 @@ export const useGame = create<GameState>()((set, get) => ({
     set({ buyAmount })
   },
   setPaused(paused) {
+    set({ paused })
