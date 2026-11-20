@@ -612,3 +612,4 @@ function ratatouille(rng: Rng) {
   for (const d of discs) {
     const [rim, mid] = kinds[d.k]
     out += circle(d.x + 0.6, d.y + 0.9, 6.4, 'rgba(60,20,10,0.25)') + circle(d.x, d.y, 6.4, rim) + circle(d.x, d.y, d.k === 0 ? 4.2 : 4.8, mid)
+    if (d.k === 0) out += scatter(rng, 3, d.x, d.y, 2.4, [0.4, 0.6], ['#ffd9a0'])
