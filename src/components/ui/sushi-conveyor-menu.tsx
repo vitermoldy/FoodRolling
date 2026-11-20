@@ -940,3 +940,4 @@ export function SushiConveyorMenu({
           action={dialogAction}
         />
       )}
+    </section>
