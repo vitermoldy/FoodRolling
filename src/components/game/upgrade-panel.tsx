@@ -241,3 +241,4 @@ function NextRestaurant() {
         <span className="num text-moss">{formatCoins(def.unlockCost)}</span>
       </div>
       <div className="mt-3 flex flex-wrap gap-2">
+        <button type="button" className="btn btn-primary flex-1" disabled={!affordable} onClick={() => unlock(next)}>
