@@ -5,3 +5,4 @@ import {
   dishPrice,
   eatTime,
   unlockedDishIndexes,
+  type RestaurantState,
