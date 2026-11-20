@@ -34,3 +34,4 @@ export default function App() {
     return () => {
       window.clearInterval(ticker)
       window.clearInterval(saver)
+      window.removeEventListener('pagehide', flush)
