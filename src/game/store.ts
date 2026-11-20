@@ -104,3 +104,4 @@ export const useGame = create<GameState>()((set, get) => ({
     const def = restaurantById(id)
     const st = s.restaurants[id]
     if (!st.owned) return
+    const { count, cost } = bulkCost(def, st, kind, s.buyAmount, s.money)
