@@ -47,3 +47,4 @@ export function ChefIcon(props: IconProps) {
     <Svg {...props}>
       <path d="M6 13.5c-2.4-.4-3.8-2.4-3.4-4.6.5-2.3 2.8-3.6 5-3 .8-2 2.4-3.1 4.4-3.1s3.6 1.1 4.4 3.1c2.2-.6 4.5.7 5 3 .4 2.2-1 4.2-3.4 4.6v2.5H6Z" fill="#fffefb" stroke="currentColor" strokeWidth="1.4" strokeLinejoin="round" />
       <rect x="6" y="16.6" width="12" height="4.4" rx="1.2" fill="currentColor" />
+    </Svg>
