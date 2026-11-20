@@ -231,3 +231,4 @@ function NextRestaurant() {
     <section aria-labelledby="next-heading" className="rounded-[14px] border border-line-strong bg-paper p-4">
       <p className="text-sm text-moss">Restoran berikutnya</p>
       <h2 id="next-heading" className="font-display text-lg font-semibold text-olive">
+        {def.name}, {def.country}
