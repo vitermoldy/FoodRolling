@@ -264,3 +264,4 @@ function tiramisu(rng: Rng) {
 function cendol(rng: Rng) {
   let worms = ''
   for (let i = 0; i < 18; i++) {
+    const a = rng() * Math.PI * 2
