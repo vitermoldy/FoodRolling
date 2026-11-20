@@ -642,3 +642,4 @@ function ell(ctx: Ctx, x: number, y: number, rx: number, ry: number, fill: strin
 function tub(ctx: Ctx, x: number, y: number, rx: number, h: number, side: string, top: string, inner?: string) {
   const ry = rx * 0.62
   ctx.fillStyle = side
+  ctx.beginPath()
