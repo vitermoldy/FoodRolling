@@ -88,3 +88,4 @@ export default function App() {
               >
                 {t.label}
               </button>
+            ))}
