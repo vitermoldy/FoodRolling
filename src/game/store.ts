@@ -167,3 +167,4 @@ export const useGame = create<GameState>()((set, get) => ({
     }
     const money = patch.money ?? s.money
     const next = nextLocked(s)
+    if (next && !s.announced.includes(next) && money >= restaurantById(next).unlockCost) {
