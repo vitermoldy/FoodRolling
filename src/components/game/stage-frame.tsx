@@ -107,3 +107,4 @@ function LockedCard() {
 
   return (
     <div className="absolute inset-0 grid place-items-center bg-[linear-gradient(to_bottom,rgb(36_40_20/0.15),rgb(36_40_20/0.45))] p-4">
+      <div className="w-full max-w-sm rounded-[14px] border border-line-strong bg-paper p-5 shadow-[0_18px_40px_-12px_rgb(30_25_10/0.45)]">
