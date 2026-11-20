@@ -534,3 +534,4 @@ export class StageRenderer {
     for (let i = 0; i < sim.seats.length; i++) {
       const seat = sim.seats[i]
       if (seat.state !== 'waiting' || seat.waited < 3.5) continue
+      const p = L.seat(i)
