@@ -27,3 +27,4 @@ export function Toast() {
             <CloseIcon width={18} height={18} />
           </button>
         </div>
+      )}
