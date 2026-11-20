@@ -129,3 +129,4 @@ describe('save', () => {
   it('pays offline time at the full rate, up to the cap', () => {
     const save = newSave(0)
     const rate = totalRate(save.restaurants)
+    expect(offlineEarnings(save, 600_000).coins).toBeCloseTo(rate * 600, 6)
