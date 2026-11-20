@@ -57,3 +57,4 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
       dialogAction={(item, close) => item.locked ? (
         <button
           type="button"
+          className="btn btn-primary"
