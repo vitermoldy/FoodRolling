@@ -1081,3 +1081,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
           {item.details && item.details.length > 0 && (
             <ul className="flex flex-wrap justify-center gap-2 sm:justify-start">
               {item.details.map((detail) => <li key={detail} className="rounded-full border border-border px-3 py-1 text-xs text-muted-foreground">{detail}</li>)}
+            </ul>
