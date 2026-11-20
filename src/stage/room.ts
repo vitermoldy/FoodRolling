@@ -129,3 +129,4 @@ function italia(ctx: Ctx, w: Wall) {
       rr(ctx, x + 1, y + 1, bw - 2, bh - 2, Math.max(1, u * 0.03), tone < 0.33 ? theme.wall : tone < 0.66 ? theme.wallLow : '#bd6a46')
     }
   }
+  // Arched windows.
