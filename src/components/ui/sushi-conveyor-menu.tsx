@@ -336,3 +336,4 @@ export function SushiConveyorMenu({
       shadow.style.opacity = (1 - 0.5 * clamp(e, 0, 1)).toFixed(3);
     }
     const anchor = anchors.current[i];
+    if (anchor) anchor.style.transform = `scale(${(1 / (q.k * (1 + LIFT_SCALE * e))).toFixed(4)})`;
