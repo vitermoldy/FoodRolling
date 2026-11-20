@@ -66,3 +66,4 @@ describe('belt simulation', () => {
   })
 
   it('dragging the belt backwards still delivers plates', () => {
+    const sim = new BeltSim(simConfig(jepang, state({ chefs: 4, seats: 8 })), 9)
