@@ -26,3 +26,4 @@ sushi kaiten di Jepang sampai bistro di Paris.
 | 2 | Trattoria Basilico | Italia | 3 rb | Dinding bata, taplak kotak-kotak, rak botol, oven batu |
 | 3 | Rumah Makan Gonjong | Indonesia | 180 rb | Ukiran Minang, atap gonjong, etalase piring Padang, sate |
 | 4 | Taquería Nopal | Meksiko | 7,5 jt | Papel picado, ubin talavera, kaktus, comal |
+| 5 | Rasoi Kesar | India | 330 jt | Lengkung jharokha, kalung marigold, lampu kuningan, tandoor |
