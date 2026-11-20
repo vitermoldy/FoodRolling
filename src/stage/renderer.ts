@@ -113,3 +113,4 @@ export class StageRenderer {
           to: () => L.belt(sim.slotPosition(e.slot)),
           start: now,
           duration: this.reduced ? 0.01 : 0.38,
+        })
