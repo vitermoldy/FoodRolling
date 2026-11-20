@@ -362,3 +362,4 @@ export function SushiConveyorMenu({
     const g = L.geo;
     const s = sim.current;
     if (!g) return null;
+    let best = null as number | null;
