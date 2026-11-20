@@ -435,3 +435,4 @@ function quesadilla(rng: Rng) {
   return out + scatter(rng, 6, 50, 50, 6, [1.2, 2], ['#ffd23f', '#d8412d'])
 }
 
+function burrito(rng: Rng) {
