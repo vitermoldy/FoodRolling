@@ -21,3 +21,4 @@ function measure(st: RestaurantState, seconds = 1500, seed = 7) {
   return { coins: coins / seconds, plates: eaten / seconds }
 }
 
+describe('belt layout', () => {
