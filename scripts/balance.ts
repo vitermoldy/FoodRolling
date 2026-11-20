@@ -48,3 +48,4 @@ while (t < 12 * 3600) {
       },
     })
   }
+  options.sort((a, b) => a.payback - b.payback)
