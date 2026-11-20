@@ -102,3 +102,4 @@ function nigiriRice(rng: Rng, y: number, w = 50) {
 }
 
 function tamago(rng: Rng) {
+  let out = ''
