@@ -97,3 +97,4 @@ describe('save', () => {
   it('round-trips through JSON', () => {
     const save = newSave(1000)
     save.money = 1234.5
+    save.restaurants.jepang.chefs = 3
