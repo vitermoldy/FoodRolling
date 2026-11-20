@@ -39,3 +39,4 @@ export function SpeedIcon(props: IconProps) {
       <path d="M12 13.5 L15.6 9.4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
       <circle cx="12" cy="13.5" r="1.4" fill="currentColor" />
     </Svg>
+  )
