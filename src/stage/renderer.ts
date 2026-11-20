@@ -394,3 +394,4 @@ export class StageRenderer {
       const img = this.food.get(this.def.dishes[dish]?.id ?? '')
       if (img && img.complete && img.naturalWidth > 0 && progress > 0.08) {
         const fs = s * 0.5
+        ctx.save()
