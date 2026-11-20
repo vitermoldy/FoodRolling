@@ -519,3 +519,4 @@ function thali(rng: Rng) {
   bowls.forEach(([c, hi], i) => {
     const a = (i / 6) * Math.PI * 2 - Math.PI / 2
     const x = 50 + Math.cos(a) * 22
+    const y = 50 + Math.sin(a) * 22
