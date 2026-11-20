@@ -313,3 +313,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
   const dir = facing === 'left' ? -1 : 1
   const side = facing === 'left' || facing === 'right'
 
+  // Contact shadow.
