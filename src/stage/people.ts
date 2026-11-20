@@ -157,3 +157,4 @@ function face(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facing: F
       ctx.beginPath()
       ctx.ellipse(hx, hy + r * 0.45, r * 0.13, r * 0.11, 0, 0, Math.PI * 2)
       ctx.fill()
+    } else {
