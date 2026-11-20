@@ -316,3 +316,4 @@ export function SushiConveyorMenu({
   const paintPlate = React.useCallback((i: number) => {
     const L = live.current;
     const g = L.geo;
+    const s = sim.current;
