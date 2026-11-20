@@ -29,3 +29,4 @@ export interface ThemeDef {
   chef: { hat: HatKind; coat: string; apron: string; trim: string }
 }
 
+export interface RestaurantDef {
