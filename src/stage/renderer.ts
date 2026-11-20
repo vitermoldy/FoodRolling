@@ -121,3 +121,4 @@ export class StageRenderer {
         this.flights.push({
           plateId: e.plateId,
           dish,
+          tier: this.def.dishes[dish]?.tier ?? 1,
