@@ -320,3 +320,4 @@ export function SushiConveyorMenu({
     const button = plates.current[i];
     if (!g || !button) return;
     const q = pose(g, s.offset, i);
+    const e = s.lift[i] ?? 0;
