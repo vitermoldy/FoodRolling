@@ -136,3 +136,4 @@ describe('save', () => {
 })
 
 describe('format', () => {
+  it('uses the Indonesian short scale and a decimal comma', () => {
