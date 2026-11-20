@@ -820,3 +820,4 @@ export function SushiConveyorMenu({
                 <stop offset="0" style={{ stopColor: "var(--island)" }} />
                 <stop offset="1" style={{ stopColor: "var(--island-low)" }} />
               </linearGradient>
+            </defs>
