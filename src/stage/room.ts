@@ -584,3 +584,4 @@ function counterAndBelt(ctx: Ctx, layout: Layout, id: RestaurantId, theme: Theme
   ctx.beginPath()
   polygon(ctx, outer)
   ctx.fillStyle = id === 'italia' ? checker(ctx, d * 0.28) ?? theme.counter : theme.counter
+  ctx.fill()
