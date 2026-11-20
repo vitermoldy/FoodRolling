@@ -5,3 +5,4 @@ import { formatCoins, formatDuration } from '@/lib/format'
 import { CloseIcon } from './icons'
 
 /** Native modal dialog: focus moves in, Escape closes, focus returns to the opener. */
+function Modal({ open, onClose, labelledBy, children }: { open: boolean; onClose: () => void; labelledBy: string; children: React.ReactNode }) {
