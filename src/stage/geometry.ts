@@ -134,3 +134,4 @@ export class Layout {
     return this.at(spot.p, sign * (RADIUS - CHEF_IN))
   }
 
+  station(index: number): ScreenPoint {
