@@ -101,3 +101,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     if (new URLSearchParams(window.location.search).has('debug')) {
       Object.assign(window, { __stage: { get sim() { return simRef.current }, renderer } })
     }
+    return () => {
