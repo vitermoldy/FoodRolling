@@ -54,3 +54,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     name: 'Kaiten Hinoki',
     country: 'Jepang',
     blurb: 'Bar sushi kaiten berdinding kayu hinoki, dengan lentera kertas dan tirai noren di pintu.',
+    scale: 1,
