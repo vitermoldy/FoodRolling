@@ -168,3 +168,4 @@ export class StageRenderer {
       const p = this.layout.belt(u)
       const dd = (p.x - x) ** 2 + (p.y - y) ** 2
       if (dd < bestD) { bestD = dd; best = u }
+    }
