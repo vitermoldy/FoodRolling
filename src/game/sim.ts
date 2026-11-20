@@ -238,3 +238,4 @@ export class BeltSim {
           }
           break
         case 'arriving':
+          seat.timer -= h
