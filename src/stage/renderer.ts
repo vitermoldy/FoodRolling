@@ -38,3 +38,4 @@ const STATION_TOP: Record<RestaurantId, [string, string]> = {
   prancis: ['#d5d8dc', '#9ba1a8'],
 }
 
+function ease(t: number) {
