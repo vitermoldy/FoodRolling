@@ -105,3 +105,4 @@ export function unlockedDishIndexes(def: RestaurantDef, state: RestaurantState):
 /** The next dish the income upgrade brings to the menu, with the level it needs. */
 export function nextDish(def: RestaurantDef, state: RestaurantState): { dish: DishDef; level: number } | null {
   for (let i = 0; i < def.dishes.length; i++) {
+    const level = BALANCE.dishUnlock[i]
