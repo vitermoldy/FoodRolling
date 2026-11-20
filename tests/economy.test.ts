@@ -115,3 +115,4 @@ describe('save', () => {
     rs.jepang.chefs = 99
     rs.jepang.seats = -5
     rs.jepang.income = 'lots'
+    rs.india.owned = true
