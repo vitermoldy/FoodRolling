@@ -81,3 +81,4 @@ export interface Seat {
   look: number
   want: number
   eaten: number
+  bill: number
