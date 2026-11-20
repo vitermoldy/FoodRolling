@@ -305,3 +305,4 @@ export class StageRenderer {
 
   private drawPlate(x: number, y: number, size: number, tier: number, dish: number, foodLeft = 1, alpha = 1) {
     const ctx = this.ctx
+    const rx = size / 2
