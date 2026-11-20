@@ -550,3 +550,4 @@ function croissant(rng: Rng) {
     const bend = x < 50 ? -4 : x > 50 ? 4 : 0
     out += `<path d="M${x} ${f(top + 1)} Q${x + bend} ${f((top + bottom) / 2)} ${x} ${f(bottom - 1)}" fill="none" stroke="#a8621e" stroke-width="1.5" stroke-linecap="round"/>`
   }
+  out += path('M32 40 Q50 30 68 40 Q60 48 50 48 Q40 48 32 40Z', '#f0b25a', 'opacity="0.85"')
