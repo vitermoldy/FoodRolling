@@ -197,3 +197,4 @@ export const RESTAURANTS: RestaurantDef[] = [
       { id: 'brulee', name: 'Crème brûlée', tier: 4, description: 'Custard vanila dengan lapisan gula karamel yang diketuk pecah.', details: ['1 ramekin', 'Telur', 'Susu'] },
       { id: 'ratatouille', name: 'Ratatouille', tier: 5, description: 'Irisan terung, zukini, dan tomat yang disusun melingkar lalu dipanggang.', details: ['1 piring', 'Vegan', 'Pilihan chef'] },
     ],
+    theme: {
