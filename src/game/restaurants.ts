@@ -171,3 +171,4 @@ export const RESTAURANTS: RestaurantDef[] = [
       { id: 'butterchicken', name: 'Butter chicken', tier: 4, description: 'Ayam tandoor dalam saus tomat bermentega dan krim.', details: ['1 mangkuk', 'Susu'] },
       { id: 'thali', name: 'Thali', tier: 5, description: 'Nampan bundar dengan nasi, roti, dan enam mangkuk kecil lauk.', details: ['1 nampan', 'Pilihan chef'] },
     ],
+    theme: {
