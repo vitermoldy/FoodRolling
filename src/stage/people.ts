@@ -332,3 +332,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
 
   const cook = o.action === 'cook'
   const chop = cook ? Math.sin(t * 11) : 0
+  const bite = o.action === 'eat' ? (Math.sin(t * 4.2) + 1) / 2 : 0
