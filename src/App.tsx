@@ -32,3 +32,4 @@ export default function App() {
     window.addEventListener('pagehide', flush)
     document.addEventListener('visibilitychange', onVisibility)
     return () => {
+      window.clearInterval(ticker)
