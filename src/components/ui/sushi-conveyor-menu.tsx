@@ -331,3 +331,4 @@ export function SushiConveyorMenu({
     const shade = shades.current[i];
     if (shade) shade.style.opacity = (BACK_SHADE * clamp(1 - q.depth, 0, 1) * (1 - 0.7 * clamp(e, 0, 1))).toFixed(3);
     const shadow = shadows.current[i];
+    if (shadow) {
