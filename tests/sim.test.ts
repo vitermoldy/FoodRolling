@@ -29,3 +29,4 @@ describe('belt layout', () => {
 })
 
 describe('belt simulation', () => {
+  it('never loses or duplicates a plate', () => {
