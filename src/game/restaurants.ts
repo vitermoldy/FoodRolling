@@ -86,3 +86,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     eatTime: 4.4,
     beltSpeed: 1.9,
     dishes: [
+      { id: 'bruschetta', name: 'Bruschetta', tier: 1, description: 'Roti panggang dengan tomat cincang, bawang putih, dan daun basil.', details: ['3 iris', 'Vegan'] },
