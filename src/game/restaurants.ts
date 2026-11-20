@@ -33,3 +33,4 @@ export interface RestaurantDef {
   id: RestaurantId
   name: string
   country: string
+  blurb: string
