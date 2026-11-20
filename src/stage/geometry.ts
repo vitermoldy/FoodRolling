@@ -73,3 +73,4 @@ export class Layout {
   private a = 1
   private b = 0
   private depth = 1
+  /** Screen y where the back wall meets the floor. */
