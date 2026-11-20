@@ -589,3 +589,4 @@ function brulee(rng: Rng) {
   for (let i = 0; i < 24; i++) {
     const a = (i / 24) * Math.PI * 2
     flute += circle(50 + Math.cos(a) * 30, 50 + Math.sin(a) * 30, 3.2, '#f6f5f1')
+  }
