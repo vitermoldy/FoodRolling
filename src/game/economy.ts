@@ -57,3 +57,4 @@ export function bulkCost(
 ): { count: number; cost: number } {
   let level = state[kind]
   let cost = 0
+  let count = 0
