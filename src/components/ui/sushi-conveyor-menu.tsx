@@ -843,3 +843,4 @@ export function SushiConveyorMenu({
         const mask = `url("${item.image}") 0 0 / 100% 100% no-repeat`;
         return (
           <button
+            key={item.id}
