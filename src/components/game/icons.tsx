@@ -26,3 +26,4 @@ export function IncomeIcon(props: IconProps) {
       <ellipse cx="12" cy="14" rx="8.5" ry="3.2" fill="#3f9450" />
       <ellipse cx="12" cy="10" rx="8.5" ry="3.2" fill="#c99317" />
       <ellipse cx="12" cy="9.6" rx="5.6" ry="1.9" fill="#fbf8f1" />
+    </Svg>
