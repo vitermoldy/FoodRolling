@@ -478,3 +478,4 @@ export function SushiConveyorMenu({
 
   hoverRef.current = (hit: number | null) => {
     const current = live.current.active;
+    if (hit === current) {
