@@ -27,3 +27,4 @@ export default function App() {
     const { tick, save } = useGame.getState()
     const ticker = window.setInterval(() => tick(Date.now()), 250)
     const saver = window.setInterval(save, 5000)
+    const flush = () => { tick(Date.now()); save() }
