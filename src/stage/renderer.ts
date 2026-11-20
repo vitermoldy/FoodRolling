@@ -20,3 +20,5 @@ interface Flight {
   to: () => ScreenPoint
   start: number
   duration: number
+}
+
