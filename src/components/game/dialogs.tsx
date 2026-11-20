@@ -72,3 +72,4 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
             <div className="mt-3 flex flex-wrap gap-2">
               <button type="button" className="btn btn-quiet" onClick={() => setConfirm(false)}>Batal</button>
               <button
+                type="button"
