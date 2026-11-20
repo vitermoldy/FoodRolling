@@ -429,3 +429,4 @@ export class StageRenderer {
       facing: this.layout.chefFacing(index),
       look: this.chefLook(index),
       chef,
+      time: this.time + index * 0.7,
