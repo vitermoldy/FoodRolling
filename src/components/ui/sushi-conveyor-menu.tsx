@@ -628,3 +628,4 @@ export function SushiConveyorMenu({
     plates.current[index]?.focus({ preventScroll: true });
   }, [openIndex, lifted]);
 
+  const local = (event: React.PointerEvent) => {
