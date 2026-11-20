@@ -62,3 +62,4 @@ Vite sudah dikunci ke satu ejaan lewat `vite.config.ts`. Tambahkan `?debug` ke a
 
 Restoran yang sedang dilihat dihitung lewat simulasi sabuk; restoran lain dan waktu offline memakai
 rumus `min(dapur, kursi) x harga rata-rata`. Tes `tests/sim.test.ts` menjaga keduanya tetap selisih
+kurang dari 10%.
