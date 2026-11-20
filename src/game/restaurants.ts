@@ -83,3 +83,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     scale: 14,
     unlockCost: 3_000,
     cookTime: 3.4,
+    eatTime: 4.4,
