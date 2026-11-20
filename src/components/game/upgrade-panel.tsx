@@ -62,3 +62,4 @@ export function UpgradePanel() {
   const st = useGame((s) => s.restaurants[s.current])
   const def = restaurantById(current)
 
+  if (!st.owned) {
