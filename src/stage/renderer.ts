@@ -511,3 +511,4 @@ export class StageRenderer {
     }
     this.ctx.save()
     this.ctx.globalAlpha = alpha
+    drawPerson(this.ctx, x, y, L.d * p.k, { facing: L.facingIn(u), look, time: this.time + index * 0.9, action, still: this.reduced })
