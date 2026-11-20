@@ -98,3 +98,4 @@ export const useGame = create<GameState>()((set, get) => ({
   announced: [],
   saveError: false,
 
+  buy(kind) {
