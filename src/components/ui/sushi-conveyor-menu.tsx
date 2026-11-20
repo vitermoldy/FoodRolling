@@ -726,3 +726,5 @@ export function SushiConveyorMenu({
   const onDialogAdd = React.useCallback(() => {
     const item = openIndex === null ? undefined : items[openIndex];
     if (item) live.current.onAdd?.(item);
+  }, [openIndex, items]);
+
