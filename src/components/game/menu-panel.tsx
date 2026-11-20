@@ -12,3 +12,4 @@ function plateUrl(id: string, plate: string) {
   const key = `${id}:${plate}`
   let url = plates.get(key)
   if (!url) {
+    url = toDataUrl(plateSvg(id, plate))
