@@ -168,3 +168,4 @@ function makeGeo(width: number, n: number, d: number, kb: number): Geo {
 }
 
 function halfSpan(g: Geo) {
+  let span = 0;
