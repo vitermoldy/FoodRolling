@@ -396,3 +396,4 @@ function india(ctx: Ctx, w: Wall) {
       ctx.moveTo(x + k - ah * 1.2 + aw, y - aw)
       ctx.lineTo(x + k + aw, y + ah)
     }
+    ctx.stroke()
