@@ -27,3 +27,4 @@ interface UiState {
 }
 
 interface Actions {
+  buy: (kind: UpgradeKind) => void
