@@ -143,3 +143,4 @@ describe('format', () => {
     expect(formatCoins(15_000_000_000)).toBe('15 M')
     expect(formatDuration(7980)).toBe('2 jam 13 menit')
   })
+})
