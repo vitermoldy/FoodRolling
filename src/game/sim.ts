@@ -44,3 +44,4 @@ export const CHEF_SPOTS: { p: number; facing: Facing; u: number }[] = [
   { p: 3.5, facing: 'back', u: backU(3.5) },
 ]
 
+export function wrap(u: number): number {
