@@ -486,3 +486,4 @@ export class StageRenderer {
     const ctx = this.ctx
     const s = this.layout.d * p.k
     ctx.fillStyle = 'rgba(25,15,5,0.16)'
+    ctx.beginPath()
