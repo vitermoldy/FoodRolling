@@ -88,3 +88,4 @@ function edamame(rng: Rng) {
   for (const [x, y, a] of spots) {
     pods += g(`translate(${x} ${y}) rotate(${a})`,
       rect(-11, -4.6, 22, 9.2, 4.6, '#7fb446', 'stroke="#577f28" stroke-width="1"') +
+      ellipse(-6, 0, 3.4, 2.8, '#a4cf6b') + ellipse(0, 0, 3.4, 2.8, '#a4cf6b') + ellipse(6, 0, 3.4, 2.8, '#a4cf6b') +
