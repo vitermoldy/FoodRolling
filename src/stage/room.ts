@@ -387,3 +387,4 @@ function india(ctx: Ctx, w: Wall) {
     ctx.save()
     arch(0)
     ctx.clip()
+    ctx.strokeStyle = theme.accent
