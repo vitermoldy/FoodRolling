@@ -138,3 +138,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
 
   const local = (e: React.PointerEvent) => {
     const box = canvasRef.current!.getBoundingClientRect()
+    return { x: e.clientX - box.left, y: e.clientY - box.top }
