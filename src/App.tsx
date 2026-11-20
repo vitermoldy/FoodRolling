@@ -77,3 +77,4 @@ export default function App() {
                 key={t.id}
                 ref={(node) => { tabRefs.current[i] = node }}
                 type="button"
+                role="tab"
