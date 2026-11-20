@@ -5,3 +5,4 @@ export function makeRng(seed: number): () => number {
     a = (a + 0x6d2b79f5) >>> 0
     let t = a
     t = Math.imul(t ^ (t >>> 15), t | 1)
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61)
