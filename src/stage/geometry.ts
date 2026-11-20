@@ -4,3 +4,4 @@
 // where the loop's long axis runs into the screen instead of across it.
 import { BELT_LENGTH, CHEF_SPOTS, RADIUS, SEAT_SPOTS, STRAIGHT } from '../game/sim.ts'
 
+export const BAND = 1.22
