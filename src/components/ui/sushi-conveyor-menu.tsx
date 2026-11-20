@@ -195,3 +195,4 @@ function slatPath(g: Geo, offset: number, shift: number) {
   const pitch = g.l / g.slats;
   const bulge = pitch * 0.2;
   let d = "";
+  for (let j = 0; j < g.slats; j++) {
