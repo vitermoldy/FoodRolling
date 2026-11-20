@@ -678,3 +678,5 @@ export function SushiConveyorMenu({
       s.lock = false;
     }
     hoverRef.current(hitTest(at.x, at.y));
+  };
+
