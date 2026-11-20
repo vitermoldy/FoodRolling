@@ -363,3 +363,4 @@ export class StageRenderer {
         ctx.fill()
       }
     })
+    ctx.restore()
