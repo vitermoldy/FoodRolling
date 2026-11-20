@@ -32,3 +32,5 @@ export const SEAT_SPOTS: number[] = [
   leftU(Math.PI / 3), rightU(Math.PI / 3), leftU((2 * Math.PI) / 3), rightU((2 * Math.PI) / 3),
 ]
 
+export type Facing = 'front' | 'back'
+
