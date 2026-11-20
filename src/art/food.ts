@@ -610,3 +610,4 @@ function ratatouille(rng: Rng) {
     a += 8.4 / Math.max(6, r)
   }
   for (const d of discs) {
+    const [rim, mid] = kinds[d.k]
