@@ -462,3 +462,4 @@ export class StageRenderer {
       ctx.strokeStyle = this.def.theme.accent
       ctx.lineWidth = Math.max(2, s * 0.05)
       ctx.beginPath()
+      ctx.arc(rx, ry, r + s * 0.35 * t, 0, Math.PI * 2)
