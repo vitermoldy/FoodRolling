@@ -27,3 +27,4 @@ export function levelOf(state: RestaurantState, kind: UpgradeKind): number {
 export function maxOf(kind: UpgradeKind): number {
   if (kind === 'income') return BALANCE.income.max
   if (kind === 'speed') return BALANCE.speed.max
+  if (kind === 'chefs') return BALANCE.chefs.max
