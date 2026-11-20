@@ -25,3 +25,4 @@ sushi kaiten di Jepang sampai bistro di Paris.
 | 1 | Kaiten Hinoki | Jepang | gratis | Dinding kayu hinoki, shoji, noren, lentera kertas |
 | 2 | Trattoria Basilico | Italia | 3 rb | Dinding bata, taplak kotak-kotak, rak botol, oven batu |
 | 3 | Rumah Makan Gonjong | Indonesia | 180 rb | Ukiran Minang, atap gonjong, etalase piring Padang, sate |
+| 4 | Taquería Nopal | Meksiko | 7,5 jt | Papel picado, ubin talavera, kaktus, comal |
