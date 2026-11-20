@@ -104,3 +104,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     return () => {
       cancelAnimationFrame(raf)
       observer.disconnect()
+      media.removeEventListener('change', applyMotion)
