@@ -286,3 +286,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
       ctx.closePath()
       ctx.fill()
       ctx.fillStyle = chef.trim
+      roundRect(ctx, hx - r * 1.0, hy - r * 0.48, r * 2, r * 0.14, r * 0.05)
