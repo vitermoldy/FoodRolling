@@ -71,3 +71,5 @@ export function UpgradePanel() {
         <NextRestaurant />
       </div>
     )
+  }
+
