@@ -293,3 +293,4 @@ function sate(rng: Rng) {
     for (let i = 0; i < 4; i++) {
       const t = 0.18 + i * 0.19
       const x = 18 + ox + t * 60
+      const y = 74 + oy - t * 50
