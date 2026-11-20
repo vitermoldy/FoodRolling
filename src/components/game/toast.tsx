@@ -20,3 +20,4 @@ export function Toast() {
           <p className="flex-1">{notice.text}</p>
           {notice.goTo && (
             <button type="button" className="btn bg-bone px-3 text-olive hover:bg-white" onClick={() => { select(notice.goTo!); dismiss() }}>
+              Lihat
