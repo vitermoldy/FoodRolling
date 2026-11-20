@@ -180,3 +180,4 @@ export class Layout {
     for (let i = 0; i < CHEF_SPOTS.length; i++) take(this.chef(i), STAND_HEIGHT, 0.45, 0)
     const back = this.project(0, -this.depth - 0.5)
     // Leave a band of back wall above the scene for the room's decoration.
+    const wall = this.orientation === 'landscape' ? 1.7 : 1.1
