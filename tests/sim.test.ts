@@ -52,3 +52,4 @@ describe('belt simulation', () => {
     for (let t = 0; t < 300; t += 0.1) {
       paid += sim.step(0.1)
       for (const e of sim.events) if (e.type === 'pay') reported += e.amount
+      sim.events.length = 0
