@@ -295,3 +295,4 @@ export class BeltSim {
   }
 
   private newSeat(): Seat {
+    return {
