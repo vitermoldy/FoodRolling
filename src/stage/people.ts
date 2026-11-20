@@ -70,3 +70,4 @@ function dot(ctx: Ctx, x: number, y: number, r: number, color: string) {
 }
 
 function shade(hex: string, amount: number): string {
+  const n = parseInt(hex.slice(1), 16)
