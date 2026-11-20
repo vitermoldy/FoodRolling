@@ -183,3 +183,4 @@ function italia(ctx: Ctx, w: Wall) {
   }
   rr(ctx, sx, sy, sw, u * 0.14, u * 0.04, '#6c432a')
   // String lights.
+  const pts = swag(-u, W + u, bottom * 0.07, bottom * 0.12, 26)
