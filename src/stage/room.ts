@@ -143,3 +143,4 @@ function italia(ctx: Ctx, w: Wall) {
     sky.addColorStop(1, '#e7f3ea')
     ctx.fillStyle = sky
     ctx.beginPath()
+    ctx.roundRect(x, y, ww, wh, [ww / 2, ww / 2, 0, 0])
