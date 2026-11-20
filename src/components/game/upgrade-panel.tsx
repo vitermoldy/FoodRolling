@@ -227,3 +227,4 @@ function NextRestaurant() {
   const def = restaurantById(next)
   const affordable = canUnlock({ restaurants, money }, next)
   const share = Math.min(1, money / def.unlockCost)
+  return (
