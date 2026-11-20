@@ -116,3 +116,4 @@ export class StageRenderer {
         })
       } else if (e.type === 'grab') {
         const seat = sim.seats[e.seat]
+        const dish = seat?.dish ?? 0
