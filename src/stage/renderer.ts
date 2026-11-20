@@ -252,3 +252,5 @@ export class StageRenderer {
       img.src = toDataUrl(foodSvg(dish.id, 256))
       this.food.set(dish.id, img)
     }
+  }
+
