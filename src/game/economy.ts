@@ -149,3 +149,4 @@ export function platesPerSecond(def: RestaurantDef, state: RestaurantState): num
 /** Expected coins per second of a running restaurant. */
 export function incomeRate(def: RestaurantDef, state: RestaurantState): number {
   if (!state.owned) return 0
+  return platesPerSecond(def, state) * averagePrice(def, state)
