@@ -307,3 +307,4 @@ function nasgor(rng: Rng) {
   return shadow(circle(48, 52, 27, '#000')) +
     path(blob(rng, 48, 52, 27, 0.12, 14), '#c0803f') +
     grains(rng, 70, 48, 52, 24, ['#d9a061', '#a96a31', '#e2b47a', '#8f5526'], 1.25) +
+    scatter(rng, 6, 48, 52, 20, [0.9, 1.4], ['#d2422e', '#4f8a36']) +
