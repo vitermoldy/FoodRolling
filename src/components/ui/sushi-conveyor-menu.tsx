@@ -523,3 +523,5 @@ export function SushiConveyorMenu({
     L.onPausedChange?.(next);
     if (!next && L.active !== null && !focusVisible() && !sim.current.inside) setActive(null);
     kick();
+  };
+
