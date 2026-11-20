@@ -795,3 +795,4 @@ export function SushiConveyorMenu({
         const s = sim.current;
         s.inside = false;
         s.lock = false;
+        const current = live.current.active;
