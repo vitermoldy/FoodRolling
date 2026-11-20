@@ -108,3 +108,5 @@ function Summary({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
       </p>
     </section>
   )
+}
+
