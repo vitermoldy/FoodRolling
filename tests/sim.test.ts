@@ -65,3 +65,4 @@ describe('belt simulation', () => {
     expect(sim.chefs[0].progress).toBeCloseTo(Math.min(1, before + BALANCE.helpProgress), 6)
   })
 
+  it('dragging the belt backwards still delivers plates', () => {
