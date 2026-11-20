@@ -156,3 +156,4 @@ class StageBoundary extends React.Component<{ children: React.ReactNode }, { fai
       )
     }
     return this.props.children
+  }
