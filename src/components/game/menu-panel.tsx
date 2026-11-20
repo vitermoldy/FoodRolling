@@ -56,3 +56,4 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
       labels={{ add: 'Tutup', close: 'Tutup', previous: 'Piring sebelumnya', next: 'Piring berikutnya', pause: 'Jeda sabuk menu' }}
       dialogAction={(item, close) => item.locked ? (
         <button
+          type="button"
