@@ -86,3 +86,4 @@ function torso(ctx: Ctx, cx: number, top: number, bottom: number, wTop: number, 
   ctx.lineTo(cx - wBottom / 2, bottom)
   ctx.quadraticCurveTo(cx, bottom + 0.06, cx + wBottom / 2, bottom)
   ctx.lineTo(cx + wTop / 2, top + 0.12)
+  ctx.quadraticCurveTo(cx + wTop / 2 + 0.02, top + 0.02, cx + wTop / 2 - 0.06, top)
