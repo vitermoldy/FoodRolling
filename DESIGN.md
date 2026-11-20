@@ -35,3 +35,5 @@ di tumpukan piring di depan pelanggan, di legenda menu, di ikon Pendapatan, dan 
 | Hijau | #3f9450 | 1,8 |
 | Merah | #cf4430 | 3,2 |
 | Emas | #c99317 | 5,5 |
+| Hitam | #2b2a28 | 9 |
+
