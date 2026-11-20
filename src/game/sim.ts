@@ -19,3 +19,4 @@ export const BELT_LENGTH = 2 * STRAIGHT + 2 * Math.PI * RADIUS
 export const SLOT_COUNT = BELT.slots
 export const PITCH = BELT_LENGTH / SLOT_COUNT
 
+const frontU = (x: number) => STRAIGHT / 2 - x
