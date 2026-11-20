@@ -522,3 +522,4 @@ export class StageRenderer {
       const t = ease(Math.min(1, (this.time - f.start) / f.duration))
       const to = f.to()
       const x = f.from.x + (to.x - f.from.x) * t
+      const k = f.from.k + (to.k - f.from.k) * t
