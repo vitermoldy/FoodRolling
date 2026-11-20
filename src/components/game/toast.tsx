@@ -29,3 +29,4 @@ export function Toast() {
         </div>
       )}
     </div>
+  )
