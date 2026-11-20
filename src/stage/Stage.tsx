@@ -26,3 +26,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
   const markLive = useGame((s) => s.markLive)
   const def = restaurantById(current)
 
+  const wrapRef = React.useRef<HTMLDivElement>(null)
