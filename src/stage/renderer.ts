@@ -515,3 +515,4 @@ export class StageRenderer {
     this.ctx.restore()
   }
 
+  private drawFlights() {
