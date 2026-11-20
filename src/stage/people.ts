@@ -197,3 +197,4 @@ function face(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facing: F
   ctx.ellipse(hx + dir * r * 0.7, hy + r * 0.48, r * (mouthOpen ? 0.1 : 0.12), r * (mouthOpen ? 0.09 : 0.04), 0, 0, Math.PI * 2)
   ctx.fill()
   if (look.glasses) {
+    ctx.strokeStyle = '#2a2a2a'
