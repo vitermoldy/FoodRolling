@@ -267,3 +267,4 @@ function indonesia(ctx: Ctx, w: Wall) {
   ctx.beginPath()
   ctx.rect(bx, by, bw, eh)
   ctx.clip()
+  const cell = u * 0.5
