@@ -1049,3 +1049,5 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
     onAdd();
     setAdded(true);
     timer.current = window.setTimeout(dismiss, reduced ? 0 : 450);
+  };
+
