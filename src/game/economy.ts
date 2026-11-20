@@ -71,3 +71,4 @@ export function bulkCost(
   return { count, cost }
 }
 
+export function incomeMult(level: number): number {
