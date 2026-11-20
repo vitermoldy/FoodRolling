@@ -183,3 +183,4 @@ export class BeltSim {
   step(dt: number): number {
     let earned = 0
     const steps = Math.max(1, Math.ceil(dt / (1 / 60)))
+    const h = dt / steps
