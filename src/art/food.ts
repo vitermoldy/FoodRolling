@@ -305,3 +305,4 @@ function sate(rng: Rng) {
 
 function nasgor(rng: Rng) {
   return shadow(circle(48, 52, 27, '#000')) +
+    path(blob(rng, 48, 52, 27, 0.12, 14), '#c0803f') +
