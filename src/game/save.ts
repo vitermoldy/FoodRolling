@@ -42,3 +42,4 @@ export function parseSave(text: string | null, now: number): SaveData | null {
   save.startedAt = finite(data.startedAt, now)
   save.savedAt = Math.min(now, finite(data.savedAt, now))
   for (const id of RESTAURANT_IDS) {
+    const r = data.restaurants?.[id]
