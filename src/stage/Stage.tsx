@@ -213,3 +213,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
         onPointerDown={onPointerDown}
         onPointerMove={onPointerMove}
         onPointerUp={(e) => finish(e, false)}
+        onPointerCancel={(e) => finish(e, true)}
