@@ -816,3 +816,4 @@ export function SushiConveyorMenu({
               <filter id={`${uid}-soft`} x="-10%" y="-30%" width="120%" height="160%">
                 <feGaussianBlur stdDeviation={(g.d * 0.06).toFixed(1)} />
               </filter>
+              <linearGradient id={`${uid}-island`} x1="0" x2="0" y1="0" y2="1">
