@@ -286,3 +286,5 @@ export class BeltSim {
       }
     }
     return earned
+  }
+
