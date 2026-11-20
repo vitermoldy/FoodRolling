@@ -111,3 +111,4 @@ export function SettingsIcon(props: IconProps) {
 
 export function CloseIcon(props: IconProps) {
   return (
+    <Svg {...props}>
