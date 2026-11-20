@@ -366,3 +366,4 @@ function india(ctx: Ctx, w: Wall) {
   ctx.fillRect(0, 0, W, bottom)
   // Jharokha arches with lattice.
   const aw = Math.min(W * 0.13, u * 2.2)
+  const ah = bottom * 0.72
