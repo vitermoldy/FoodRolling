@@ -408,3 +408,4 @@ function india(ctx: Ctx, w: Wall) {
     pts.forEach((p, k) => disc(ctx, p.x, p.y, u * 0.1, k % 2 ? '#f0a51c' : '#e8701c'))
     for (let k = 0; k < 5; k++) disc(ctx, x0, bottom * 0.04 + k * u * 0.2, u * 0.09, k % 2 ? '#f0a51c' : '#e8701c')
   }
+  // Brass lamps on a ledge in the middle.
