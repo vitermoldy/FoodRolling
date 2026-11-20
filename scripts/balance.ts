@@ -42,3 +42,4 @@ while (t < 12 * 3600) {
       payback: (def.unlockCost / gain) * 0.5,
       cost: def.unlockCost,
       label: `OPEN ${def.name}`,
+      apply: () => {
