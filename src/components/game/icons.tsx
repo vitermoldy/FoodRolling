@@ -94,3 +94,4 @@ export function CookIcon(props: IconProps) {
     <Svg {...props}>
       <path d="M8.5 6.5c-1-1.3 1-2.2 0-3.6M12 6.5c-1-1.3 1-2.2 0-3.6M15.5 6.5c-1-1.3 1-2.2 0-3.6" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
       <path d="M3.5 10h17v6.5a4 4 0 0 1-4 4h-9a4 4 0 0 1-4-4Z" fill="currentColor" />
+      <rect x="2" y="8.4" width="20" height="2.6" rx="1.3" fill="currentColor" />
