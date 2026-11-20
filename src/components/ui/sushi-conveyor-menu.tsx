@@ -565,3 +565,4 @@ export function SushiConveyorMenu({
     if (live.current.reduced) {
       s.v = 0;
       if (s.mode !== DRAG) s.mode = RUN;
+      if (!s.touched) s.offset = geo.s / 2;
