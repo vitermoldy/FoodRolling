@@ -82,3 +82,4 @@ export interface Seat {
   want: number
   eaten: number
   bill: number
+  /** Plate colours stacked in front of the customer. */
