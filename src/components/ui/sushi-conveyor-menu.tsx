@@ -296,3 +296,4 @@ export function SushiConveyorMenu({
   const live = React.useRef({
     geo: null as Geo | null, active: null as number | null, paused: false, reduced: false, open: false, count: 0, speed: 26,
     activeControlled: false, pausedControlled: false,
+    onActiveChange: undefined as ((index: number | null) => void) | undefined,
