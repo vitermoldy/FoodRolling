@@ -62,3 +62,4 @@ function boot(now: number): SaveData & Pick<UiState, 'offline'> {
   return { ...loaded, offline: away.seconds >= 60 && away.coins > 0 ? away : null }
 }
 
+let lastTick = Date.now()
