@@ -68,3 +68,4 @@ let noticeId = 1
 export function snapshot(s: SaveData): SaveData {
   return {
     v: 1,
+    money: s.money,
