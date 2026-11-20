@@ -18,3 +18,4 @@ function readHintSeen() {
 export function StageFrame() {
   const current = useGame((s) => s.current)
   const owned = useGame((s) => s.restaurants[s.current].owned)
+  const paused = useGame((s) => s.paused)
