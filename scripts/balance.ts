@@ -12,3 +12,4 @@ const fmt = (n: number) => {
 const clock = (t: number) => `${Math.floor(t / 3600)}j${String(Math.floor((t % 3600) / 60)).padStart(2, '0')}m`
 
 const states = RESTAURANTS.map((_, i) => E.newRestaurantState(i === 0))
+let money = 0
