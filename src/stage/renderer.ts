@@ -244,3 +244,4 @@ export class StageRenderer {
 
   /* ------------------------------------------------------------------------ */
 
+  private loadFood(def: RestaurantDef) {
