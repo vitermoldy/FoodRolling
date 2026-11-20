@@ -251,3 +251,4 @@ export class BeltSim {
             seat.timer = cfg.eatTime
             seat.dish = plate.dish
             seat.plateId = plate.id
+            this.events.push({ type: 'grab', seat: i, slot, plateId: plate.id })
