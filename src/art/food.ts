@@ -520,3 +520,4 @@ function thali(rng: Rng) {
     const a = (i / 6) * Math.PI * 2 - Math.PI / 2
     const x = 50 + Math.cos(a) * 22
     const y = 50 + Math.sin(a) * 22
+    out += circle(x + 0.8, y + 1.2, 9, 'rgba(0,0,0,0.15)') + circle(x, y, 9, '#b7bcc2') + circle(x, y, 7.3, c) + ellipse(x - 2, y - 2, 2.6, 1.4, hi)
