@@ -115,3 +115,4 @@ export class Layout {
   facingIn(u: number): Facing {
     const l = alongLoop(u)
     const w = this.world(-l.np, -l.nq)
+    if (Math.abs(w.z) >= Math.abs(w.x) * 0.9) return w.z > 0 ? 'down' : 'up'
