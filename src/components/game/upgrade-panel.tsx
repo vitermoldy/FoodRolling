@@ -46,3 +46,4 @@ function effectText(kind: UpgradeKind, def: RestaurantDef, st: RestaurantState):
 /** Best coins-per-second gained per coin spent among the four upgrades, for the "Paling untung" tag. */
 function bestValue(def: RestaurantDef, st: RestaurantState): UpgradeKind | null {
   let best: UpgradeKind | null = null
+  let bestScore = 0
