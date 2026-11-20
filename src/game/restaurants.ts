@@ -209,3 +209,4 @@ export const RESTAURANTS: RestaurantDef[] = [
 
 export const RESTAURANT_IDS = RESTAURANTS.map((r) => r.id)
 
+export function restaurantById(id: RestaurantId): RestaurantDef {
