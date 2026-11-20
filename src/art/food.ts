@@ -202,3 +202,4 @@ function margherita(rng: Rng) {
 }
 
 function spaghetti(rng: Rng) {
+  let pasta = ''
