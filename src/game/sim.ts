@@ -107,3 +107,4 @@ export interface SimConfig {
   tiers: number[]
 }
 
+export function simConfig(def: RestaurantDef, state: RestaurantState): SimConfig {
