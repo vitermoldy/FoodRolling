@@ -524,3 +524,5 @@ function thali(rng: Rng) {
   })
   out += path(blob(rng, 50, 50, 10, 0.2), '#fbf6ea') + grains(rng, 18, 50, 50, 8, ['#ffffff', '#ece5d2'], 1)
   return out + scatter(rng, 4, 50, 50, 5, [0.6, 0.9], ['#3f8a35'])
+}
+
