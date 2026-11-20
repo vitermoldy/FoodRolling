@@ -73,3 +73,4 @@ function shade(hex: string, amount: number): string {
   const n = parseInt(hex.slice(1), 16)
   const r = Math.max(0, Math.min(255, ((n >> 16) & 255) + amount))
   const g = Math.max(0, Math.min(255, ((n >> 8) & 255) + amount))
+  const b = Math.max(0, Math.min(255, (n & 255) + amount))
