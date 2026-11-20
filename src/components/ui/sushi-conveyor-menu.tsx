@@ -183,3 +183,4 @@ function edgePath(g: Geo, offset: number) {
   const steps = 168;
   for (let j = 0; j < steps; j++) {
     const p = along(g, (j / steps) * g.l);
+    const q = project(g, p.x + p.nx * offset, p.z + p.nz * offset);
