@@ -163,3 +163,4 @@ export class Layout {
   private fit() {
     // Measure the scene at d = 1, then scale it to fill the stage with a margin.
     this.d = 1
+    this.cx = 0
