@@ -757,3 +757,4 @@ export function SushiConveyorMenu({
       <p className={`text-sm ${current ? "font-medium text-foreground" : "text-muted-foreground"}`}>
         {current ? <>{current.name} <span className="ml-2 font-normal tabular-nums text-muted-foreground">{current.price}</span></> : caption}
       </p>
+      {current?.description && <p className="mt-0.5 text-[13px] leading-snug text-muted-foreground">{current.description}</p>}
