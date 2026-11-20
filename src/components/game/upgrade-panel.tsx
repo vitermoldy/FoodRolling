@@ -7,3 +7,4 @@ import {
   incomeMult,
   incomeRate,
   isMaxed,
+  maxOf,
