@@ -80,3 +80,4 @@ export function PauseIcon(props: IconProps) {
   )
 }
 
+export function PlayIcon(props: IconProps) {
