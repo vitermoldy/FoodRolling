@@ -51,3 +51,4 @@ export type BuyAmount = 1 | 10 | 'max'
 export function bulkCost(
   def: RestaurantDef,
   state: RestaurantState,
+  kind: UpgradeKind,
