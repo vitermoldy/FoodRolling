@@ -146,3 +146,4 @@ export class StageRenderer {
     const sim = this.sim
     if (!sim) return -1
     let best = -1
+    let bestY = -Infinity
