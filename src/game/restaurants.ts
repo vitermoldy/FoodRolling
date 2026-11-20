@@ -81,3 +81,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     country: 'Italia',
     blurb: 'Trattoria berdinding bata dengan taplak kotak-kotak, botol di rak kayu, dan oven batu.',
     scale: 14,
+    unlockCost: 3_000,
