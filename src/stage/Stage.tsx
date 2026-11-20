@@ -66,3 +66,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
       const box = wrap.getBoundingClientRect()
       renderer.resize(Math.max(1, box.width), Math.max(1, box.height), window.devicePixelRatio || 1)
     }
+    measure()
