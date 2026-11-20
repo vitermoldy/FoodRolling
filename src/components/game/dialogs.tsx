@@ -76,3 +76,4 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
                 className="btn bg-danger text-white hover:bg-[#82220f]"
                 onClick={() => { reset(); onClose() }}
               >
+                Hapus progres
