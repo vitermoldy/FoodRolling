@@ -10,3 +10,4 @@ export interface RestaurantState {
   income: number
   /** Speed level, 1 to BALANCE.speed.max. */
   speed: number
+  chefs: number
