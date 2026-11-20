@@ -10,3 +10,4 @@ export interface SaveData {
   totalEarned: number
   current: RestaurantId
   restaurants: Record<RestaurantId, RestaurantState>
+  startedAt: number
