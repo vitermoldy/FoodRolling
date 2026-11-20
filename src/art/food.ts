@@ -475,3 +475,4 @@ function samosa(rng: Rng) {
 function naan(rng: Rng) {
   const shape = 'M50 16 Q74 24 76 50 Q76 80 50 84 Q24 80 24 50 Q26 24 50 16Z'
   let char = ''
+  for (let i = 0; i < 10; i++) char += path(blob(rng, 34 + rng() * 32, 26 + rng() * 52, 2 + rng() * 3, 0.6, 6), i % 2 ? '#a7692b' : '#8c5520')
