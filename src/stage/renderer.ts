@@ -510,3 +510,4 @@ export class StageRenderer {
       this.looks.set(seed, look)
     }
     this.ctx.save()
+    this.ctx.globalAlpha = alpha
