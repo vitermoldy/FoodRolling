@@ -215,3 +215,4 @@ export class StageRenderer {
       const stack = L.counterSpot(i, 'stack')
       const eat = L.counterSpot(i, 'eat')
       let alpha = 1
+      let out = 0
