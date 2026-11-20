@@ -389,3 +389,5 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
   dot(ctx, side ? dir * 0.03 : 0, headY + fidget, r, look.skin)
   hairFront(ctx, look, side ? dir * 0.03 : 0, headY + fidget, r, facing)
   face(ctx, look, side ? dir * 0.03 : 0, headY + fidget, r, facing, bite > 0.6)
+  if (chef) hat(ctx, chef, side ? dir * 0.03 : 0, headY + fidget, r, facing)
+
