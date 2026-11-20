@@ -91,3 +91,4 @@ function torso(ctx: Ctx, cx: number, top: number, bottom: number, wTop: number, 
   ctx.fill()
 }
 
+/** Hair behind the head (long styles), drawn before the head. */
