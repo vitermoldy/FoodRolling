@@ -44,3 +44,4 @@ interface Actions {
 
 export type GameState = SaveData & UiState & Actions
 
+function readStorage(): string | null {
