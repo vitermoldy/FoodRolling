@@ -76,3 +76,4 @@ describe('upgrades', () => {
     const full = { ...st, chefs: 6, seats: 4 }
     expect(bottleneck(jepang, full)).toBe('seats')
     expect(rateAfter(jepang, full, 'chefs')).toBeCloseTo(incomeRate(jepang, full), 9)
+    expect(rateAfter(jepang, full, 'seats')).toBeGreaterThan(incomeRate(jepang, full))
