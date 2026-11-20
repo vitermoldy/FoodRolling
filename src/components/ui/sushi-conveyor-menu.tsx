@@ -124,3 +124,4 @@ function along(g: Geo, u: number): Point {
   t -= s;
   const arc = Math.PI * r;
   if (t < arc) {
+    const f = t / r;
