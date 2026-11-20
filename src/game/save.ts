@@ -69,3 +69,4 @@ export function totalRate(restaurants: Record<RestaurantId, RestaurantState>): n
 /** What the restaurants earned while the game was closed, capped at BALANCE.offlineCapHours. */
 export function offlineEarnings(save: SaveData, now: number): { seconds: number; coins: number } {
   const seconds = Math.min(BALANCE.offlineCapHours * 3600, Math.max(0, (now - save.savedAt) / 1000))
+  return { seconds, coins: seconds * totalRate(save.restaurants) }
