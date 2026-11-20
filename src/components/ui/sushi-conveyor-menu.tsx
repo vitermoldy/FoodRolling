@@ -75,3 +75,4 @@ const WIDE = 1024;
 const HOLD = 1400;
 const RUN = 0;
 const SEEK = 1;
+const DRAG = 2;
