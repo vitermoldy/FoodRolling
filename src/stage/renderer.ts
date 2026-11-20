@@ -424,3 +424,4 @@ export class StageRenderer {
   private drawChef(index: number, p: ScreenPoint, cooking: boolean, progress: number) {
     const ctx = this.ctx
     const s = this.layout.d * p.k
+    const chef = this.def.theme.chef
