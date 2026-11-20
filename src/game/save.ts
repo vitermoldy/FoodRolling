@@ -32,3 +32,4 @@ export function parseSave(text: string | null, now: number): SaveData | null {
     raw = JSON.parse(text)
   } catch {
     return null
+  }
