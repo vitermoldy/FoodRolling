@@ -158,3 +158,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     const at = local(e)
     const d = drag.current
     if (!d || d.id !== e.pointerId) {
+      if (e.pointerType === 'mouse' && sim) {
