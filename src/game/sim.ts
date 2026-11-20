@@ -124,3 +124,4 @@ const C = BALANCE.customer
 
 export class BeltSim {
   offset = 0
+  velocity = 0
