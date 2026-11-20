@@ -104,3 +104,4 @@ function hairBack(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facin
   }
 }
 
+/** Hair on top of the head for the given facing. */
