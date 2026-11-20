@@ -55,3 +55,5 @@ function bestValue(def: RestaurantDef, st: RestaurantState): UpgradeKind | null 
     if (gain > 0 && score > bestScore) { bestScore = score; best = kind }
   }
   return best
+}
+
