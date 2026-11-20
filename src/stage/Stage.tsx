@@ -167,3 +167,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     if (!sim) return
     if (!d.moved && Math.hypot(at.x - d.x, at.y - d.y) > DRAG_START) {
       d.moved = true
+      sim.holding = true
