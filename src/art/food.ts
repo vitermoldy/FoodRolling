@@ -386,3 +386,4 @@ function nachos(rng: Rng) {
     const d = Math.sqrt(rng()) * 21
     const x = 50 + Math.cos(a) * d
     const y = 50 + Math.sin(a) * d
+    const rot = rng() * 360
