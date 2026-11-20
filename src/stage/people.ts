@@ -406,3 +406,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
     const reachY = standing ? -0.6 : -0.42
     const armY = o.action === 'eat' ? reachY + (headY + 0.3 - reachY) * bite : reachY - (cook ? Math.max(0, chop) * 0.18 : 0)
     const armX = o.action === 'eat' ? reachX - bite * 0.24 : reachX
+    limb(ctx, dir * 0.02, shoulder + 0.1, dir * armX, armY, 0.13, sleeve)
