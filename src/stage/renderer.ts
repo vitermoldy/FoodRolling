@@ -189,3 +189,5 @@ export class StageRenderer {
     if (this.room) ctx.drawImage(this.room, 0, 0, L.width, L.height)
     const sim = this.sim
     if (!sim) return
+    this.drawSeams(sim)
+
