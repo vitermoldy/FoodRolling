@@ -685,3 +685,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
       case 'italia':
         if (side === 0) {
           // Stone oven: a brick dome with a glowing mouth.
+          ctx.fillStyle = '#a5532f'
