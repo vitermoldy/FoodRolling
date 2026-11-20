@@ -39,3 +39,4 @@ interface Actions {
   dismissOffline: () => void
   dismissNotice: () => void
   save: () => boolean
+  reset: () => void
