@@ -240,3 +240,4 @@ function indonesia(ctx: Ctx, w: Wall) {
   let k = 0
   // Shelves in the window, each with a row of dishes piled on plates, the Padang way.
   for (let row = 0; row < 3; row++) {
+    const sy = ey + eh * (0.32 + row * 0.3)
