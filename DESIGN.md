@@ -55,3 +55,4 @@ di tumpukan piring di depan pelanggan, di legenda menu, di ikon Pendapatan, dan 
 | Kartu upgrade dengan bobot berbeda | Upgrade yang memberi laju terbesar per koin mendapat garis tepi zaitun dan label "Paling untung untuk harganya". Chef atau kursi yang belum menambah apa pun (karena sisi lain yang menahan) menulis itu terang-terangan. |
 | Meter Dapur dan Kursi | Inti strategi: pendapatan mengikuti sisi yang lebih lambat. Bar yang menahan memakai warna aksen dan kalimat di bawahnya menyebut apa yang perlu dibeli. |
 | Radius 10 sampai 14 px, tanpa pil kecuali di dalam komponen prompt | Sudut membulat kecil seperti kartu menu. Komponen prompt mempertahankan bentuk aslinya. |
+| Tombol nonaktif bergaris putus-putus | Status nonaktif dibedakan oleh bentuk juga, bukan hanya warna. |
