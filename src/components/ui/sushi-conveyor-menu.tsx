@@ -145,3 +145,4 @@ function project(g: Geo, x: number, z: number) {
 }
 
 function makeGeo(width: number, n: number, d: number, kb: number): Geo {
+  const l = Math.max(1, n) * SPACING * d;
