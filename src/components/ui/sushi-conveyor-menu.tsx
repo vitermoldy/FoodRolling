@@ -1073,3 +1073,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
         </div>
         <div className={`relative flex flex-col gap-3 text-center transition-[opacity,translate] delay-150 duration-500 motion-reduce:transition-none sm:text-left ${shown ? "translate-y-0 opacity-100" : "translate-y-2 opacity-0"}`}>
           <p className="flex items-center justify-center gap-2 font-mono text-[11px] tracking-[0.2em] text-muted-foreground sm:justify-start">
+            <span aria-hidden="true" className={`size-2 rounded-full ${tier.dot}`} />
