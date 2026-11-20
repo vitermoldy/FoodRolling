@@ -165,3 +165,4 @@ export class Layout {
     this.d = 1
     this.cx = 0
     this.ym = 0
+    let minX = Infinity
