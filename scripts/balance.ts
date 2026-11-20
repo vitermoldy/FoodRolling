@@ -55,3 +55,4 @@ while (t < 12 * 3600) {
     money -= best.cost
     best.apply()
     continue
+  }
