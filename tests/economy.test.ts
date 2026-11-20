@@ -69,3 +69,4 @@ describe('upgrades', () => {
     expect(bulkCost(jepang, full, 'chefs', 'max', 1e30).count).toBe(0)
   })
 
+  it('more chefs only help while the kitchen is the bottleneck', () => {
