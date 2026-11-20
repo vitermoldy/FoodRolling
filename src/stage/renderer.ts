@@ -53,3 +53,4 @@ export class StageRenderer {
   sim: BeltSim | null = null
   reduced = false
   private food = new Map<string, HTMLImageElement>()
+  private flights: Flight[] = []
