@@ -734,3 +734,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
         if (side === 0) {
           ell(ctx, x, y, s * 0.46, s * 0.3, '#2a2522')
           ell(ctx, x, y - s * 0.02, s * 0.4, s * 0.25, '#3a3430')
+          for (const [dx, dy] of [[-0.15, 0], [0.15, 0.02]]) ell(ctx, x + dx * s, y + dy * s - s * 0.03, s * 0.15, s * 0.1, '#ecd08d')
