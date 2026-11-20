@@ -421,3 +421,4 @@ function india(ctx: Ctx, w: Wall) {
     ctx.fill()
     ctx.fillStyle = '#ffcc4a'
     ctx.beginPath()
+    ctx.moveTo(x, ly - u * 0.42)
