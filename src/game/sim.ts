@@ -64,3 +64,4 @@ export interface Plate {
 export type ChefState = 'cooking' | 'ready'
 
 export interface Chef {
+  state: ChefState
