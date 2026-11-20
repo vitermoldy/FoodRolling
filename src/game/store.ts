@@ -187,3 +187,4 @@ export const useGame = create<GameState>()((set, get) => ({
   setTab(tab) {
     set({ tab })
   },
+  dismissOffline() {
