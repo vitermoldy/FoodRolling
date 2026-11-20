@@ -9,3 +9,4 @@ export interface Look {
   hair: string
   style: number
   shirt: string
+  glasses: boolean
