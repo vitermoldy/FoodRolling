@@ -74,3 +74,4 @@ export interface Chef {
 
 export type SeatState = 'empty' | 'arriving' | 'waiting' | 'eating' | 'leaving'
 
+export interface Seat {
