@@ -140,3 +140,4 @@ function italia(ctx: Ctx, w: Wall) {
     ctx.fill()
     const sky = ctx.createLinearGradient(0, y, 0, y + wh)
     sky.addColorStop(0, '#a9d6ec')
+    sky.addColorStop(1, '#e7f3ea')
