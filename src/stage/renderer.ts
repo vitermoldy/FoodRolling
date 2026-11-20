@@ -411,3 +411,4 @@ export class StageRenderer {
     ctx.lineCap = 'round'
     for (let k = 0; k < 2; k++) {
       const t = (this.time * 0.8 + k * 0.5 + seed * 0.37) % 1
+      ctx.globalAlpha = (1 - t) * 0.8
