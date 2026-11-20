@@ -481,3 +481,4 @@ function prancis(ctx: Ctx, w: Wall) {
   const names = [def.dishes[1].name, def.dishes[3].name, def.dishes[5].name]
   names.forEach((n, i) => ctx.fillText(n, W / 2, cy + ch * (0.45 + i * 0.18)))
   // Globe pendant lamps.
+  for (const x of [W * 0.3, W * 0.7]) {
