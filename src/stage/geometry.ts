@@ -149,3 +149,4 @@ export class Layout {
     const u = SEAT_SPOTS[index]
     const l = alongLoop(u)
     const along = side === 'stack' ? -0.34 : 0.3
+    const out = BAND / 2 + COUNTER * 0.52
