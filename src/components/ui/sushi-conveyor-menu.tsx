@@ -339,3 +339,4 @@ export function SushiConveyorMenu({
     if (anchor) anchor.style.transform = `scale(${(1 / (q.k * (1 + LIFT_SCALE * e))).toFixed(4)})`;
   }, []);
 
+  const paintBelt = React.useCallback(() => {
