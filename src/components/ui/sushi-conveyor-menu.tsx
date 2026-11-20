@@ -933,3 +933,4 @@ export function SushiConveyorMenu({
           labels={labels}
           reduced={reduced}
           broken={!!failed[items[openIndex].id]}
+          source={openSource}
