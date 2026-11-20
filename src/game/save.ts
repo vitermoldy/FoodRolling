@@ -38,3 +38,4 @@ export function parseSave(text: string | null, now: number): SaveData | null {
   if (data.v !== 1) return null
   const save = newSave(now)
   save.money = finite(data.money, 0)
+  save.totalEarned = finite(data.totalEarned, save.money)
