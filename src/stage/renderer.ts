@@ -438,3 +438,4 @@ export class StageRenderer {
     const ry = p.y - s * 1.5
     const r = s * 0.14
     ctx.save()
+    ctx.lineWidth = Math.max(2, s * 0.05)
