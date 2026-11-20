@@ -71,3 +71,4 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
             <p className="text-sm font-semibold text-danger">Hapus semua restoran dan uang? Ini tidak bisa dibatalkan.</p>
             <div className="mt-3 flex flex-wrap gap-2">
               <button type="button" className="btn btn-quiet" onClick={() => setConfirm(false)}>Batal</button>
+              <button
