@@ -638,3 +638,4 @@ const cache = new Map<string, string>()
 export function foodMarkup(id: string): string {
   const hit = cache.get(id)
   if (hit) return hit
+  const draw = DRAW[id]
