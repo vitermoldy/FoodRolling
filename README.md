@@ -14,3 +14,4 @@ sushi kaiten di Jepang sampai bistro di Paris.
    - **Kecepatan** mempercepat chef memasak, pelanggan makan, dan sabuk berputar.
    - **Jumlah chef** menambah chef di pulau tengah (sampai 6).
    - **Tempat duduk** menambah kursi di sekeliling sabuk (sampai 16).
+   Pilih x1, x10, atau Maks untuk membeli beberapa level sekaligus.
