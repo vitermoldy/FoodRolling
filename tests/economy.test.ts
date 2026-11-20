@@ -46,3 +46,4 @@ describe('upgrades', () => {
       let last = 0
       for (let level = start; level < maxOf(kind); level++) {
         const cost = stepCost(jepang, kind, level)
+        expect(cost).toBeGreaterThan(last)
