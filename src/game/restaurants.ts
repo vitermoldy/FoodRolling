@@ -120,3 +120,4 @@ export const RESTAURANTS: RestaurantDef[] = [
       { id: 'rendang', name: 'Rendang', tier: 5, description: 'Daging sapi dimasak berjam-jam dalam santan dan rempah sampai kering.', details: ['3 potong', 'Daging sapi', 'Pilihan chef'] },
     ],
     theme: {
+      accent: '#a3311f',
