@@ -285,3 +285,4 @@ export class BeltSim {
           break
       }
     }
+    return earned
