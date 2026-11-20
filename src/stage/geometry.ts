@@ -90,3 +90,4 @@ export class Layout {
     this.fit()
   }
 
+  /** Loop coordinates to world (x across the screen, z towards the viewer). */
