@@ -213,3 +213,4 @@ export class StageRenderer {
       const seat = sim.seats[i]
       const sp = L.seat(i)
       const stack = L.counterSpot(i, 'stack')
+      const eat = L.counterSpot(i, 'eat')
