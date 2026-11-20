@@ -27,3 +27,5 @@ describe('restaurants', () => {
       expect(RESTAURANTS[i].unlockCost).toBeGreaterThan(RESTAURANTS[i - 1].unlockCost)
       expect(RESTAURANTS[i].scale).toBeGreaterThan(RESTAURANTS[i - 1].scale)
     }
+  })
+
