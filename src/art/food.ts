@@ -585,3 +585,4 @@ function quiche(rng: Rng) {
 }
 
 function brulee(rng: Rng) {
+  let flute = ''
