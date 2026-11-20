@@ -763,3 +763,4 @@ export function SushiConveyorMenu({
 
   const controls = count > 1 && (
     <div className="relative z-10 mt-1 flex items-center justify-center gap-1.5">
+      <button type="button" data-control="previous" aria-label={labels.previous} onClick={() => go((live.current.active ?? sim.current.center) - 1, false)} className={control}>
