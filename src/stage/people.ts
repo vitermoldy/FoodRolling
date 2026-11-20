@@ -353,3 +353,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
   }
 
   if (chef) {
+    ctx.fillStyle = chef.apron
