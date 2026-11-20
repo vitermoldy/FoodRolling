@@ -703,3 +703,4 @@ export function SushiConveyorMenu({
     }
     if (cancelled || p.moved) return;
     const touch = event.pointerType !== "mouse";
+    if (p.index < 0) {
