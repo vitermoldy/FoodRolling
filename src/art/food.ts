@@ -446,3 +446,4 @@ function burrito(rng: Rng) {
     path(blob(rng, 30, 74, 7, 0.4), '#d8402e') + scatter(rng, 5, 30, 74, 4, [0.6, 1], ['#ffffff', '#3f9a3a'])
 }
 
+function enchiladas(rng: Rng) {
