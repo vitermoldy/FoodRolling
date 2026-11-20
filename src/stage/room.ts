@@ -404,3 +404,4 @@ function india(ctx: Ctx, w: Wall) {
   for (let i = 0; i < loops; i++) {
     const x0 = (W / loops) * i
     const x1 = (W / loops) * (i + 1)
+    const pts = swag(x0, x1, bottom * 0.04, bottom * 0.14, 12)
