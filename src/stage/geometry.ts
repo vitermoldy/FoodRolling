@@ -106,3 +106,4 @@ export class Layout {
   }
 
   /** Point on the belt at arc position u, `across` diameters outward from the centre line. */
+  belt(u: number, across = 0): ScreenPoint {
