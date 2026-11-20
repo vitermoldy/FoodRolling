@@ -102,3 +102,4 @@ describe('save', () => {
     save.current = 'italia'
     const back = parseSave(JSON.stringify(save), 2000)
     expect(back?.money).toBe(1234.5)
+    expect(back?.restaurants.jepang.chefs).toBe(3)
