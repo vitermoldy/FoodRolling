@@ -274,3 +274,4 @@ function indonesia(ctx: Ctx, w: Wall) {
       for (const a of [0, Math.PI / 2]) {
         ctx.beginPath()
         ctx.ellipse(x, y, cell * 0.42, cell * 0.2, a + Math.PI / 4, 0, Math.PI * 2)
+        ctx.fill()
