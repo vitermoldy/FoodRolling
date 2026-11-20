@@ -117,3 +117,4 @@ export const useGame = create<GameState>()((set, get) => ({
     if (!canUnlock(s, id)) return
     const def = restaurantById(id)
     set({
+      money: s.money - def.unlockCost,
