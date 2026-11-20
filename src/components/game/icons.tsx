@@ -15,3 +15,4 @@ export function CoinIcon(props: IconProps) {
       <ellipse cx="12" cy="12" rx="6.2" ry="5.6" fill="none" stroke="#a8771a" strokeWidth="1.4" />
       <path d="M9.4 9.6h5.2M9.4 12h5.2M9.4 14.4h5.2" stroke="#a8771a" strokeWidth="1.3" strokeLinecap="round" />
     </Svg>
+  )
