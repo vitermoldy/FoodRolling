@@ -132,3 +132,4 @@ function slicedTopping(rng: Rng, y: number, base: string, edge: string, stripe: 
   out += path(`M23 ${y - 4} Q24 ${y - 13} 36 ${y - 12} L70 ${y - 10} Q79 ${y - 9} 77 ${y + 1} Q75 ${y + 9} 64 ${y + 8} L30 ${y + 6} Q21 ${y + 5} 23 ${y - 4}Z`, base, `stroke="${edge}" stroke-width="0.9"`)
   for (let i = 0; i < stripes; i++) {
     const x = 30 + i * (40 / Math.max(1, stripes - 1)) + rng() * 2
+    out += path(`M${f(x)} ${y - 11} Q${f(x + 4)} ${y - 2} ${f(x - 1)} ${y + 6}`, 'none', `stroke="${stripe}" stroke-width="2.2" stroke-linecap="round" opacity="0.85"`)
