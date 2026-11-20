@@ -193,3 +193,4 @@ function italia(ctx: Ctx, w: Wall) {
 }
 
 function indonesia(ctx: Ctx, w: Wall) {
+  const { W, bottom, u, theme } = w
