@@ -443,3 +443,4 @@ export function SushiConveyorMenu({
     s.raf = requestAnimationFrame(tick);
   }, [tick]);
 
+  const setActive = React.useCallback((next: number | null) => {
