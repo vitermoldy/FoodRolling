@@ -601,3 +601,4 @@ function brulee(rng: Rng) {
 function ratatouille(rng: Rng) {
   const kinds: [string, string][] = [['#d9432c', '#ee7a5c'], ['#4f7f2e', '#d9e4a3'], ['#4b2340', '#efe2c4'], ['#e2a524', '#f7df8a']]
   let out = shadow(circle(50, 50, 33, '#000')) + circle(50, 50, 32, '#c4482f', 'opacity="0.85"')
+  const discs: { x: number; y: number; k: number }[] = []
