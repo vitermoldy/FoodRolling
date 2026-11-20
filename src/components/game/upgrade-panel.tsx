@@ -191,3 +191,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
                 {maxed ? 'Sudah penuh' : blocked ? (kind === 'chefs' ? 'Belum menambah: kursi yang menahan' : 'Belum menambah: dapur yang menahan') : `+${formatRate(gain)}`}
               </span>
               <button
+                id={kind === 'income' ? 'upgrade-income' : undefined}
