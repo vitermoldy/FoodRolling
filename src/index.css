@@ -128,3 +128,4 @@
   .btn-quiet:active:not(:disabled) {
     transform: translateY(1px);
   }
+  .btn-quiet[aria-pressed='true'] {
