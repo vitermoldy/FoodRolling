@@ -60,3 +60,4 @@ export function RestaurantStrip() {
                 {!st.owned && <LockIcon width={14} height={14} className="absolute -bottom-1 -right-1 rounded-full bg-paper p-[1px] text-olive" />}
               </span>
               <span className="leading-tight">
+                <span className="block text-sm font-semibold text-olive">{r.name}</span>
