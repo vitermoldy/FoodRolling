@@ -764,3 +764,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
           const cols = ['#a8c97b', '#e8778e', '#f1e1bc', '#c9a0d9', '#f2c45a']
           for (let i = 0; i < 7; i++) {
             const a = (i / 7) * Math.PI * 2
+            ell(ctx, x + Math.cos(a) * s * 0.24, y - s * 0.22 + Math.sin(a) * s * 0.11, s * 0.08, s * 0.055, cols[i % cols.length])
