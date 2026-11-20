@@ -89,3 +89,5 @@ export interface Seat {
   plateId: number
   /** Seconds this customer has waited for food. */
   waited: number
+}
+
