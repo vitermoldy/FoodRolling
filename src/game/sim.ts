@@ -297,3 +297,4 @@ export class BeltSim {
   private newSeat(): Seat {
     return {
       state: 'empty',
+      timer: 0.4 + this.rng() * 1.2,
