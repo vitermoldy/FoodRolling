@@ -571,3 +571,4 @@ export function SushiConveyorMenu({
     s.z = [];
     s.lane = [];
     paintAll();
+    kick();
