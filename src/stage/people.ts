@@ -252,3 +252,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
         for (const ox of [-0.4, 0, 0.4]) {
           ctx.moveTo(hx + r * ox, hy - r * 0.75)
           ctx.lineTo(hx + r * ox, hy - r * 2)
+        }
