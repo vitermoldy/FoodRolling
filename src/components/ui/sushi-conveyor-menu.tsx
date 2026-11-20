@@ -162,3 +162,4 @@ function makeGeo(width: number, n: number, d: number, kb: number): Geo {
     bottom = Math.max(bottom, rim.y + g.side + d * 0.06, plate.y + half + d * 0.08);
   }
   g.ym = Math.ceil(-top) + 2;
+  g.height = Math.ceil(bottom - top) + 4;
