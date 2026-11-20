@@ -87,3 +87,4 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
           </>
         )}
       </div>
+    </Modal>
