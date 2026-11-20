@@ -228,3 +228,4 @@ function indonesia(ctx: Ctx, w: Wall) {
   ctx.lineTo(rx + rw * 0.06, ry + rh * 1.05)
   ctx.closePath()
   ctx.fill()
+  rr(ctx, rx + rw * 0.06, ry + rh * 1.0, rw * 0.88, u * 0.1, 0, '#d9a521')
