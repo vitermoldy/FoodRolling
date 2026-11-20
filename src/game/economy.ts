@@ -165,3 +165,4 @@ export function rateAfter(def: RestaurantDef, state: RestaurantState, kind: Upgr
   return incomeRate(def, next)
 }
 
+export function isRestaurantMaxed(state: RestaurantState): boolean {
