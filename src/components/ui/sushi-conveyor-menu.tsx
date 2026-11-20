@@ -805,3 +805,4 @@ export function SushiConveyorMenu({
         if (current !== null && current !== autoActive.current) setActive(null);
       }}
       onKeyDown={onKeyDown}
+    >
