@@ -143,3 +143,4 @@ export class BeltSim {
     // Open with a few customers already seated and chefs part-way through a dish.
     for (const chef of this.chefs) chef.progress = this.rng() * 0.6
     this.seats.forEach((seat, i) => {
+      if (i % 2 === 0) { seat.state = 'waiting'; seat.timer = 0 }
