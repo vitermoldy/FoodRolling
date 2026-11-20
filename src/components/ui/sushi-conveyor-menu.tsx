@@ -618,3 +618,4 @@ export function SushiConveyorMenu({
       }, HOLD);
     };
     timer = window.setTimeout(show, autoLast.current === null ? 1600 : Math.max(300, interval - HOLD));
+    return () => window.clearTimeout(timer);
