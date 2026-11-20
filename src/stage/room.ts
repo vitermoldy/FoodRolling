@@ -749,3 +749,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
             tub(ctx, x + dx * s, y - s * 0.08, s * 0.16, s * 0.14, c, '#e2b94a', c === '#b87333' ? '#e6ad38' : '#e1712b')
           }
         }
+        break
