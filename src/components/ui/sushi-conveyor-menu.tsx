@@ -697,3 +697,4 @@ export function SushiConveyorMenu({
         s.lock = true;
         s.lockX = at.x;
         s.lockY = at.y;
+      }
