@@ -439,3 +439,4 @@ export function SushiConveyorMenu({
   const kick = React.useCallback(() => {
     const s = sim.current;
     if (s.raf || !s.visible) return;
+    s.last = 0;
