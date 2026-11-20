@@ -762,3 +762,4 @@ export function SushiConveyorMenu({
   );
 
   const controls = count > 1 && (
+    <div className="relative z-10 mt-1 flex items-center justify-center gap-1.5">
