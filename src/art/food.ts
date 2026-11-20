@@ -537,3 +537,5 @@ function macaron(rng: Rng) {
     out += scatter(rng, 10, x, y + 11.5, 2, [0.5, 0.9], [e])
   }
   return out
+}
+
