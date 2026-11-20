@@ -369,3 +369,4 @@ function churros(rng: Rng) {
   for (let i = 0; i < 4; i++) {
     const y = 30 + i * 11
     const a = -18 + i * 4
+    out += shadow(rect(14, y - 4.5, 56, 9, 4.5, '#000'))
