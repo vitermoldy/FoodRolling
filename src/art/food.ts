@@ -197,3 +197,4 @@ function margherita(rng: Rng) {
     circle(50, 50, 34, '#d9a05a', 'stroke="#b97b37" stroke-width="1"') +
     scatter(rng, 9, 50, 50, 32, [1, 1.9], ['#8b5524', '#a5672d']) +
     circle(50, 50, 28, '#c7381f') + circle(50, 50, 28, 'none', 'stroke="#a92a16" stroke-width="1.2"') +
+    cheese + leaf(47, 42, 11, -30, '#2a7a30') + leaf(58, 56, 10, 40, '#2f8a35') + leaf(37, 56, 9, 110, '#2a7a30') +
