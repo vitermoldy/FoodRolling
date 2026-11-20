@@ -10,3 +10,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
 
   return (
     <header className="flex items-center gap-3 border-b border-line bg-bone px-4 py-2 sm:px-6">
+      <p className="font-display text-[1.375rem] font-semibold tracking-[-0.03em] text-olive">FoodRolling</p>
