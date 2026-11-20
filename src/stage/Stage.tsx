@@ -156,3 +156,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     const sim = simRef.current
     if (!renderer) return
     const at = local(e)
+    const d = drag.current
