@@ -153,3 +153,4 @@ export class BeltSim {
     while (this.chefs.length < config.chefs) this.chefs.push(this.newChef())
     this.chefs.length = Math.min(this.chefs.length, config.chefs)
     while (this.seats.length < config.seats) this.seats.push(this.newSeat())
+    this.seats.length = Math.min(this.seats.length, config.seats)
