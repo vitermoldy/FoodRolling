@@ -59,3 +59,4 @@ function leaf(cx: number, cy: number, len: number, angle: number, fill: string, 
     line(-len / 2 + 1, 0, len / 2 - 1.5, 0, rib, 0.8))
 }
 
+/** A wobbly blob around a centre, for sauces, cheese and eggs. */
