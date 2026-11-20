@@ -252,3 +252,4 @@ function indonesia(ctx: Ctx, w: Wall) {
         ctx.ellipse(cx, cy, ew * 0.12, u * 0.08, 0, 0, Math.PI * 2)
         ctx.fill()
         ctx.fillStyle = dishes[k++ % dishes.length]
+        ctx.beginPath()
