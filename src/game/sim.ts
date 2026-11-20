@@ -304,3 +304,4 @@ export class BeltSim {
       bill: 0,
       stack: [],
       dish: -1,
+      plateId: 0,
