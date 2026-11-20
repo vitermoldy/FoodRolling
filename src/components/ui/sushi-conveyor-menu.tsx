@@ -638,3 +638,4 @@ export function SushiConveyorMenu({
     if (event.button !== 0 || !g) return;
     const at = local(event);
     const hit = hitTest(at.x, at.y);
+    pendingOpen.current = -1;
