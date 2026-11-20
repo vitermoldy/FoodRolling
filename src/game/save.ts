@@ -24,3 +24,4 @@ function finite(value: unknown, fallback: number, min = 0): number {
   return typeof value === 'number' && Number.isFinite(value) ? Math.max(min, value) : fallback
 }
 
+/** Reads a save written by any earlier session; anything malformed falls back to a fresh value. */
