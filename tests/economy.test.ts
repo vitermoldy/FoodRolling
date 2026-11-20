@@ -57,3 +57,4 @@ describe('upgrades', () => {
     const st = newRestaurantState(true)
     let sum = 0
     for (let i = 0; i < 10; i++) sum += stepCost(jepang, 'income', 1 + i)
+    expect(bulkCost(jepang, st, 'income', 10, 0)).toEqual({ count: 10, cost: sum })
