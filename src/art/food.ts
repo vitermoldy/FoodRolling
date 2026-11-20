@@ -93,3 +93,4 @@ function edamame(rng: Rng) {
   }
   return shadow(circle(50, 52, 31, '#000')) +
     circle(50, 51, 31, '#3a3530') + circle(50, 50, 30, '#4a443e') + circle(50, 51, 25.5, '#2a2622') +
+    pods + scatter(rng, 26, 50, 52, 20, [0.5, 0.9], ['#ffffff', '#f2efe6'])
