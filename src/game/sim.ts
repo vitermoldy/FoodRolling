@@ -234,3 +234,4 @@ export class BeltSim {
             seat.eaten = 0
             seat.bill = 0
             seat.stack = []
+            seat.waited = 0
