@@ -424,3 +424,4 @@ function quesadilla(rng: Rng) {
     const cy = 50 + oy
     const r = 30
     const d = `M${f(cx)} ${f(cy)}L${f(cx + Math.cos(a0) * r)} ${f(cy + Math.sin(a0) * r)}A${r} ${r} 0 0 1 ${f(cx + Math.cos(a1) * r)} ${f(cy + Math.sin(a1) * r)}Z`
+    out += shadow(path(d, '#000'))
