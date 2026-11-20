@@ -191,3 +191,4 @@ function bruschetta(rng: Rng) {
 
 function margherita(rng: Rng) {
   let cheese = ''
+  const spots: [number, number, number][] = [[38, 38, 7.5], [60, 36, 6.5], [64, 58, 7.5], [42, 62, 7], [52, 50, 6], [30, 52, 5]]
