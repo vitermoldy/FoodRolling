@@ -385,3 +385,4 @@ function india(ctx: Ctx, w: Wall) {
     arch(0)
     ctx.fill()
     ctx.save()
+    arch(0)
