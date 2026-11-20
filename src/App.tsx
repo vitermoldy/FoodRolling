@@ -49,3 +49,4 @@ export default function App() {
     window.setTimeout(() => {
       const button = document.getElementById('upgrade-income')
       button?.scrollIntoView({ block: 'center', behavior: 'smooth' })
+      button?.focus({ preventScroll: true })
