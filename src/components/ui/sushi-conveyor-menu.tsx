@@ -705,3 +705,4 @@ export function SushiConveyorMenu({
     const touch = event.pointerType !== "mouse";
     if (p.index < 0) {
       if (touch && live.current.active !== null) { stop(); setActive(null); }
+      return;
