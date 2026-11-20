@@ -237,3 +237,4 @@ export class BeltSim {
             seat.waited = 0
           }
           break
+        case 'arriving':
