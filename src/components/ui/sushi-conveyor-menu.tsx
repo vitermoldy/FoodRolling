@@ -529,3 +529,4 @@ export function SushiConveyorMenu({
     const media = window.matchMedia("(prefers-reduced-motion: reduce)");
     const update = () => setReduced(media.matches);
     update();
+    media.addEventListener("change", update);
