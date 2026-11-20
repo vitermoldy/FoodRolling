@@ -347,3 +347,4 @@ export function SushiConveyorMenu({
     seamRef.current?.setAttribute("d", slatPath(g, s.offset, 0));
     glintRef.current?.setAttribute("d", slatPath(g, s.offset, -Math.max(1.4, g.d * 0.024)));
     const v = (Math.abs(s.v) < 0.005 ? 0 : s.v).toFixed(2);
+    if (v !== s.published) { s.published = v; beltRef.current?.style.setProperty("--belt-v", v); }
