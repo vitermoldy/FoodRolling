@@ -35,3 +35,4 @@ const STATION_TOP: Record<RestaurantId, [string, string]> = {
   indonesia: ['#d9b27a', '#9a6a38'],
   meksiko: ['#f3efe6', '#2f6fb3'],
   india: ['#d8ad4a', '#9c7524'],
+  prancis: ['#d5d8dc', '#9ba1a8'],
