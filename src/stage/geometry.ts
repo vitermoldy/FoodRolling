@@ -128,3 +128,4 @@ export class Layout {
     return w.x > 0 ? 'right' : 'left'
   }
 
+  chef(index: number): ScreenPoint {
