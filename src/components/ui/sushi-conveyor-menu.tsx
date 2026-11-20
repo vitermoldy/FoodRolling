@@ -910,3 +910,4 @@ export function SushiConveyorMenu({
             {captionNode}
             {action}
           </div>
+          <div className="min-w-0">
