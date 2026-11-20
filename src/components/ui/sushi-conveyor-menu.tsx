@@ -673,3 +673,4 @@ export function SushiConveyorMenu({
       return;
     }
     if (event.pointerType !== "mouse" || live.current.open) return;
+    if (s.lock) {
