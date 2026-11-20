@@ -193,3 +193,4 @@ export class Layout {
     this.floorY = this.project(0, -this.depth - 0.5).y
     this.sceneTop = this.ym + minY * this.d
   }
+}
