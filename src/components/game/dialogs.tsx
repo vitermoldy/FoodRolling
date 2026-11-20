@@ -50,3 +50,4 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
           <CloseIcon />
         </button>
       </div>
+      <p className="mt-2 text-sm leading-relaxed">
