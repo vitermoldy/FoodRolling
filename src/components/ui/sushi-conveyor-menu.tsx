@@ -569,3 +569,4 @@ export function SushiConveyorMenu({
     }
     s.l = geo.l;
     s.z = [];
+    s.lane = [];
