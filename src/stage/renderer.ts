@@ -98,3 +98,4 @@ export class StageRenderer {
 
   consume(events: SimEvent[]) {
     const sim = this.sim
+    if (!sim) return
