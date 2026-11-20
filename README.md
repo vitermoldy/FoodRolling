@@ -30,3 +30,5 @@ sushi kaiten di Jepang sampai bistro di Paris.
 | 6 | Bistro Lumière | Prancis | 15 M | Lantai mosaik, cermin emas, papan menu kapur |
 
 Warna piring menandai harga: biru, hijau, merah, emas, hitam, dari termurah sampai termahal. Tab
+Menu menampilkan hidangan restoran di sabuk menu dari `Prompt.txt`.
+
