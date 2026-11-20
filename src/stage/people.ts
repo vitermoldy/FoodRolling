@@ -10,3 +10,5 @@ export interface Look {
   style: number
   shirt: string
   glasses: boolean
+}
+
