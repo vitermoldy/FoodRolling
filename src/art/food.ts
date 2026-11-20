@@ -409,3 +409,4 @@ function taco(rng: Rng) {
       ellipse(0, 0, 10, 28, '#ecd08d', 'stroke="#c9a35c" stroke-width="1"') + ellipse(0, 0, 6, 24, '#a35a2a') + filling +
       scatter(rng, 6, 0, 0, 22, [0.6, 1.2], ['#c9a35c']))
   }
+  return out + path('M76 74 A8 8 0 0 1 88 74 Z', '#9ccc48', 'stroke="#6f9a2f" stroke-width="0.8"')
