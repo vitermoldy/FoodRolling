@@ -165,3 +165,4 @@ export const useGame = create<GameState>()((set, get) => ({
       patch.totalEarned = s.totalEarned + gained
       patch.restaurants = restaurants
     }
+    const money = patch.money ?? s.money
