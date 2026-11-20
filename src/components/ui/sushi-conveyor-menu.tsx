@@ -55,3 +55,4 @@ export interface SushiConveyorMenuProps extends React.ComponentProps<"section"> 
   onOpenChange?: (index: number | null) => void;
   /** Called by the dialog's add button. */
   onAdd?: (item: ConveyorDish) => void;
+  /** Price label per tier for the legend. Derived from the items when omitted. */
