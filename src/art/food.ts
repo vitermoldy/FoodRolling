@@ -211,3 +211,4 @@ function spaghetti(rng: Rng) {
     const y0 = 50 + Math.sin(a0) * r
     const x1 = 50 + Math.cos(a1) * r
     const y1 = 50 + Math.sin(a1) * r
+    const arc = `M${f(x0)} ${f(y0)}A${f(r)} ${f(r)} 0 0 1 ${f(x1)} ${f(y1)}`
