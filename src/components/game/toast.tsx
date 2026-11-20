@@ -13,3 +13,4 @@ export function Toast() {
     return () => window.clearTimeout(timer)
   }, [notice, dismiss])
 
+  return (
