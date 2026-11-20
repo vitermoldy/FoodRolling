@@ -135,3 +135,4 @@ export class StageRenderer {
         const lineH = Math.max(14, L.d * 0.38)
         for (const c of this.coins) {
           if (now - c.start < 0.6 && Math.abs(c.x - p.x) < L.d * 1.6 && Math.abs(c.y - y) < lineH) y = c.y - lineH
+        }
