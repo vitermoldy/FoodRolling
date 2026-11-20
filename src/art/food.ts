@@ -546,3 +546,4 @@ function croissant(rng: Rng) {
   for (const x of [24, 36, 50, 64, 76]) {
     const dx = Math.abs(x - 50)
     const top = 30 + dx * 0.42
+    const bottom = 69 - dx * 0.2
