@@ -116,3 +116,4 @@ function tamago(rng: Rng) {
 
 function kappa(rng: Rng) {
   let out = ''
+  for (const y of [40, 62]) {
