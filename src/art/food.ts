@@ -217,3 +217,4 @@ function spaghetti(rng: Rng) {
     pasta += `<path d="${arc}" fill="none" stroke="${i % 3 === 0 ? '#f7dc8c' : '#efcb6a'}" stroke-width="2.2" stroke-linecap="round"/>`
   }
   return shadow(circle(50, 50, 30, '#000')) + circle(50, 50, 29, '#d7a94c') + pasta +
+    path(blob(rng, 50, 49, 12, 0.4), '#c63a22', 'stroke="#a52a16" stroke-width="0.8"') +
