@@ -102,3 +102,4 @@ export class StageRenderer {
     const L = this.layout
     const now = this.time
     for (const e of events) {
+      if (e.type === 'drop') {
