@@ -314,3 +314,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
   const side = facing === 'left' || facing === 'right'
 
   // Contact shadow.
+  ctx.fillStyle = 'rgba(30,20,10,0.16)'
