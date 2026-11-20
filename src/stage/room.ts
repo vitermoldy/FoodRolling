@@ -388,3 +388,4 @@ function india(ctx: Ctx, w: Wall) {
     arch(0)
     ctx.clip()
     ctx.strokeStyle = theme.accent
+    ctx.lineWidth = Math.max(1, u * 0.04)
