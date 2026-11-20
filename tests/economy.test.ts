@@ -13,3 +13,4 @@ import {
   unlockedDishIndexes,
   UPGRADE_KINDS,
 } from '@/game/economy'
+import { RESTAURANTS } from '@/game/restaurants'
