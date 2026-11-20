@@ -81,3 +81,4 @@ export function UpgradePanel() {
           <h2 id="upgrade-heading" className="font-display text-lg font-semibold text-olive">Upgrade</h2>
           <AmountPicker />
         </div>
+        <UpgradeRows def={def} st={st} />
