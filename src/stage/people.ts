@@ -108,3 +108,4 @@ function hairBack(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facin
 function hairFront(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facing: Facing) {
   ctx.fillStyle = look.hair
   if (facing === 'up') {
+    // Back of the head: hair covers it all.
