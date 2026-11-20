@@ -23,3 +23,4 @@ export const BALANCE = {
 
   customer: {
     arrive: 0.8,
+    leave: 0.8,
