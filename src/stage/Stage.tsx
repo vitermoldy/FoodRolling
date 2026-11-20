@@ -162,3 +162,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
         const next = renderer.hitChef(at.x, at.y) >= 0 ? 'pointer' : renderer.nearestBelt(at.x, at.y).dist < 0.75 ? 'grab' : 'default'
         if (next !== cursor) setCursor(next)
       }
+      return
