@@ -34,3 +34,5 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
   live.current = { paused, owned: state.owned, id: current }
   const helpTurn = React.useRef(0)
   const [label, setLabel] = React.useState('')
+  const [cursor, setCursor] = React.useState('default')
+
