@@ -514,3 +514,4 @@ function floor(ctx: Ctx, id: RestaurantId, theme: ThemeDef, W: number, H: number
     ctx.lineWidth = Math.max(1, u * 0.03)
     ctx.beginPath()
     for (let y = top; y < H; y += t) { ctx.moveTo(0, y); ctx.lineTo(W, y) }
+    for (let x = 0; x < W; x += t) { ctx.moveTo(x, top); ctx.lineTo(x, H) }
