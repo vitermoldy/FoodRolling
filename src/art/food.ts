@@ -450,3 +450,4 @@ function enchiladas(rng: Rng) {
   let rolls = ''
   for (const y of [36, 50, 64]) rolls += rect(20, y - 7, 60, 14, 7, '#e3c27c', 'stroke="#c69c55" stroke-width="0.8"')
   return shadow(rect(18, 27, 64, 46, 12, '#000')) + rolls +
+    path(blob(rng, 50, 50, 25, 0.25, 12), '#b42c1e', 'opacity="0.95"') +
