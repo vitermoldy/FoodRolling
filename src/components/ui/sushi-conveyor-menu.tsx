@@ -355,3 +355,5 @@ export function SushiConveyorMenu({
   const paintAll = React.useCallback(() => {
     for (let i = 0; i < live.current.count; i++) paintPlate(i);
     paintBelt();
+  }, [paintPlate, paintBelt]);
+
