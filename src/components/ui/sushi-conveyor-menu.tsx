@@ -783,3 +783,4 @@ export function SushiConveyorMenu({
       data-stage
       role="group"
       aria-label={heading ?? "Sushi conveyor belt"}
+      aria-roledescription="conveyor belt"
