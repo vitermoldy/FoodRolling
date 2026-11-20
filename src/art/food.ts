@@ -448,3 +448,4 @@ function burrito(rng: Rng) {
 
 function enchiladas(rng: Rng) {
   let rolls = ''
+  for (const y of [36, 50, 64]) rolls += rect(20, y - 7, 60, 14, 7, '#e3c27c', 'stroke="#c69c55" stroke-width="0.8"')
