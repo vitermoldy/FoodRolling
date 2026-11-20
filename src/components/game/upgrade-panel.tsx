@@ -167,3 +167,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
         const dish = kind === 'income' ? nextDish(def, st) : null
         const blocked = !maxed && gain <= rate * 1e-6 && (kind === 'chefs' || kind === 'seats')
         return (
+          <li key={kind} className={`rounded-[12px] border bg-paper p-3 ${best === kind ? 'border-olive' : 'border-line'}`}>
