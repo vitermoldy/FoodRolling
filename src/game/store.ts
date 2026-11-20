@@ -100,3 +100,4 @@ export const useGame = create<GameState>()((set, get) => ({
 
   buy(kind) {
     const s = get()
+    const id = s.current
