@@ -519,3 +519,4 @@ export function SushiConveyorMenu({
     stop();
     const L = live.current;
     const next = !L.paused;
+    if (!L.pausedControlled) { L.paused = next; setInnerPaused(next); }
