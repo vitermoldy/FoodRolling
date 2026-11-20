@@ -359,3 +359,4 @@ export function SushiConveyorMenu({
 
   const hitTest = React.useCallback((px: number, py: number) => {
     const L = live.current;
+    const g = L.geo;
