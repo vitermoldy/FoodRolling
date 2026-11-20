@@ -190,3 +190,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     eatTime: 6,
     beltSpeed: 2,
     dishes: [
+      { id: 'macaron', name: 'Macaron', tier: 1, description: 'Tiga macaron: pistachio, raspberry, dan vanila.', details: ['3 buah', 'Telur', 'Kacang'] },
