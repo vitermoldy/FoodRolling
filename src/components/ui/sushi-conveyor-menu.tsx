@@ -715,3 +715,4 @@ export function SushiConveyorMenu({
   const onKeyDown = (event: React.KeyboardEvent) => {
     if (!["ArrowRight", "ArrowLeft", "Home", "End"].includes(event.key) || count === 0) return;
     event.preventDefault();
+    const own = (event.target as HTMLElement).closest("[data-dish]")?.getAttribute("data-dish");
