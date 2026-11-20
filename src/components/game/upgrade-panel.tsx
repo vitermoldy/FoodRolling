@@ -118,3 +118,4 @@ function Meter({ label, value, max, slow }: { label: string; value: number; max:
         <span className="block h-full rounded-full" style={{ width: `${Math.max(4, (value / Math.max(1e-9, max)) * 100)}%`, background: slow ? 'var(--accent)' : 'var(--color-olive)' }} />
       </span>
       <span className="num w-[9.5rem] text-right text-xs text-olive">
+        {formatDecimal(value, 2)} piring/detik{slow ? <span className="sr-only">, ini yang menahan</span> : null}
