@@ -427,3 +427,4 @@ function quesadilla(rng: Rng) {
     out += shadow(path(d, '#000'))
     out += path(d, '#e8b962', 'stroke="#c18a3a" stroke-width="1"')
     for (let k = 0; k < 3; k++) {
+      const t = 0.35 + k * 0.22
