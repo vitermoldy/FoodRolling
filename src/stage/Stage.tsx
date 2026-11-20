@@ -30,3 +30,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
   const canvasRef = React.useRef<HTMLCanvasElement>(null)
   const rendererRef = React.useRef<StageRenderer | null>(null)
   const simRef = React.useRef<BeltSim | null>(null)
+  const live = React.useRef({ paused, owned: state.owned, id: current })
