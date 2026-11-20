@@ -100,3 +100,4 @@ function LockedCard() {
   const unlock = useGame((s) => s.unlock)
   const def = restaurantById(current)
   const next = nextLocked({ restaurants })
+  const isNext = next === current
