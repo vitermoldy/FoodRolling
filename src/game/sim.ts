@@ -288,3 +288,4 @@ export class BeltSim {
     return earned
   }
 
+  private newChef(): Chef {
