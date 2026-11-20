@@ -194,3 +194,4 @@ export class StageRenderer {
     const items: { y: number; draw: () => void }[] = []
     const flying = new Set(this.flights.map((f) => f.plateId))
 
+    for (let i = 0; i < SLOT_COUNT; i++) {
