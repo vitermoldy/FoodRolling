@@ -113,3 +113,4 @@ export function simConfig(def: RestaurantDef, state: RestaurantState): SimConfig
     eatTime: eatTime(def, state),
     beltSpeed: beltSpeed(def, state),
     chefs: state.chefs,
+    seats: state.seats,
