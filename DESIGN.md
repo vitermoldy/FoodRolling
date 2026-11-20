@@ -74,3 +74,4 @@ sungguhan. Semua angka (harga, waktu masak, pendapatan) adalah aturan permainan 
 - Piring melompat dari meja chef ke sabuk dan dari sabuk ke konter pelanggan dalam busur pendek
   (0,3 sampai 0,4 detik) supaya mata bisa mengikuti ke mana piring pergi.
 - Angka koin naik di atas pelanggan yang baru membayar, lalu memudar.
+- `prefers-reduced-motion`: lengan chef dan pelanggan diam, uap dan gelembung tunggu berhenti, piring
