@@ -29,3 +29,4 @@ export interface SushiConveyorMenuLabels {
   previous: string;
   next: string;
   /** Accessible name of the pause toggle. */
+  pause?: string;
