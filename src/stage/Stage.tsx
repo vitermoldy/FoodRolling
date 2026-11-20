@@ -123,3 +123,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     for (let t = 0; t < 25; t += 0.1) sim.step(0.1)
     sim.events.length = 0
     simRef.current = sim
+    renderer?.setRestaurant(def, sim)
