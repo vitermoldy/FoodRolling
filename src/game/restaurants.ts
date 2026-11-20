@@ -193,3 +193,4 @@ export const RESTAURANTS: RestaurantDef[] = [
       { id: 'macaron', name: 'Macaron', tier: 1, description: 'Tiga macaron: pistachio, raspberry, dan vanila.', details: ['3 buah', 'Telur', 'Kacang'] },
       { id: 'croissant', name: 'Croissant', tier: 2, description: 'Pastri berlapis mentega yang renyah di luar dan lembut di dalam.', details: ['1 buah', 'Susu', 'Gandum'] },
       { id: 'crepe', name: 'Crêpe stroberi', tier: 2, description: 'Crêpe tipis terlipat dengan stroberi dan gula halus.', details: ['1 lembar', 'Telur', 'Susu'] },
+      { id: 'quiche', name: 'Quiche bayam', tier: 3, description: 'Pai gurih berisi telur, krim, bayam, dan keju gruyère.', details: ['1 potong', 'Telur', 'Susu'] },
