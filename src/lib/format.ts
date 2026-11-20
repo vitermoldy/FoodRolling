@@ -23,3 +23,4 @@ export function formatCoins(value: number): string {
   const abs = Math.abs(value)
   for (const [size, unit] of UNITS) {
     if (abs >= size) {
+      const v = value / size
