@@ -31,3 +31,4 @@ function hang(ctx: Ctx, x: number, y0: number, y1: number, u: number) {
   ctx.lineWidth = Math.max(1, u * 0.03)
   ctx.beginPath()
   ctx.moveTo(x, y0)
+  ctx.lineTo(x, y1)
