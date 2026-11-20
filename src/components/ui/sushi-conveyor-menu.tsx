@@ -971,3 +971,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
   React.useLayoutEffect(() => {
     const figure = figureRef.current;
     const from = source();
+    closeRef.current?.focus({ preventScroll: true });
