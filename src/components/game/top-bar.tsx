@@ -12,3 +12,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
     <header className="flex items-center gap-3 border-b border-line bg-bone px-4 py-2 sm:px-6">
       <p className="font-display text-[1.375rem] font-semibold tracking-[-0.03em] text-olive">FoodRolling</p>
       <div className="ml-auto flex items-center gap-3 sm:gap-5">
+        <div className="flex items-center gap-2" aria-live="off">
