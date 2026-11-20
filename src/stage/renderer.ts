@@ -388,3 +388,4 @@ export class StageRenderer {
     ctx.fillStyle = 'rgba(255,255,255,0.3)'
     ctx.fillRect(p.x - w / 2 + s * 0.08, p.y - h / 2 + s * 0.03, w - s * 0.16, Math.max(1, s * 0.02))
     if (ready && !flying) {
+      this.drawPlate(p.x, p.y - s * 0.02, s * 0.62, this.tierOf(dish), dish)
