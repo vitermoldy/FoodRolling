@@ -272,3 +272,4 @@ function cendol(rng: Rng) {
     worms += `<path d="M${f(x - Math.cos(t) * 4)} ${f(y - Math.sin(t) * 4)}Q${f(x + 2)} ${f(y - 2)} ${f(x + Math.cos(t) * 4)} ${f(y + Math.sin(t) * 4)}" fill="none" stroke="${i % 3 ? '#5db346' : '#79c35d'}" stroke-width="3.4" stroke-linecap="round"/>`
   }
   return shadow(circle(50, 50, 31, '#000')) +
+    circle(50, 50, 31, '#dff1f6', 'stroke="#b5d8e3" stroke-width="2"') + circle(50, 50, 27, '#f3ead6') +
