@@ -728,3 +728,4 @@ export function SushiConveyorMenu({
     if (item) live.current.onAdd?.(item);
   }, [openIndex, items]);
 
+  const paths = React.useMemo(() => (geo ? { outer: edgePath(geo, geo.band / 2), inner: edgePath(geo, -geo.band / 2), island: edgePath(geo, -geo.band / 2 - geo.d * 0.035) } : null), [geo]);
