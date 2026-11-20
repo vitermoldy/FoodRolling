@@ -883,3 +883,4 @@ export function SushiConveyorMenu({
                   <span className="tabular-nums text-muted-foreground">{item.price}</span>
                 </span>
               </span>
+            </span>
