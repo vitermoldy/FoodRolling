@@ -233,3 +233,4 @@ export class BeltSim {
             seat.want = C.wantMin + Math.floor(this.rng() * (C.wantMax - C.wantMin + 1))
             seat.eaten = 0
             seat.bill = 0
+            seat.stack = []
