@@ -97,3 +97,4 @@ type Geo = {
   kb: number; cx: number; ym: number; a: number; b: number; band: number; slats: number; side: number; edgeTop: number;
 };
 type Point = { x: number; z: number; nx: number; nz: number; tx: number; tz: number };
+type Sim = {
