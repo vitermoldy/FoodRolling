@@ -232,3 +232,4 @@ function NextRestaurant() {
       <p className="text-sm text-moss">Restoran berikutnya</p>
       <h2 id="next-heading" className="font-display text-lg font-semibold text-olive">
         {def.name}, {def.country}
+      </h2>
