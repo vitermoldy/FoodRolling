@@ -20,3 +20,5 @@ export function RestaurantStrip() {
   const current = useGame((s) => s.current)
   const restaurants = useGame((s) => s.restaurants)
   const select = useGame((s) => s.select)
+  const refs = React.useRef<(HTMLButtonElement | null)[]>([])
+
