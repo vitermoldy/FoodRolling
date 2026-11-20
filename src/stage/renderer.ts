@@ -232,3 +232,5 @@ export class StageRenderer {
           if (alpha > 0.01) this.drawCustomer(i, sp, alpha, out, seat.look, seat.state === 'eating' ? 'eat' : seat.state === 'waiting' && seat.waited > 3.5 ? 'wait' : 'idle')
         },
       })
+    }
+
