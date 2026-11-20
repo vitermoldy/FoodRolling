@@ -397,3 +397,4 @@ export class StageRenderer {
         ctx.save()
         ctx.globalAlpha = Math.min(1, progress * 1.1)
         ctx.drawImage(img, p.x - fs / 2, p.y - (fs * TILT) / 2 - s * 0.02, fs, fs * TILT)
+        ctx.restore()
