@@ -415,3 +415,4 @@ export function SushiConveyorMenu({
       for (let i = 0; i < L.count; i++) {
         const goal = i === L.active ? 1 : 0;
         if (L.reduced) { s.lift[i] = goal; s.vlift[i] = 0; continue; }
+        const x = s.lift[i] ?? 0;
