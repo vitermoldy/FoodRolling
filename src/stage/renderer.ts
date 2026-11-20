@@ -216,3 +216,4 @@ export class StageRenderer {
       const eat = L.counterSpot(i, 'eat')
       let alpha = 1
       let out = 0
+      if (seat.state === 'empty') alpha = 0
