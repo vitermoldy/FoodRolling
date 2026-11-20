@@ -283,3 +283,4 @@ function indonesia(ctx: Ctx, w: Wall) {
 }
 
 function meksiko(ctx: Ctx, w: Wall) {
+  const { W, bottom, u, theme } = w
