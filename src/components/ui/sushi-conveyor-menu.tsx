@@ -922,3 +922,4 @@ export function SushiConveyorMenu({
           {controls}
           {captionNode}
           {action && <div className="mt-3 flex justify-center">{action}</div>}
+        </div>
