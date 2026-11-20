@@ -57,3 +57,5 @@ function leaf(cx: number, cy: number, len: number, angle: number, fill: string, 
   return g(`translate(${f(cx)} ${f(cy)}) rotate(${f(angle)})`,
     path(`M${f(-len / 2)} 0 Q0 ${f(-w)} ${f(len / 2)} 0 Q0 ${f(w)} ${f(-len / 2)} 0Z`, fill) +
     line(-len / 2 + 1, 0, len / 2 - 1.5, 0, rib, 0.8))
+}
+
