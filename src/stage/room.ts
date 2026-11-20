@@ -38,3 +38,4 @@ function hang(ctx: Ctx, x: number, y0: number, y1: number, u: number) {
 /** A drooping string across the wall, as points. */
 function swag(x0: number, x1: number, y: number, sag: number, n: number) {
   const pts: { x: number; y: number }[] = []
+  for (let i = 0; i <= n; i++) {
