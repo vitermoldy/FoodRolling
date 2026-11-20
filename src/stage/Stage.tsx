@@ -97,3 +97,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
       }
     }
     raf = requestAnimationFrame(frame)
+    // `?debug` lets an automated click-through read the belt and the stage layout.
