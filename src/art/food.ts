@@ -29,3 +29,4 @@ function shadow(inner: string, dx = 1.6, dy = 2.4) {
   return `<g transform="translate(${dx} ${dy})" opacity="0.18" fill="#2a1a0c">${inner}</g>`
 }
 
+/** Small dots scattered inside a circle. */
