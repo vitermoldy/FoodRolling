@@ -344,3 +344,5 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
     dot(ctx, 0.34, reach - chop * 0.05, 0.07, look.skin)
   }
 
+  hairBack(ctx, look, 0, headY, r, facing)
+
