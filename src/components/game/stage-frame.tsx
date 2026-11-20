@@ -31,3 +31,4 @@ export function StageFrame() {
       localStorage.setItem(HINT_KEY, '1')
     } catch {
       // A blocked storage only means the hint shows again next time.
+    }
