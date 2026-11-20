@@ -198,3 +198,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
       sim.velocity = Math.max(-24, Math.min(24, d.v * carry))
       setCursor('grab')
       return
+    }
