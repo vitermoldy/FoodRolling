@@ -410,3 +410,5 @@ function taco(rng: Rng) {
       scatter(rng, 6, 0, 0, 22, [0.6, 1.2], ['#c9a35c']))
   }
   return out + path('M76 74 A8 8 0 0 1 88 74 Z', '#9ccc48', 'stroke="#6f9a2f" stroke-width="0.8"')
+}
+
