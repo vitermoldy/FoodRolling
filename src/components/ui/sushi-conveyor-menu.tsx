@@ -47,3 +47,4 @@ export interface SushiConveyorMenuProps extends React.ComponentProps<"section"> 
   onPausedChange?: (paused: boolean) => void;
   /** Brings one plate after another to the front and lifts it, until the visitor interacts. */
   autoplay?: boolean;
+  /** Milliseconds between autoplay plates. */
