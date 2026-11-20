@@ -159,3 +159,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     country: 'India',
     blurb: 'Dapur India dengan lengkungan jharokha, kalung bunga marigold, dan lampu kuningan.',
     scale: 36_000,
+    unlockCost: 330_000_000,
