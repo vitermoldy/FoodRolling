@@ -148,3 +148,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     const chef = renderer.hitChef(at.x, at.y)
     const near = renderer.nearestBelt(at.x, at.y)
     if (chef < 0 && near.dist > 1.1) return
+    drag.current = { id: e.pointerId, x: at.x, y: at.y, u: near.u, moved: false, chef, lastX: at.x, lastY: at.y, lastT: e.timeStamp, v: 0 }
