@@ -235,3 +235,5 @@ function ravioli(rng: Rng) {
   }
   out += leaf(40, 50, 10, 20, '#7d9868', 'rgba(255,255,255,0.25)') + leaf(62, 50, 9, -30, '#879f72', 'rgba(255,255,255,0.25)')
   return out + scatter(rng, 10, 50, 50, 26, [0.5, 0.9], ['#5b4a2a'])
+}
+
