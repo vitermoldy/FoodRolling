@@ -99,3 +99,4 @@ export const useGame = create<GameState>()((set, get) => ({
   saveError: false,
 
   buy(kind) {
+    const s = get()
