@@ -104,3 +104,4 @@ type Sim = {
   px: number; py: number; inside: boolean; lock: boolean; lockX: number; lockY: number;
 };
 
+function makeSim(): Sim {
