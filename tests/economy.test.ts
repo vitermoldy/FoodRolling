@@ -79,3 +79,4 @@ describe('upgrades', () => {
     expect(rateAfter(jepang, full, 'seats')).toBeGreaterThan(incomeRate(jepang, full))
   })
 
+  it('the income upgrade brings dishes onto the menu at set levels', () => {
