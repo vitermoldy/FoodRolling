@@ -81,3 +81,4 @@ function shade(hex: string, amount: number): string {
 function torso(ctx: Ctx, cx: number, top: number, bottom: number, wTop: number, wBottom: number, color: string) {
   ctx.fillStyle = color
   ctx.beginPath()
+  ctx.moveTo(cx - wTop / 2 + 0.06, top)
