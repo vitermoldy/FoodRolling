@@ -131,3 +131,4 @@ function italia(ctx: Ctx, w: Wall) {
   }
   // Arched windows.
   const ww = Math.min(W * 0.14, u * 2.4)
+  const wh = bottom * 0.66
