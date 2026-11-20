@@ -482,3 +482,4 @@ export function SushiConveyorMenu({
       // The visitor takes over the plate autoplay lifted: autoplay stops and the plate stays up.
       if (hit !== null && autoActive.current === hit) { autoActive.current = null; setPlaying(false); }
       return;
+    }
