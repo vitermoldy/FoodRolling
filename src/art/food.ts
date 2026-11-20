@@ -274,3 +274,4 @@ function cendol(rng: Rng) {
   return shadow(circle(50, 50, 31, '#000')) +
     circle(50, 50, 31, '#dff1f6', 'stroke="#b5d8e3" stroke-width="2"') + circle(50, 50, 27, '#f3ead6') +
     `<path d="M30 46 Q42 34 54 44 T72 52" fill="none" stroke="#8a491b" stroke-width="3.2" opacity="0.75" stroke-linecap="round"/>` +
+    `<path d="M33 60 Q46 52 58 62 T70 64" fill="none" stroke="#9b5622" stroke-width="2.4" opacity="0.6" stroke-linecap="round"/>` +
