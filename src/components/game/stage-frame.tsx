@@ -83,3 +83,4 @@ export function StageFrame() {
           {!hintSeen && !paused && (
             <p className="pointer-events-none absolute bottom-3 right-3 max-w-[15rem] rounded-[10px] bg-paper/95 px-3 py-2 text-xs leading-snug text-olive shadow-[0_2px_8px_rgb(40_30_10/0.12)] max-sm:hidden">
               Seret sabuk untuk memutarnya. Ketuk chef untuk membantu memasak.
+            </p>
