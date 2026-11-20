@@ -101,3 +101,4 @@ function jepang(ctx: Ctx, w: Wall) {
   for (const x of [u * 0.4 + sw + gap, W - u * 0.4 - sw - gap]) {
     if (gap < u * 0.5) break
     const cy = bottom * 0.3
+    hang(ctx, x, 0, cy - u * 0.45, u)
