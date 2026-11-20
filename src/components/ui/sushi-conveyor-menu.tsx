@@ -796,3 +796,4 @@ export function SushiConveyorMenu({
         s.inside = false;
         s.lock = false;
         const current = live.current.active;
+        if (pointer.current.id < 0 && !live.current.open && current !== null && current !== autoActive.current && !focusVisible()) setActive(null);
