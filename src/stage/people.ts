@@ -133,3 +133,4 @@ function hairFront(ctx: Ctx, look: Look, hx: number, hy: number, r: number, faci
     return
   }
   // Side view: hair over the top and the back half.
+  const dir = facing === 'right' ? 1 : -1
