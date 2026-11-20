@@ -142,3 +142,4 @@ function LockedCard() {
 /** If the canvas cannot start, say so instead of leaving a blank stage. */
 class StageBoundary extends React.Component<{ children: React.ReactNode }, { failed: boolean }> {
   state = { failed: false }
+  static getDerivedStateFromError() {
