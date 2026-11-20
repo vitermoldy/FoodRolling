@@ -309,3 +309,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
   const headY = standing ? -1.47 : -1.12
   const r = 0.27
   const shirt = chef ? chef.coat : look.shirt
+  const sleeve = chef ? chef.coat : shade(look.shirt, -14)
