@@ -361,3 +361,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
       dot(ctx, 0.1, shoulder + 0.16, 0.025, chef.trim)
       dot(ctx, -0.1, shoulder + 0.28, 0.025, chef.trim)
       dot(ctx, 0.1, shoulder + 0.28, 0.025, chef.trim)
+    } else if (facing === 'up') {
