@@ -457,3 +457,4 @@ export class StageRenderer {
       if (pulse.chef !== index) continue
       const t = (this.time - pulse.start) / 0.45
       if (t > 1) continue
+      ctx.save()
