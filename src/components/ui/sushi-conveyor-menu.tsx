@@ -787,3 +787,4 @@ export function SushiConveyorMenu({
       className="relative w-full touch-pan-y select-none"
       style={{ height: g ? g.height : 260, overflowX: "clip" }}
       onPointerDown={onPointerDown}
+      onPointerMove={onPointerMove}
