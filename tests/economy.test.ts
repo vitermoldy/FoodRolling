@@ -9,3 +9,4 @@ import {
   newRestaurantState,
   nextDish,
   rateAfter,
+  stepCost,
