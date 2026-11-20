@@ -37,3 +37,4 @@ interface Actions {
   setPaused: (paused: boolean) => void
   setTab: (tab: PanelTab) => void
   dismissOffline: () => void
+  dismissNotice: () => void
