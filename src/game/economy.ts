@@ -159,3 +159,4 @@ export function bottleneck(def: RestaurantDef, state: RestaurantState): Bottlene
   return production(def, state) < capacity(def, state) ? 'chefs' : 'seats'
 }
 
+/** Income rate after buying `count` steps of an upgrade. */
