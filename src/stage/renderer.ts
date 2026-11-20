@@ -337,3 +337,4 @@ export class StageRenderer {
 
   private drawStack(p: ScreenPoint, tiers: number[], alpha: number) {
     const ctx = this.ctx
+    const s = this.layout.d * p.k
