@@ -32,3 +32,4 @@ export interface LoopPoint {
   tq: number
 }
 
+/** Point on the belt centre line in loop coordinates (p along the straights, q across). */
