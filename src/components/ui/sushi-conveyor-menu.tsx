@@ -976,3 +976,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
     document.body.style.overflow = "hidden";
     onLift(true);
     let animation = null as Animation | null;
+    if (figure && from && !reduced && from.width > 0) {
