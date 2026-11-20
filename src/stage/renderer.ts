@@ -29,3 +29,4 @@ interface Coin {
   start: number
 }
 
+const STATION_TOP: Record<RestaurantId, [string, string]> = {
