@@ -925,3 +925,4 @@ export function SushiConveyorMenu({
         </div>
       )}
       {openIndex !== null && items[openIndex] && (
+        <DishDialog
