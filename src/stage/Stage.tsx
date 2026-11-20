@@ -45,3 +45,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
         if (sim.help(i)) {
           rendererRef.current?.pulse(i)
           helpTurn.current = i + 1
+          return
