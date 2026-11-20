@@ -9,3 +9,5 @@ import { BAND, Layout, STAND_HEIGHT, SIT_HEIGHT, TILT, type ScreenPoint } from '
 import { drawPerson, lookFrom, type Look } from './people.ts'
 import { paintRoom } from './room.ts'
 
+type Ctx = CanvasRenderingContext2D
+
