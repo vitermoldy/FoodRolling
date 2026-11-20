@@ -11,3 +11,4 @@ function state(patch: Partial<RestaurantState>): RestaurantState {
 }
 
 /** Runs the belt for a warm-up and then measures coins and plates per second. */
+function measure(st: RestaurantState, seconds = 1500, seed = 7) {
