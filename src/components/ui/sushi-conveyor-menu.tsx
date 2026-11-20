@@ -197,3 +197,4 @@ function slatPath(g: Geo, offset: number, shift: number) {
   let d = "";
   for (let j = 0; j < g.slats; j++) {
     const p = along(g, offset + shift + j * pitch);
+    const inner = project(g, p.x - p.nx * half, p.z - p.nz * half);
