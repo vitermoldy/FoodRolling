@@ -1008,3 +1008,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
     if (!figure || !to || reduced || to.width === 0) { onClose(); return; }
     const from = figure.getBoundingClientRect();
     const sx = to.width / from.width;
+    const sy = to.height / from.height;
