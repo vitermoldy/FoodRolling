@@ -60,3 +60,5 @@ export interface SushiConveyorMenuProps extends React.ComponentProps<"section"> 
   labels?: SushiConveyorMenuLabels;
   /** Replaces the dialog's add button; `close` runs the dialog's closing animation. */
   dialogAction?: (item: ConveyorDish, close: () => void) => React.ReactNode;
+}
+
