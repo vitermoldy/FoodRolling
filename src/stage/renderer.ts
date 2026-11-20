@@ -547,3 +547,4 @@ export class StageRenderer {
       ctx.lineTo(x - s * 0.2, y + s * 0.24)
       ctx.lineTo(x - s * 0.02, y + s * 0.13)
       ctx.fill()
+      for (let k = 0; k < 3; k++) {
