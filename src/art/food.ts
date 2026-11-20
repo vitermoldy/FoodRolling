@@ -391,3 +391,4 @@ function nachos(rng: Rng) {
   }
   out += path(blob(rng, 46, 46, 8, 0.6), '#ffb21f') + path(blob(rng, 60, 58, 6, 0.6), '#ffb21f') + path(blob(rng, 36, 60, 5, 0.6), '#ffbd34')
   for (const [x, y] of [[56, 38], [40, 54], [64, 64]] as [number, number][]) out += circle(x, y, 3.6, '#86c053', 'stroke="#3e8a35" stroke-width="1.6"') + scatter(rng, 3, x, y, 1.6, [0.4, 0.6], ['#f4f0d2'])
+  out += path(blob(rng, 64, 44, 7.5, 0.35), '#86b84a', 'stroke="#5f8d2e" stroke-width="0.8"') + scatter(rng, 5, 64, 44, 5, [0.6, 1], ['#a7cf6a', '#d8412d'])
