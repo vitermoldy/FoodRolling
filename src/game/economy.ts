@@ -29,3 +29,5 @@ export function maxOf(kind: UpgradeKind): number {
   if (kind === 'speed') return BALANCE.speed.max
   if (kind === 'chefs') return BALANCE.chefs.max
   return BALANCE.seats.max
+}
+
