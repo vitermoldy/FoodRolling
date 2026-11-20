@@ -641,3 +641,4 @@ function ell(ctx: Ctx, x: number, y: number, rx: number, ry: number, fill: strin
 /** A low cylinder seen from above: side band, then the top. */
 function tub(ctx: Ctx, x: number, y: number, rx: number, h: number, side: string, top: string, inner?: string) {
   const ry = rx * 0.62
+  ctx.fillStyle = side
