@@ -86,3 +86,4 @@ describe('the income formula matches the running belt', () => {
     ['late game', { chefs: 6, seats: 16, speed: 25, income: 40 }],
   ]
   for (const [name, patch] of cases) {
+    it(name, () => {
