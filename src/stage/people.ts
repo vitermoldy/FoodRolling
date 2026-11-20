@@ -281,3 +281,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
       break
     case 'cap':
       ctx.fillStyle = '#ffffff'
+      ctx.beginPath()
