@@ -254,3 +254,4 @@ export class BeltSim {
             this.events.push({ type: 'grab', seat: i, slot, plateId: plate.id })
           }
           break
+        }
