@@ -157,3 +157,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     if (!renderer) return
     const at = local(e)
     const d = drag.current
+    if (!d || d.id !== e.pointerId) {
