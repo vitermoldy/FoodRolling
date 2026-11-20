@@ -88,3 +88,5 @@ export class Layout {
     this.a = (1 + kb) / 2
     this.b = (1 - kb) / (2 * this.depth)
     this.fit()
+  }
+
