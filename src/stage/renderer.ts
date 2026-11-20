@@ -64,3 +64,4 @@ export class StageRenderer {
     const ctx = canvas.getContext('2d')
     if (!ctx) throw new Error('Canvas 2D is not available')
     this.ctx = ctx
+    this.def = def
