@@ -49,3 +49,4 @@ export class StageRenderer {
   layout: Layout
   private room: HTMLCanvasElement | null = null
   private roomKey = ''
+  def: RestaurantDef
