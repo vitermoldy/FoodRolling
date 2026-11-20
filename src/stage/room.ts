@@ -299,3 +299,4 @@ function meksiko(ctx: Ctx, w: Wall) {
     for (let k = 0; k < 4; k++) {
       const a = (k / 4) * Math.PI * 2 + Math.PI / 4
       disc(ctx, x + th / 2 + Math.cos(a) * th * 0.36, ty + th / 2 + Math.sin(a) * th * 0.36, th * 0.07, i % 2 ? '#1f5fa8' : '#e0a12a')
+    }
