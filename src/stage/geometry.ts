@@ -151,3 +151,5 @@ export class Layout {
     const along = side === 'stack' ? -0.34 : 0.3
     const out = BAND / 2 + COUNTER * 0.52
     return this.at(l.p + l.np * out + l.tp * along, l.q + l.nq * out + l.tq * along)
+  }
+
