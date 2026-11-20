@@ -480,3 +480,4 @@ export class StageRenderer {
   }
 
   private drawStool(index: number, p: ScreenPoint, empty: boolean) {
+    const facing = this.layout.facingIn(SEAT_SPOTS[index])
