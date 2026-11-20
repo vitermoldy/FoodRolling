@@ -887,3 +887,4 @@ export function SushiConveyorMenu({
           </button>
         );
       })}
+    </div>
