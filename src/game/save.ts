@@ -59,3 +59,4 @@ export function parseSave(text: string | null, now: number): SaveData | null {
     else if (!open) save.restaurants[id].owned = false
   }
   if (typeof data.current === 'string' && (RESTAURANT_IDS as string[]).includes(data.current)) save.current = data.current
+  return save
