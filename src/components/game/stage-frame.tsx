@@ -128,3 +128,4 @@ function LockedCard() {
                 <div className="h-full rounded-full bg-olive" style={{ width: `${Math.min(100, (money / def.unlockCost) * 100)}%` }} />
               </div>
             )}
+          </>
