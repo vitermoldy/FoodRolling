@@ -85,3 +85,5 @@ export function nextLocked(s: Pick<SaveData, 'restaurants'>): RestaurantId | nul
 
 export function canUnlock(s: Pick<SaveData, 'restaurants' | 'money'>, id: RestaurantId): boolean {
   return nextLocked(s) === id && s.money >= restaurantById(id).unlockCost
+}
+
