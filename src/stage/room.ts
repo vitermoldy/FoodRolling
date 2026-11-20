@@ -732,3 +732,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
         break
       case 'meksiko':
         if (side === 0) {
+          ell(ctx, x, y, s * 0.46, s * 0.3, '#2a2522')
