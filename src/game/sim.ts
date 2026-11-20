@@ -215,3 +215,4 @@ export class BeltSim {
         const slot = this.nearestSlot(CHEF_SPOTS[i].u)
         if (!this.slots[slot]) {
           this.slots[slot] = { id: chef.plateId, dish: chef.dish }
+          this.events.push({ type: 'drop', chef: i, slot, plateId: chef.plateId })
