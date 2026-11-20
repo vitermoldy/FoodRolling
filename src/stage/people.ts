@@ -272,3 +272,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
       ctx.ellipse(hx, hy - r * 0.32, r * 1.06, r * 0.86, 0, Math.PI * 1.02, Math.PI * 1.98)
       ctx.closePath()
       ctx.fill()
+      dot(ctx, hx - r * 0.3, hy - r * 0.75, r * 0.08, '#fff2e4')
