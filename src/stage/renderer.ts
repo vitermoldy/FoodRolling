@@ -572,3 +572,4 @@ export class StageRenderer {
       const y = c.y - (this.reduced ? 0 : t * L.d * 0.6)
       // Keep the number inside the stage near the edges.
       const half = ctx.measureText(c.text).width / 2 + size * 0.3
+      const x = Math.min(L.width - half, Math.max(half, c.x))
