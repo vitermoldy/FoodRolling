@@ -217,3 +217,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
         onPointerLeave={() => { if (!drag.current && cursor !== 'default') setCursor('default') }}
       />
     </div>
+  )
