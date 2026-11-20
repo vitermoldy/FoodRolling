@@ -68,3 +68,4 @@ export interface Chef {
   progress: number
   dish: number
   plateId: number
+  /** Seconds since the last tap, for the renderer's sparkle. */
