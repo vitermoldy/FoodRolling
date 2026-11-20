@@ -92,3 +92,4 @@ describe('the income formula matches the running belt', () => {
       const want = platesPerSecond(jepang, st)
       expect(got.plates / want).toBeGreaterThan(0.9)
       expect(got.plates / want).toBeLessThan(1.1)
+      expect(got.coins / incomeRate(jepang, st)).toBeGreaterThan(0.9)
