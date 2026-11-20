@@ -154,3 +154,4 @@ function face(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facing: F
     ctx.fill()
     if (mouthOpen) {
       ctx.fillStyle = '#7a2e22'
+      ctx.beginPath()
