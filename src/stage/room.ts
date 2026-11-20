@@ -462,3 +462,4 @@ function prancis(ctx: Ctx, w: Wall) {
     ctx.beginPath()
     ctx.moveTo(x + mw * 0.25, y + mh * 0.75)
     ctx.lineTo(x + mw * 0.6, y + mh * 0.3)
+    ctx.stroke()
