@@ -57,3 +57,4 @@ export function SeatIcon(props: IconProps) {
       <path d="M8 12.5 6.5 21.5M16 12.5l1.5 9M9.2 17.4h5.6" stroke="#7a5538" strokeWidth="1.8" strokeLinecap="round" />
       <ellipse cx="12" cy="11.6" rx="7.6" ry="3" fill="#7a5538" />
       <ellipse cx="12" cy="10.6" rx="7.6" ry="3" fill="#b07a4f" />
+    </Svg>
