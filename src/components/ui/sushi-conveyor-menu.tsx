@@ -841,3 +841,4 @@ export function SushiConveyorMenu({
         const isActive = active === i;
         const broken = !!failed[item.id];
         const mask = `url("${item.image}") 0 0 / 100% 100% no-repeat`;
+        return (
