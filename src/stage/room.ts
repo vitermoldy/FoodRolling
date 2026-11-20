@@ -498,3 +498,4 @@ function floor(ctx: Ctx, id: RestaurantId, theme: ThemeDef, W: number, H: number
   if (id === 'jepang' || id === 'indonesia') {
     ctx.fillStyle = theme.floorAlt
     for (let y = top, i = 0; y < H; y += u * 0.42, i++) {
+      if (i % 2) ctx.fillRect(0, y, W, u * 0.42)
