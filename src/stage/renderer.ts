@@ -214,3 +214,4 @@ export class StageRenderer {
       const sp = L.seat(i)
       const stack = L.counterSpot(i, 'stack')
       const eat = L.counterSpot(i, 'eat')
+      let alpha = 1
