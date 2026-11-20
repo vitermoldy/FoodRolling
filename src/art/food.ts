@@ -289,3 +289,4 @@ function sate(rng: Rng) {
   for (let k = 0; k < 4; k++) {
     const ox = k * 8 - 12
     const oy = k * 6 - 9
+    let meat = ''
