@@ -365,3 +365,4 @@ export function SushiConveyorMenu({
     let best = null as number | null;
     let bestY = -Infinity;
     for (let i = 0; i < L.count; i++) {
+      const q = pose(g, s.offset, i);
