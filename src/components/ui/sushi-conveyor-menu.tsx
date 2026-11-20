@@ -350,3 +350,5 @@ export function SushiConveyorMenu({
     if (v !== s.published) { s.published = v; beltRef.current?.style.setProperty("--belt-v", v); }
     const c = centerOf(g, s.offset);
     if (c !== s.center) { s.center = c; setCenter(c); }
+  }, []);
+
