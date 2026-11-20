@@ -457,3 +457,4 @@ export function SushiConveyorMenu({
     s.touched = true;
     if (s.mode === SEEK) s.mode = RUN;
     const auto = autoActive.current;
+    if (auto !== null) {
