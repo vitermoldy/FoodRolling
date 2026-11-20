@@ -400,3 +400,4 @@ function taco(rng: Rng) {
   for (const [x, a] of [[30, -10], [50, 0], [70, 10]] as [number, number][]) {
     let filling = ''
     for (let i = 0; i < 7; i++) {
+      const y = -18 + i * 6 + rng() * 2
