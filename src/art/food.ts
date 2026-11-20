@@ -136,3 +136,5 @@ function slicedTopping(rng: Rng, y: number, base: string, edge: string, stripe: 
   }
   out += path(`M28 ${y - 8} Q45 ${y - 12} 70 ${y - 8}`, 'none', 'stroke="rgba(255,255,255,0.45)" stroke-width="1.3" stroke-linecap="round"')
   return out
+}
+
