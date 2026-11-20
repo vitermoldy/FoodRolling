@@ -355,3 +355,4 @@ function rendang(rng: Rng) {
   for (const [x, y, r] of chunks) {
     out += path(blob(rng, x, y, r, 0.45, 7), '#5a2b13', 'stroke="#3a1a09" stroke-width="0.9"')
     out += path(blob(rng, x - 2, y - 2.5, r * 0.45, 0.5, 6), '#7b4421')
+  }
