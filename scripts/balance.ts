@@ -32,3 +32,4 @@ while (t < 12 * 3600) {
       options.push({ payback: gain > 0 ? cost / gain : Infinity, cost, label: `${def.id} ${kind}`, apply: () => { st[kind] += 1 } })
     }
   })
+  const next = states.findIndex((s) => !s.owned)
