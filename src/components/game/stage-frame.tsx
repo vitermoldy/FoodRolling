@@ -5,3 +5,5 @@ import { formatCoins } from '@/lib/format'
 import { Stage, type StageHandle } from '@/stage/Stage'
 import { CookIcon, LockIcon, PauseIcon, PlayIcon } from './icons'
 
+const HINT_KEY = 'foodrolling.hint-seen'
+
