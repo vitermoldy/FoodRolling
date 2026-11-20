@@ -33,3 +33,5 @@ Warna piring menandai harga: biru, hijau, merah, emas, hitam, dari termurah samp
 Menu menampilkan hidangan restoran di sabuk menu dari `Prompt.txt`.
 
 Progres tersimpan otomatis di `localStorage` setiap 5 detik dan saat tab ditutup. Selama game ditutup,
+restoran tetap menghasilkan uang sampai 8 jam.
+
