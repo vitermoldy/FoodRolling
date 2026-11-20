@@ -123,3 +123,4 @@
   }
   .btn-quiet:hover:not(:disabled) {
     background: #fffefb;
+    border-color: var(--color-olive);
