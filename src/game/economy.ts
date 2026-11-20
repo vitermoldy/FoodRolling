@@ -92,3 +92,5 @@ export function eatTime(def: RestaurantDef, state: RestaurantState): number {
 }
 export function beltSpeed(def: RestaurantDef, state: RestaurantState): number {
   return def.beltSpeed * beltMult(state.speed)
+}
+
