@@ -58,3 +58,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     if (!canvas || !wrap) return
     const renderer = new StageRenderer(canvas, restaurantById(useGame.getState().current))
     rendererRef.current = renderer
+    const media = window.matchMedia('(prefers-reduced-motion: reduce)')
