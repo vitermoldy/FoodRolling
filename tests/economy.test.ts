@@ -33,3 +33,4 @@ describe('restaurants', () => {
     for (const r of RESTAURANTS) {
       expect(r.dishes).toHaveLength(6)
       const tiers = r.dishes.map((d) => d.tier)
+      expect([...tiers].sort()).toEqual(tiers)
