@@ -931,3 +931,4 @@ export function SushiConveyorMenu({
           index={openIndex}
           total={count}
           labels={labels}
+          reduced={reduced}
