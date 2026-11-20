@@ -98,3 +98,4 @@ export type SimEvent =
 
 export interface SimConfig {
   cookTime: number
+  eatTime: number
