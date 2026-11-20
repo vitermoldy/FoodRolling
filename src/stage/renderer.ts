@@ -454,3 +454,4 @@ export class StageRenderer {
     ctx.stroke()
     ctx.restore()
     for (const pulse of this.pulses) {
+      if (pulse.chef !== index) continue
