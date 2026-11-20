@@ -67,3 +67,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
       renderer.resize(Math.max(1, box.width), Math.max(1, box.height), window.devicePixelRatio || 1)
     }
     measure()
+    const observer = new ResizeObserver(measure)
