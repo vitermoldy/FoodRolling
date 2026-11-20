@@ -77,3 +77,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     const frame = (now: number) => {
       raf = requestAnimationFrame(frame)
       const dt = Math.min(0.1, Math.max(0, (now - last) / 1000))
+      last = now
