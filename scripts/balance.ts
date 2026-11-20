@@ -56,3 +56,4 @@ while (t < 12 * 3600) {
     best.apply()
     continue
   }
+  money += rate * dt
