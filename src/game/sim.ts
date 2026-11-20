@@ -269,3 +269,4 @@ export class BeltSim {
             if (seat.eaten >= seat.want) {
               seat.state = 'leaving'
               seat.timer = C.leave
+            } else {
