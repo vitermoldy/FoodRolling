@@ -40,3 +40,5 @@ const STATION_TOP: Record<RestaurantId, [string, string]> = {
 
 function ease(t: number) {
   return t < 0.5 ? 2 * t * t : 1 - (-2 * t + 2) ** 2 / 2
+}
+
