@@ -677,3 +677,4 @@ export function SushiConveyorMenu({
       if (Math.hypot(at.x - s.lockX, at.y - s.lockY) < 4) return;
       s.lock = false;
     }
+    hoverRef.current(hitTest(at.x, at.y));
