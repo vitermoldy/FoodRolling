@@ -31,3 +31,4 @@ export function maxOf(kind: UpgradeKind): number {
   return BALANCE.seats.max
 }
 
+export function isMaxed(state: RestaurantState, kind: UpgradeKind): boolean {
