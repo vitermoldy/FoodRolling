@@ -12,3 +12,4 @@ import {
   stepCost,
   unlockedDishIndexes,
   UPGRADE_KINDS,
+} from '@/game/economy'
