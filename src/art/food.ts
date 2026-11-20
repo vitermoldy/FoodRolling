@@ -472,3 +472,4 @@ function samosa(rng: Rng) {
   return out
 }
 
+function naan(rng: Rng) {
