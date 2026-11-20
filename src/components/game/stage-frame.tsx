@@ -97,3 +97,4 @@ function LockedCard() {
   const current = useGame((s) => s.current)
   const money = useGame((s) => s.money)
   const restaurants = useGame((s) => s.restaurants)
+  const unlock = useGame((s) => s.unlock)
