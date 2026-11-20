@@ -171,3 +171,4 @@ export class BeltSim {
   }
 
   /** A tap on a chef: a push of cooking progress. */
+  help(index: number): boolean {
