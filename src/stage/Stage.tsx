@@ -212,3 +212,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
         style={{ cursor }}
         onPointerDown={onPointerDown}
         onPointerMove={onPointerMove}
+        onPointerUp={(e) => finish(e, false)}
