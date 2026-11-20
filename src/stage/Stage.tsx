@@ -91,3 +91,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
         markLive(L.id, Date.now())
       }
       renderer.draw(running ? dt : 0)
+      if (sim && now - labelAt > 1000) {
