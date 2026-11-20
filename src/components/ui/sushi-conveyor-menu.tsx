@@ -256,3 +256,4 @@ export function SushiConveyorMenu({
   const stageRef = React.useRef(null as HTMLDivElement | null);
   const beltRef = React.useRef(null as HTMLDivElement | null);
   const seamRef = React.useRef(null as SVGPathElement | null);
+  const glintRef = React.useRef(null as SVGPathElement | null);
