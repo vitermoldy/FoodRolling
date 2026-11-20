@@ -380,3 +380,4 @@ function churros(rng: Rng) {
 }
 
 function nachos(rng: Rng) {
+  let out = ''
