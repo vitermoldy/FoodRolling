@@ -316,3 +316,4 @@ function nasgor(rng: Rng) {
     circle(74, 39, 6, '#d94a33') + circle(74, 39, 3.6, '#f07a5c') + scatter(rng, 4, 74, 39, 3, [0.4, 0.6], ['#ffe0a0'])
 }
 
+function gado(rng: Rng) {
