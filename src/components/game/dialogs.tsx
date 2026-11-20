@@ -84,3 +84,4 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
           <>
             <p className="text-sm">Mulai lagi dari Kaiten Hinoki dengan uang nol.</p>
             <button type="button" className="btn btn-quiet mt-2" onClick={() => setConfirm(true)}>Mulai dari awal</button>
+          </>
