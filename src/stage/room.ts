@@ -531,3 +531,4 @@ function floor(ctx: Ctx, id: RestaurantId, theme: ThemeDef, W: number, H: number
       }
     }
   }
+  // Skirting where the wall meets the floor.
