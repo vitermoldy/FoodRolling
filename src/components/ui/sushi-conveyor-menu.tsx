@@ -248,3 +248,4 @@ export function SushiConveyorMenu({
   dialogAction,
   className,
   ref,
+  ...rest
