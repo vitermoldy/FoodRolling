@@ -152,3 +152,4 @@ export class StageRenderer {
       const s = this.layout.d * p.k
       const st = this.layout.station(i)
       const inChef = x > p.x - s * 0.42 && x < p.x + s * 0.42 && y > p.y - s * (STAND_HEIGHT + 0.1) && y < p.y + s * 0.15
+      const inStation = Math.abs(x - st.x) < s * 0.5 && Math.abs(y - st.y) < s * 0.32
