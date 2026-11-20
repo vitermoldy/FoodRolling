@@ -509,3 +509,4 @@ export function SushiConveyorMenu({
   const go = (index: number, focus: boolean) => {
     if (count === 0) return;
     const next = ((index % count) + count) % count;
+    stop();
