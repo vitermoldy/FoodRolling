@@ -127,3 +127,4 @@ export const useGame = create<GameState>()((set, get) => ({
   },
 
   select(id) {
+    if (get().current === id) return
