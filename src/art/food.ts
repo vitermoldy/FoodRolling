@@ -120,3 +120,4 @@ function kappa(rng: Rng) {
     for (const x of [29, 50, 71]) {
       out += shadow(circle(x, y, 10.5, '#000'))
       out += circle(x, y, 10.5, '#1d281c') + circle(x, y, 8.7, '#f8f5ee')
+      out += grains(rng, 7, x, y, 6.5, ['#e8e2d4'], 0.9)
