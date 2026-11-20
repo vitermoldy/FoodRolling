@@ -21,3 +21,4 @@ const jepang = RESTAURANTS[0]
 
 describe('restaurants', () => {
   it('six restaurants, each pricier than the last, the first one free', () => {
+    expect(RESTAURANTS.map((r) => r.id)).toEqual(['jepang', 'italia', 'indonesia', 'meksiko', 'india', 'prancis'])
