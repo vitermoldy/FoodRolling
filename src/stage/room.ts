@@ -27,3 +27,4 @@ function disc(ctx: Ctx, x: number, y: number, r: number, fill: string) {
 }
 
 function hang(ctx: Ctx, x: number, y0: number, y1: number, u: number) {
+  ctx.strokeStyle = 'rgba(40,30,20,0.55)'
