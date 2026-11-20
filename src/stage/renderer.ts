@@ -50,3 +50,4 @@ export class StageRenderer {
   private room: HTMLCanvasElement | null = null
   private roomKey = ''
   def: RestaurantDef
+  sim: BeltSim | null = null
