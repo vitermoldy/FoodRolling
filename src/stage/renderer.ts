@@ -414,3 +414,4 @@ export class StageRenderer {
       ctx.globalAlpha = (1 - t) * 0.8
       const yy = y - t * s * 0.5
       ctx.beginPath()
+      ctx.moveTo(x + k * s * 0.12, yy)
