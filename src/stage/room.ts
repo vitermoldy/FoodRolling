@@ -687,3 +687,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
           // Stone oven: a brick dome with a glowing mouth.
           ctx.fillStyle = '#a5532f'
           ctx.beginPath()
+          ctx.ellipse(x, y, s * 0.55, s * 0.5, 0, Math.PI, 0)
