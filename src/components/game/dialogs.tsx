@@ -9,3 +9,4 @@ function Modal({ open, onClose, labelledBy, children }: { open: boolean; onClose
   const ref = React.useRef<HTMLDialogElement>(null)
   React.useEffect(() => {
     const dialog = ref.current
+    if (!dialog) return
