@@ -138,3 +138,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     eatTime: 5.2,
     beltSpeed: 1.95,
     dishes: [
+      { id: 'churros', name: 'Churros', tier: 1, description: 'Adonan goreng bergula kayu manis dengan saus cokelat.', details: ['4 batang', 'Gandum'] },
