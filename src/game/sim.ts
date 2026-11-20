@@ -160,3 +160,4 @@ export class BeltSim {
     return wrap(this.offset - i * PITCH)
   }
 
+  nearestSlot(u: number): number {
