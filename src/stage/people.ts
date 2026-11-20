@@ -270,3 +270,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
       ctx.fillStyle = chef.apron
       ctx.beginPath()
       ctx.ellipse(hx, hy - r * 0.32, r * 1.06, r * 0.86, 0, Math.PI * 1.02, Math.PI * 1.98)
+      ctx.closePath()
