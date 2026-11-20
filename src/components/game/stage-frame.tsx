@@ -28,3 +28,4 @@ export function StageFrame() {
     if (hintSeen) return
     setHintSeen(true)
     try {
+      localStorage.setItem(HINT_KEY, '1')
