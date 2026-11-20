@@ -578,3 +578,4 @@ function quiche(rng: Rng) {
   const shape = `M${cx} ${cy}L${f(p0[0])} ${f(p0[1])}A${r} ${r} 0 0 1 ${f(p1[0])} ${f(p1[1])}Z`
   const inner = `M${cx} ${cy - 5}L${f(p0[0] + 4)} ${f(p0[1] + 6)}A${r - 7} ${r - 7} 0 0 1 ${f(p1[0] - 4)} ${f(p1[1] + 6)}Z`
   return shadow(path(shape, '#000')) + path(shape, '#d4a058', 'stroke="#b07f3c" stroke-width="1.2"') +
+    `<path d="M${f(p0[0])} ${f(p0[1])}A${r} ${r} 0 0 1 ${f(p1[0])} ${f(p1[1])}" fill="none" stroke="#e8bd76" stroke-width="3" stroke-dasharray="3 2.2"/>` +
