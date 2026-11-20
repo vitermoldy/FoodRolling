@@ -150,3 +150,4 @@ export const RESTAURANTS: RestaurantDef[] = [
       wall: '#e7a26a', wallLow: '#cf8550', floor: '#b5653d', floorAlt: '#a45832',
       counter: '#f2e6cf', counterEdge: '#c9b48d', island: '#2f6fb3', islandEdge: '#204f85',
       belt: '#a99f92', beltSide: '#7a7063', rail: '#ebe3d6', plate: '#fffaf2',
+      chef: { hat: 'bandana', coat: '#fbf8f1', apron: '#c8432b', trim: '#1f5fa8' },
