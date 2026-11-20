@@ -8,3 +8,4 @@ export interface SaveData {
   v: 1
   money: number
   totalEarned: number
+  current: RestaurantId
