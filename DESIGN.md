@@ -46,3 +46,4 @@ di tumpukan piring di depan pelanggan, di legenda menu, di ikon Pendapatan, dan 
 | Satu aksen per restoran (merah lentera, merah bata, merah Padang, biru talavera, hijau tosca, biru Paris) | Aksen hanya dipakai untuk grafik: penanda tab restoran, cincin progres chef, bar meter yang menahan, garis tab panel. Tidak pernah untuk teks, jadi kontras teks tidak bergantung pada restoran. |
 | Urbanist untuk semua teks | Pasangan pertama dari deal yang sama. Bentuk geometris yang ramah, cocok untuk game santai, dan tetap jelas di ukuran 12 px di panel. |
 | DM Mono untuk angka uang, harga, dan laju | Angka berbaris rapi seperti kolom harga di struk atau menu, dan lebarnya tetap saat uang bertambah setiap detik. |
+| Panggung kanvas, panel DOM | Sabuk, 16 pelanggan, 6 chef, dan 21 piring digambar ulang 60 kali per detik; kanvas menjaga ini ringan. Semua kontrol tetap tombol asli supaya bisa dipakai dengan keyboard dan pembaca layar. |
