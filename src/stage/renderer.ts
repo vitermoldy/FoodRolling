@@ -563,3 +563,4 @@ export class StageRenderer {
     this.coins = this.coins.filter((c) => this.time - c.start < 1.3)
     const size = Math.max(12, L.d * 0.32)
     ctx.save()
+    ctx.font = `700 ${size}px "Urbanist Variable", Urbanist, system-ui, sans-serif`
