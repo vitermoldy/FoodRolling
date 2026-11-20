@@ -66,3 +66,4 @@ export class StageRenderer {
     this.ctx = ctx
     this.def = def
     this.layout = new Layout(1, 1)
+    this.loadFood(def)
