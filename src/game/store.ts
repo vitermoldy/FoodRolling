@@ -52,3 +52,4 @@ function readStorage(): string | null {
   }
 }
 
+function boot(now: number): SaveData & Pick<UiState, 'offline'> {
