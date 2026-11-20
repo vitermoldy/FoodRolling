@@ -5,3 +5,5 @@ type IconProps = SVGProps<SVGSVGElement>
 
 function Svg(props: IconProps) {
   return <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false" {...props} />
+}
+
