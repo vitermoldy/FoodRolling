@@ -77,3 +77,4 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
                 onClick={() => { reset(); onClose() }}
               >
                 Hapus progres
+              </button>
