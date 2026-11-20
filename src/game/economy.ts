@@ -58,3 +58,4 @@ export function bulkCost(
   let level = state[kind]
   let cost = 0
   let count = 0
+  const limit = amount === 'max' ? Infinity : amount
