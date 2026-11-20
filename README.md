@@ -39,3 +39,4 @@ restoran tetap menghasilkan uang sampai 8 jam.
 
 ```bash
 npm install
+npm run dev        # http://localhost:5191
