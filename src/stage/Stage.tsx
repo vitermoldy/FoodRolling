@@ -18,3 +18,4 @@ export interface StageHandle {
   helpNext: () => void
 }
 
+export const Stage = React.forwardRef<StageHandle, { className?: string }>(function Stage({ className }, ref) {
