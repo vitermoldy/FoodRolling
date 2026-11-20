@@ -456,3 +456,4 @@ function prancis(ctx: Ctx, w: Wall) {
     ctx.fillStyle = glass
     ctx.beginPath()
     ctx.roundRect(x, y, mw, mh, [mw / 2 - u * 0.1, mw / 2 - u * 0.1, 0, 0])
+    ctx.fill()
