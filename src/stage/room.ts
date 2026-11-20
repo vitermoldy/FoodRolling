@@ -362,3 +362,4 @@ function india(ctx: Ctx, w: Wall) {
   const grad = ctx.createLinearGradient(0, 0, 0, bottom)
   grad.addColorStop(0, theme.wall)
   grad.addColorStop(1, theme.wallLow)
+  ctx.fillStyle = grad
