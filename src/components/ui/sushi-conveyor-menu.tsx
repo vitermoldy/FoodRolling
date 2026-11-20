@@ -849,3 +849,4 @@ export function SushiConveyorMenu({
             data-dish={i}
             data-active={isActive || undefined}
             tabIndex={i === roving ? 0 : -1}
+            aria-label={`${item.name}, ${item.price}`}
