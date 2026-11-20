@@ -178,3 +178,5 @@ export class StageRenderer {
     const a = this.layout.belt(u)
     const b = this.layout.belt(u + 0.05)
     return { x: (b.x - a.x) / 0.05, y: (b.y - a.y) / 0.05 }
+  }
+
