@@ -75,3 +75,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     let last = performance.now()
     let labelAt = 0
     const frame = (now: number) => {
+      raf = requestAnimationFrame(frame)
