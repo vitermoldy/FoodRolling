@@ -277,3 +277,4 @@ export class BeltSim {
           break
         case 'leaving':
           seat.timer -= h
+          if (seat.timer <= 0) {
