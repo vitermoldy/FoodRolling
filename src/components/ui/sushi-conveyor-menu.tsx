@@ -1039,3 +1039,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
     const controls = [...(dialogRef.current?.querySelectorAll("button") ?? [])].filter((node) => !node.disabled);
     const first = controls[0];
     const last = controls.at(-1);
+    if (!first || !last) return;
