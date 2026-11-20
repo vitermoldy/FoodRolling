@@ -453,3 +453,4 @@ export class StageRenderer {
     ctx.arc(rx, ry, r, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * (cooking ? progress : 1))
     ctx.stroke()
     ctx.restore()
+    for (const pulse of this.pulses) {
