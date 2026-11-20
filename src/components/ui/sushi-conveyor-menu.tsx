@@ -1000,3 +1000,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
   }, [source, reduced, onLift]);
 
   const dismiss = React.useCallback(() => {
+    if (closing.current) return;
