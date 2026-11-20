@@ -62,3 +62,4 @@ di tumpukan piring di depan pelanggan, di legenda menu, di ikon Pendapatan, dan 
 
 ## Isi dalam game
 
+Nama restoran (Kaiten Hinoki, Trattoria Basilico, Rumah Makan Gonjong, Taquería Nopal, Rasoi Kesar,
