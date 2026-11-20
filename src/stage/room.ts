@@ -64,3 +64,4 @@ function jepang(ctx: Ctx, w: Wall) {
   for (let x = 0, i = 0; x < W; x += u * 0.9, i++) {
     ctx.fillStyle = i % 2 ? theme.wall : '#e4cc9f'
     ctx.fillRect(x, 0, u * 0.9, bottom)
+    ctx.fillStyle = 'rgba(120,80,40,0.12)'
