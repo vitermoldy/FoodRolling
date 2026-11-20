@@ -15,3 +15,4 @@ function plateUrl(id: string, plate: string) {
     url = toDataUrl(plateSvg(id, plate))
     plates.set(key, url)
   }
+  return url
