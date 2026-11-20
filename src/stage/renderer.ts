@@ -435,3 +435,4 @@ export class StageRenderer {
     })
     // Progress ring beside the head.
     const rx = p.x + s * 0.62
+    const ry = p.y - s * 1.5
