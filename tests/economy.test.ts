@@ -89,3 +89,4 @@ describe('upgrades', () => {
   })
 
   it('a closed restaurant earns nothing', () => {
+    expect(incomeRate(RESTAURANTS[1], newRestaurantState(false))).toBe(0)
