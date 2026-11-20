@@ -299,3 +299,4 @@ export class BeltSim {
       state: 'empty',
       timer: 0.4 + this.rng() * 1.2,
       look: Math.floor(this.rng() * 1e9),
+      want: 1,
