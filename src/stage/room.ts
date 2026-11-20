@@ -466,3 +466,4 @@ function prancis(ctx: Ctx, w: Wall) {
   }
   // Chalkboard with the day's dishes.
   const cw = Math.min(W * 0.3, u * 5)
+  const ch = Math.min((bottom - wh) * 0.78, u * 1.9)
