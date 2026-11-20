@@ -721,3 +721,4 @@ export function SushiConveyorMenu({
   };
 
   const openSource = React.useCallback(() => (openIndex === null ? null : lifts.current[openIndex]?.getBoundingClientRect() ?? null), [openIndex]);
+  const onLift = React.useCallback((on: boolean) => setLifted(on ? openIndex : null), [openIndex]);
