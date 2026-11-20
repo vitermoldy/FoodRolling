@@ -806,3 +806,4 @@ export function SushiConveyorMenu({
       }}
       onKeyDown={onKeyDown}
     >
+      {g && (
