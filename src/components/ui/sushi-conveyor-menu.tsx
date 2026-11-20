@@ -833,3 +833,4 @@ export function SushiConveyorMenu({
             <path d={paths.island} style={{ fill: "var(--island-wall)" }} />
             <path d={paths.island} transform={`translate(0 ${(-g.side * 0.6).toFixed(1)})`} style={{ fill: `url(#${uid}-island)` }} />
             <path d={paths.island} transform={`translate(0 ${(-g.side * 0.6 - 0.6).toFixed(1)})`} fill="none" stroke="white" strokeOpacity={0.55} strokeWidth={Math.max(0.8, g.d * 0.008)} className="dark:opacity-40" />
+          </svg>
