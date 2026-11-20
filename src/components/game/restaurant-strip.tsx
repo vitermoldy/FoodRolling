@@ -52,3 +52,4 @@ export function RestaurantStrip() {
               tabIndex={active ? 0 : -1}
               onClick={() => select(r.id)}
               onKeyDown={(e) => onKeyDown(e, i)}
+              style={active ? { boxShadow: `inset 0 -3px 0 ${r.theme.accent}` } : undefined}
