@@ -30,3 +30,4 @@ export const BALANCE = {
     wantMin: 1,
     wantMax: 3,
   },
+  /** One tap on a chef adds this much cooking progress. */
