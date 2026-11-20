@@ -115,3 +115,4 @@ export function tierPrice(def: RestaurantDef, tier: number, incomeLevel: number)
   return def.scale * (BALANCE.tierPrice[tier - 1] ?? 1) * incomeMult(incomeLevel)
 }
 
+export function dishPrice(def: RestaurantDef, dish: DishDef, incomeLevel: number): number {
