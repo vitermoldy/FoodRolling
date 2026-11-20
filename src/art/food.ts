@@ -266,3 +266,4 @@ function cendol(rng: Rng) {
   for (let i = 0; i < 18; i++) {
     const a = rng() * Math.PI * 2
     const d = Math.sqrt(rng()) * 19
+    const x = 50 + Math.cos(a) * d
