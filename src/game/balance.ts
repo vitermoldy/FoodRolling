@@ -36,3 +36,4 @@ export const BALANCE = {
   offlineCapHours: 8,
 } as const
 
+/** Belt layout in plate diameters: straight length, curve radius and slot count. */
