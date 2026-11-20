@@ -342,3 +342,4 @@ function ayampop(rng: Rng) {
     circle(76, 66, 4, '#f8f4ea', 'stroke="#d9cfbc" stroke-width="0.8"') + circle(73, 68.5, 3.4, '#f8f4ea', 'stroke="#d9cfbc" stroke-width="0.8"') +
     path('M30 34 Q40 26 52 32', 'none', 'stroke="#fbf3df" stroke-width="3.5" stroke-linecap="round" opacity="0.85"') +
     scatter(rng, 9, 40, 40, 12, [1, 2.2], ['#e3c58c', '#d9b676']) +
+    scatter(rng, 14, 40, 40, 13, [0.6, 1.1], ['#f8ecd2', '#e6cf9f']) +
