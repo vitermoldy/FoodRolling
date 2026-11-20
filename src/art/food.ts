@@ -484,3 +484,4 @@ function naan(rng: Rng) {
 
 function dal(rng: Rng) {
   return shadow(circle(50, 50, 31, '#000')) +
+    circle(50, 50, 31, '#b8702f', 'stroke="#8f521d" stroke-width="1.2"') + circle(50, 50, 28.5, '#d18a45') + circle(50, 50, 25, '#e6ad38') +
