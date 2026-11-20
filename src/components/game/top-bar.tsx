@@ -26,3 +26,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
           <span className="hidden sm:inline">Pengaturan</span>
         </button>
       </div>
+    </header>
