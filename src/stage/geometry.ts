@@ -36,3 +36,4 @@ export interface LoopPoint {
 export function alongLoop(u: number): LoopPoint {
   const s = STRAIGHT
   const r = RADIUS
+  let t = ((u % BELT_LENGTH) + BELT_LENGTH) % BELT_LENGTH
