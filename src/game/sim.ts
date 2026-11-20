@@ -243,3 +243,4 @@ export class BeltSim {
           break
         case 'waiting': {
           seat.waited += h
+          const slot = this.nearestSlot(SEAT_SPOTS[i])
