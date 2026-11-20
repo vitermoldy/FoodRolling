@@ -501,3 +501,4 @@ export function SushiConveyorMenu({
 
   const close = React.useCallback(() => {
     live.current.open = false;
+    setOpenIndex(null);
