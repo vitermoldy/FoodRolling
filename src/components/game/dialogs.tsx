@@ -94,3 +94,4 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
 export function OfflineDialog() {
   const offline = useGame((s) => s.offline)
   const dismiss = useGame((s) => s.dismissOffline)
+  return (
