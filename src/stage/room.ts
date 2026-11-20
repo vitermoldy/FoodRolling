@@ -177,3 +177,4 @@ function italia(ctx: Ctx, w: Wall) {
     const bx = sx + u * 0.4 + (i * (sw - u * 0.8)) / 6
     const tall = 0.75 + (i % 3) * 0.12
     const glass = i % 3 === 0 ? '#2f4a2f' : i % 3 === 1 ? '#5a1f22' : '#3c5a3a'
+    rr(ctx, bx - u * 0.13, sy - u * tall, u * 0.26, u * tall, [u * 0.1, u * 0.1, u * 0.03, u * 0.03], glass)
