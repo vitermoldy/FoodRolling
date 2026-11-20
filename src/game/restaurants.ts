@@ -201,3 +201,4 @@ export const RESTAURANTS: RestaurantDef[] = [
       accent: '#1e3a5f',
       wall: '#efe6d2', wallLow: '#244236', floor: '#f2efe8', floorAlt: '#1f1f1f',
       counter: '#5b3a24', counterEdge: '#3c2414', island: '#2e4a3c', islandEdge: '#1d3127',
+      belt: '#a9a49c', beltSide: '#78736b', rail: '#d9b46a', plate: '#ffffff',
