@@ -8,3 +8,4 @@ import { LockIcon } from './icons'
 const thumbs = new Map<string, string>()
 function thumb(id: string) {
   let url = thumbs.get(id)
+  if (!url) {
