@@ -6,3 +6,4 @@ import { formatCoins } from '@/lib/format'
 import { LockIcon } from './icons'
 
 const thumbs = new Map<string, string>()
+function thumb(id: string) {
