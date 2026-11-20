@@ -119,3 +119,4 @@ export function CloseIcon(props: IconProps) {
 
 export const UPGRADE_ICONS = {
   income: IncomeIcon,
+  speed: SpeedIcon,
