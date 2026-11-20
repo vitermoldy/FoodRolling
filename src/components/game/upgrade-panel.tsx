@@ -188,3 +188,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
             </div>
             <div className="mt-2.5 flex items-center justify-between gap-3">
               <span className="num text-xs text-moss">
+                {maxed ? 'Sudah penuh' : blocked ? (kind === 'chefs' ? 'Belum menambah: kursi yang menahan' : 'Belum menambah: dapur yang menahan') : `+${formatRate(gain)}`}
