@@ -593,3 +593,4 @@ function counterAndBelt(ctx: Ctx, layout: Layout, id: RestaurantId, theme: Theme
   ctx.beginPath()
   polygon(ctx, beltOut)
   polygon(ctx, beltIn)
+  ctx.fillStyle = theme.beltSide
