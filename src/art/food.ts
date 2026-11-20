@@ -345,3 +345,5 @@ function ayampop(rng: Rng) {
     scatter(rng, 14, 40, 40, 13, [0.6, 1.1], ['#f8ecd2', '#e6cf9f']) +
     path(blob(rng, 33, 30, 8.5, 0.4), '#d1301c', 'stroke="#a8220f" stroke-width="0.7"') +
     scatter(rng, 7, 33, 30, 5, [0.5, 0.9], ['#f49a3a', '#ffcf7a'])
+}
+
