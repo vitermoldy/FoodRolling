@@ -33,3 +33,5 @@ function hang(ctx: Ctx, x: number, y0: number, y1: number, u: number) {
   ctx.moveTo(x, y0)
   ctx.lineTo(x, y1)
   ctx.stroke()
+}
+
