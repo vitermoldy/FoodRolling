@@ -359,3 +359,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
       ctx.fill()
       dot(ctx, -0.1, shoulder + 0.16, 0.025, chef.trim)
       dot(ctx, 0.1, shoulder + 0.16, 0.025, chef.trim)
+      dot(ctx, -0.1, shoulder + 0.28, 0.025, chef.trim)
