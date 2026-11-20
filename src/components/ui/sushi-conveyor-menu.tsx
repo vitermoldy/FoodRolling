@@ -550,3 +550,4 @@ export function SushiConveyorMenu({
     return () => observer.disconnect();
   }, [count > 0]);
 
+  React.useLayoutEffect(() => {
