@@ -78,3 +78,5 @@ function blob(rng: Rng, cx: number, cy: number, r: number, wobble: number, point
     d += `Q${f(p1[0])} ${f(p1[1])} ${f(m2[0])} ${f(m2[1])}`
   }
   return d + 'Z'
+}
+
