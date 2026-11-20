@@ -238,3 +238,4 @@ export function SushiConveyorMenu({
   paused: pausedProp,
   onPausedChange,
   autoplay = false,
+  interval = 3000,
