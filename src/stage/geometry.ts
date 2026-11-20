@@ -181,3 +181,4 @@ export class Layout {
     const back = this.project(0, -this.depth - 0.5)
     // Leave a band of back wall above the scene for the room's decoration.
     const wall = this.orientation === 'landscape' ? 1.7 : 1.1
+    minY = Math.min(minY - wall, back.y - wall)
