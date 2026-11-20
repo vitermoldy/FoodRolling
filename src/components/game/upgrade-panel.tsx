@@ -156,3 +156,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
   const best = bestValue(def, st)
   const rate = incomeRate(def, st)
 
+  return (
