@@ -418,3 +418,4 @@ function quesadilla(rng: Rng) {
     const a0 = (i / 4) * Math.PI * 2 + 0.06
     const a1 = ((i + 1) / 4) * Math.PI * 2 - 0.06
     const mid = (a0 + a1) / 2
+    const ox = Math.cos(mid) * 2.5
