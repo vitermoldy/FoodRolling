@@ -192,3 +192,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
               </span>
               <button
                 id={kind === 'income' ? 'upgrade-income' : undefined}
+                type="button"
