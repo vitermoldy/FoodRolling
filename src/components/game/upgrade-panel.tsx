@@ -165,3 +165,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
         const affordable = !maxed && count > 0 && cost <= money
         const gain = maxed ? 0 : rateAfter(def, st, kind, count) - rate
         const dish = kind === 'income' ? nextDish(def, st) : null
+        const blocked = !maxed && gain <= rate * 1e-6 && (kind === 'chefs' || kind === 'seats')
