@@ -459,3 +459,4 @@ function prancis(ctx: Ctx, w: Wall) {
     ctx.fill()
     ctx.strokeStyle = 'rgba(255,255,255,0.7)'
     ctx.lineWidth = Math.max(1, u * 0.05)
+    ctx.beginPath()
