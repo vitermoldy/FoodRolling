@@ -139,3 +139,4 @@ export class BeltSim {
     this.config = config
     this.rng = makeRng(seed)
     this.velocity = config.beltSpeed
+    this.configure(config)
