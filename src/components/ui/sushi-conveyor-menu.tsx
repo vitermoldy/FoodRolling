@@ -804,3 +804,4 @@ export function SushiConveyorMenu({
         const current = live.current.active;
         if (current !== null && current !== autoActive.current) setActive(null);
       }}
+      onKeyDown={onKeyDown}
