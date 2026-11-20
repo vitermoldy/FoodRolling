@@ -13,3 +13,4 @@ function ellipse(cx: number, cy: number, rx: number, ry: number, fill: string, e
   return `<ellipse cx="${f(cx)}" cy="${f(cy)}" rx="${f(rx)}" ry="${f(ry)}" fill="${fill}" ${extra}/>`
 }
 function rect(x: number, y: number, w: number, h: number, rx: number, fill: string, extra = '') {
+  return `<rect x="${f(x)}" y="${f(y)}" width="${f(w)}" height="${f(h)}" rx="${f(rx)}" fill="${fill}" ${extra}/>`
