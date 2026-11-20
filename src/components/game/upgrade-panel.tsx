@@ -145,3 +145,4 @@ function AmountPicker() {
           {o.label}
         </button>
       ))}
+    </div>
