@@ -133,3 +133,4 @@ function LockedCard() {
           <p className="mt-3 rounded-[10px] bg-stone px-3 py-2 text-sm text-olive">
             Buka {blocking?.name ?? previous?.name} dulu. Restoran terbuka berurutan.
           </p>
+        )}
