@@ -13,3 +13,5 @@ function thumb(id: string) {
     thumbs.set(id, url)
   }
   return url
+}
+
