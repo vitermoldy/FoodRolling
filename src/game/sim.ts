@@ -12,3 +12,4 @@ import { makeRng } from './rng.ts'
 
 // The belt is a stadium loop measured in plate diameters. Arc position u runs along the front
 // straight first (right to left), round the left curve, back along the rear straight and round the
+// right curve, the same parametrisation as the sushi conveyor component in Prompt.txt.
