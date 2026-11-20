@@ -262,3 +262,4 @@ export class BeltSim {
             const price = cfg.prices[seat.dish] ?? 0
             seat.eaten += 1
             seat.bill += price
+            seat.stack.push(cfg.tiers[seat.dish] ?? 1)
