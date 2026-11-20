@@ -170,3 +170,4 @@ export const RESTAURANTS: RestaurantDef[] = [
       { id: 'biryani', name: 'Biryani ayam', tier: 3, description: 'Nasi basmati berlapis ayam berbumbu dan bawang goreng.', details: ['1 piring', 'Pedas sedang'] },
       { id: 'butterchicken', name: 'Butter chicken', tier: 4, description: 'Ayam tandoor dalam saus tomat bermentega dan krim.', details: ['1 mangkuk', 'Susu'] },
       { id: 'thali', name: 'Thali', tier: 5, description: 'Nampan bundar dengan nasi, roti, dan enam mangkuk kecil lauk.', details: ['1 nampan', 'Pilihan chef'] },
+    ],
