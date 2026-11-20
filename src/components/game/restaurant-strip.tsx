@@ -63,3 +63,4 @@ export function RestaurantStrip() {
                 <span className="block text-sm font-semibold text-olive">{r.name}</span>
                 <span className="block text-xs text-moss">
                   {st.owned ? r.country : <><span className="sr-only">Terkunci, </span>{r.country}, <span className="num">{formatCoins(r.unlockCost)}</span></>}
+                </span>
