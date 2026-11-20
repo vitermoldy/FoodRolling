@@ -12,3 +12,4 @@ export const BALANCE = {
     income: { base: 8, growth: 1.24 },
     speed: { base: 20, growth: 1.3 },
     // Chef 2 to 6.
+    chefs: [60, 700, 7000, 60000, 500000],
