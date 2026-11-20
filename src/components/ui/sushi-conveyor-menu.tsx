@@ -217,3 +217,4 @@ function centerOf(g: Geo, offset: number) {
 
 function legendEntries(items: ConveyorDish[], legend: { [tier: number]: string } | undefined) {
   const out = [] as { tier: number; label: string }[];
+  for (let tier = 1; tier <= 5; tier++) {
