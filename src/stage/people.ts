@@ -163,3 +163,4 @@ function face(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facing: F
       ctx.beginPath()
       ctx.arc(hx, hy + r * 0.3, r * 0.17, Math.PI * 0.2, Math.PI * 0.8)
       ctx.stroke()
+    }
