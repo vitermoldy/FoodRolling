@@ -103,3 +103,4 @@ export function OfflineDialog() {
             Selama {formatDuration(offline.seconds)} kamu pergi, restoranmu tetap melayani pelanggan dan menghasilkan:
           </p>
           <p className="num mt-3 text-3xl font-medium tracking-[-0.03em]">+{formatCoins(offline.coins)}</p>
+          {offline.seconds >= BALANCE.offlineCapHours * 3600 - 1 && (
