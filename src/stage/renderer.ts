@@ -130,3 +130,4 @@ export class StageRenderer {
       } else if (e.type === 'pay') {
         const p = L.seat(e.seat)
         const s = L.d * p.k
+        let y = p.y - s * (SIT_HEIGHT + 0.25)
