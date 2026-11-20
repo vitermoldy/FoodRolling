@@ -542,3 +542,4 @@ export function SushiConveyorMenu({
     const measure = () => {
       const next = { section: Math.round(section.clientWidth), stage: Math.round(stage.clientWidth) };
       setSize((old) => (old.section === next.section && old.stage === next.stage ? old : next));
+    };
