@@ -504,3 +504,4 @@ function biryani(rng: Rng) {
     ellipse(30, 48, 6, 5, '#fffdf6', 'stroke="#ece5d2" stroke-width="0.6"') + circle(30, 48, 2.8, '#f2b62a')
 }
 
+function butterchicken(rng: Rng) {
