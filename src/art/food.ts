@@ -206,3 +206,4 @@ function spaghetti(rng: Rng) {
   for (let i = 0; i < 26; i++) {
     const r = 8 + rng() * 19
     const a0 = rng() * Math.PI * 2
+    const a1 = a0 + 1.2 + rng() * 2
