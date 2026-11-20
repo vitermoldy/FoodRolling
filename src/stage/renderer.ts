@@ -57,3 +57,5 @@ export class StageRenderer {
   private coins: Coin[] = []
   private pulses: { chef: number; start: number }[] = []
   private looks = new Map<number, Look>()
+  private time = 0
+
