@@ -132,3 +132,4 @@ describe('save', () => {
     expect(offlineEarnings(save, 600_000).coins).toBeCloseTo(rate * 600, 6)
     const capped = offlineEarnings(save, 100 * 3600_000)
     expect(capped.seconds).toBe(BALANCE.offlineCapHours * 3600)
+  })
