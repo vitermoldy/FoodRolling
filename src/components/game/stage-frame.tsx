@@ -143,3 +143,4 @@ function LockedCard() {
 class StageBoundary extends React.Component<{ children: React.ReactNode }, { failed: boolean }> {
   state = { failed: false }
   static getDerivedStateFromError() {
+    return { failed: true }
