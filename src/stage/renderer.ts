@@ -560,3 +560,4 @@ export class StageRenderer {
   private drawCoins() {
     const ctx = this.ctx
     const L = this.layout
+    this.coins = this.coins.filter((c) => this.time - c.start < 1.3)
