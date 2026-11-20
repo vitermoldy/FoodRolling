@@ -646,3 +646,5 @@ export function foodMarkup(id: string): string {
 
 export function hasFoodArt(id: string): boolean {
   return id in DRAW
+}
+
