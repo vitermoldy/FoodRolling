@@ -405,3 +405,4 @@ function taco(rng: Rng) {
     }
     filling += scatter(rng, 8, 0, 0, 14, [0.6, 1], ['#ffffff', '#f2e9ff']) + scatter(rng, 7, 0, 0, 15, [0.7, 1.1], ['#3f9a3a', '#2f7d2c'])
     out += shadow(ellipse(x, 50, 10, 28, '#000'))
+    out += g(`translate(${x} 50) rotate(${a})`,
