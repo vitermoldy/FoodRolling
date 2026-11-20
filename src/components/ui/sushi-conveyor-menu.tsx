@@ -1085,3 +1085,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
           )}
           <div className="mt-2 flex flex-wrap items-center justify-center gap-4 sm:justify-start">
             <p className="text-2xl font-semibold tabular-nums tracking-tight">{item.price}</p>
+            {action ? action(item, dismiss) : <button type="button" data-add onClick={add} className="inline-flex items-center gap-2 rounded-full bg-foreground px-5 py-2.5 text-sm font-medium text-background shadow-sm outline-none transition-[translate,box-shadow] hover:-translate-y-px hover:shadow-md focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background motion-reduce:transition-none">
