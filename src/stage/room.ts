@@ -218,3 +218,4 @@ function indonesia(ctx: Ctx, w: Wall) {
   ctx.fillStyle = '#2b1d16'
   ctx.beginPath()
   ctx.moveTo(rx, ry)
+  ctx.quadraticCurveTo(rx + rw * 0.12, ry + rh * 0.85, rx + rw * 0.25, ry + rh * 0.9)
