@@ -379,3 +379,5 @@ export function SushiConveyorMenu({
     return best;
   }, []);
 
+  const hoverRef = React.useRef((hit: number | null) => { void hit; });
+
