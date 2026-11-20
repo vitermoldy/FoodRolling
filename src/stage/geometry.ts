@@ -19,3 +19,5 @@ export const SIT_HEIGHT = 1.3
 export const STAND_HEIGHT = 1.75
 
 export type Orientation = 'landscape' | 'portrait'
+export type Facing = 'down' | 'up' | 'left' | 'right'
+
