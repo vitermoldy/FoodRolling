@@ -63,3 +63,4 @@ function leaf(cx: number, cy: number, len: number, angle: number, fill: string, 
 function blob(rng: Rng, cx: number, cy: number, r: number, wobble: number, points = 9) {
   const pts: [number, number][] = []
   for (let i = 0; i < points; i++) {
+    const a = (i / points) * Math.PI * 2
