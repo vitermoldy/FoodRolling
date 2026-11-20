@@ -109,3 +109,5 @@ export function nextDish(def: RestaurantDef, state: RestaurantState): { dish: Di
     if (level > state.income) return { dish: def.dishes[i], level }
   }
   return null
+}
+
