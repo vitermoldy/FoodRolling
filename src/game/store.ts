@@ -206,3 +206,4 @@ export const useGame = create<GameState>()((set, get) => ({
   },
 
   reset() {
+    try {
