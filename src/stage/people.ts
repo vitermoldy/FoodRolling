@@ -375,3 +375,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
   } else if (facing === 'down') {
     ctx.fillStyle = shade(look.shirt, 18)
     ctx.beginPath()
+    ctx.moveTo(-0.1, shoulder)
