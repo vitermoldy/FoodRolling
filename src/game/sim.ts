@@ -38,3 +38,4 @@ export type Facing = 'front' | 'back'
 export const CHEF_SPOTS: { p: number; facing: Facing; u: number }[] = [
   { p: -0.7, facing: 'front', u: frontU(-0.7) },
   { p: 0.7, facing: 'back', u: backU(0.7) },
+  { p: 2.1, facing: 'front', u: frontU(2.1) },
