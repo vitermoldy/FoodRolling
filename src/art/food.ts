@@ -470,3 +470,5 @@ function samosa(rng: Rng) {
   }
   out += shadow(circle(74, 30, 9.5, '#000')) + circle(74, 30, 9.5, '#f3efe6', 'stroke="#d8d1c2" stroke-width="1"') + circle(74, 30, 7.4, '#5aa548') + scatter(rng, 4, 74, 30, 5, [0.5, 0.8], ['#8fd07a'])
   return out
+}
+
