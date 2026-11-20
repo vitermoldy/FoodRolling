@@ -18,3 +18,4 @@ function Modal({ open, onClose, labelledBy, children }: { open: boolean; onClose
       ref={ref}
       aria-labelledby={labelledBy}
       onClose={onClose}
+      onClick={(e) => { if (e.target === ref.current) onClose() }}
