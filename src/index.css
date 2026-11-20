@@ -2,3 +2,4 @@
 
 /* The game ships one light theme: the room art is a lit restaurant, and the panels read like a
    paper menu card beside it. The `dark:` variant is tied to a class that is never set, so the
+   conveyor component from the prompt stays in its light look on dark-mode systems too. */
