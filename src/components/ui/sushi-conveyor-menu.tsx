@@ -288,3 +288,4 @@ export function SushiConveyorMenu({
   const geo = React.useMemo(() => {
     if (!size.stage || count === 0) return null;
     const span = halfSpan(makeGeo(1000, count, 100, kb)) / 100;
+    const cap = wide ? 150 : clamp(size.section * 0.143, 96, 150);
