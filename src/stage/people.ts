@@ -69,3 +69,4 @@ function dot(ctx: Ctx, x: number, y: number, r: number, color: string) {
   ctx.fill()
 }
 
+function shade(hex: string, amount: number): string {
