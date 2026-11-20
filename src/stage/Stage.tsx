@@ -95,3 +95,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
         labelAt = now
         setLabel(describe(sim, restaurantById(L.id).name))
       }
+    }
