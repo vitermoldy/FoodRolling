@@ -283,3 +283,4 @@ function cendol(rng: Rng) {
 }
 
 function sate(rng: Rng) {
+  let out = path(blob(rng, 36, 66, 15, 0.25), '#b6702c', 'stroke="#9a5a20" stroke-width="0.8"') +
