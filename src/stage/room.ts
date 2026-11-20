@@ -96,3 +96,4 @@ function jepang(ctx: Ctx, w: Wall) {
   ctx.arc(W / 2, ny + Math.min(bottom * 0.25, u * 0.75), u * 0.36, 0, Math.PI * 2)
   ctx.stroke()
   disc(ctx, W / 2, ny + Math.min(bottom * 0.25, u * 0.75), u * 0.13, '#f4efe4')
+  // Paper lanterns in the gaps between the screens and the curtain.
