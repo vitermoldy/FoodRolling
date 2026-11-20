@@ -30,3 +30,4 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
   const save = useGame((s) => s.save)
   const reset = useGame((s) => s.reset)
   const saveError = useGame((s) => s.saveError)
+  const totalEarned = useGame((s) => s.totalEarned)
