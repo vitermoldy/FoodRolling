@@ -782,3 +782,4 @@ export function SushiConveyorMenu({
       ref={stageRef}
       data-stage
       role="group"
+      aria-label={heading ?? "Sushi conveyor belt"}
