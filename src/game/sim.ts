@@ -80,3 +80,4 @@ export interface Seat {
   /** Seed for the customer's look; changes with every new customer. */
   look: number
   want: number
+  eaten: number
