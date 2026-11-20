@@ -24,3 +24,5 @@ Dial: ENERGY 2 / RHYTHM 2 / MOTION 2
 - MOTION 2: gerak hanya ada di panggung (sabuk, chef, pelanggan, piring terbang, koin). Panel hanya
   punya transisi tombol.
 
+## Motif identitas: warna piring
+
