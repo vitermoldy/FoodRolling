@@ -359,3 +359,4 @@ function meksiko(ctx: Ctx, w: Wall) {
 
 function india(ctx: Ctx, w: Wall) {
   const { W, bottom, u, theme } = w
+  const grad = ctx.createLinearGradient(0, 0, 0, bottom)
