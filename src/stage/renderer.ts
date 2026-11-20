@@ -147,3 +147,4 @@ export class StageRenderer {
     if (!sim) return -1
     let best = -1
     let bestY = -Infinity
+    for (let i = 0; i < sim.chefs.length; i++) {
