@@ -930,3 +930,4 @@ export function SushiConveyorMenu({
           item={items[openIndex]}
           index={openIndex}
           total={count}
+          labels={labels}
