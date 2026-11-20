@@ -391,3 +391,4 @@ export class StageRenderer {
       this.drawPlate(p.x, p.y - s * 0.02, s * 0.62, this.tierOf(dish), dish)
     } else if (!ready) {
       // The dish takes shape on the board as the chef works.
+      const img = this.food.get(this.def.dishes[dish]?.id ?? '')
