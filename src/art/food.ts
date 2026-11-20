@@ -291,3 +291,4 @@ function sate(rng: Rng) {
     const oy = k * 6 - 9
     let meat = ''
     for (let i = 0; i < 4; i++) {
+      const t = 0.18 + i * 0.19
