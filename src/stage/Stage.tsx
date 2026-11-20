@@ -182,3 +182,5 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     d.lastX = at.x
     d.lastY = at.y
     d.lastT = e.timeStamp
+  }
+
