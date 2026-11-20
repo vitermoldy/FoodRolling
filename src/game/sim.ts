@@ -137,3 +137,4 @@ export class BeltSim {
 
   constructor(config: SimConfig, seed = 1) {
     this.config = config
+    this.rng = makeRng(seed)
