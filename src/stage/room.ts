@@ -293,3 +293,4 @@ function meksiko(ctx: Ctx, w: Wall) {
     rr(ctx, x + 1, ty + 1, th - 2, th - 2, u * 0.03, '#f6f1e6')
     ctx.strokeStyle = '#1f5fa8'
     ctx.lineWidth = Math.max(1, u * 0.04)
+    ctx.beginPath()
