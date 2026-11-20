@@ -396,3 +396,4 @@ function nachos(rng: Rng) {
 }
 
 function taco(rng: Rng) {
+  let out = ''
