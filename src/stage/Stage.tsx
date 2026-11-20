@@ -107,3 +107,5 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
       media.removeEventListener('change', applyMotion)
       markLive(null, 0)
     }
+  }, [earn, markLive])
+
