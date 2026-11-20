@@ -243,3 +243,4 @@ export function SushiConveyorMenu({
   onActiveChange,
   onOpenChange,
   onAdd,
+  legend,
