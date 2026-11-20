@@ -633,3 +633,4 @@ function counterAndBelt(ctx: Ctx, layout: Layout, id: RestaurantId, theme: Theme
 
 function ell(ctx: Ctx, x: number, y: number, rx: number, ry: number, fill: string) {
   ctx.fillStyle = fill
+  ctx.beginPath()
