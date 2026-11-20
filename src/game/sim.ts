@@ -179,3 +179,4 @@ export class BeltSim {
     return true
   }
 
+  /** Advances the simulation and returns the coins customers paid during it. */
