@@ -14,3 +14,4 @@ function plateUrl(id: string, plate: string) {
   if (!url) {
     url = toDataUrl(plateSvg(id, plate))
     plates.set(key, url)
+  }
