@@ -444,3 +444,4 @@ function prancis(ctx: Ctx, w: Wall) {
   const mw = Math.min(W * 0.13, u * 2.2)
   const mh = (bottom - wh) * 0.78
   for (const x of [u * 0.7, W - u * 0.7 - mw]) {
+    const y = (bottom - wh) * 0.12
