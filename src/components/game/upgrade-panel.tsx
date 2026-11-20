@@ -162,3 +162,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
         const Icon = UPGRADE_ICONS[kind]
         const maxed = isMaxed(st, kind)
         const { count, cost } = bulkCost(def, st, kind, amount, money)
+        const affordable = !maxed && count > 0 && cost <= money
