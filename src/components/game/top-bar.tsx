@@ -9,3 +9,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
   const rate = totalRate(restaurants)
 
   return (
+    <header className="flex items-center gap-3 border-b border-line bg-bone px-4 py-2 sm:px-6">
