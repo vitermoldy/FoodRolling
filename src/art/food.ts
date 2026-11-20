@@ -146,3 +146,4 @@ function salmon(rng: Rng) {
 function ikura(rng: Rng) {
   let out = ''
   for (const x of [35, 65]) {
+    out += shadow(ellipse(x, 50, 15, 18, '#000'))
