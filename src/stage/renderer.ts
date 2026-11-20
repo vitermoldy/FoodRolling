@@ -223,3 +223,4 @@ export class StageRenderer {
       if (seat.state === 'eating' && !flying.has(seat.plateId)) {
         const left = Math.max(0.25, seat.timer / Math.max(0.01, sim.config.eatTime))
         items.push({ y: eat.y, draw: () => this.drawPlate(eat.x, eat.y, L.d * eat.k * 0.78, this.tierOf(seat.dish), seat.dish, left) })
+      }
