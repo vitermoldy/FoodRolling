@@ -171,3 +171,4 @@ export const useGame = create<GameState>()((set, get) => ({
       patch.announced = [...s.announced, next]
       patch.notice = { id: noticeId++, text: `Uangmu cukup untuk membuka ${restaurantById(next).name}.`, goTo: next }
     }
+    if (Object.keys(patch).length) set(patch)
