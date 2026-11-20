@@ -141,3 +141,4 @@ export class Layout {
   }
 
   seat(index: number): ScreenPoint {
+    return this.belt(SEAT_SPOTS[index], SEAT_OUT)
