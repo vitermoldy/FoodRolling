@@ -360,3 +360,5 @@ function rendang(rng: Rng) {
   out += circle(28, 44, 3.2, 'none', 'stroke="#c9351f" stroke-width="1.6"') + circle(70, 50, 2.8, 'none', 'stroke="#c9351f" stroke-width="1.4"')
   out += line(44, 30, 52, 27, '#3c6b2c', 1.6) + line(58, 68, 64, 72, '#3c6b2c', 1.6) + line(26, 54, 28, 62, '#3c6b2c', 1.4)
   return out
+}
+
