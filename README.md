@@ -20,3 +20,4 @@ sushi kaiten di Jepang sampai bistro di Paris.
 4. **Buka restoran berikutnya.** Setiap restoran harus dibeli, dan hanya bisa dibuka berurutan. Restoran
    lama tetap berjalan dan menghasilkan uang, juga saat kamu melihat restoran lain.
 
+| No | Restoran | Negara | Harga buka | Suasana |
