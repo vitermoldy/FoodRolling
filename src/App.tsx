@@ -79,3 +79,4 @@ export default function App() {
                 type="button"
                 role="tab"
                 id={`panel-tab-${t.id}`}
+                aria-controls={`panel-${t.id}`}
