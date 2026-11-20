@@ -458,3 +458,4 @@ function prancis(ctx: Ctx, w: Wall) {
     ctx.roundRect(x, y, mw, mh, [mw / 2 - u * 0.1, mw / 2 - u * 0.1, 0, 0])
     ctx.fill()
     ctx.strokeStyle = 'rgba(255,255,255,0.7)'
+    ctx.lineWidth = Math.max(1, u * 0.05)
