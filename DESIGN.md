@@ -10,3 +10,5 @@ mana pun harga muncul.
 
 Keputusan pemilik (20 November 2026): gaya ilustrasi 2.5D (bukan pixel art, bukan 3D), semua restoran
 yang sudah dibeli tetap berjalan, dan enam restoran berurutan: Jepang, Italia, Indonesia, Meksiko,
+India, Prancis.
+
