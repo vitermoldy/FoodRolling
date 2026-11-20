@@ -28,3 +28,5 @@ export function formatCoins(value: number): string {
     }
   }
   return number(value, abs >= 100 ? 0 : abs >= 10 ? 1 : 2)
+}
+
