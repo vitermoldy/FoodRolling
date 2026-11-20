@@ -523,3 +523,4 @@ function thali(rng: Rng) {
     out += circle(x + 0.8, y + 1.2, 9, 'rgba(0,0,0,0.15)') + circle(x, y, 9, '#b7bcc2') + circle(x, y, 7.3, c) + ellipse(x - 2, y - 2, 2.6, 1.4, hi)
   })
   out += path(blob(rng, 50, 50, 10, 0.2), '#fbf6ea') + grains(rng, 18, 50, 50, 8, ['#ffffff', '#ece5d2'], 1)
+  return out + scatter(rng, 4, 50, 50, 5, [0.6, 0.9], ['#3f8a35'])
