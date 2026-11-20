@@ -297,3 +297,4 @@ export function SushiConveyorMenu({
     geo: null as Geo | null, active: null as number | null, paused: false, reduced: false, open: false, count: 0, speed: 26,
     activeControlled: false, pausedControlled: false,
     onActiveChange: undefined as ((index: number | null) => void) | undefined,
+    onPausedChange: undefined as ((value: boolean) => void) | undefined,
