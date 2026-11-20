@@ -284,3 +284,4 @@ export class StageRenderer {
     const path = (shift: number) => {
       ctx.beginPath()
       for (let j = 0; j < slats; j++) {
+        const u = sim.offset + shift + j * pitch
