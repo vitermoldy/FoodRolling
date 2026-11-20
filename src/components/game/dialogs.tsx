@@ -48,3 +48,4 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
         <h2 id="settings-title" className="font-display text-xl font-semibold">Pengaturan</h2>
         <button type="button" className="btn btn-quiet -mr-1 -mt-1 size-11 p-0" onClick={onClose} aria-label="Tutup pengaturan">
           <CloseIcon />
+        </button>
