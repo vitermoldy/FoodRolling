@@ -348,3 +348,4 @@ function meksiko(ctx: Ctx, w: Wall) {
     ctx.fillStyle = '#b5532f'
     ctx.beginPath()
     ctx.moveTo(x - u * 0.5, base - u * 0.4)
+    ctx.lineTo(x + u * 0.5, base - u * 0.4)
