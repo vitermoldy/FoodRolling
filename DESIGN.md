@@ -13,3 +13,5 @@ yang sudah dibeli tetap berjalan, dan enam restoran berurutan: Jepang, Italia, I
 India, Prancis.
 
 Design read: game idle restoran untuk pemain santai yang senang melihat dapur bekerja, dalam bahasa
+ilustrasi sabuk kaiten dari komponen prompt.
+
