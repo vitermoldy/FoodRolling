@@ -7,3 +7,5 @@ import { BELT_LENGTH, PITCH, SEAT_SPOTS, SLOT_COUNT, type BeltSim, type SimEvent
 import { formatCoins } from '../lib/format.ts'
 import { BAND, Layout, STAND_HEIGHT, SIT_HEIGHT, TILT, type ScreenPoint } from './geometry.ts'
 import { drawPerson, lookFrom, type Look } from './people.ts'
+import { paintRoom } from './room.ts'
+
