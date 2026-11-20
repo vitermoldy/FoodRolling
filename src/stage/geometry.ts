@@ -5,3 +5,4 @@
 import { BELT_LENGTH, CHEF_SPOTS, RADIUS, SEAT_SPOTS, STRAIGHT } from '../game/sim.ts'
 
 export const BAND = 1.22
+export const TILT = 0.8
