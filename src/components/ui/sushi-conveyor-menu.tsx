@@ -767,3 +767,4 @@ export function SushiConveyorMenu({
         <svg aria-hidden="true" viewBox="0 0 16 16" className="size-3.5" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"><path d="M10 3.5 5.5 8l4.5 4.5" /></svg>
       </button>
       <button type="button" data-control="pause" aria-label={labels.pause ?? DEFAULT_LABELS.pause} aria-pressed={paused} onClick={togglePause} className={control}>
+        {paused
