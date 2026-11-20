@@ -185,3 +185,4 @@ function face(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facing: F
     ctx.ellipse(hx + r * 0.98, hy + r * 0.12, r * 0.16, r * 0.22, 0, 0, Math.PI * 2)
     ctx.fill()
     return
+  }
