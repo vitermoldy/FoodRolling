@@ -858,3 +858,4 @@ export function SushiConveyorMenu({
             onFocus={() => { if (pointer.current.id < 0) { stop(); setActive(i); } }}
             onClick={(event) => { const pending = pendingOpen.current; pendingOpen.current = -1; if (event.detail === 0 || pending === i) open(i); }}
           >
+            <span aria-hidden="true" className="pointer-events-none absolute inset-0 opacity-50 dark:opacity-90">
