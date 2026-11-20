@@ -969,3 +969,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
   const tier = tierStyle(item.tier);
 
   React.useLayoutEffect(() => {
+    const figure = figureRef.current;
