@@ -196,3 +196,4 @@ function indonesia(ctx: Ctx, w: Wall) {
   const { W, bottom, u, theme } = w
   ctx.fillStyle = theme.wall
   ctx.fillRect(0, 0, W, bottom)
+  // Carved band along the top: dark red with gold curls.
