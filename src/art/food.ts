@@ -103,3 +103,4 @@ function nigiriRice(rng: Rng, y: number, w = 50) {
 
 function tamago(rng: Rng) {
   let out = ''
+  for (const y of [36, 64]) {
