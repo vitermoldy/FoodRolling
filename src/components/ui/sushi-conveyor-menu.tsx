@@ -959,3 +959,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
   action?: (item: ConveyorDish, close: () => void) => React.ReactNode;
 }) {
   const dialogRef = React.useRef(null as HTMLDivElement | null);
+  const figureRef = React.useRef(null as HTMLDivElement | null);
