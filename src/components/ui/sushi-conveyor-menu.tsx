@@ -1096,3 +1096,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
       </div>
     </div>,
     document.body,
+  );
