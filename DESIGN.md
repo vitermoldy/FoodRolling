@@ -42,3 +42,4 @@ di tumpukan piring di depan pelanggan, di legenda menu, di ikon Pendapatan, dan 
 | Keputusan | Alasan |
 |---|---|
 | Palet "olive on bone": latar #ecebe7, permukaan #e1dfd9, kertas #f8f7f3, tinta zaitun #38450f, teks kedua #56622f | Dipilih oleh `start.mjs deal --page gaming --trade restaurant` dari taste-skill (pilihan pertama). Batu hangat dan zaitun terbaca seperti kartu menu dan linen dapur, netral di samping enam ruangan yang warnanya ramai. |
+| Satu tema terang, tanpa mode gelap | Ruangan adalah restoran terang yang digambar dengan warna tetap. Versi gelap butuh pencahayaan ulang semua ilustrasi. `dark:` dari komponen prompt diikat ke kelas yang tidak pernah dipasang, sehingga komponen tetap terang di sistem bermode gelap. |
