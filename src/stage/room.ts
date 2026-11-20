@@ -26,3 +26,4 @@ function disc(ctx: Ctx, x: number, y: number, r: number, fill: string) {
   ctx.fill()
 }
 
+function hang(ctx: Ctx, x: number, y0: number, y1: number, u: number) {
