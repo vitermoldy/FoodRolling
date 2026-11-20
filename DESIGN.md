@@ -15,3 +15,5 @@ India, Prancis.
 Design read: game idle restoran untuk pemain santai yang senang melihat dapur bekerja, dalam bahasa
 ilustrasi sabuk kaiten dari komponen prompt.
 
+Dial: ENERGY 2 / RHYTHM 2 / MOTION 2
+
