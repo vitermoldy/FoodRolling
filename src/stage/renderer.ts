@@ -495,3 +495,5 @@ export class StageRenderer {
     ctx.beginPath()
     ctx.ellipse(p.x, p.y - s * 0.04, s * 0.29, s * 0.11, 0, 0, Math.PI * 2)
     ctx.fill()
+  }
+
