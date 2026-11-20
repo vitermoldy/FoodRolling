@@ -595,3 +595,4 @@ function brulee(rng: Rng) {
     circle(50, 50, 25.5, 'url(#caramel)') +
     `<path d="M34 44 L44 50 L40 60 M44 50 L56 46 L64 54 M56 46 L58 36" fill="none" stroke="#8f5418" stroke-width="1.1" stroke-linecap="round"/>` +
     scatter(rng, 7, 62, 38, 3.6, [1.8, 2.3], ['#c2253c', '#d63a4f']) + leaf(70, 42, 8, -30, '#4f9a43') +
+    ellipse(40, 38, 7, 2.6, 'rgba(255,240,200,0.45)', 'transform="rotate(-25 40 38)"')
