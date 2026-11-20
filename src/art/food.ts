@@ -644,3 +644,4 @@ export function foodMarkup(id: string): string {
   return out
 }
 
+export function hasFoodArt(id: string): boolean {
