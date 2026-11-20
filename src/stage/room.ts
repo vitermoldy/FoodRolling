@@ -742,3 +742,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
         break
       case 'india':
         if (side === 0) {
+          tub(ctx, x, y - s * 0.3, s * 0.36, s * 0.38, '#b5532f', '#c9683e', '#2a140a')
