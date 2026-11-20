@@ -535,3 +535,4 @@ function macaron(rng: Rng) {
     out += shadow(circle(x, y, 13.5, '#000'))
     out += circle(x, y, 13.5, e) + circle(x, y, 12, c) + ellipse(x - 3, y - 4, 6, 3.2, 'rgba(255,255,255,0.4)')
     out += scatter(rng, 10, x, y + 11.5, 2, [0.5, 0.9], [e])
+  }
