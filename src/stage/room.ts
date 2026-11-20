@@ -516,3 +516,4 @@ function floor(ctx: Ctx, id: RestaurantId, theme: ThemeDef, W: number, H: number
     for (let y = top; y < H; y += t) { ctx.moveTo(0, y); ctx.lineTo(W, y) }
     for (let x = 0; x < W; x += t) { ctx.moveTo(x, top); ctx.lineTo(x, H) }
     ctx.stroke()
+    if (id === 'india') {
