@@ -11,3 +11,4 @@ export interface RestaurantState {
   /** Speed level, 1 to BALANCE.speed.max. */
   speed: number
   chefs: number
+  seats: number
