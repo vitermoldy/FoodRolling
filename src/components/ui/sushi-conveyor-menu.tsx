@@ -939,3 +939,4 @@ export function SushiConveyorMenu({
           onClose={onDialogClose}
           action={dialogAction}
         />
+      )}
