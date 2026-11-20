@@ -37,3 +37,4 @@ while (t < 12 * 3600) {
     const def = RESTAURANTS[next]
     const fresh = E.newRestaurantState(true)
     const gain = E.incomeRate(def, fresh)
+    options.push({
