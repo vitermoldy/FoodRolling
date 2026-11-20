@@ -268,3 +268,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
       break
     case 'bandana':
       ctx.fillStyle = chef.apron
+      ctx.beginPath()
