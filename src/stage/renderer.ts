@@ -71,3 +71,4 @@ export class StageRenderer {
 
   resize(width: number, height: number, dpr: number) {
     this.dpr = Math.min(2, Math.max(1, dpr))
+    this.canvas.width = Math.round(width * this.dpr)
