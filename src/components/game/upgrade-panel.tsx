@@ -212,3 +212,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
 function NextRestaurant() {
   const restaurants = useGame((s) => s.restaurants)
   const money = useGame((s) => s.money)
+  const select = useGame((s) => s.select)
