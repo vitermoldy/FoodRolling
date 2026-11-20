@@ -385,3 +385,4 @@ export function SushiConveyorMenu({
     const s = sim.current;
     const L = live.current;
     const g = L.geo;
+    s.raf = 0;
