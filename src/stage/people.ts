@@ -244,3 +244,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
       ctx.fill()
       ctx.fillStyle = '#efebe3'
       roundRect(ctx, hx - r * 0.9, hy - r * 0.68, r * 1.8, r * 0.3, r * 0.1)
+      ctx.fill()
