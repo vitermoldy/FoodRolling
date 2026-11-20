@@ -233,3 +233,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
       const tall = chef.hat === 'tall' ? 1.45 : 1
       ctx.fillStyle = '#ffffff'
       ctx.strokeStyle = 'rgba(80,70,60,0.25)'
+      ctx.lineWidth = r * 0.06
