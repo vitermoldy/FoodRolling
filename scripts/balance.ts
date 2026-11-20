@@ -30,3 +30,4 @@ while (t < 12 * 3600) {
       const cost = E.stepCost(def, kind, st[kind])
       const gain = E.rateAfter(def, st, kind) - E.incomeRate(def, st)
       options.push({ payback: gain > 0 ? cost / gain : Infinity, cost, label: `${def.id} ${kind}`, apply: () => { st[kind] += 1 } })
+    }
