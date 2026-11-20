@@ -51,3 +51,4 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
       items={items}
       legend={legend}
       heading={`Menu ${def.name}`}
+      caption="Warna piring menandai harga. Pilih piring untuk melihat isinya."
