@@ -82,3 +82,4 @@ export default function App() {
                 aria-controls={`panel-${t.id}`}
                 aria-selected={tab === t.id}
                 tabIndex={tab === t.id ? 0 : -1}
+                onClick={() => setTab(t.id)}
