@@ -599,3 +599,5 @@ function counterAndBelt(ctx: Ctx, layout: Layout, id: RestaurantId, theme: Theme
   polygon(ctx, beltOut, -d * 0.05)
   polygon(ctx, beltIn, -d * 0.05)
   ctx.fillStyle = theme.belt
+  ctx.fill('evenodd')
+
