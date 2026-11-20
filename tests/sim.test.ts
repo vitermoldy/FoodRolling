@@ -8,3 +8,5 @@ const jepang = RESTAURANTS[0]
 
 function state(patch: Partial<RestaurantState>): RestaurantState {
   return { ...newRestaurantState(true), ...patch }
+}
+
