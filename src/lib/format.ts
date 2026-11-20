@@ -18,3 +18,4 @@ function number(value: number, digits: number) {
   return fmt.format(value)
 }
 
+export function formatCoins(value: number): string {
