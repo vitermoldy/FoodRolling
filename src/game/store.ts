@@ -35,3 +35,4 @@ interface Actions {
   markLive: (id: RestaurantId | null, now: number) => void
   setBuyAmount: (amount: BuyAmount) => void
   setPaused: (paused: boolean) => void
+  setTab: (tab: PanelTab) => void
