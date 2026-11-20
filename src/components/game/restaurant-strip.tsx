@@ -45,3 +45,4 @@ export function RestaurantStrip() {
               key={r.id}
               ref={(node) => { refs.current[i] = node }}
               type="button"
+              role="tab"
