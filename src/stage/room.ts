@@ -76,3 +76,4 @@ function jepang(ctx: Ctx, w: Wall) {
     ctx.strokeStyle = '#6b4a30'
     ctx.lineWidth = Math.max(1, u * 0.05)
     ctx.beginPath()
+    for (let c = 1; c < 3; c++) { ctx.moveTo(x + (sw * c) / 3, bottom * 0.1); ctx.lineTo(x + (sw * c) / 3, bottom * 0.1 + sh) }
