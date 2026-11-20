@@ -581,3 +581,4 @@ function quiche(rng: Rng) {
     `<path d="M${f(p0[0])} ${f(p0[1])}A${r} ${r} 0 0 1 ${f(p1[0])} ${f(p1[1])}" fill="none" stroke="#e8bd76" stroke-width="3" stroke-dasharray="3 2.2"/>` +
     path(inner, '#f0cd70') +
     scatter(rng, 12, 50, 46, 12, [1, 2.2], ['#4d7f2f', '#3e6d26']) +
+    scatter(rng, 9, 50, 46, 13, [1.2, 2.4], ['#c98c3b', '#d9a24d'])
