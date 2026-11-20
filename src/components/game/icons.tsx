@@ -88,3 +88,4 @@ export function PlayIcon(props: IconProps) {
   )
 }
 
+/** A pot with steam: give the chefs a hand. */
