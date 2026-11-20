@@ -64,3 +64,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     media.addEventListener('change', applyMotion)
     const measure = () => {
       const box = wrap.getBoundingClientRect()
+      renderer.resize(Math.max(1, box.width), Math.max(1, box.height), window.devicePixelRatio || 1)
