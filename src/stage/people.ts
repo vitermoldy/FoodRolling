@@ -249,3 +249,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
         ctx.strokeStyle = 'rgba(80,70,60,0.18)'
         ctx.lineWidth = r * 0.05
         ctx.beginPath()
+        for (const ox of [-0.4, 0, 0.4]) {
