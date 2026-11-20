@@ -6,3 +6,4 @@ import { StageRenderer } from './renderer'
 
 const DRAG_START = 6
 
+/** Short spoken summary of the belt, for the canvas label. */
