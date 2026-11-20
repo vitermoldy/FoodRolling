@@ -184,3 +184,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     d.lastT = e.timeStamp
   }
 
+  const finish = (e: React.PointerEvent, cancelled: boolean) => {
