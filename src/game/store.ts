@@ -21,3 +21,4 @@ interface UiState {
   liveAt: number
   offline: { seconds: number; coins: number } | null
   notice: Notice | null
+  /** Restaurants we already told the player they can afford. */
