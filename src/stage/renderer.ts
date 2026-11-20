@@ -448,3 +448,4 @@ export class StageRenderer {
     ctx.beginPath()
     ctx.arc(rx, ry, r, 0, Math.PI * 2)
     ctx.stroke()
+    ctx.strokeStyle = this.def.theme.accent
