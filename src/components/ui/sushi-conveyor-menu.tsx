@@ -953,3 +953,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
   reduced: boolean;
   broken: boolean;
   source: () => DOMRect | null;
+  onLift: (lifted: boolean) => void;
