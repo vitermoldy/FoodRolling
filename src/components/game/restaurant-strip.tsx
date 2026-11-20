@@ -15,3 +15,4 @@ function thumb(id: string) {
   return url
 }
 
+/** One tab per restaurant, in the order they open. Arrow keys move between them. */
