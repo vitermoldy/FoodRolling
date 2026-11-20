@@ -124,3 +124,4 @@ export class Layout {
     const spot = CHEF_SPOTS[index]
     const sign = spot.facing === 'front' ? 1 : -1
     const w = this.world(0, sign)
+    if (w.z !== 0) return w.z > 0 ? 'down' : 'up'
