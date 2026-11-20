@@ -399,3 +399,4 @@ function india(ctx: Ctx, w: Wall) {
     ctx.stroke()
     ctx.restore()
   }
+  // Marigold garlands.
