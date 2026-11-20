@@ -49,3 +49,4 @@ type Ctx = CanvasRenderingContext2D
 
 function roundRect(ctx: Ctx, x: number, y: number, w: number, h: number, r: number) {
   ctx.beginPath()
+  ctx.roundRect(x, y, w, h, r)
