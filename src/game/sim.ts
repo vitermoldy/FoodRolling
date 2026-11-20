@@ -246,3 +246,4 @@ export class BeltSim {
           const slot = this.nearestSlot(SEAT_SPOTS[i])
           const plate = this.slots[slot]
           if (plate) {
+            this.slots[slot] = null
