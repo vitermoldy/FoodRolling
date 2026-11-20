@@ -7,3 +7,4 @@ import {
   unlockedDishIndexes,
   type RestaurantState,
 } from './economy.ts'
+import type { RestaurantDef } from './restaurants.ts'
