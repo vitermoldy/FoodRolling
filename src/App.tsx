@@ -92,3 +92,4 @@ export default function App() {
           </div>
           <div
             role="tabpanel"
+            id={`panel-${tab}`}
