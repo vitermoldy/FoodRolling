@@ -205,3 +205,4 @@ export class BeltSim {
     this.offset = wrap(this.offset + this.velocity * h)
 
     for (let i = 0; i < this.chefs.length; i++) {
+      const chef = this.chefs[i]
