@@ -71,3 +71,4 @@ function jepang(ctx: Ctx, w: Wall) {
   const sw = Math.min(W * 0.16, u * 3.2)
   const sh = bottom * 0.78
   for (const x of [u * 0.4, W - u * 0.4 - sw]) {
+    rr(ctx, x - u * 0.08, bottom * 0.1 - u * 0.08, sw + u * 0.16, sh + u * 0.16, u * 0.04, '#5a3d27')
