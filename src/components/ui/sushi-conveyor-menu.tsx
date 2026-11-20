@@ -793,3 +793,4 @@ export function SushiConveyorMenu({
       onPointerLeave={(event) => {
         if (event.pointerType !== "mouse") return;
         const s = sim.current;
+        s.inside = false;
