@@ -11,3 +11,4 @@ sushi kaiten di Jepang sampai bistro di Paris.
 2. **Upgrade restoran:**
    - **Pendapatan** menaikkan harga semua piring 10% per level, dan di level 5, 12, 20, dan 30
      menambah hidangan yang lebih mahal ke menu.
+   - **Kecepatan** mempercepat chef memasak, pelanggan makan, dan sabuk berputar.
