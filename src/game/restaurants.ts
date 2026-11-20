@@ -213,3 +213,5 @@ export function restaurantById(id: RestaurantId): RestaurantDef {
   const found = RESTAURANTS.find((r) => r.id === id)
   if (!found) throw new Error(`Unknown restaurant ${id}`)
   return found
+}
+
