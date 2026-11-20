@@ -307,3 +307,5 @@ export class BeltSim {
       plateId: 0,
       waited: 0,
     }
+  }
+
