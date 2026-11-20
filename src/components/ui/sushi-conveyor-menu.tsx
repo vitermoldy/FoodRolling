@@ -301,3 +301,4 @@ export function SushiConveyorMenu({
     onOpenChange: undefined as ((index: number | null) => void) | undefined,
     onAdd: undefined as ((item: ConveyorDish) => void) | undefined,
   });
+  live.current = {
