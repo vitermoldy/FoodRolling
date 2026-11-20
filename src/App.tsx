@@ -104,3 +104,4 @@ export default function App() {
         Progres tersimpan otomatis di browser ini. Saat game ditutup, restoran tetap berjalan sampai {BALANCE.offlineCapHours} jam.
       </footer>
       <SettingsDialog open={settings} onClose={() => setSettings(false)} />
+      <OfflineDialog />
