@@ -32,3 +32,4 @@ const TITLES: Record<UpgradeKind, string> = {
 
 function levelText(kind: UpgradeKind, st: RestaurantState) {
   if (kind === 'chefs') return `${st.chefs} dari ${maxOf('chefs')} chef`
+  if (kind === 'seats') return `${st.seats} dari ${maxOf('seats')} kursi`
