@@ -579,3 +579,4 @@ export function SushiConveyorMenu({
   React.useEffect(() => {
     const node = sectionRef.current;
     const s = sim.current;
+    let inView = true;
