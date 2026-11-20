@@ -66,3 +66,4 @@ function blob(rng: Rng, cx: number, cy: number, r: number, wobble: number, point
     const a = (i / points) * Math.PI * 2
     const rr = r * (1 - wobble / 2 + rng() * wobble)
     pts.push([cx + Math.cos(a) * rr, cy + Math.sin(a) * rr])
+  }
