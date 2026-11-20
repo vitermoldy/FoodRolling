@@ -412,3 +412,4 @@ export function SushiConveyorMenu({
         }
         s.offset += s.v * h;
       }
+      for (let i = 0; i < L.count; i++) {
