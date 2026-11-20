@@ -55,3 +55,4 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
       className="rounded-[14px] border border-line"
       labels={{ add: 'Tutup', close: 'Tutup', previous: 'Piring sebelumnya', next: 'Piring berikutnya', pause: 'Jeda sabuk menu' }}
       dialogAction={(item, close) => item.locked ? (
+        <button
