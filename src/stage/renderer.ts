@@ -452,3 +452,4 @@ export class StageRenderer {
     ctx.beginPath()
     ctx.arc(rx, ry, r, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * (cooking ? progress : 1))
     ctx.stroke()
+    ctx.restore()
