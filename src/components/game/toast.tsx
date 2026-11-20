@@ -10,3 +10,4 @@ export function Toast() {
   React.useEffect(() => {
     if (!notice) return
     const timer = window.setTimeout(dismiss, 7000)
+    return () => window.clearTimeout(timer)
