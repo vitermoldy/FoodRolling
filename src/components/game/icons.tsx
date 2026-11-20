@@ -78,3 +78,5 @@ export function PauseIcon(props: IconProps) {
       <rect x="13.8" y="4.5" width="4.2" height="15" rx="1.2" fill="currentColor" />
     </Svg>
   )
+}
+
