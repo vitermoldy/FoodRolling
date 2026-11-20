@@ -193,3 +193,4 @@ export class BeltSim {
   }
 
   private substep(h: number): number {
+    const cfg = this.config
