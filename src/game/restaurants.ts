@@ -92,3 +92,4 @@ export const RESTAURANTS: RestaurantDef[] = [
       { id: 'ravioli', name: 'Ravioli ricotta', tier: 3, description: 'Ravioli isi ricotta dan bayam dengan mentega sage.', details: ['6 buah', 'Susu', 'Telur'] },
       { id: 'lasagna', name: 'Lasagna', tier: 4, description: 'Lapisan pasta, ragù daging, dan béchamel yang dipanggang sampai kecokelatan.', details: ['1 potong', 'Daging sapi', 'Susu'] },
       { id: 'tiramisu', name: 'Tiramisu', tier: 5, description: 'Biskuit kopi, krim mascarpone, dan taburan kakao.', details: ['1 potong', 'Kopi', 'Pilihan chef'] },
+    ],
