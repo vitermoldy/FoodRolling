@@ -419,3 +419,5 @@ export class StageRenderer {
       ctx.stroke()
     }
     ctx.restore()
+  }
+
