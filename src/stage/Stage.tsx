@@ -147,3 +147,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     const at = local(e)
     const chef = renderer.hitChef(at.x, at.y)
     const near = renderer.nearestBelt(at.x, at.y)
+    if (chef < 0 && near.dist > 1.1) return
