@@ -190,3 +190,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
               <span className="num text-xs text-moss">
                 {maxed ? 'Sudah penuh' : blocked ? (kind === 'chefs' ? 'Belum menambah: kursi yang menahan' : 'Belum menambah: dapur yang menahan') : `+${formatRate(gain)}`}
               </span>
+              <button
