@@ -94,3 +94,4 @@ function Summary({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
   const top = Math.max(p, c)
   const slow = bottleneck(def, st)
   return (
+    <section aria-label="Ringkasan restoran" className="rounded-[14px] bg-paper p-4 shadow-[0_1px_0_rgb(56_69_15/0.12)]">
