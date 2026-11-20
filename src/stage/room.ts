@@ -500,3 +500,4 @@ function floor(ctx: Ctx, id: RestaurantId, theme: ThemeDef, W: number, H: number
     for (let y = top, i = 0; y < H; y += u * 0.42, i++) {
       if (i % 2) ctx.fillRect(0, y, W, u * 0.42)
       ctx.fillStyle = 'rgba(0,0,0,0.12)'
+      ctx.fillRect(0, y, W, Math.max(1, u * 0.02))
