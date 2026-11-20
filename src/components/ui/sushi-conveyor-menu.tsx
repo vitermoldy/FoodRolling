@@ -245,3 +245,4 @@ export function SushiConveyorMenu({
   onAdd,
   legend,
   labels = DEFAULT_LABELS,
+  dialogAction,
