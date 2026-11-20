@@ -75,3 +75,4 @@ export default function App() {
             {TABS.map((t, i) => (
               <button
                 key={t.id}
+                ref={(node) => { tabRefs.current[i] = node }}
