@@ -636,3 +636,5 @@ function ell(ctx: Ctx, x: number, y: number, rx: number, ry: number, fill: strin
   ctx.beginPath()
   ctx.ellipse(x, y, rx, ry, 0, 0, Math.PI * 2)
   ctx.fill()
+}
+
