@@ -20,3 +20,4 @@ import { formatCoins, formatDuration } from '@/lib/format'
 const jepang = RESTAURANTS[0]
 
 describe('restaurants', () => {
+  it('six restaurants, each pricier than the last, the first one free', () => {
