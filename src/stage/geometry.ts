@@ -76,3 +76,5 @@ export class Layout {
   /** Screen y where the back wall meets the floor. */
   floorY = 0
   /** Screen y of the top of the scene (above the tallest head). */
+  sceneTop = 0
+
