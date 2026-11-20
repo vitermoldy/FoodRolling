@@ -425,3 +425,4 @@ function india(ctx: Ctx, w: Wall) {
     ctx.quadraticCurveTo(x + u * 0.1, ly - u * 0.16, x, ly - u * 0.1)
     ctx.quadraticCurveTo(x - u * 0.1, ly - u * 0.16, x, ly - u * 0.42)
     ctx.fill()
+  }
