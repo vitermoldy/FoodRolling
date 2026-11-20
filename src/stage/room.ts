@@ -724,3 +724,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
             ctx.lineWidth = Math.max(1, s * 0.025)
             ctx.beginPath()
             ctx.moveTo(sx, y - s * 0.24)
+            ctx.lineTo(sx, y + s * 0.12)
