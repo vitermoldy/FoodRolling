@@ -6,3 +6,4 @@ import type { Facing } from './geometry.ts'
 
 export interface Look {
   skin: string
+  hair: string
