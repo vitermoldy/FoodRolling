@@ -545,3 +545,4 @@ export function SushiConveyorMenu({
     };
     measure();
     const observer = new ResizeObserver(measure);
+    observer.observe(section);
