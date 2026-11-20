@@ -139,3 +139,4 @@ function slicedTopping(rng: Rng, y: number, base: string, edge: string, stripe: 
 }
 
 function salmon(rng: Rng) {
+  return shadow(rect(22, 25, 56, 50, 10, '#000')) +
