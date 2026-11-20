@@ -244,3 +244,4 @@ function NextRestaurant() {
         <button type="button" className="btn btn-primary flex-1" disabled={!affordable} onClick={() => unlock(next)}>
           {affordable ? 'Buka sekarang' : `Kurang ${formatCoins(def.unlockCost - money)}`}
         </button>
+        {current !== next && (
