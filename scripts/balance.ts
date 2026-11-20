@@ -38,3 +38,4 @@ while (t < 12 * 3600) {
     const fresh = E.newRestaurantState(true)
     const gain = E.incomeRate(def, fresh)
     options.push({
+      // Opening also unlocks a fresh set of cheap upgrades, so the bot favours it a little.
