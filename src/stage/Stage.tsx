@@ -111,3 +111,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
 
   // A fresh belt per restaurant, warmed up so the room is already busy.
   React.useEffect(() => {
+    const renderer = rendererRef.current
