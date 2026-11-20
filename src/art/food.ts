@@ -590,3 +590,4 @@ function brulee(rng: Rng) {
     const a = (i / 24) * Math.PI * 2
     flute += circle(50 + Math.cos(a) * 30, 50 + Math.sin(a) * 30, 3.2, '#f6f5f1')
   }
+  return shadow(circle(50, 50, 32, '#000')) + flute + circle(50, 50, 30.5, '#fbfbf8', 'stroke="#e6e2d8" stroke-width="1"') +
