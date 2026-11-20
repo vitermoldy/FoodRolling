@@ -498,3 +498,4 @@ function biryani(rng: Rng) {
     grains(rng, 90, 50, 52, 26, ['#fbf3dc', '#f2c24f', '#e8892e', '#fffaf0', '#f7e2a8'], 1.15) +
     path(blob(rng, 40, 46, 7, 0.4), '#b5531f', 'stroke="#7d3412" stroke-width="0.8"') +
     path(blob(rng, 60, 58, 6.5, 0.4), '#b5531f', 'stroke="#7d3412" stroke-width="0.8"') +
+    path(blob(rng, 58, 40, 5.5, 0.4), '#c0602a', 'stroke="#7d3412" stroke-width="0.8"') +
