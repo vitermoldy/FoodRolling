@@ -283,3 +283,4 @@ export class StageRenderer {
     const lift = -L.d * 0.05
     const path = (shift: number) => {
       ctx.beginPath()
+      for (let j = 0; j < slats; j++) {
