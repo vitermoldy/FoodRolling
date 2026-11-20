@@ -99,3 +99,4 @@ function jepang(ctx: Ctx, w: Wall) {
   // Paper lanterns in the gaps between the screens and the curtain.
   const gap = (W / 2 - nw / 2 - (u * 0.4 + sw)) / 2
   for (const x of [u * 0.4 + sw + gap, W - u * 0.4 - sw - gap]) {
+    if (gap < u * 0.5) break
