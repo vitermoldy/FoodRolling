@@ -248,3 +248,4 @@ function indonesia(ctx: Ctx, w: Wall) {
       for (let h = 0; h < 2; h++) {
         const cy = sy - u * 0.08 - h * u * 0.13
         ctx.fillStyle = '#fbf6ea'
+        ctx.beginPath()
