@@ -58,3 +58,4 @@ interface Wall {
 
 /* ------------------------------ wall decoration ------------------------------ */
 
+function jepang(ctx: Ctx, w: Wall) {
