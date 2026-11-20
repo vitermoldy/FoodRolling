@@ -72,3 +72,4 @@ export function snapshot(s: SaveData): SaveData {
     totalEarned: s.totalEarned,
     current: s.current,
     restaurants: s.restaurants,
+    startedAt: s.startedAt,
