@@ -95,3 +95,4 @@ export class Layout {
     return this.orientation === 'landscape' ? { x: p, z: q } : { x: q, z: p }
   }
 
+  project(x: number, z: number): ScreenPoint {
