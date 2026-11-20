@@ -125,3 +125,4 @@ function LockedCard() {
             </button>
             {!affordable && (
               <div className="mt-3 h-2 overflow-hidden rounded-full bg-stone" role="progressbar" aria-label="Uang terkumpul untuk membuka" aria-valuemin={0} aria-valuemax={100} aria-valuenow={Math.floor(Math.min(1, money / def.unlockCost) * 100)}>
+                <div className="h-full rounded-full bg-olive" style={{ width: `${Math.min(100, (money / def.unlockCost) * 100)}%` }} />
