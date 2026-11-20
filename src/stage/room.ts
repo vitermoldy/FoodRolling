@@ -263,3 +263,4 @@ function indonesia(ctx: Ctx, w: Wall) {
   const bx = W - u * 0.5 - bw
   const by = bottom - eh - u * 0.3
   rr(ctx, bx, by, bw, eh, u * 0.04, '#4a2a16')
+  ctx.save()
