@@ -96,3 +96,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
         setLabel(describe(sim, restaurantById(L.id).name))
       }
     }
+    raf = requestAnimationFrame(frame)
