@@ -848,3 +848,4 @@ export function SushiConveyorMenu({
             type="button"
             data-dish={i}
             data-active={isActive || undefined}
+            tabIndex={i === roving ? 0 : -1}
