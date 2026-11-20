@@ -658,3 +658,4 @@ export function toDataUrl(svg: string) {
 
 /** The dish alone, for drawing onto a plate on the stage canvas. */
 export function foodSvg(id: string, size = 256) {
+  return svgDoc(foodMarkup(id), size)
