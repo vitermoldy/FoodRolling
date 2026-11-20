@@ -40,3 +40,4 @@ export interface PersonOptions {
   chef?: ChefStyle
   /** Seconds, drives the arm motion. */
   time: number
+  action: 'idle' | 'eat' | 'cook' | 'wait'
