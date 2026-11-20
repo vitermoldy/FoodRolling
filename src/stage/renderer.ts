@@ -101,3 +101,4 @@ export class StageRenderer {
     if (!sim) return
     const L = this.layout
     const now = this.time
+    for (const e of events) {
