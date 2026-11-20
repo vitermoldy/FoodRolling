@@ -89,3 +89,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
         }
         if (coins > 0) earn(L.id, coins)
         markLive(L.id, Date.now())
+      }
