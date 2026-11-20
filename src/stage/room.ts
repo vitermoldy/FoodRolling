@@ -250,3 +250,4 @@ function indonesia(ctx: Ctx, w: Wall) {
         ctx.fillStyle = '#fbf6ea'
         ctx.beginPath()
         ctx.ellipse(cx, cy, ew * 0.12, u * 0.08, 0, 0, Math.PI * 2)
+        ctx.fill()
