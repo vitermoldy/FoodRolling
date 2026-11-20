@@ -169,3 +169,4 @@ function italia(ctx: Ctx, w: Wall) {
       ctx.fill()
     }
   }
+  // Shelf with bottles.
