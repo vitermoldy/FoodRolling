@@ -67,3 +67,4 @@ export function bulkCost(
     level += 1
     count += 1
   }
+  if (amount === 'max' && count === 0 && level < maxOf(kind)) return { count: 1, cost: stepCost(def, kind, level) }
