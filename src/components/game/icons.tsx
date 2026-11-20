@@ -106,3 +106,4 @@ export function SettingsIcon(props: IconProps) {
       <circle cx="15" cy="7" r="2.6" fill="currentColor" />
       <circle cx="9" cy="17" r="2.6" fill="currentColor" />
     </Svg>
+  )
