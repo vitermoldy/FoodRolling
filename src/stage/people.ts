@@ -72,3 +72,4 @@ function dot(ctx: Ctx, x: number, y: number, r: number, color: string) {
 function shade(hex: string, amount: number): string {
   const n = parseInt(hex.slice(1), 16)
   const r = Math.max(0, Math.min(255, ((n >> 16) & 255) + amount))
+  const g = Math.max(0, Math.min(255, ((n >> 8) & 255) + amount))
