@@ -119,3 +119,4 @@ function LockedCard() {
           <span className="num text-lg font-medium text-olive">{formatCoins(def.unlockCost)}</span>
         </div>
         {isNext ? (
+          <>
