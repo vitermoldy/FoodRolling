@@ -54,3 +54,4 @@
     color: var(--color-olive);
   }
   body {
+    font-family: var(--font-sans);
