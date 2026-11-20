@@ -452,3 +452,4 @@ export function SushiConveyorMenu({
   }, [kick]);
 
   const stop = React.useCallback(() => {
+    setPlaying(false);
