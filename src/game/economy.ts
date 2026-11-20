@@ -52,3 +52,4 @@ export function bulkCost(
   def: RestaurantDef,
   state: RestaurantState,
   kind: UpgradeKind,
+  amount: BuyAmount,
