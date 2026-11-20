@@ -444,3 +444,4 @@ export function SushiConveyorMenu({
   }, [tick]);
 
   const setActive = React.useCallback((next: number | null) => {
+    const L = live.current;
