@@ -91,3 +91,4 @@ function jepang(ctx: Ctx, w: Wall) {
     rr(ctx, px, ny + u * 0.04, nw / panels - u * 0.06, Math.min(bottom * 0.5, u * 1.5), [0, 0, u * 0.05, u * 0.05], theme.chef.apron)
   }
   ctx.strokeStyle = '#f4efe4'
+  ctx.lineWidth = Math.max(1.5, u * 0.07)
