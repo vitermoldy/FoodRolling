@@ -516,3 +516,4 @@ function butterchicken(rng: Rng) {
 function thali(rng: Rng) {
   const bowls: [string, string][] = [['#e6ad38', '#f6d27a'], ['#e1712b', '#f39a5a'], ['#4f8a3a', '#7fb35f'], ['#f6f2e6', '#ffffff'], ['#b8321f', '#da5a3f'], ['#8a5a2a', '#a8763f']]
   let out = shadow(circle(50, 50, 37, '#000')) + circle(50, 50, 37, '#c7cbd0', 'stroke="#a9aeb4" stroke-width="1.2"') + circle(50, 50, 34, '#dfe2e6')
+  bowls.forEach(([c, hi], i) => {
