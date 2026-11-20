@@ -203,3 +203,4 @@ function margherita(rng: Rng) {
 
 function spaghetti(rng: Rng) {
   let pasta = ''
+  for (let i = 0; i < 26; i++) {
