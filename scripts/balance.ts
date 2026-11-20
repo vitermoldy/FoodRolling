@@ -52,3 +52,4 @@ while (t < 12 * 3600) {
   const best = options[0]
   if (!best) break
   if (best.cost <= money) {
+    money -= best.cost
