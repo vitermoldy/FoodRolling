@@ -10,3 +10,4 @@ export const BALANCE = {
 
   costs: {
     income: { base: 8, growth: 1.24 },
+    speed: { base: 20, growth: 1.3 },
