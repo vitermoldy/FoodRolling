@@ -206,3 +206,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     <div ref={wrapRef} className={className}>
       <canvas
         ref={canvasRef}
+        role="img"
