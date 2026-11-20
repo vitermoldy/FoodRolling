@@ -112,3 +112,4 @@ function hairFront(ctx: Ctx, look: Look, hx: number, hy: number, r: number, faci
     dot(ctx, hx, hy, r * 1.02, look.hair)
     if (look.style === 2) dot(ctx, hx, hy - r * 0.55, r * 0.45, shade(look.hair, 12))
     return
+  }
