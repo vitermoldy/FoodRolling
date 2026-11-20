@@ -234,3 +234,4 @@ export class StageRenderer {
       })
     }
 
+    items.sort((a, b) => a.y - b.y)
