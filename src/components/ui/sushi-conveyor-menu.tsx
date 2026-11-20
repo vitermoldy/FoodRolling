@@ -962,3 +962,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
   const figureRef = React.useRef(null as HTMLDivElement | null);
   const closeRef = React.useRef(null as HTMLButtonElement | null);
   const timer = React.useRef(0);
+  const closing = React.useRef(false);
