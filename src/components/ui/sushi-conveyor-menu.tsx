@@ -990,3 +990,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
       ], { duration: 680, easing: "cubic-bezier(.22,.85,.3,1)" });
     }
     const raf = requestAnimationFrame(() => setShown(true));
+    return () => {
