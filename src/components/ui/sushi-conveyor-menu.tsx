@@ -367,3 +367,4 @@ export function SushiConveyorMenu({
     for (let i = 0; i < L.count; i++) {
       const q = pose(g, s.offset, i);
       const e = clamp(s.lift[i] ?? 0, 0, 1.2);
+      const grow = (1 + LIFT_SCALE * e) * (i === L.active ? 1.1 : 1);
