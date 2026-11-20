@@ -2,3 +2,4 @@
 const UNITS: [number, string][] = [
   [1e18, 'Kt'],
   [1e15, 'Kd'],
+  [1e12, 'T'],
