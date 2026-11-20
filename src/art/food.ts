@@ -31,3 +31,4 @@ function shadow(inner: string, dx = 1.6, dy = 2.4) {
 
 /** Small dots scattered inside a circle. */
 function scatter(rng: Rng, count: number, cx: number, cy: number, radius: number, r: [number, number], colors: string[], extra = '') {
+  let out = ''
