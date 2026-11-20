@@ -303,3 +303,4 @@ export class BeltSim {
       eaten: 0,
       bill: 0,
       stack: [],
+      dish: -1,
