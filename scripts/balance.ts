@@ -15,3 +15,5 @@ const states = RESTAURANTS.map((_, i) => E.newRestaurantState(i === 0))
 let money = 0
 let t = 0
 const dt = 1
+const total = () => RESTAURANTS.reduce((sum, def, i) => sum + E.incomeRate(def, states[i]), 0)
+
