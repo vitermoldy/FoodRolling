@@ -25,3 +25,4 @@ export function formatCoins(value: number): string {
     if (abs >= size) {
       const v = value / size
       return `${number(v, Math.abs(v) >= 100 ? 0 : Math.abs(v) >= 10 ? 1 : 2)} ${unit}`
+    }
