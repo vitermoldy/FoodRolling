@@ -29,3 +29,4 @@ interface UiState {
 interface Actions {
   buy: (kind: UpgradeKind) => void
   unlock: (id: RestaurantId) => void
+  select: (id: RestaurantId) => void
