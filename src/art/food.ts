@@ -4,3 +4,5 @@ import { makeRng } from '../game/rng.ts'
 
 type Rng = () => number
 
+const f = (n: number) => Math.round(n * 100) / 100
+
