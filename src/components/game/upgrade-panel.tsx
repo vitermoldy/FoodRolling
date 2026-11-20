@@ -173,3 +173,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
                 <Icon width={24} height={24} />
               </span>
               <div className="min-w-0 flex-1">
+                <div className="flex flex-wrap items-baseline justify-between gap-x-2">
