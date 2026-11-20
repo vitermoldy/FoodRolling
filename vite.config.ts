@@ -15,3 +15,4 @@ export default defineConfig({
   preview: { port: 4191 },
   plugins: [react(), tailwindcss()],
   resolve: {
+    alias: { '@': root + 'src' },
