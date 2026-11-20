@@ -114,3 +114,4 @@ export function simConfig(def: RestaurantDef, state: RestaurantState): SimConfig
     beltSpeed: beltSpeed(def, state),
     chefs: state.chefs,
     seats: state.seats,
+    dishes: unlockedDishIndexes(def, state),
