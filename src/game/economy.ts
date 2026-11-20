@@ -126,3 +126,4 @@ export function averagePrice(def: RestaurantDef, state: RestaurantState): number
 }
 
 const C = BALANCE.customer
+const AVG_WANT = (C.wantMin + C.wantMax) / 2
