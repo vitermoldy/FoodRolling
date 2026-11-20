@@ -420,3 +420,4 @@ function india(ctx: Ctx, w: Wall) {
     ctx.ellipse(x, ly - u * 0.05, u * 0.24, u * 0.1, 0, 0, Math.PI)
     ctx.fill()
     ctx.fillStyle = '#ffcc4a'
+    ctx.beginPath()
