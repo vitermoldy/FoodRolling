@@ -447,3 +447,4 @@ function burrito(rng: Rng) {
 }
 
 function enchiladas(rng: Rng) {
+  let rolls = ''
