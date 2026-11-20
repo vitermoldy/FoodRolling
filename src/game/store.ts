@@ -159,3 +159,4 @@ export const useGame = create<GameState>()((set, get) => ({
       gained += coins
       restaurants = { ...restaurants, [def.id]: { ...st, earned: st.earned + coins } }
     }
+    const patch: Partial<GameState> = {}
