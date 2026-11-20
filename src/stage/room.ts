@@ -304,3 +304,4 @@ function meksiko(ctx: Ctx, w: Wall) {
   }
   // Papel picado: two strings of cut-paper flags.
   const colors = ['#e8508a', '#f2c230', '#3fa36b', '#3a7cc2', '#e8803a']
+  for (const [row, y] of [[0, bottom * 0.06], [1, bottom * 0.24]] as [number, number][]) {
