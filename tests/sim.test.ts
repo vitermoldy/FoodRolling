@@ -24,3 +24,4 @@ function measure(st: RestaurantState, seconds = 1500, seed = 7) {
 describe('belt layout', () => {
   it('has a spot for every seat and chef the shop can sell', () => {
     expect(SEAT_SPOTS.length).toBe(BALANCE.seats.max)
+    expect(CHEF_SPOTS.length).toBe(BALANCE.chefs.max)
