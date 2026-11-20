@@ -144,3 +144,4 @@ function salmon(rng: Rng) {
 }
 
 function ikura(rng: Rng) {
+  let out = ''
