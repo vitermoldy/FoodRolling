@@ -126,3 +126,4 @@
     border-color: var(--color-olive);
   }
   .btn-quiet:active:not(:disabled) {
+    transform: translateY(1px);
