@@ -21,3 +21,5 @@ export interface ConveyorDish {
   details?: string[];
   /** Not on the menu yet: the plate is drawn faded and grey. */
   locked?: boolean;
+}
+
