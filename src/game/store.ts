@@ -50,3 +50,5 @@ function readStorage(): string | null {
   } catch {
     return null
   }
+}
+
