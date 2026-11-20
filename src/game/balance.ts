@@ -33,3 +33,4 @@ export const BALANCE = {
   /** One tap on a chef adds this much cooking progress. */
   helpProgress: 0.18,
 
+  offlineCapHours: 8,
