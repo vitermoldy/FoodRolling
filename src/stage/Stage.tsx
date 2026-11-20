@@ -27,3 +27,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
   const def = restaurantById(current)
 
   const wrapRef = React.useRef<HTMLDivElement>(null)
+  const canvasRef = React.useRef<HTMLCanvasElement>(null)
