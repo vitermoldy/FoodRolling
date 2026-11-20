@@ -23,3 +23,4 @@ export function RestaurantStrip() {
   const refs = React.useRef<(HTMLButtonElement | null)[]>([])
 
   const onKeyDown = (e: React.KeyboardEvent, index: number) => {
+    let next = -1
