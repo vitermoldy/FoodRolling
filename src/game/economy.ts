@@ -130,3 +130,5 @@ const AVG_WANT = (C.wantMin + C.wantMax) / 2
 /** Seconds a seat spends per plate on arriving, leaving and staying empty, spread over the plates eaten. */
 export const SEAT_OVERHEAD = (C.arrive + C.leave + (C.respawnMin + C.respawnMax) / 2) / AVG_WANT
 /** Average wait for a plate to reach a seated customer when the belt carries enough food (measured in tests). */
+export const GRAB_WAIT = 0.15
+
