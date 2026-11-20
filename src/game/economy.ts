@@ -95,3 +95,4 @@ export function beltSpeed(def: RestaurantDef, state: RestaurantState): number {
 }
 
 export function isDishUnlocked(index: number, incomeLevel: number): boolean {
+  return (BALANCE.dishUnlock[index] ?? Infinity) <= incomeLevel
