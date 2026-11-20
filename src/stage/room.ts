@@ -526,3 +526,4 @@ function floor(ctx: Ctx, id: RestaurantId, theme: ThemeDef, W: number, H: number
           ctx.lineTo(x + t / 2, y + t * 0.82)
           ctx.lineTo(x + t * 0.18, y + t / 2)
           ctx.closePath()
+          ctx.fill()
