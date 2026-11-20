@@ -305,3 +305,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
   ctx.scale(s, s)
 
   const shoulder = standing ? -1.18 : -0.86
+  const waist = standing ? -0.32 : -0.28
