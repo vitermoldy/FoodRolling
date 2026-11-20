@@ -191,3 +191,4 @@ export class StageRenderer {
     if (!sim) return
     this.drawSeams(sim)
 
+    const items: { y: number; draw: () => void }[] = []
