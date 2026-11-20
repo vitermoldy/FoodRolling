@@ -72,3 +72,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     document.fonts?.ready.then(() => renderer.invalidate())
 
     let raf = 0
+    let last = performance.now()
