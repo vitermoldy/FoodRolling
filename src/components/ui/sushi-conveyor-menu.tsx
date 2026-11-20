@@ -581,3 +581,4 @@ export function SushiConveyorMenu({
     const s = sim.current;
     let inView = true;
     const update = () => {
+      const visible = inView && !document.hidden;
