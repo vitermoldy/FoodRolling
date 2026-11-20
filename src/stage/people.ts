@@ -27,3 +27,4 @@ export function lookFrom(seed: number): Look {
   }
 }
 
+export interface ChefStyle {
