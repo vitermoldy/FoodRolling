@@ -112,3 +112,4 @@ function Summary({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
 
 function Meter({ label, value, max, slow }: { label: string; value: number; max: number; slow: boolean }) {
   return (
+    <div className="grid grid-cols-[3.5rem_1fr_auto] items-center gap-3">
