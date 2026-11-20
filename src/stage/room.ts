@@ -662,3 +662,4 @@ function plateStack(ctx: Ctx, x: number, y: number, s: number, colors: string[])
 
 function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
   const ends = [layout.at(-(4.2 + 0.5), 0), layout.at(4.2 + 0.5, 0)]
+  ends.forEach((p, side) => {
