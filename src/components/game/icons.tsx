@@ -8,3 +8,4 @@ function Svg(props: IconProps) {
 }
 
 export function CoinIcon(props: IconProps) {
+  return (
