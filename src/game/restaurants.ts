@@ -134,3 +134,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     blurb: 'Taqueria berdinding terakota dengan bendera kertas papel picado dan ubin talavera biru.',
     scale: 2_600,
     unlockCost: 7_500_000,
+    cookTime: 4.2,
