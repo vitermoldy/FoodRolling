@@ -129,3 +129,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
   // Upgrades change the running belt in place.
   const { income, speed, chefs, seats, owned } = state
   React.useEffect(() => {
+    const sim = simRef.current
