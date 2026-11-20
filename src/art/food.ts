@@ -64,3 +64,4 @@ function blob(rng: Rng, cx: number, cy: number, r: number, wobble: number, point
   const pts: [number, number][] = []
   for (let i = 0; i < points; i++) {
     const a = (i / points) * Math.PI * 2
+    const rr = r * (1 - wobble / 2 + rng() * wobble)
