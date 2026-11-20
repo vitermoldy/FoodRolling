@@ -67,3 +67,5 @@ Bistro Lumière) adalah fiksi permainan. Pelanggan dan chef adalah karakter ilus
 sungguhan. Semua angka (harga, waktu masak, pendapatan) adalah aturan permainan dari
 `src/game/balance.ts` dan `src/game/restaurants.ts`.
 
+## Gerak
+
