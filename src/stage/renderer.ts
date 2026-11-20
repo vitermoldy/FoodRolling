@@ -366,3 +366,4 @@ export class StageRenderer {
     ctx.restore()
   }
 
+  private drawStation(index: number, p: ScreenPoint, ready: boolean, dish: number, progress: number, flying: boolean) {
