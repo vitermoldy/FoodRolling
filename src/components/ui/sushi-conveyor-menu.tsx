@@ -1028,3 +1028,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
         const first = dialog.querySelector("button");
         if (first) { event.preventDefault(); first.focus(); }
       }
+    };
