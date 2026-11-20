@@ -22,3 +22,4 @@ export function formatCoins(value: number): string {
   if (!Number.isFinite(value)) return '-'
   const abs = Math.abs(value)
   for (const [size, unit] of UNITS) {
+    if (abs >= size) {
