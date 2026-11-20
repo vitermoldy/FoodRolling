@@ -557,3 +557,4 @@ export class StageRenderer {
     }
   }
 
+  private drawCoins() {
