@@ -268,3 +268,4 @@ export class StageRenderer {
     c.height = Math.round(L.height * this.dpr)
     const g = c.getContext('2d')
     if (!g) return
+    g.setTransform(this.dpr, 0, 0, this.dpr, 0, 0)
