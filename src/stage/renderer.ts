@@ -565,3 +565,4 @@ export class StageRenderer {
     ctx.save()
     ctx.font = `700 ${size}px "Urbanist Variable", Urbanist, system-ui, sans-serif`
     ctx.textAlign = 'center'
+    ctx.textBaseline = 'middle'
