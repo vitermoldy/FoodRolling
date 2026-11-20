@@ -814,3 +814,4 @@ export function SushiConveyorMenu({
           <svg className="absolute left-0 top-0 overflow-visible" width={g.width} height={g.height} viewBox={`0 0 ${g.width} ${g.height}`} focusable="false">
             <defs>
               <filter id={`${uid}-soft`} x="-10%" y="-30%" width="120%" height="160%">
+                <feGaussianBlur stdDeviation={(g.d * 0.06).toFixed(1)} />
