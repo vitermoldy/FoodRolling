@@ -505,3 +505,4 @@ function biryani(rng: Rng) {
 }
 
 function butterchicken(rng: Rng) {
+  let chunks = ''
