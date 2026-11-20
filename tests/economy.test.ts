@@ -99,3 +99,4 @@ describe('save', () => {
     save.money = 1234.5
     save.restaurants.jepang.chefs = 3
     save.restaurants.italia.owned = true
+    save.current = 'italia'
