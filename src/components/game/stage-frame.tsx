@@ -50,3 +50,4 @@ export function StageFrame() {
         <h1 className="font-display text-base font-semibold leading-tight text-olive sm:text-lg">{def.name}</h1>
         <p className="text-xs text-moss">
           Restoran {restaurantIndex(current) + 1} dari {RESTAURANTS.length}, {def.country}
+        </p>
