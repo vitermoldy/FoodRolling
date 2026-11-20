@@ -96,3 +96,4 @@ export class StageRenderer {
     this.pulses.push({ chef, start: this.time })
   }
 
+  consume(events: SimEvent[]) {
