@@ -9,3 +9,5 @@ const fmt = (n: number) => {
   const e = Math.min(u.length, Math.floor(Math.log10(n) / 3))
   return (n / 10 ** (e * 3)).toFixed(2) + ' ' + u[e - 1]
 }
+const clock = (t: number) => `${Math.floor(t / 3600)}j${String(Math.floor((t % 3600) / 60)).padStart(2, '0')}m`
+
