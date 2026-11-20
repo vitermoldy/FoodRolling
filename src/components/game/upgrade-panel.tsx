@@ -224,3 +224,4 @@ function NextRestaurant() {
       </section>
     )
   }
+  const def = restaurantById(next)
