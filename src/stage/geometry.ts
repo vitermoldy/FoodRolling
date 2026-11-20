@@ -78,3 +78,4 @@ export class Layout {
   /** Screen y of the top of the scene (above the tallest head). */
   sceneTop = 0
 
+  constructor(width: number, height: number) {
