@@ -476,3 +476,4 @@ export class StageRenderer {
       look = lookFrom(key * 7919)
       this.looks.set(key, look)
     }
+    return look
