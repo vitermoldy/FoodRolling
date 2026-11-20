@@ -54,3 +54,4 @@ export interface SushiConveyorMenuProps extends React.ComponentProps<"section"> 
   onActiveChange?: (index: number | null) => void;
   onOpenChange?: (index: number | null) => void;
   /** Called by the dialog's add button. */
+  onAdd?: (item: ConveyorDish) => void;
