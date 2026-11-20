@@ -44,3 +44,4 @@ while (t < 12 * 3600) {
       label: `OPEN ${def.name}`,
       apply: () => {
         states[next].owned = true
+        console.log(`${clock(t)}  buka ${def.name.padEnd(22)} biaya ${fmt(def.unlockCost).padStart(10)}  pendapatan sebelum ${fmt(rate)}/s`)
