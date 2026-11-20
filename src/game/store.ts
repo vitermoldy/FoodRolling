@@ -212,3 +212,4 @@ export const useGame = create<GameState>()((set, get) => ({
       // Storage may be blocked; the in-memory game still resets.
     }
     lastTick = Date.now()
+    set({ ...newSave(Date.now()), offline: null, notice: null, announced: [], tab: 'upgrade', paused: false })
