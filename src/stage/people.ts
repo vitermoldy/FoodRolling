@@ -25,3 +25,5 @@ export function lookFrom(seed: number): Look {
     shirt: SHIRTS[Math.floor(rng() * SHIRTS.length)],
     glasses: rng() < 0.16,
   }
+}
+
