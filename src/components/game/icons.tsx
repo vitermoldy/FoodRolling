@@ -73,3 +73,4 @@ export function LockIcon(props: IconProps) {
 
 export function PauseIcon(props: IconProps) {
   return (
+    <Svg {...props}>
