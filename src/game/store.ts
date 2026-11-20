@@ -123,3 +123,4 @@ export const useGame = create<GameState>()((set, get) => ({
       tab: 'upgrade',
       notice: { id: noticeId++, text: `${def.name} sudah buka. Restoran sebelumnya tetap berjalan.` },
     })
+    get().save()
