@@ -386,3 +386,4 @@ export class StageRenderer {
     ctx.roundRect(p.x - w / 2, p.y - h / 2, w, h, s * 0.08)
     ctx.fill()
     ctx.fillStyle = 'rgba(255,255,255,0.3)'
+    ctx.fillRect(p.x - w / 2 + s * 0.08, p.y - h / 2 + s * 0.03, w - s * 0.16, Math.max(1, s * 0.02))
