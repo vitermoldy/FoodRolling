@@ -180,3 +180,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
                 <p className="mt-0.5 text-sm leading-snug text-olive">{effectText(kind, def, st)}</p>
                 {dish && (
                   <p className="mt-1 text-xs text-moss">
+                    Level {dish.level}: {dish.dish.name} masuk menu.
