@@ -839,3 +839,4 @@ export function SushiConveyorMenu({
       {g && items.map((item, i) => {
         const tier = tierStyle(item.tier);
         const isActive = active === i;
+        const broken = !!failed[item.id];
