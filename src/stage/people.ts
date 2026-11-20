@@ -66,3 +66,4 @@ function dot(ctx: Ctx, x: number, y: number, r: number, color: string) {
   ctx.fillStyle = color
   ctx.beginPath()
   ctx.arc(x, y, r, 0, Math.PI * 2)
+  ctx.fill()
