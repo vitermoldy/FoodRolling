@@ -52,3 +52,4 @@ export class StageRenderer {
   def: RestaurantDef
   sim: BeltSim | null = null
   reduced = false
+  private food = new Map<string, HTMLImageElement>()
