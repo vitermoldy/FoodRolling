@@ -149,3 +149,4 @@ function face(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facing: F
     dot(ctx, hx + r * 0.36, hy + r * 0.05, r * 0.11, ink)
     ctx.fillStyle = 'rgba(230,110,90,0.28)'
     ctx.beginPath()
+    ctx.ellipse(hx - r * 0.58, hy + r * 0.32, r * 0.16, r * 0.09, 0, 0, Math.PI * 2)
