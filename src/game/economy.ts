@@ -9,3 +9,4 @@ export interface RestaurantState {
   /** Income level, 1 to BALANCE.income.max. */
   income: number
   /** Speed level, 1 to BALANCE.speed.max. */
+  speed: number
