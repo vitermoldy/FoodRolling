@@ -67,3 +67,4 @@ function blob(rng: Rng, cx: number, cy: number, r: number, wobble: number, point
     const rr = r * (1 - wobble / 2 + rng() * wobble)
     pts.push([cx + Math.cos(a) * rr, cy + Math.sin(a) * rr])
   }
+  let d = ''
