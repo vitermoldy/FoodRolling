@@ -16,3 +16,4 @@ import {
   type BuyAmount,
   type RestaurantState,
   type UpgradeKind,
+} from '@/game/economy'
