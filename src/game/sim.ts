@@ -225,3 +225,4 @@ export class BeltSim {
       const seat = this.seats[i]
       switch (seat.state) {
         case 'empty':
+          seat.timer -= h
