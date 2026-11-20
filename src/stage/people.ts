@@ -93,3 +93,4 @@ function torso(ctx: Ctx, cx: number, top: number, bottom: number, wTop: number, 
 
 /** Hair behind the head (long styles), drawn before the head. */
 function hairBack(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facing: Facing) {
+  if (look.style === 3) {
