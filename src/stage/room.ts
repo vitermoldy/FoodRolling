@@ -181,3 +181,4 @@ function italia(ctx: Ctx, w: Wall) {
     rr(ctx, bx - u * 0.05, sy - u * (tall + 0.25), u * 0.1, u * 0.3, u * 0.03, glass)
     rr(ctx, bx - u * 0.1, sy - u * tall * 0.55, u * 0.2, u * 0.2, u * 0.02, '#efe4cc')
   }
+  rr(ctx, sx, sy, sw, u * 0.14, u * 0.04, '#6c432a')
