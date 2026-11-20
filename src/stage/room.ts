@@ -166,3 +166,4 @@ function italia(ctx: Ctx, w: Wall) {
       ctx.fillStyle = i % 2 ? '#4f7f3a' : '#6a9a48'
       ctx.beginPath()
       ctx.ellipse(lx, ly, u * 0.16, u * 0.09, a, 0, Math.PI * 2)
+      ctx.fill()
