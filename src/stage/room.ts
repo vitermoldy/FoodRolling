@@ -610,3 +610,4 @@ function counterAndBelt(ctx: Ctx, layout: Layout, id: RestaurantId, theme: Theme
   polygon(ctx, island, -d * 0.16)
   ctx.fillStyle = theme.island
   ctx.fill()
+  ctx.strokeStyle = 'rgba(255,255,255,0.25)'
