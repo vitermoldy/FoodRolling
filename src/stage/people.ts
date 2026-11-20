@@ -253,3 +253,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
           ctx.moveTo(hx + r * ox, hy - r * 0.75)
           ctx.lineTo(hx + r * ox, hy - r * 2)
         }
+        ctx.stroke()
