@@ -937,3 +937,4 @@ export function SushiConveyorMenu({
           onLift={onLift}
           onAdd={onDialogAdd}
           onClose={onDialogClose}
+          action={dialogAction}
