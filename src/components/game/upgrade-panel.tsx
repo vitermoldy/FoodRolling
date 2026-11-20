@@ -137,3 +137,4 @@ function AmountPicker() {
       {options.map((o) => (
         <button
           key={o.label}
+          type="button"
