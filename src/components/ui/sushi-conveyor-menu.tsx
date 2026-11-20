@@ -870,3 +870,4 @@ export function SushiConveyorMenu({
                   src={item.image}
                   alt=""
                   draggable={false}
+                  onError={() => setFailed((old) => (old[item.id] ? old : { ...old, [item.id]: true }))}
