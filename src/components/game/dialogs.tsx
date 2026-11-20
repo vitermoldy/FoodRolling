@@ -73,3 +73,4 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
               <button type="button" className="btn btn-quiet" onClick={() => setConfirm(false)}>Batal</button>
               <button
                 type="button"
+                className="btn bg-danger text-white hover:bg-[#82220f]"
