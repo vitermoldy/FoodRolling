@@ -53,3 +53,4 @@ Vite sudah dikunci ke satu ejaan lewat `vite.config.ts`. Tambahkan `?debug` ke a
 
 | Folder | Isi |
 |---|---|
+| `src/game` | Aturan: data restoran, rumus ekonomi, simulasi sabuk, simpanan, store Zustand. Semua angka penyetelan di `balance.ts`. |
