@@ -100,3 +100,4 @@ export class StageRenderer {
     const sim = this.sim
     if (!sim) return
     const L = this.layout
+    const now = this.time
