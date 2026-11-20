@@ -100,3 +100,4 @@ export interface SimConfig {
   cookTime: number
   eatTime: number
   beltSpeed: number
+  chefs: number
