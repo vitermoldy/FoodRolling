@@ -159,3 +159,4 @@ function italia(ctx: Ctx, w: Wall) {
     ctx.lineTo(x + ww, y + wh * 0.55)
     ctx.stroke()
     // Vine over the arch.
+    for (let i = 0; i < 9; i++) {
