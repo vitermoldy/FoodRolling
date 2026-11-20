@@ -73,3 +73,4 @@ export class StageRenderer {
     this.dpr = Math.min(2, Math.max(1, dpr))
     this.canvas.width = Math.round(width * this.dpr)
     this.canvas.height = Math.round(height * this.dpr)
+    this.layout = new Layout(width, height)
