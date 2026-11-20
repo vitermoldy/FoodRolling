@@ -287,3 +287,4 @@ export class StageRenderer {
         const u = sim.offset + shift + j * pitch
         const a = L.belt(u, -half)
         const b = L.belt(u, half)
+        const m = L.belt(u + pitch * 0.2, 0)
