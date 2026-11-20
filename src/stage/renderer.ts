@@ -55,3 +55,4 @@ export class StageRenderer {
   private food = new Map<string, HTMLImageElement>()
   private flights: Flight[] = []
   private coins: Coin[] = []
+  private pulses: { chef: number; start: number }[] = []
