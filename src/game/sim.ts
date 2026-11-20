@@ -170,3 +170,4 @@ export class BeltSim {
     this.offset += du
   }
 
+  /** A tap on a chef: a push of cooking progress. */
