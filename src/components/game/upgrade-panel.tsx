@@ -198,3 +198,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
                 onClick={() => buy(kind)}
                 aria-label={maxed ? `${TITLES[kind]} sudah penuh` : `Beli ${TITLES[kind]}${count > 1 ? ` ${count} kali` : ''}, ${formatCoins(cost)} koin`}
               >
+                <span>{maxed ? 'Penuh' : count > 1 ? `Beli ${count}` : 'Beli'}</span>
