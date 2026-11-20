@@ -93,3 +93,4 @@ const THEME =
   "[--island-wall:color-mix(in_oklab,var(--color-muted-foreground)_42%,var(--color-background))] dark:[--island-wall:color-mix(in_oklab,var(--color-foreground)_5%,var(--color-background))]";
 
 type Geo = {
+  width: number; height: number; d: number; r: number; s: number; l: number; pitch: number; n: number;
