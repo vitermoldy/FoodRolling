@@ -40,3 +40,4 @@ describe('belt simulation', () => {
           seen.add(e.plateId)
         }
       }
+      sim.events.length = 0
