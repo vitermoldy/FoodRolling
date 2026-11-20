@@ -41,3 +41,4 @@ export const BELT = {
   straight: 8.4,
   radius: 2,
   slots: 21,
+} as const
