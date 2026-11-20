@@ -706,3 +706,4 @@ export function SushiConveyorMenu({
     if (p.index < 0) {
       if (touch && live.current.active !== null) { stop(); setActive(null); }
       return;
+    }
