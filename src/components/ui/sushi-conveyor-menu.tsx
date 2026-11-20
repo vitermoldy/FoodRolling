@@ -901,3 +901,4 @@ export function SushiConveyorMenu({
       data-paused={paused || undefined}
       data-center={center}
       className={`relative isolate w-full overflow-hidden bg-background text-foreground ${THEME} ${className ?? ""}`}
+    >
