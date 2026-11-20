@@ -322,3 +322,4 @@ export class StageRenderer {
     ctx.ellipse(x, y - size * 0.01, rx * 0.84, ry * 0.84, 0, 0, Math.PI * 2)
     ctx.fill()
     ctx.strokeStyle = 'rgba(70,50,30,0.12)'
+    ctx.lineWidth = Math.max(0.6, size * 0.012)
