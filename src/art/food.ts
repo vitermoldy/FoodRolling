@@ -237,3 +237,4 @@ function ravioli(rng: Rng) {
   return out + scatter(rng, 10, 50, 50, 26, [0.5, 0.9], ['#5b4a2a'])
 }
 
+function lasagna(rng: Rng) {
