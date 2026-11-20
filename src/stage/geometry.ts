@@ -97,3 +97,4 @@ export class Layout {
 
   project(x: number, z: number): ScreenPoint {
     const k = this.a + this.b * z
+    return { x: this.cx + x * k * this.d, y: this.ym + TILT * (this.a * z + (this.b * z * z) / 2) * this.d, k }
