@@ -935,3 +935,4 @@ export function SushiConveyorMenu({
           broken={!!failed[items[openIndex].id]}
           source={openSource}
           onLift={onLift}
+          onAdd={onDialogAdd}
