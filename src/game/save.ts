@@ -50,3 +50,4 @@ export function parseSave(text: string | null, now: number): SaveData | null {
       const min = kind === 'chefs' ? BALANCE.chefs.start : kind === 'seats' ? BALANCE.seats.start : 1
       st[kind] = Math.min(maxOf(kind), Math.max(min, Math.floor(finite(r[kind], min))))
     }
+    st.earned = finite(r.earned, 0)
