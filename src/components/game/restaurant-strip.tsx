@@ -19,3 +19,4 @@ function thumb(id: string) {
 export function RestaurantStrip() {
   const current = useGame((s) => s.current)
   const restaurants = useGame((s) => s.restaurants)
+  const select = useGame((s) => s.select)
