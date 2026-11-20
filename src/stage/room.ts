@@ -747,3 +747,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
         } else {
           for (const [dx, c] of [[-0.26, '#c99a2e'], [0.02, '#b87333'], [0.28, '#c99a2e']] as [number, string][]) {
             tub(ctx, x + dx * s, y - s * 0.08, s * 0.16, s * 0.14, c, '#e2b94a', c === '#b87333' ? '#e6ad38' : '#e1712b')
+          }
