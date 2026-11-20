@@ -104,3 +104,4 @@
   }
   .btn-primary:hover:not(:disabled) {
     background: var(--color-olive-soft);
+    transform: translateY(-1px);
