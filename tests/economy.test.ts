@@ -51,3 +51,5 @@ describe('upgrades', () => {
       }
       expect(stepCost(jepang, kind, maxOf(kind))).toBe(Infinity)
     }
+  })
+
