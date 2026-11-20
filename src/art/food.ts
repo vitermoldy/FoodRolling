@@ -529,3 +529,4 @@ function thali(rng: Rng) {
 /* --------------------------------- Prancis --------------------------------- */
 
 function macaron(rng: Rng) {
+  const shells: [number, number, string, string][] = [[38, 40, '#a8c97b', '#8fb062'], [62, 42, '#e8778e', '#cf5c74'], [50, 63, '#f1e1bc', '#d8c69c']]
