@@ -8,3 +8,4 @@ export function Toast() {
   const select = useGame((s) => s.select)
 
   React.useEffect(() => {
+    if (!notice) return
