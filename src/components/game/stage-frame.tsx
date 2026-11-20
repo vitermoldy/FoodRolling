@@ -38,3 +38,4 @@ export function StageFrame() {
     <section
       id="restaurant-view"
       role="tabpanel"
+      aria-labelledby={`tab-${current}`}
