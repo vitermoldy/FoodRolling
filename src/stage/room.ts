@@ -776,3 +776,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
 export function paintRoom(ctx: Ctx, layout: Layout, def: RestaurantDef) {
   const { width: W, height: H } = layout
   const theme = def.theme
+  const u = layout.d * 0.85
