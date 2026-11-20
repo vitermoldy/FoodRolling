@@ -43,3 +43,4 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
   }
 
   return (
+    <Modal open={open} onClose={onClose} labelledBy="settings-title">
