@@ -653,3 +653,4 @@ export function SushiConveyorMenu({
     if (p.id === event.pointerId) {
       const dx = event.clientX - p.x;
       const now = event.timeStamp;
+      if (!p.moved && Math.abs(dx) > 6 && Math.abs(dx) > Math.abs(event.clientY - p.y)) {
