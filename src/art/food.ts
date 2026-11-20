@@ -82,3 +82,4 @@ function blob(rng: Rng, cx: number, cy: number, r: number, wobble: number, point
 
 /* ---------------------------------- Jepang ---------------------------------- */
 
+function edamame(rng: Rng) {
