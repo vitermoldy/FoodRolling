@@ -789,3 +789,4 @@ export function SushiConveyorMenu({
       onPointerDown={onPointerDown}
       onPointerMove={onPointerMove}
       onPointerUp={(event) => finishPointer(event, false)}
+      onPointerCancel={(event) => finishPointer(event, true)}
