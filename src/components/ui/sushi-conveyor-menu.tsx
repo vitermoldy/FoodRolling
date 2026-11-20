@@ -847,3 +847,4 @@ export function SushiConveyorMenu({
             ref={(node) => { plates.current[i] = node; }}
             type="button"
             data-dish={i}
+            data-active={isActive || undefined}
