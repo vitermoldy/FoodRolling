@@ -9,3 +9,4 @@ const HINT_KEY = 'foodrolling.hint-seen'
 
 function readHintSeen() {
   try {
+    return localStorage.getItem(HINT_KEY) === '1'
