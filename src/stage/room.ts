@@ -60,3 +60,4 @@ interface Wall {
 
 function jepang(ctx: Ctx, w: Wall) {
   const { W, bottom, u, theme } = w
+  // Hinoki planks.
