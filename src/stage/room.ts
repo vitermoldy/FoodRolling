@@ -548,3 +548,4 @@ function checker(ctx: Ctx, size: number): CanvasPattern | null {
   c.height = n * 2
   const g = c.getContext('2d')
   if (!g) return null
+  g.fillStyle = '#f7f1e6'
