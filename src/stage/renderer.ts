@@ -455,3 +455,4 @@ export class StageRenderer {
     ctx.restore()
     for (const pulse of this.pulses) {
       if (pulse.chef !== index) continue
+      const t = (this.time - pulse.start) / 0.45
