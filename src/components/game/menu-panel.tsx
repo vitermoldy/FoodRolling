@@ -65,3 +65,4 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
         </button>
       ) : (
         <p className="text-sm text-muted-foreground">Chef sedang memasaknya.</p>
+      )}
