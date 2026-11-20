@@ -409,3 +409,4 @@ export class StageRenderer {
     ctx.strokeStyle = 'rgba(255,255,255,0.55)'
     ctx.lineWidth = Math.max(1, s * 0.04)
     ctx.lineCap = 'round'
+    for (let k = 0; k < 2; k++) {
