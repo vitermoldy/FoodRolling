@@ -3,3 +3,4 @@ import { useGame } from '@/game/store'
 import { formatCoins, formatRate } from '@/lib/format'
 import { CoinIcon, SettingsIcon } from './icons'
 
+export function TopBar({ onSettings }: { onSettings: () => void }) {
