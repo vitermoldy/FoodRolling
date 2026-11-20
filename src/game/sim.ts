@@ -189,3 +189,4 @@ export class BeltSim {
   }
 
   plateCount(): number {
+    return this.slots.reduce((n, plate) => n + (plate ? 1 : 0), 0)
