@@ -212,3 +212,4 @@ export class StageRenderer {
     for (let i = 0; i < sim.seats.length; i++) {
       const seat = sim.seats[i]
       const sp = L.seat(i)
+      const stack = L.counterSpot(i, 'stack')
