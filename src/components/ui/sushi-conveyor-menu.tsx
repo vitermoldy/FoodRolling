@@ -553,3 +553,4 @@ export function SushiConveyorMenu({
   React.useLayoutEffect(() => {
     const s = sim.current;
     if (!geo) return;
+    if (!s.init) {
