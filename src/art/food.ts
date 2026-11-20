@@ -564,3 +564,4 @@ function crepe(rng: Rng) {
     out += g(`translate(${x} ${y}) rotate(${a})`, path('M0 -6 Q6 -7 6 0 Q5 6 0 8 Q-5 6 -6 0 Q-6 -7 0 -6Z', '#d8343f', 'stroke="#ad1f2c" stroke-width="0.6"') + scatter(rng, 5, 0, 1, 4, [0.35, 0.5], ['#f7d96a']) + path('M-3 -6 L0 -9 L3 -6Z', '#4f9a43'))
   }
   out += path(blob(rng, 34, 56, 6, 0.4), '#fffaf0', 'stroke="#efe6d6" stroke-width="0.6"')
+  return out + scatter(rng, 30, 46, 48, 22, [0.3, 0.6], ['#ffffff'])
