@@ -70,3 +70,4 @@ export function StageFrame() {
               {paused ? <PlayIcon /> : <PauseIcon />}
               {paused ? 'Jalankan' : 'Jeda'}
             </button>
+            <button
