@@ -287,3 +287,4 @@ function meksiko(ctx: Ctx, w: Wall) {
   ctx.fillStyle = theme.wall
   ctx.fillRect(0, 0, W, bottom)
   // Talavera tile band near the floor.
+  const th = Math.min(bottom * 0.22, u * 0.7)
