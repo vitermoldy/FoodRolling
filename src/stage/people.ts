@@ -276,3 +276,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
       dot(ctx, hx + r * 0.35, hy - r * 0.6, r * 0.08, '#fff2e4')
       if (facing !== 'down') {
         const kx = side ? hx - dir * r * 0.95 : hx
+        limb(ctx, kx, hy - r * 0.3, kx - dir * r * 0.2, hy + r * 0.25, r * 0.16, chef.apron)
