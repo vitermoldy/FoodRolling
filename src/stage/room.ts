@@ -336,3 +336,4 @@ function meksiko(ctx: Ctx, w: Wall) {
     })
   }
   // Potted cacti at both sides.
+  for (const x of [u * 1.2, W - u * 1.2]) {
