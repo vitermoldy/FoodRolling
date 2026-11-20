@@ -71,3 +71,4 @@ export function StageFrame() {
               {paused ? 'Jalankan' : 'Jeda'}
             </button>
             <button
+              type="button"
