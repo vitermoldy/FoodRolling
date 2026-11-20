@@ -145,3 +145,4 @@ export class BeltSim {
     this.seats.forEach((seat, i) => {
       if (i % 2 === 0) { seat.state = 'waiting'; seat.timer = 0 }
       else seat.timer = 0.3 + this.rng() * 1.5
+    })
