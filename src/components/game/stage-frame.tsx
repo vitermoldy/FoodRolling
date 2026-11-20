@@ -53,3 +53,4 @@ export function StageFrame() {
         </p>
       </div>
 
+      {owned && (
