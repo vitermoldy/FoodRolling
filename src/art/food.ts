@@ -401,3 +401,4 @@ function taco(rng: Rng) {
     let filling = ''
     for (let i = 0; i < 7; i++) {
       const y = -18 + i * 6 + rng() * 2
+      filling += circle((rng() - 0.5) * 5, y, 2.2, '#c47a3e') + rect((rng() - 0.5) * 5 - 1.5, y + 2, 3, 3, 0.6, '#ffd24a')
