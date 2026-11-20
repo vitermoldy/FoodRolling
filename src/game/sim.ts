@@ -310,3 +310,4 @@ export class BeltSim {
   }
 
   private startDish(chef: Chef) {
+    const menu = this.config.dishes
