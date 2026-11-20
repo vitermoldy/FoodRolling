@@ -282,3 +282,4 @@ function cendol(rng: Rng) {
     ellipse(38, 32, 9, 3.5, 'rgba(255,255,255,0.45)', 'transform="rotate(-30 38 32)"')
 }
 
+function sate(rng: Rng) {
