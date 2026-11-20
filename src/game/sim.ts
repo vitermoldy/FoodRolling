@@ -309,3 +309,4 @@ export class BeltSim {
     }
   }
 
+  private startDish(chef: Chef) {
