@@ -27,3 +27,4 @@ while (t < 12 * 3600) {
     if (!st.owned) return
     for (const kind of E.UPGRADE_KINDS) {
       if (E.isMaxed(st, kind)) continue
+      const cost = E.stepCost(def, kind, st[kind])
