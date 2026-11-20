@@ -158,3 +158,5 @@ export class Layout {
     const out: ScreenPoint[] = []
     for (let i = 0; i < steps; i++) out.push(this.belt((i / steps) * BELT_LENGTH, across))
     return out
+  }
+
