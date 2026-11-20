@@ -138,3 +138,4 @@ function slicedTopping(rng: Rng, y: number, base: string, edge: string, stripe: 
   return out
 }
 
+function salmon(rng: Rng) {
