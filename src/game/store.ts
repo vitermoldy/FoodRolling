@@ -170,3 +170,4 @@ export const useGame = create<GameState>()((set, get) => ({
     if (next && !s.announced.includes(next) && money >= restaurantById(next).unlockCost) {
       patch.announced = [...s.announced, next]
       patch.notice = { id: noticeId++, text: `Uangmu cukup untuk membuka ${restaurantById(next).name}.`, goTo: next }
+    }
