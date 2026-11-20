@@ -108,3 +108,4 @@ export interface SimConfig {
 }
 
 export function simConfig(def: RestaurantDef, state: RestaurantState): SimConfig {
+  return {
