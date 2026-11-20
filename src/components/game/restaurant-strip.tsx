@@ -40,3 +40,4 @@ export function RestaurantStrip() {
         {RESTAURANTS.map((r, i) => {
           const st = restaurants[r.id]
           const active = r.id === current
+          return (
