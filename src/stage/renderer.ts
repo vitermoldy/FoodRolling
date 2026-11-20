@@ -143,3 +143,4 @@ export class StageRenderer {
 
   /** Chef index under a point (CSS pixels), or -1. */
   hitChef(x: number, y: number): number {
+    const sim = this.sim
