@@ -276,3 +276,4 @@ export class StageRenderer {
 
   private drawSeams(sim: BeltSim) {
     const ctx = this.ctx
+    const L = this.layout
