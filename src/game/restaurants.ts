@@ -142,3 +142,4 @@ export const RESTAURANTS: RestaurantDef[] = [
       { id: 'nachos', name: 'Nachos', tier: 2, description: 'Keripik tortila dengan keju leleh, jalapeño, dan guacamole.', details: ['1 piring', 'Susu', 'Pedas'] },
       { id: 'taco', name: 'Taco ayam', tier: 2, description: 'Tortila jagung isi ayam panggang, nanas, bawang, dan daun ketumbar.', details: ['3 buah', 'Jagung'] },
       { id: 'quesadilla', name: 'Quesadilla', tier: 3, description: 'Tortila lipat berisi keju leleh dan paprika panggang.', details: ['4 potong', 'Susu', 'Gandum'] },
+      { id: 'burrito', name: 'Burrito', tier: 4, description: 'Tortila gandum besar berisi nasi, kacang merah, daging, dan salsa.', details: ['1 buah', 'Daging sapi', 'Gandum'] },
