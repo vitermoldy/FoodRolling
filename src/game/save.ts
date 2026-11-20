@@ -9,3 +9,4 @@ export interface SaveData {
   money: number
   totalEarned: number
   current: RestaurantId
+  restaurants: Record<RestaurantId, RestaurantState>
