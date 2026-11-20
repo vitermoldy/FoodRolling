@@ -41,3 +41,4 @@ export default function App() {
 
   // The open restaurant lends its colour to the interface.
   React.useEffect(() => {
+    document.documentElement.style.setProperty('--accent', restaurantById(current).theme.accent)
