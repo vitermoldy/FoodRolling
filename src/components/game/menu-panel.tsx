@@ -60,3 +60,4 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
           className="btn btn-primary"
           onClick={() => { close(); onShowIncome() }}
           disabled={!owned}
+        >
