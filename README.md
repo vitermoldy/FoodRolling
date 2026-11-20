@@ -47,3 +47,5 @@ npm run balance    # bot rakus memainkan game dan mencetak kapan tiap restoran t
 
 Butuh Node 22 atau lebih baru. Di Windows, jalankan vitest dari `C:\...` (huruf besar), bukan `c:\...`.
 Vite sudah dikunci ke satu ejaan lewat `vite.config.ts`. Tambahkan `?debug` ke alamat untuk membuka
+`window.__stage` (simulasi dan tata letak panggung) bagi skrip uji klik.
+
