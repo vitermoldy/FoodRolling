@@ -74,3 +74,4 @@ export function snapshot(s: SaveData): SaveData {
     restaurants: s.restaurants,
     startedAt: s.startedAt,
     savedAt: Date.now(),
+  }
