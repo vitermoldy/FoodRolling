@@ -416,3 +416,4 @@ function india(ctx: Ctx, w: Wall) {
   for (let i = 0; i < 5; i++) {
     const x = lx + u * 0.4 + (i * (lw - u * 0.8)) / 4
     ctx.fillStyle = '#c99a2e'
+    ctx.beginPath()
