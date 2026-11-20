@@ -26,3 +26,4 @@ export function StageFrame() {
 
   const seeHint = () => {
     if (hintSeen) return
+    setHintSeen(true)
