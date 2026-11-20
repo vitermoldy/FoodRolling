@@ -11,3 +11,4 @@ import { paintRoom } from './room.ts'
 
 type Ctx = CanvasRenderingContext2D
 
+interface Flight {
