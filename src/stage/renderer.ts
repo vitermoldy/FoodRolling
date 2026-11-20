@@ -422,3 +422,4 @@ export class StageRenderer {
   }
 
   private drawChef(index: number, p: ScreenPoint, cooking: boolean, progress: number) {
+    const ctx = this.ctx
