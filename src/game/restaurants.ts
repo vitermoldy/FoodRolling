@@ -49,3 +49,4 @@ export interface RestaurantDef {
 }
 
 export const RESTAURANTS: RestaurantDef[] = [
+  {
