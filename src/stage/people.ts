@@ -125,3 +125,4 @@ function hairFront(ctx: Ctx, look: Look, hx: number, hy: number, r: number, faci
       ctx.lineTo(hx - r * 1.08, hy + r * 0.45)
     } else {
       ctx.ellipse(hx, hy - r * 0.18, r * 1.04, r * 0.9, 0, Math.PI * 1.02, Math.PI * 1.98)
+      ctx.quadraticCurveTo(hx + r * 0.2, hy - r * 0.55, hx - r * 0.95, hy - r * 0.05)
