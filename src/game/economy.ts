@@ -122,3 +122,4 @@ export function dishPrice(def: RestaurantDef, dish: DishDef, incomeLevel: number
 export function averagePrice(def: RestaurantDef, state: RestaurantState): number {
   const open = unlockedDishIndexes(def, state)
   if (open.length === 0) return 0
+  return open.reduce((sum, i) => sum + dishPrice(def, def.dishes[i], state.income), 0) / open.length
