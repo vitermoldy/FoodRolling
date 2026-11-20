@@ -62,3 +62,4 @@ function jepang(ctx: Ctx, w: Wall) {
   const { W, bottom, u, theme } = w
   // Hinoki planks.
   for (let x = 0, i = 0; x < W; x += u * 0.9, i++) {
+    ctx.fillStyle = i % 2 ? theme.wall : '#e4cc9f'
