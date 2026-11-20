@@ -33,3 +33,4 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
       description: dish.description,
       price: formatCoins(dishPrice(def, dish, income)),
       tier: dish.tier as DishTier,
+      image: plateUrl(dish.id, def.theme.plate),
