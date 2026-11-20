@@ -390,3 +390,4 @@ function nachos(rng: Rng) {
     out += g(`translate(${f(x)} ${f(y)}) rotate(${f(rot)})`, shadow(path('M0 -10 L9 7 L-9 7Z', '#000'), 1, 1.6) + path('M0 -10 L9 7 L-9 7Z', i % 2 ? '#f1c35a' : '#eab64b', 'stroke="#c8902e" stroke-width="0.8" stroke-linejoin="round"'))
   }
   out += path(blob(rng, 46, 46, 8, 0.6), '#ffb21f') + path(blob(rng, 60, 58, 6, 0.6), '#ffb21f') + path(blob(rng, 36, 60, 5, 0.6), '#ffbd34')
+  for (const [x, y] of [[56, 38], [40, 54], [64, 64]] as [number, number][]) out += circle(x, y, 3.6, '#86c053', 'stroke="#3e8a35" stroke-width="1.6"') + scatter(rng, 3, x, y, 1.6, [0.4, 0.6], ['#f4f0d2'])
