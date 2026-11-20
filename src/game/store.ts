@@ -32,3 +32,4 @@ interface Actions {
   select: (id: RestaurantId) => void
   earn: (id: RestaurantId, amount: number) => void
   tick: (now: number) => void
+  markLive: (id: RestaurantId | null, now: number) => void
