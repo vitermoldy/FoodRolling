@@ -898,3 +898,4 @@ export function SushiConveyorMenu({
       data-layout={wide ? "wide" : "stack"}
       data-active={active ?? ""}
       data-open={openIndex ?? ""}
+      data-paused={paused || undefined}
