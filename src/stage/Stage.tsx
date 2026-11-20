@@ -43,3 +43,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
       for (let k = 0; k < sim.chefs.length; k++) {
         const i = (helpTurn.current + k) % sim.chefs.length
         if (sim.help(i)) {
+          rendererRef.current?.pulse(i)
