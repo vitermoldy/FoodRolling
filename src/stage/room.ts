@@ -688,3 +688,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
           ctx.fillStyle = '#a5532f'
           ctx.beginPath()
           ctx.ellipse(x, y, s * 0.55, s * 0.5, 0, Math.PI, 0)
+          ctx.lineTo(x + s * 0.55, y + s * 0.12)
