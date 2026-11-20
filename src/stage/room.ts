@@ -134,3 +134,4 @@ function italia(ctx: Ctx, w: Wall) {
   const wh = bottom * 0.66
   for (const x of [u * 0.6, W - u * 0.6 - ww]) {
     const y = bottom * 0.14
+    ctx.fillStyle = '#f2e6d0'
