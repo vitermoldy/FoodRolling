@@ -115,3 +115,4 @@ export class StageRenderer {
           duration: this.reduced ? 0.01 : 0.38,
         })
       } else if (e.type === 'grab') {
+        const seat = sim.seats[e.seat]
