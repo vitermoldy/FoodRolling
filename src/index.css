@@ -117,3 +117,4 @@
     box-shadow: none;
   }
   .btn-quiet {
+    background: var(--color-paper);
