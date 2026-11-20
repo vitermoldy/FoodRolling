@@ -949,3 +949,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
   item: ConveyorDish;
   index: number;
   total: number;
+  labels: SushiConveyorMenuLabels;
