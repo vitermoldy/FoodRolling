@@ -89,3 +89,4 @@ describe('the income formula matches the running belt', () => {
     it(name, () => {
       const st = state(patch)
       const got = measure(st)
+      const want = platesPerSecond(jepang, st)
