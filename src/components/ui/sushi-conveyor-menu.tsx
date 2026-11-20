@@ -382,3 +382,4 @@ export function SushiConveyorMenu({
   const hoverRef = React.useRef((hit: number | null) => { void hit; });
 
   const tick = React.useCallback((now: number) => {
+    const s = sim.current;
