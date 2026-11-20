@@ -48,3 +48,4 @@ export class StageRenderer {
   private dpr = 1
   layout: Layout
   private room: HTMLCanvasElement | null = null
+  private roomKey = ''
