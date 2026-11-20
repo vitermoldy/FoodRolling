@@ -135,3 +135,4 @@ describe('save', () => {
   })
 })
 
+describe('format', () => {
