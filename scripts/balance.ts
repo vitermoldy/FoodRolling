@@ -13,3 +13,4 @@ const clock = (t: number) => `${Math.floor(t / 3600)}j${String(Math.floor((t % 3
 
 const states = RESTAURANTS.map((_, i) => E.newRestaurantState(i === 0))
 let money = 0
+let t = 0
