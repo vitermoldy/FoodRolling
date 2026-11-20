@@ -53,3 +53,4 @@ export function parseSave(text: string | null, now: number): SaveData | null {
     st.earned = finite(r.earned, 0)
   }
   // Restaurants open in order: a gap means the save was edited, so close everything after it.
+  let open = true
