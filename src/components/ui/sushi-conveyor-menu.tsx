@@ -34,3 +34,4 @@ export interface SushiConveyorMenuLabels {
 
 export interface SushiConveyorMenuProps extends React.ComponentProps<"section"> {
   items: ConveyorDish[];
+  eyebrow?: string;
