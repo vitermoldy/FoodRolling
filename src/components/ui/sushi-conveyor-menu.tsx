@@ -468,3 +468,4 @@ export function SushiConveyorMenu({
     const g = live.current.geo;
     if (!g) return;
     const base = g.s / 2 + index * g.pitch;
+    s.target = base + Math.round((s.offset - base) / g.l) * g.l;
