@@ -589,3 +589,4 @@ export function SushiConveyorMenu({
     };
     const observer = node && typeof IntersectionObserver === "function" ? new IntersectionObserver((entries) => { inView = entries.some((entry) => entry.isIntersecting); update(); }) : null;
     if (node && observer) observer.observe(node);
+    document.addEventListener("visibilitychange", update);
