@@ -102,3 +102,4 @@ export interface SimConfig {
   beltSpeed: number
   chefs: number
   seats: number
+  dishes: number[]
