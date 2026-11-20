@@ -415,3 +415,4 @@ export class StageRenderer {
       const yy = y - t * s * 0.5
       ctx.beginPath()
       ctx.moveTo(x + k * s * 0.12, yy)
+      ctx.quadraticCurveTo(x + k * s * 0.12 + s * 0.06, yy - s * 0.08, x + k * s * 0.12, yy - s * 0.16)
