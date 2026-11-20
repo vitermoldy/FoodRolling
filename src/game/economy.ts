@@ -17,3 +17,4 @@ export interface RestaurantState {
 }
 
 export function newRestaurantState(owned: boolean): RestaurantState {
+  return { owned, income: 1, speed: 1, chefs: BALANCE.chefs.start, seats: BALANCE.seats.start, earned: 0 }
