@@ -126,3 +126,4 @@ describe('save', () => {
     expect(back.restaurants.india.owned).toBe(false)
   })
 
+  it('pays offline time at the full rate, up to the cap', () => {
