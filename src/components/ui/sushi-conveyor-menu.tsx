@@ -431,3 +431,4 @@ export function SushiConveyorMenu({
       const hit = hitTest(s.px, s.py);
       if (hit !== null && hit !== L.active) hoverRef.current(hit);
     }
+    paintAll();
