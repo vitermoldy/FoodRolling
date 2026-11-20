@@ -81,3 +81,4 @@ export class StageRenderer {
     this.def = def
     this.sim = sim
     this.flights = []
+    this.coins = []
