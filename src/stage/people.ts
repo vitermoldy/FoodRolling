@@ -369,3 +369,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
       ctx.fill()
     }
     // Collar in the trim colour.
+    ctx.fillStyle = chef.trim
