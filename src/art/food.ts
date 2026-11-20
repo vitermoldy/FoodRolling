@@ -17,3 +17,4 @@ function rect(x: number, y: number, w: number, h: number, rx: number, fill: stri
 }
 function path(d: string, fill: string, extra = '') {
   return `<path d="${d}" fill="${fill}" ${extra}/>`
+}
