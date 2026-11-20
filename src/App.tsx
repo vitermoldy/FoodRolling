@@ -103,3 +103,4 @@ export default function App() {
       <footer className="border-t border-line bg-bone px-4 py-2 text-xs text-moss sm:px-6">
         Progres tersimpan otomatis di browser ini. Saat game ditutup, restoran tetap berjalan sampai {BALANCE.offlineCapHours} jam.
       </footer>
+      <SettingsDialog open={settings} onClose={() => setSettings(false)} />
