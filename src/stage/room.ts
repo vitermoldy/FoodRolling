@@ -653,3 +653,4 @@ function tub(ctx: Ctx, x: number, y: number, rx: number, h: number, side: string
 }
 
 function plateStack(ctx: Ctx, x: number, y: number, s: number, colors: string[]) {
+  colors.forEach((c, i) => {
