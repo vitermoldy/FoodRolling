@@ -59,3 +59,4 @@ export function StageFrame() {
             <p className="pointer-events-none absolute left-1/2 top-3 -translate-x-1/2 rounded-[10px] bg-olive px-3 py-1.5 text-center text-xs font-medium text-bone max-sm:top-[4.4rem]">
               Sabuk dijeda. Restoran tetap menghasilkan uang.
             </p>
+          )}
