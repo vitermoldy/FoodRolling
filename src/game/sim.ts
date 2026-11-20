@@ -55,3 +55,4 @@ export function loopDelta(a: number, b: number): number {
   return d
 }
 
+export interface Plate {
