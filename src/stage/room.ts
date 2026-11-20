@@ -539,3 +539,5 @@ function floor(ctx: Ctx, id: RestaurantId, theme: ThemeDef, W: number, H: number
   ctx.fillRect(0, top, W, u * 0.6)
 }
 
+/* ------------------------------ counter and belt ----------------------------- */
+
