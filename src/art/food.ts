@@ -214,3 +214,4 @@ function spaghetti(rng: Rng) {
     const arc = `M${f(x0)} ${f(y0)}A${f(r)} ${f(r)} 0 0 1 ${f(x1)} ${f(y1)}`
     // A darker edge under each strand keeps the strands apart at small sizes.
     pasta += `<path d="${arc}" fill="none" stroke="#c5953c" stroke-width="3.6" stroke-linecap="round"/>`
+    pasta += `<path d="${arc}" fill="none" stroke="${i % 3 === 0 ? '#f7dc8c' : '#efcb6a'}" stroke-width="2.2" stroke-linecap="round"/>`
