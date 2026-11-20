@@ -156,3 +156,5 @@ export class StageRenderer {
       if ((inChef || inStation) && p.y > bestY) { best = i; bestY = p.y }
     }
     return best
+  }
+
