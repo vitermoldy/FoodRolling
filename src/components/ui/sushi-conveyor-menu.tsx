@@ -920,3 +920,4 @@ export function SushiConveyorMenu({
           {header}
           <div className="mt-2 w-full min-w-0">{stage}</div>
           {controls}
+          {captionNode}
