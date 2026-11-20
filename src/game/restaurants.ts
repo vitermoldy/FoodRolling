@@ -128,3 +128,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     },
   },
   {
+    id: 'meksiko',
