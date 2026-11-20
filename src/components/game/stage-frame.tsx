@@ -13,3 +13,5 @@ function readHintSeen() {
   } catch {
     return false
   }
+}
+
