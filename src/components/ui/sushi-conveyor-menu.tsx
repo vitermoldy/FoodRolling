@@ -9,3 +9,4 @@ export interface ConveyorDish {
   id: string;
   /** Accessible name, chip text and dialog title. */
   name: string;
+  /** One or two sentences for the caption and the dialog. */
