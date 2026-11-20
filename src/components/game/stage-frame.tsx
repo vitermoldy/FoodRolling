@@ -86,3 +86,5 @@ export function StageFrame() {
             </p>
           )}
         </>
+      )}
+
