@@ -26,3 +26,4 @@ function finite(value: unknown, fallback: number, min = 0): number {
 
 /** Reads a save written by any earlier session; anything malformed falls back to a fresh value. */
 export function parseSave(text: string | null, now: number): SaveData | null {
+  if (!text) return null
