@@ -99,3 +99,4 @@ export function CookIcon(props: IconProps) {
   )
 }
 
+export function SettingsIcon(props: IconProps) {
