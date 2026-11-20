@@ -555,3 +555,4 @@ function croissant(rng: Rng) {
   return out + scatter(rng, 6, 50, 46, 12, [0.4, 0.7], ['#f8d38a'])
 }
 
+function crepe(rng: Rng) {
