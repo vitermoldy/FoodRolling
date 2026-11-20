@@ -682,3 +682,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
           plateStack(ctx, x + s * 0.24, y + s * 0.04, s, ['#3f9450', '#3f9450', '#cf4430', '#cf4430', '#c99317'])
         }
         break
+      case 'italia':
