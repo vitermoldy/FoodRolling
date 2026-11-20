@@ -803,3 +803,4 @@ export function SushiConveyorMenu({
         if ((next && stageRef.current?.contains(next)) || live.current.open || sim.current.inside) return;
         const current = live.current.active;
         if (current !== null && current !== autoActive.current) setActive(null);
+      }}
