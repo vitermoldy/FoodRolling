@@ -136,3 +136,4 @@ export class Layout {
 
   station(index: number): ScreenPoint {
     const spot = CHEF_SPOTS[index]
+    const sign = spot.facing === 'front' ? 1 : -1
