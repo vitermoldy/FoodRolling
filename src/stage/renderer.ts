@@ -465,3 +465,4 @@ export class StageRenderer {
       ctx.arc(rx, ry, r + s * 0.35 * t, 0, Math.PI * 2)
       ctx.stroke()
       ctx.restore()
+    }
