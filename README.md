@@ -56,3 +56,4 @@ Vite sudah dikunci ke satu ejaan lewat `vite.config.ts`. Tambahkan `?debug` ke a
 | `src/game` | Aturan: data restoran, rumus ekonomi, simulasi sabuk, simpanan, store Zustand. Semua angka penyetelan di `balance.ts`. |
 | `src/stage` | Panggung kanvas: geometri sabuk (dari komponen prompt), ruangan per negara, orang, renderer, komponen React. |
 | `src/art` | Gambar 36 hidangan sebagai SVG dan warna piring. |
+| `src/components/ui` | Komponen `sushi-conveyor-menu` dari `Prompt.txt`, dengan dua tambahan kecil: `locked` per hidangan dan `dialogAction`. |
