@@ -387,3 +387,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
   roundRect(ctx, -0.07, headY + 0.18, 0.14, shoulder - headY - 0.12, 0.04)
   ctx.fill()
   dot(ctx, side ? dir * 0.03 : 0, headY + fidget, r, look.skin)
+  hairFront(ctx, look, side ? dir * 0.03 : 0, headY + fidget, r, facing)
