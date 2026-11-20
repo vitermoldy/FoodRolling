@@ -262,3 +262,4 @@ function tiramisu(rng: Rng) {
 /* -------------------------------- Indonesia -------------------------------- */
 
 function cendol(rng: Rng) {
+  let worms = ''
