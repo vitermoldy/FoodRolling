@@ -201,3 +201,4 @@ export class StageRenderer {
       items.push({ y: p.y, draw: () => this.drawPlate(p.x, p.y, L.d * p.k * 0.9, this.tierOf(plate.dish), plate.dish) })
     }
 
+    for (let i = 0; i < sim.chefs.length; i++) {
