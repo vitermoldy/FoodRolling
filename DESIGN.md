@@ -19,3 +19,4 @@ Dial: ENERGY 2 / RHYTHM 2 / MOTION 2
 
 - ENERGY 2: panggung restoran menjadi pusat perhatian; panel tenang seperti kartu menu kertas supaya
   angka mudah dibaca.
+- RHYTHM 2: dua kolom yang konsisten (panggung, panel) dengan satu perubahan besar: restoran yang
