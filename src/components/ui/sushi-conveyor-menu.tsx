@@ -130,3 +130,4 @@ function along(g: Geo, u: number): Point {
     return { x: -s / 2 - r * sin, z: r * cos, nx: -sin, nz: cos, tx: -cos, tz: -sin };
   }
   t -= arc;
+  if (t < s) return { x: -s / 2 + t, z: -r, nx: 0, nz: -1, tx: 1, tz: 0 };
