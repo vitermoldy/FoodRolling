@@ -151,3 +151,4 @@ export const useGame = create<GameState>()((set, get) => ({
     for (const def of RESTAURANTS) {
       const st = restaurants[def.id]
       if (!st.owned) continue
+      // The restaurant on screen earns through its belt; every other one earns by the formula.
