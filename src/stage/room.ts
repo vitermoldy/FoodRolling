@@ -781,3 +781,4 @@ export function paintRoom(ctx: Ctx, layout: Layout, def: RestaurantDef) {
   ctx.save()
   ctx.beginPath()
   ctx.rect(0, 0, W, wallBottom)
+  ctx.clip()
