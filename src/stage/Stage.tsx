@@ -28,3 +28,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
 
   const wrapRef = React.useRef<HTMLDivElement>(null)
   const canvasRef = React.useRef<HTMLCanvasElement>(null)
+  const rendererRef = React.useRef<StageRenderer | null>(null)
