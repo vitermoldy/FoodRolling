@@ -391,3 +391,4 @@ function india(ctx: Ctx, w: Wall) {
     ctx.lineWidth = Math.max(1, u * 0.04)
     ctx.beginPath()
     for (let k = -ah; k < aw + ah; k += u * 0.3) {
+      ctx.moveTo(x + k, y - aw)
