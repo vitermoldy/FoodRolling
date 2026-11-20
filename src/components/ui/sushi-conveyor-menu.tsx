@@ -736,3 +736,4 @@ export function SushiConveyorMenu({
   const control = "inline-flex size-11 items-center justify-center rounded-full border border-border bg-card text-muted-foreground shadow-sm outline-none transition-colors hover:text-foreground focus-visible:ring-2 focus-visible:ring-ring motion-reduce:transition-none";
 
   const header = (eyebrow || heading || tiers.length > 0) && (
+    <div className={wide ? "flex flex-col items-start gap-4 text-left" : "flex flex-col items-center gap-2 px-2 text-center"}>
