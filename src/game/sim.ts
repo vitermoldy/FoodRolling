@@ -230,3 +230,4 @@ export class BeltSim {
             seat.state = 'arriving'
             seat.timer = C.arrive
             seat.look = Math.floor(this.rng() * 1e9)
+            seat.want = C.wantMin + Math.floor(this.rng() * (C.wantMax - C.wantMin + 1))
