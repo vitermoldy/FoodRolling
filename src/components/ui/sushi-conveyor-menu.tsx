@@ -746,3 +746,4 @@ export function SushiConveyorMenu({
               <span className={`size-2.5 rounded-full border-2 bg-transparent ${tierStyle(entry.tier).ring}`} />
               {entry.label}
             </li>
+          ))}
