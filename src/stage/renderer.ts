@@ -328,3 +328,4 @@ export class StageRenderer {
     ctx.stroke()
     const img = this.food.get(this.def.dishes[dish]?.id ?? '')
     if (img && img.complete && img.naturalWidth > 0 && foodLeft > 0) {
+      const fs = size * 0.86 * (0.55 + 0.45 * foodLeft)
