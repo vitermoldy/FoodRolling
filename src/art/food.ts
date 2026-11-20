@@ -350,3 +350,4 @@ function ayampop(rng: Rng) {
 function rendang(rng: Rng) {
   let out = ''
   const chunks: [number, number, number][] = [[40, 40, 11], [61, 40, 10], [50, 58, 12], [34, 60, 9], [66, 60, 9]]
+  for (const [x, y, r] of chunks) out += shadow(path(blob(rng, x, y, r, 0.45, 7), '#000'))
