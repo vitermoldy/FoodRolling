@@ -68,3 +68,4 @@ export function LockIcon(props: IconProps) {
       <rect x="5" y="10.2" width="14" height="10.6" rx="2.2" fill="currentColor" />
       <circle cx="12" cy="15.3" r="1.6" fill="#fbf8f1" />
     </Svg>
+  )
