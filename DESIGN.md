@@ -22,3 +22,5 @@ Dial: ENERGY 2 / RHYTHM 2 / MOTION 2
 - RHYTHM 2: dua kolom yang konsisten (panggung, panel) dengan satu perubahan besar: restoran yang
   belum dibuka memakai kartu buka di tengah ruangan kosongnya.
 - MOTION 2: gerak hanya ada di panggung (sabuk, chef, pelanggan, piring terbang, koin). Panel hanya
+  punya transisi tombol.
+
