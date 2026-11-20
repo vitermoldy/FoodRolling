@@ -55,3 +55,4 @@ export function parseSave(text: string | null, now: number): SaveData | null {
   // Restaurants open in order: a gap means the save was edited, so close everything after it.
   let open = true
   for (const id of RESTAURANT_IDS) {
+    if (!save.restaurants[id].owned) open = false
