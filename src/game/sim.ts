@@ -182,3 +182,4 @@ export class BeltSim {
   /** Advances the simulation and returns the coins customers paid during it. */
   step(dt: number): number {
     let earned = 0
+    const steps = Math.max(1, Math.ceil(dt / (1 / 60)))
