@@ -26,3 +26,4 @@ export default function App() {
   React.useEffect(() => {
     const { tick, save } = useGame.getState()
     const ticker = window.setInterval(() => tick(Date.now()), 250)
+    const saver = window.setInterval(save, 5000)
