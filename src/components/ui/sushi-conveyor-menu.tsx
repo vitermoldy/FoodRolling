@@ -126,3 +126,4 @@ function along(g: Geo, u: number): Point {
   if (t < arc) {
     const f = t / r;
     const sin = Math.sin(f);
+    const cos = Math.cos(f);
