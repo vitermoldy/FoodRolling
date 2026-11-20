@@ -518,3 +518,4 @@ function thali(rng: Rng) {
   let out = shadow(circle(50, 50, 37, '#000')) + circle(50, 50, 37, '#c7cbd0', 'stroke="#a9aeb4" stroke-width="1.2"') + circle(50, 50, 34, '#dfe2e6')
   bowls.forEach(([c, hi], i) => {
     const a = (i / 6) * Math.PI * 2 - Math.PI / 2
+    const x = 50 + Math.cos(a) * 22
