@@ -537,3 +537,4 @@ export class StageRenderer {
       const p = L.seat(i)
       const s = L.d * p.k
       const x = p.x + s * 0.34
+      const y = p.y - s * (SIT_HEIGHT + 0.12)
