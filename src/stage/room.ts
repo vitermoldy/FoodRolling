@@ -668,3 +668,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
     const y = p.y
     ell(ctx, x + s * 0.04, y + s * 0.12, s * 0.5, s * 0.22, 'rgba(25,15,5,0.2)')
     switch (id) {
+      case 'jepang':
