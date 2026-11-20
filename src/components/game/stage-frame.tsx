@@ -88,3 +88,4 @@ export function StageFrame() {
         </>
       )}
 
+      {!owned && <LockedCard />}
