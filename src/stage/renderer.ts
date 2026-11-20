@@ -581,3 +581,4 @@ export class StageRenderer {
       ctx.fillText(c.text, x, y)
     }
     ctx.restore()
+  }
