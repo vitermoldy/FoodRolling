@@ -95,3 +95,4 @@ describe('the income formula matches the running belt', () => {
       expect(got.coins / incomeRate(jepang, st)).toBeGreaterThan(0.9)
       expect(got.coins / incomeRate(jepang, st)).toBeLessThan(1.1)
     })
+  }
