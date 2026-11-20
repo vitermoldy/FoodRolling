@@ -97,3 +97,4 @@ export type SimEvent =
   | { type: 'pay'; seat: number; amount: number }
 
 export interface SimConfig {
+  cookTime: number
