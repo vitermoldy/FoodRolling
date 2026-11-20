@@ -12,3 +12,4 @@ function circle(cx: number, cy: number, r: number, fill: string, extra = '') {
 function ellipse(cx: number, cy: number, rx: number, ry: number, fill: string, extra = '') {
   return `<ellipse cx="${f(cx)}" cy="${f(cy)}" rx="${f(rx)}" ry="${f(ry)}" fill="${fill}" ${extra}/>`
 }
+function rect(x: number, y: number, w: number, h: number, rx: number, fill: string, extra = '') {
