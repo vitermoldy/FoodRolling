@@ -252,3 +252,4 @@ function lasagna(rng: Rng) {
 function tiramisu(rng: Rng) {
   return shadow(rect(26, 26, 48, 50, 4, '#000')) +
     rect(26, 66, 48, 9, 2, '#f5ead2') + rect(26, 69, 48, 2.6, 1, '#a46f3d') + rect(26, 72.5, 48, 2.5, 1, '#f5ead2') +
+    rect(26, 26, 48, 42, 4, '#6b4227') +
