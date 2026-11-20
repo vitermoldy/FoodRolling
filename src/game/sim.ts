@@ -313,3 +313,4 @@ export class BeltSim {
     const menu = this.config.dishes
     chef.dish = menu.length ? menu[Math.floor(this.rng() * menu.length)] : 0
     chef.plateId = this.nextPlate++
+    chef.state = 'cooking'
