@@ -103,3 +103,4 @@ export interface SimConfig {
   chefs: number
   seats: number
   dishes: number[]
+  prices: number[]
