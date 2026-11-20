@@ -675,3 +675,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
           ctx.lineWidth = Math.max(1, s * 0.03)
           ctx.beginPath()
           ctx.ellipse(x, y - s * 0.02, s * 0.42, s * 0.26, 0, 0, Math.PI)
+          ctx.stroke()
