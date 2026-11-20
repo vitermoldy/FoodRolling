@@ -12,3 +12,4 @@ const formatters = new Map<number, Intl.NumberFormat>()
 function number(value: number, digits: number) {
   let fmt = formatters.get(digits)
   if (!fmt) {
+    fmt = new Intl.NumberFormat('id-ID', { maximumFractionDigits: digits, minimumFractionDigits: 0 })
