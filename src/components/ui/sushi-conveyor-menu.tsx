@@ -249,3 +249,4 @@ export function SushiConveyorMenu({
   className,
   ref,
   ...rest
+}: SushiConveyorMenuProps) {
