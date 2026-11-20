@@ -175,3 +175,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     const t = renderer.tangent(d.u)
     const len2 = t.x * t.x + t.y * t.y || 1
     const du = ((at.x - d.lastX) * t.x + (at.y - d.lastY) * t.y) / len2
+    sim.drag(du)
