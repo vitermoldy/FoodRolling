@@ -4,3 +4,4 @@ import { makeRng } from '../game/rng.ts'
 import type { HatKind } from '../game/restaurants.ts'
 import type { Facing } from './geometry.ts'
 
+export interface Look {
