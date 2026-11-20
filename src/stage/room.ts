@@ -512,3 +512,4 @@ function floor(ctx: Ctx, id: RestaurantId, theme: ThemeDef, W: number, H: number
     const t = id === 'india' ? u * 0.7 : u * 0.55
     ctx.strokeStyle = 'rgba(70,30,15,0.28)'
     ctx.lineWidth = Math.max(1, u * 0.03)
+    ctx.beginPath()
