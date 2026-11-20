@@ -357,3 +357,4 @@ export class StageRenderer {
       ctx.ellipse(p.x, y + s * 0.02, rx, ry, 0, 0, Math.PI)
       ctx.fill()
       if (i === tiers.length - 1) {
+        ctx.fillStyle = this.def.theme.plate
