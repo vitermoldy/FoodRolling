@@ -573,3 +573,4 @@ export class StageRenderer {
       // Keep the number inside the stage near the edges.
       const half = ctx.measureText(c.text).width / 2 + size * 0.3
       const x = Math.min(L.width - half, Math.max(half, c.x))
+      ctx.globalAlpha = t < 0.7 ? 1 : 1 - (t - 0.7) / 0.3
