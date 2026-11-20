@@ -199,3 +199,4 @@ export class BeltSim {
     if (this.holding) this.velocity = 0
     else {
       // Ease back to cruise after a flick, quickly when far off.
+      const k = 1 - Math.exp(-2.6 * h)
