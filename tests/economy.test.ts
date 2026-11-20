@@ -88,3 +88,4 @@ describe('upgrades', () => {
     expect(nextDish(jepang, top)).toBeNull()
   })
 
+  it('a closed restaurant earns nothing', () => {
