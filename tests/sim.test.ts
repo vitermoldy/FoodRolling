@@ -79,3 +79,4 @@ describe('belt simulation', () => {
 
 describe('the income formula matches the running belt', () => {
   const cases: [string, Partial<RestaurantState>][] = [
+    ['start', {}],
