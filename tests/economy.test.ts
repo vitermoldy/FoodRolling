@@ -101,3 +101,4 @@ describe('save', () => {
     save.restaurants.italia.owned = true
     save.current = 'italia'
     const back = parseSave(JSON.stringify(save), 2000)
+    expect(back?.money).toBe(1234.5)
