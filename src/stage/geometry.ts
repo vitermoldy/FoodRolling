@@ -22,3 +22,4 @@ export type Orientation = 'landscape' | 'portrait'
 export type Facing = 'down' | 'up' | 'left' | 'right'
 
 export interface LoopPoint {
+  p: number
