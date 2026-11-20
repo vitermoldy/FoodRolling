@@ -10,3 +10,4 @@ function circle(cx: number, cy: number, r: number, fill: string, extra = '') {
   return `<circle cx="${f(cx)}" cy="${f(cy)}" r="${f(r)}" fill="${fill}" ${extra}/>`
 }
 function ellipse(cx: number, cy: number, rx: number, ry: number, fill: string, extra = '') {
+  return `<ellipse cx="${f(cx)}" cy="${f(cy)}" rx="${f(rx)}" ry="${f(ry)}" fill="${fill}" ${extra}/>`
