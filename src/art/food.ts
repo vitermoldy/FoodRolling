@@ -634,3 +634,4 @@ function seedOf(id: string) {
 
 const cache = new Map<string, string>()
 
+/** The dish as SVG markup for a 100 x 100 viewBox, without a plate. */
