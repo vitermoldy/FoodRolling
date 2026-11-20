@@ -45,3 +45,4 @@ export default function App() {
   }, [current])
 
   const showIncome = () => {
+    setTab('upgrade')
