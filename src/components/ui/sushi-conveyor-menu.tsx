@@ -740,3 +740,4 @@ export function SushiConveyorMenu({
       {eyebrow && <p className="text-[11px] font-medium uppercase tracking-[0.28em] text-muted-foreground">{eyebrow}</p>}
       {heading && <h2 className={`text-balance font-medium tracking-tight ${wide ? "text-4xl leading-[1.1] xl:text-[2.75rem]" : "text-2xl md:text-3xl"}`}>{heading}</h2>}
       {tiers.length > 0 && (
+        <ul aria-hidden="true" data-legend className={`mt-1 flex flex-wrap items-center gap-x-3.5 gap-y-1.5 text-[11px] tabular-nums text-muted-foreground ${wide ? "justify-start" : "justify-center"} ${narrow ? "max-w-[15rem]" : ""}`}>
