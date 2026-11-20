@@ -485,3 +485,5 @@ export function SushiConveyorMenu({
     }
     if (hit !== null) { stop(); setActive(hit); return; }
     if (current !== null && current !== autoActive.current && !focusVisible()) setActive(null);
+  };
+
