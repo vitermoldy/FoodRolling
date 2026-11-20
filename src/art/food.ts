@@ -407,3 +407,4 @@ function taco(rng: Rng) {
     out += shadow(ellipse(x, 50, 10, 28, '#000'))
     out += g(`translate(${x} 50) rotate(${a})`,
       ellipse(0, 0, 10, 28, '#ecd08d', 'stroke="#c9a35c" stroke-width="1"') + ellipse(0, 0, 6, 24, '#a35a2a') + filling +
+      scatter(rng, 6, 0, 0, 22, [0.6, 1.2], ['#c9a35c']))
