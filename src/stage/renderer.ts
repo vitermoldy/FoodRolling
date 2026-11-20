@@ -131,3 +131,4 @@ export class StageRenderer {
         const p = L.seat(e.seat)
         const s = L.d * p.k
         let y = p.y - s * (SIT_HEIGHT + 0.25)
+        // Two neighbours paying at once would print over each other; lift the newer number.
