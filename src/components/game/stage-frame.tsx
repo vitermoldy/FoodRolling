@@ -105,3 +105,4 @@ function LockedCard() {
   const previous = RESTAURANTS[restaurantIndex(current) - 1]
   const blocking = next ? restaurantById(next) : null
 
+  return (
