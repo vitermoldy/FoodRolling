@@ -77,3 +77,4 @@ export type SeatState = 'empty' | 'arriving' | 'waiting' | 'eating' | 'leaving'
 export interface Seat {
   state: SeatState
   timer: number
+  /** Seed for the customer's look; changes with every new customer. */
