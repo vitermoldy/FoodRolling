@@ -341,3 +341,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
     limb(ctx, -0.26, shoulder + 0.22, -0.34, reach + chop * 0.05, 0.13, sleeve)
     limb(ctx, 0.26, shoulder + 0.22, 0.34, reach - chop * 0.05, 0.13, sleeve)
     dot(ctx, -0.34, reach + chop * 0.05, 0.07, look.skin)
+    dot(ctx, 0.34, reach - chop * 0.05, 0.07, look.skin)
