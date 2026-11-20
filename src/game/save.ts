@@ -18,3 +18,5 @@ export function newSave(now: number): SaveData {
   const restaurants = {} as Record<RestaurantId, RestaurantState>
   RESTAURANTS.forEach((r, i) => { restaurants[r.id] = newRestaurantState(i === 0) })
   return { v: 1, money: 0, totalEarned: 0, current: 'jepang', restaurants, startedAt: now, savedAt: now }
+}
+
