@@ -119,3 +119,4 @@
   .btn-quiet {
     background: var(--color-paper);
     color: var(--color-olive);
+    border: 1px solid var(--color-line-strong);
