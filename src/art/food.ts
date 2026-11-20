@@ -277,3 +277,4 @@ function cendol(rng: Rng) {
     `<path d="M33 60 Q46 52 58 62 T70 64" fill="none" stroke="#9b5622" stroke-width="2.4" opacity="0.6" stroke-linecap="round"/>` +
     worms +
     rect(56, 33, 10, 10, 2.5, 'rgba(255,255,255,0.6)', 'stroke="#e3f4f8" stroke-width="0.8" transform="rotate(18 61 38)"') +
+    rect(33, 58, 9, 9, 2.5, 'rgba(255,255,255,0.55)', 'stroke="#e3f4f8" stroke-width="0.8" transform="rotate(-12 37 62)"') +
