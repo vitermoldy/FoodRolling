@@ -577,3 +577,4 @@ export function SushiConveyorMenu({
   React.useEffect(() => { kick(); }, [active, paused, openIndex, reduced, speed, kick]);
 
   React.useEffect(() => {
+    const node = sectionRef.current;
