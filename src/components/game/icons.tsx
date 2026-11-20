@@ -75,3 +75,4 @@ export function PauseIcon(props: IconProps) {
   return (
     <Svg {...props}>
       <rect x="6" y="4.5" width="4.2" height="15" rx="1.2" fill="currentColor" />
+      <rect x="13.8" y="4.5" width="4.2" height="15" rx="1.2" fill="currentColor" />
