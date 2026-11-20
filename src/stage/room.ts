@@ -279,3 +279,4 @@ function indonesia(ctx: Ctx, w: Wall) {
       disc(ctx, x, y, cell * 0.06, '#4a2a16')
     }
   }
+  ctx.restore()
