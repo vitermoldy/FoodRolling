@@ -156,3 +156,4 @@ export class BeltSim {
     this.seats.length = Math.min(this.seats.length, config.seats)
   }
 
+  slotPosition(i: number): number {
