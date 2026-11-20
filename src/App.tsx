@@ -71,3 +71,4 @@ export default function App() {
       <main className="grid flex-1 lg:min-h-0 lg:grid-cols-[minmax(0,1fr)_minmax(380px,420px)]">
         <StageFrame />
         <aside id="panel" aria-label="Panel restoran" tabIndex={-1} className="flex flex-col border-line bg-bone lg:min-h-0 lg:border-l">
+          <div role="tablist" aria-label="Isi panel" className="flex gap-1 border-b border-line px-4 pt-3 sm:px-5">
