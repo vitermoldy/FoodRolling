@@ -479,3 +479,4 @@ export function SushiConveyorMenu({
   hoverRef.current = (hit: number | null) => {
     const current = live.current.active;
     if (hit === current) {
+      // The visitor takes over the plate autoplay lifted: autoplay stops and the plate stays up.
