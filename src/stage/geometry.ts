@@ -11,3 +11,4 @@ export const COUNTER = 0.8
 /** Distance from the belt centre line to a seated customer. */
 export const SEAT_OUT = BAND / 2 + COUNTER + 0.24
 /** Distance from the belt centre line in to a chef's station. */
+export const STATION_IN = BAND / 2 + 0.5
