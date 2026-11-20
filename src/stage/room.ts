@@ -126,3 +126,4 @@ function italia(ctx: Ctx, w: Wall) {
   for (let row = 0, y = 0; y < bottom; row++, y += bh) {
     for (let x = row % 2 ? -bw / 2 : 0; x < W; x += bw) {
       const tone = rng()
+      rr(ctx, x + 1, y + 1, bw - 2, bh - 2, Math.max(1, u * 0.03), tone < 0.33 ? theme.wall : tone < 0.66 ? theme.wallLow : '#bd6a46')
