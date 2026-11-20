@@ -31,3 +31,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
   const rendererRef = React.useRef<StageRenderer | null>(null)
   const simRef = React.useRef<BeltSim | null>(null)
   const live = React.useRef({ paused, owned: state.owned, id: current })
+  live.current = { paused, owned: state.owned, id: current }
