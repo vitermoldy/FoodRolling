@@ -48,3 +48,4 @@ export function RestaurantStrip() {
               role="tab"
               id={`tab-${r.id}`}
               aria-controls="restaurant-view"
+              aria-selected={active}
