@@ -15,3 +15,4 @@ const TABS: { id: PanelTab; label: string }[] = [
   { id: 'menu', label: 'Menu' },
 ]
 
+export default function App() {
