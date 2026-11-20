@@ -140,3 +140,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     dishes: [
       { id: 'churros', name: 'Churros', tier: 1, description: 'Adonan goreng bergula kayu manis dengan saus cokelat.', details: ['4 batang', 'Gandum'] },
       { id: 'nachos', name: 'Nachos', tier: 2, description: 'Keripik tortila dengan keju leleh, jalapeño, dan guacamole.', details: ['1 piring', 'Susu', 'Pedas'] },
+      { id: 'taco', name: 'Taco ayam', tier: 2, description: 'Tortila jagung isi ayam panggang, nanas, bawang, dan daun ketumbar.', details: ['3 buah', 'Jagung'] },
