@@ -13,3 +13,4 @@ function describe(sim: BeltSim, name: string): string {
   return `${name}: ${sim.chefs.length} chef memasak, ${seated} dari ${sim.seats.length} kursi terisi, ${waiting} pelanggan menunggu makanan, ${sim.plateCount()} piring di sabuk.`
 }
 
+export interface StageHandle {
