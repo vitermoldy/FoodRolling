@@ -599,3 +599,4 @@ export function SushiConveyorMenu({
   const geoReady = geo !== null;
   React.useEffect(() => {
     if (!playing || reduced || paused || openIndex !== null || count === 0 || !geoReady) return;
+    let timer = 0;
