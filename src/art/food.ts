@@ -173,3 +173,4 @@ function bruschetta(rng: Rng) {
   let out = ''
   const slices: [number, number, number][] = [[30, 50, -14], [50, 47, 3], [70, 52, 16]]
   for (const [x, y, a] of slices) {
+    let top = ''
