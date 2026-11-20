@@ -23,3 +23,4 @@ export interface ThemeDef {
   island: string
   islandEdge: string
   belt: string
+  beltSide: string
