@@ -246,3 +246,4 @@ export class StageRenderer {
 
   private loadFood(def: RestaurantDef) {
     for (const dish of def.dishes) {
+      if (this.food.has(dish.id)) continue
