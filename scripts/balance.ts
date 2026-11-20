@@ -3,3 +3,4 @@
 import { RESTAURANTS } from '../src/game/restaurants.ts'
 import * as E from '../src/game/economy.ts'
 
+const fmt = (n: number) => {
