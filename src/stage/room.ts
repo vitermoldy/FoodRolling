@@ -541,3 +541,4 @@ function floor(ctx: Ctx, id: RestaurantId, theme: ThemeDef, W: number, H: number
 
 /* ------------------------------ counter and belt ----------------------------- */
 
+function checker(ctx: Ctx, size: number): CanvasPattern | null {
