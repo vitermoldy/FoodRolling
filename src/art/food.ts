@@ -210,3 +210,4 @@ function spaghetti(rng: Rng) {
     const x0 = 50 + Math.cos(a0) * r
     const y0 = 50 + Math.sin(a0) * r
     const x1 = 50 + Math.cos(a1) * r
+    const y1 = 50 + Math.sin(a1) * r
