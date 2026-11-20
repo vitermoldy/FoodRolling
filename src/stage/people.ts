@@ -205,3 +205,5 @@ function face(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facing: F
     ctx.lineTo(hx - dir * r * 0.4, hy - r * 0.05)
     ctx.stroke()
   }
+}
+
