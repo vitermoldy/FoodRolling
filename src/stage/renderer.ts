@@ -139,3 +139,5 @@ export class StageRenderer {
         this.coins.push({ x: p.x, y, text: `+${formatCoins(e.amount)}`, start: now })
       }
     }
+  }
+
