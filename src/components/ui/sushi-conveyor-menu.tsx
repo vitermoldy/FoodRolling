@@ -561,3 +561,4 @@ export function SushiConveyorMenu({
       const f = geo.l / s.l;
       s.offset *= f;
       s.target *= f;
+    }
