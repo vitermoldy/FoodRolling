@@ -738,3 +738,4 @@ export function SushiConveyorMenu({
   const header = (eyebrow || heading || tiers.length > 0) && (
     <div className={wide ? "flex flex-col items-start gap-4 text-left" : "flex flex-col items-center gap-2 px-2 text-center"}>
       {eyebrow && <p className="text-[11px] font-medium uppercase tracking-[0.28em] text-muted-foreground">{eyebrow}</p>}
+      {heading && <h2 className={`text-balance font-medium tracking-tight ${wide ? "text-4xl leading-[1.1] xl:text-[2.75rem]" : "text-2xl md:text-3xl"}`}>{heading}</h2>}
