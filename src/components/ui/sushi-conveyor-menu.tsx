@@ -615,3 +615,4 @@ export function SushiConveyorMenu({
           if (live.current.active === index) setActive(null);
         }
         timer = window.setTimeout(show, Math.max(300, interval - HOLD));
+      }, HOLD);
