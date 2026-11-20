@@ -51,3 +51,4 @@ export function ChefIcon(props: IconProps) {
   )
 }
 
+export function SeatIcon(props: IconProps) {
