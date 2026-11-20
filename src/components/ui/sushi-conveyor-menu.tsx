@@ -128,3 +128,4 @@ function along(g: Geo, u: number): Point {
     const sin = Math.sin(f);
     const cos = Math.cos(f);
     return { x: -s / 2 - r * sin, z: r * cos, nx: -sin, nz: cos, tx: -cos, tz: -sin };
+  }
