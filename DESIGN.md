@@ -48,3 +48,4 @@ di tumpukan piring di depan pelanggan, di legenda menu, di ikon Pendapatan, dan 
 | DM Mono untuk angka uang, harga, dan laju | Angka berbaris rapi seperti kolom harga di struk atau menu, dan lebarnya tetap saat uang bertambah setiap detik. |
 | Panggung kanvas, panel DOM | Sabuk, 16 pelanggan, 6 chef, dan 21 piring digambar ulang 60 kali per detik; kanvas menjaga ini ringan. Semua kontrol tetap tombol asli supaya bisa dipakai dengan keyboard dan pembaca layar. |
 | Geometri sabuk dari komponen prompt | `along` dan `project` di `src/stage/geometry.ts` adalah parametrisasi loop dan proyeksi perspektif komponen, sehingga sabuk game dan sabuk menu terlihat satu keluarga. |
+| Dua orientasi panggung | Di layar lebar loop membentang ke samping; di ponsel loop berdiri tegak sehingga chef dan piring tetap besar. Simulasi tidak berubah, hanya cara menggambarnya. |
