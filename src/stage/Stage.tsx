@@ -169,3 +169,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
       d.moved = true
       sim.holding = true
       canvasRef.current?.setPointerCapture(e.pointerId)
+      setCursor('grabbing')
