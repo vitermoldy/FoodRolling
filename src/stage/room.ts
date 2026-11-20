@@ -579,3 +579,4 @@ function counterAndBelt(ctx: Ctx, layout: Layout, id: RestaurantId, theme: Theme
   // Counter front face, then the counter top.
   ctx.fillStyle = theme.counterEdge
   ctx.beginPath()
+  polygon(ctx, outer, face)
