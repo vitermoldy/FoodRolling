@@ -269,3 +269,4 @@ export class StageRenderer {
     const g = c.getContext('2d')
     if (!g) return
     g.setTransform(this.dpr, 0, 0, this.dpr, 0, 0)
+    g.clearRect(0, 0, L.width, L.height)
