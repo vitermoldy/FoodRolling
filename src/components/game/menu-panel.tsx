@@ -61,3 +61,4 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
           onClick={() => { close(); onShowIncome() }}
           disabled={!owned}
         >
+          {owned ? 'Lihat upgrade Pendapatan' : 'Restoran belum dibuka'}
