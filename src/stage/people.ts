@@ -118,3 +118,4 @@ function hairFront(ctx: Ctx, look: Look, hx: number, hy: number, r: number, faci
     if (look.style === 1) {
       ctx.ellipse(hx, hy - r * 0.2, r * 1.1, r * 0.95, 0, Math.PI * 0.98, Math.PI * 2.02)
       ctx.lineTo(hx + r * 1.08, hy + r * 0.45)
+      ctx.lineTo(hx + r * 0.75, hy + r * 0.45)
