@@ -255,3 +255,4 @@ export function SushiConveyorMenu({
   const sectionRef = React.useRef(null as HTMLElement | null);
   const stageRef = React.useRef(null as HTMLDivElement | null);
   const beltRef = React.useRef(null as HTMLDivElement | null);
+  const seamRef = React.useRef(null as SVGPathElement | null);
