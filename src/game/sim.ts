@@ -255,3 +255,4 @@ export class BeltSim {
           }
           break
         }
+        case 'eating':
