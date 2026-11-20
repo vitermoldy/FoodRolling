@@ -429,3 +429,4 @@ function quesadilla(rng: Rng) {
     for (let k = 0; k < 3; k++) {
       const t = 0.35 + k * 0.22
       out += line(cx + Math.cos(a0 + 0.15) * r * t, cy + Math.sin(a0 + 0.15) * r * t, cx + Math.cos(a1 - 0.15) * r * t, cy + Math.sin(a1 - 0.15) * r * t, '#b47a2e', 1.8, 'opacity="0.75"')
+    }
