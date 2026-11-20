@@ -688,3 +688,4 @@ export function SushiConveyorMenu({
     if (stage?.hasPointerCapture(event.pointerId)) stage.releasePointerCapture(event.pointerId);
     pointer.current = { ...p, id: -1 };
     if (s.mode === DRAG) {
+      s.mode = RUN;
