@@ -178,3 +178,4 @@ export const RESTAURANTS: RestaurantDef[] = [
       belt: '#b4a58c', beltSide: '#83755d', rail: '#e9dcc0', plate: '#fff9ee',
       chef: { hat: 'cap', coat: '#fbf8f0', apron: '#e0762b', trim: '#0f766e' },
     },
+  },
