@@ -114,3 +114,4 @@ function tamago(rng: Rng) {
   return out
 }
 
+function kappa(rng: Rng) {
