@@ -461,3 +461,5 @@ export function SushiConveyorMenu({
       autoActive.current = null;
       if (live.current.active === auto) setActive(null);
     }
+  }, [setActive]);
+
