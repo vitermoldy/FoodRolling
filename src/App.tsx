@@ -74,3 +74,4 @@ export default function App() {
           <div role="tablist" aria-label="Isi panel" className="flex gap-1 border-b border-line px-4 pt-3 sm:px-5">
             {TABS.map((t, i) => (
               <button
+                key={t.id}
