@@ -23,3 +23,4 @@ import { canUnlock, nextLocked, useGame } from '@/game/store'
 import { formatCoins, formatDecimal, formatRate } from '@/lib/format'
 import { UPGRADE_ICONS } from './icons'
 
+const TITLES: Record<UpgradeKind, string> = {
