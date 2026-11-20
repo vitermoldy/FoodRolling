@@ -811,3 +811,4 @@ export function SushiConveyorMenu({
       )}
       <div ref={beltRef} data-belt aria-hidden="true" className="pointer-events-none absolute inset-0">
         {g && paths && (
+          <svg className="absolute left-0 top-0 overflow-visible" width={g.width} height={g.height} viewBox={`0 0 ${g.width} ${g.height}`} focusable="false">
