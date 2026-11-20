@@ -97,3 +97,5 @@ export function CookIcon(props: IconProps) {
       <rect x="2" y="8.4" width="20" height="2.6" rx="1.3" fill="currentColor" />
     </Svg>
   )
+}
+
