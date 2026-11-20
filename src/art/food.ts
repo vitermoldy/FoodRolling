@@ -575,3 +575,4 @@ function quiche(rng: Rng) {
   const r = 52
   const p0 = [cx + Math.cos(a0) * r, cy + Math.sin(a0) * r]
   const p1 = [cx + Math.cos(a1) * r, cy + Math.sin(a1) * r]
+  const shape = `M${cx} ${cy}L${f(p0[0])} ${f(p0[1])}A${r} ${r} 0 0 1 ${f(p1[0])} ${f(p1[1])}Z`
