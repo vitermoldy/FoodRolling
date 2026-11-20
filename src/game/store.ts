@@ -57,3 +57,4 @@ function boot(now: number): SaveData & Pick<UiState, 'offline'> {
   if (!loaded) return { ...newSave(now), offline: null }
   const away = offlineEarnings(loaded, now)
   loaded.money += away.coins
+  loaded.totalEarned += away.coins
