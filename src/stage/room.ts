@@ -568,3 +568,4 @@ function counterAndBelt(ctx: Ctx, layout: Layout, id: RestaurantId, theme: Theme
   const face = d * 0.34
 
   // Floor shadow.
+  ctx.save()
