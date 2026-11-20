@@ -22,3 +22,4 @@ export interface ThemeDef {
   counterEdge: string
   island: string
   islandEdge: string
+  belt: string
