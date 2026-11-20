@@ -47,3 +47,4 @@ function grains(rng: Rng, count: number, cx: number, cy: number, radius: number,
     const a = rng() * Math.PI * 2
     const d = Math.sqrt(rng()) * radius
     out += ellipse(cx + Math.cos(a) * d, cy + Math.sin(a) * d, size * 1.7, size * 0.8, colors[Math.floor(rng() * colors.length)], `transform="rotate(${f(rng() * 180)} ${f(cx + Math.cos(a) * d)} ${f(cy + Math.sin(a) * d)})"`)
+  }
