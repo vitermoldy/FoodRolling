@@ -42,3 +42,4 @@ describe('belt simulation', () => {
       }
       sim.events.length = 0
       expect(sim.plateCount()).toBeLessThanOrEqual(SLOT_COUNT)
+    }
