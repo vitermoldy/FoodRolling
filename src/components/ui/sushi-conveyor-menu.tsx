@@ -314,3 +314,4 @@ export function SushiConveyorMenu({
   }, [ref]);
 
   const paintPlate = React.useCallback((i: number) => {
+    const L = live.current;
