@@ -16,3 +16,4 @@ interface Flight {
   dish: number
   tier: number
   from: ScreenPoint
+  /** Where the plate ends up; read every frame because the belt keeps moving. */
