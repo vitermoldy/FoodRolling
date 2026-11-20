@@ -45,3 +45,4 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
     return out
   }, [def, income])
 
+  return (
