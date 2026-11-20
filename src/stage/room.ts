@@ -349,3 +349,4 @@ function meksiko(ctx: Ctx, w: Wall) {
     ctx.beginPath()
     ctx.moveTo(x - u * 0.5, base - u * 0.4)
     ctx.lineTo(x + u * 0.5, base - u * 0.4)
+    ctx.lineTo(x + u * 0.38, base + u * 0.15)
