@@ -70,3 +70,4 @@ function jepang(ctx: Ctx, w: Wall) {
   // Shoji screens at both sides.
   const sw = Math.min(W * 0.16, u * 3.2)
   const sh = bottom * 0.78
+  for (const x of [u * 0.4, W - u * 0.4 - sw]) {
