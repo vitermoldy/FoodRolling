@@ -45,3 +45,4 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
   return (
     <Modal open={open} onClose={onClose} labelledBy="settings-title">
       <div className="flex items-start justify-between gap-3">
+        <h2 id="settings-title" className="font-display text-xl font-semibold">Pengaturan</h2>
