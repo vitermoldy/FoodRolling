@@ -49,3 +49,4 @@ export interface SushiConveyorMenuProps extends React.ComponentProps<"section"> 
   autoplay?: boolean;
   /** Milliseconds between autoplay plates. */
   interval?: number;
+  /** Index of the lifted plate (controlled). */
