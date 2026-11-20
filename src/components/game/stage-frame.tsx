@@ -35,3 +35,4 @@ export function StageFrame() {
   }
 
   return (
+    <section
