@@ -197,3 +197,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
       const carry = Math.exp(-Math.max(0, e.timeStamp - d.lastT) / 80)
       sim.velocity = Math.max(-24, Math.min(24, d.v * carry))
       setCursor('grab')
+      return
