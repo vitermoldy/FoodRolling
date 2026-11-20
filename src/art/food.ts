@@ -152,3 +152,4 @@ function ikura(rng: Rng) {
       const a = rng() * Math.PI * 2
       const d = Math.sqrt(rng())
       const cx = x + Math.cos(a) * d * 9.5
+      const cy = 50 + Math.sin(a) * d * 12
