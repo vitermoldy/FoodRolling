@@ -214,3 +214,4 @@ export class BeltSim {
       if (chef.state === 'ready') {
         const slot = this.nearestSlot(CHEF_SPOTS[i].u)
         if (!this.slots[slot]) {
+          this.slots[slot] = { id: chef.plateId, dish: chef.dish }
