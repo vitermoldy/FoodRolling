@@ -150,3 +150,4 @@ function italia(ctx: Ctx, w: Wall) {
     ctx.ellipse(x + ww * 0.3, y + wh, ww * 0.35, wh * 0.18, 0, Math.PI, 0)
     ctx.ellipse(x + ww * 0.75, y + wh, ww * 0.3, wh * 0.24, 0, Math.PI, 0)
     ctx.fill()
+    ctx.strokeStyle = '#f2e6d0'
