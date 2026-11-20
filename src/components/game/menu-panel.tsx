@@ -26,3 +26,4 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
   const def = restaurantById(current)
 
   const items = React.useMemo<ConveyorDish[]>(() => def.dishes.map((dish, i) => {
+    const open = owned && isDishUnlocked(i, income)
