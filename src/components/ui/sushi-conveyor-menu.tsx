@@ -637,3 +637,4 @@ export function SushiConveyorMenu({
     const g = live.current.geo;
     if (event.button !== 0 || !g) return;
     const at = local(event);
+    const hit = hitTest(at.x, at.y);
