@@ -220,3 +220,5 @@ function spaghetti(rng: Rng) {
     path(blob(rng, 50, 49, 12, 0.4), '#c63a22', 'stroke="#a52a16" stroke-width="0.8"') +
     scatter(rng, 6, 50, 49, 7, [1.4, 2.2], ['#d9533a']) +
     scatter(rng, 18, 50, 50, 16, [0.5, 0.9], ['#fff7dc', '#f7eccb']) + leaf(56, 41, 10, -35, '#2c7d32')
+}
+
