@@ -278,3 +278,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
         const kx = side ? hx - dir * r * 0.95 : hx
         limb(ctx, kx, hy - r * 0.3, kx - dir * r * 0.2, hy + r * 0.25, r * 0.16, chef.apron)
       }
+      break
