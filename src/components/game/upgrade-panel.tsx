@@ -26,3 +26,4 @@ import { UPGRADE_ICONS } from './icons'
 const TITLES: Record<UpgradeKind, string> = {
   income: 'Pendapatan',
   speed: 'Kecepatan',
+  chefs: 'Jumlah chef',
