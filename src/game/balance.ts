@@ -5,3 +5,4 @@
 export const BALANCE = {
   chefs: { start: 1, max: 6 },
   seats: { start: 4, max: 16 },
+  income: { max: 40, growth: 1.1 },
