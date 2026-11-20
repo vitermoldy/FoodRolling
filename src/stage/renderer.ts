@@ -264,3 +264,4 @@ export class StageRenderer {
     if (key === this.roomKey && this.room) return
     this.roomKey = key
     const c = this.room ?? document.createElement('canvas')
+    c.width = Math.round(L.width * this.dpr)
