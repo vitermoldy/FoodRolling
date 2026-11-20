@@ -210,3 +210,4 @@ function indonesia(ctx: Ctx, w: Wall) {
     ctx.arc(x + u * 0.45, bandH * 0.5, bandH * 0.26, Math.PI * 1.2, Math.PI * 2.7)
     ctx.stroke()
   }
+  // Rumah gadang roof in the middle: the upswept gonjong horns.
