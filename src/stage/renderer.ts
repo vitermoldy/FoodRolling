@@ -400,3 +400,4 @@ export class StageRenderer {
         ctx.restore()
       }
       if (!this.reduced && progress > 0.15) this.drawSteam(p.x + s * 0.18, p.y - h / 2, s, index)
+    }
