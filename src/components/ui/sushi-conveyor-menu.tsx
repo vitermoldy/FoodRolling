@@ -974,3 +974,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
     closeRef.current?.focus({ preventScroll: true });
     const overflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
+    onLift(true);
