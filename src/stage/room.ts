@@ -219,3 +219,4 @@ function indonesia(ctx: Ctx, w: Wall) {
   ctx.beginPath()
   ctx.moveTo(rx, ry)
   ctx.quadraticCurveTo(rx + rw * 0.12, ry + rh * 0.85, rx + rw * 0.25, ry + rh * 0.9)
+  ctx.quadraticCurveTo(rx + rw * 0.33, ry + rh * 0.2, rx + rw * 0.42, ry + rh * 0.05)
