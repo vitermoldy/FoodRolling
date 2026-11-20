@@ -159,3 +159,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
   return (
     <ul className="flex flex-col gap-2">
       {UPGRADE_KINDS.map((kind) => {
+        const Icon = UPGRADE_ICONS[kind]
