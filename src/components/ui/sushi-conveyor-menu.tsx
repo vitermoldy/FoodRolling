@@ -911,3 +911,4 @@ export function SushiConveyorMenu({
             {action}
           </div>
           <div className="min-w-0">
+            {stage}
