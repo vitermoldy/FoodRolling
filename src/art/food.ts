@@ -69,3 +69,4 @@ function blob(rng: Rng, cx: number, cy: number, r: number, wobble: number, point
   }
   let d = ''
   for (let i = 0; i < points; i++) {
+    const p0 = pts[i]
