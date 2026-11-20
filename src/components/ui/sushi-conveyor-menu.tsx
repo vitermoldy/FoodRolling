@@ -695,3 +695,4 @@ export function SushiConveyorMenu({
       if (event.pointerType === "mouse") {
         const at = local(event);
         s.lock = true;
+        s.lockX = at.x;
