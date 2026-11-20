@@ -233,3 +233,4 @@ export function SushiConveyorMenu({
   eyebrow,
   heading,
   caption,
+  action,
