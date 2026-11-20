@@ -192,3 +192,5 @@ export class StageRenderer {
     this.drawSeams(sim)
 
     const items: { y: number; draw: () => void }[] = []
+    const flying = new Set(this.flights.map((f) => f.plateId))
+
