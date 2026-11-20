@@ -86,3 +86,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
         if (sim.events.length) {
           renderer.consume(sim.events)
           sim.events.length = 0
+        }
