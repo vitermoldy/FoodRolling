@@ -400,3 +400,4 @@ function india(ctx: Ctx, w: Wall) {
     ctx.restore()
   }
   // Marigold garlands.
+  const loops = Math.max(3, Math.round(W / (u * 2.6)))
