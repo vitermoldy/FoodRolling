@@ -437,3 +437,4 @@ export class StageRenderer {
     const rx = p.x + s * 0.62
     const ry = p.y - s * 1.5
     const r = s * 0.14
+    ctx.save()
