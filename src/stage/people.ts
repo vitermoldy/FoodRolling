@@ -379,3 +379,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
     ctx.lineTo(0, shoulder + 0.12)
     ctx.lineTo(0.1, shoulder)
     ctx.closePath()
+    ctx.fill()
