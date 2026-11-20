@@ -46,3 +46,4 @@ export class StageRenderer {
   readonly canvas: HTMLCanvasElement
   private ctx: Ctx
   private dpr = 1
+  layout: Layout
