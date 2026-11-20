@@ -564,3 +564,4 @@ function counterAndBelt(ctx: Ctx, layout: Layout, id: RestaurantId, theme: Theme
   const outer = layout.ring(BAND / 2 + COUNTER)
   const beltOut = layout.ring(BAND / 2)
   const beltIn = layout.ring(-BAND / 2)
+  const island = layout.ring(-BAND / 2 - 0.02)
