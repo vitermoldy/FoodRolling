@@ -73,3 +73,4 @@ sungguhan. Semua angka (harga, waktu masak, pendapatan) adalah aturan permainan 
   uang lewat rumus selama dijeda).
 - Piring melompat dari meja chef ke sabuk dan dari sabuk ke konter pelanggan dalam busur pendek
   (0,3 sampai 0,4 detik) supaya mata bisa mengikuti ke mana piring pergi.
+- Angka koin naik di atas pelanggan yang baru membayar, lalu memudar.
