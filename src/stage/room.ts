@@ -7,3 +7,4 @@ import { BAND, COUNTER, type Layout, type ScreenPoint } from './geometry.ts'
 type Ctx = CanvasRenderingContext2D
 
 function polygon(ctx: Ctx, pts: ScreenPoint[], dy = 0) {
+  ctx.moveTo(pts[0].x, pts[0].y + dy)
