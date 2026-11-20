@@ -412,3 +412,4 @@ function taco(rng: Rng) {
   return out + path('M76 74 A8 8 0 0 1 88 74 Z', '#9ccc48', 'stroke="#6f9a2f" stroke-width="0.8"')
 }
 
+function quesadilla(rng: Rng) {
