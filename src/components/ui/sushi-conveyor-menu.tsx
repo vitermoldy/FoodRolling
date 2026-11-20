@@ -425,3 +425,4 @@ export function SushiConveyorMenu({
     for (let i = 0; i < L.count; i++) {
       const goal = i === L.active ? 1 : 0;
       if (Math.abs(goal - (s.lift[i] ?? 0)) < 0.002 && Math.abs(s.vlift[i] ?? 0) < 0.02) { s.lift[i] = goal; s.vlift[i] = 0; }
+      else busy = true;
