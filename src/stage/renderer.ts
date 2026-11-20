@@ -374,3 +374,4 @@ export class StageRenderer {
     const h = s * 0.5 * TILT
     const face = s * 0.2
     ctx.fillStyle = 'rgba(25,15,5,0.18)'
+    ctx.beginPath()
