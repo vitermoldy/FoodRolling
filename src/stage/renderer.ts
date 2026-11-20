@@ -80,3 +80,4 @@ export class StageRenderer {
   setRestaurant(def: RestaurantDef, sim: BeltSim | null) {
     this.def = def
     this.sim = sim
+    this.flights = []
