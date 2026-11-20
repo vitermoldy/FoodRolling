@@ -852,3 +852,4 @@ export function SushiConveyorMenu({
             aria-label={`${item.name}, ${item.price}`}
             aria-describedby={`${uid}-caption`}
             aria-haspopup="dialog"
+            aria-current={isActive || undefined}
