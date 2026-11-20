@@ -19,3 +19,4 @@ export interface StageHandle {
 }
 
 export const Stage = React.forwardRef<StageHandle, { className?: string }>(function Stage({ className }, ref) {
+  const current = useGame((s) => s.current)
