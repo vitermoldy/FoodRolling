@@ -6,3 +6,4 @@ import {
   eatTime,
   unlockedDishIndexes,
   type RestaurantState,
+} from './economy.ts'
