@@ -544,3 +544,4 @@ export class StageRenderer {
       ctx.fill()
       ctx.beginPath()
       ctx.moveTo(x - s * 0.12, y + s * 0.12)
+      ctx.lineTo(x - s * 0.2, y + s * 0.24)
