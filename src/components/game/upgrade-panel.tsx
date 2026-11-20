@@ -202,3 +202,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
                 {!maxed && <span className="num font-medium">{formatCoins(cost)}</span>}
               </button>
             </div>
+          </li>
