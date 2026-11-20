@@ -142,3 +142,4 @@ function AmountPicker() {
           onClick={() => setAmount(o.value)}
           className={`min-h-[44px] min-w-[3.25rem] rounded-[9px] px-3 text-sm font-semibold transition-colors ${amount === o.value ? 'bg-olive text-bone' : 'text-olive hover:bg-paper'}`}
         >
+          {o.label}
