@@ -207,3 +207,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
       <canvas
         ref={canvasRef}
         role="img"
+        aria-label={label || def.name}
