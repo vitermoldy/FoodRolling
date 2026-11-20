@@ -896,3 +896,4 @@ export function SushiConveyorMenu({
       ref={setSectionRef}
       data-slot="sushi-conveyor-menu"
       data-layout={wide ? "wide" : "stack"}
+      data-active={active ?? ""}
