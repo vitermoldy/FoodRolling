@@ -72,3 +72,5 @@ export interface Chef {
   helped: number
 }
 
+export type SeatState = 'empty' | 'arriving' | 'waiting' | 'eating' | 'leaving'
+
