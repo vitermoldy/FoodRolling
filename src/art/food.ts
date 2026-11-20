@@ -20,3 +20,4 @@ function path(d: string, fill: string, extra = '') {
 }
 function line(x1: number, y1: number, x2: number, y2: number, stroke: string, width: number, extra = '') {
   return `<line x1="${f(x1)}" y1="${f(y1)}" x2="${f(x2)}" y2="${f(y2)}" stroke="${stroke}" stroke-width="${width}" stroke-linecap="round" ${extra}/>`
+}
