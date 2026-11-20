@@ -16,3 +16,4 @@ export interface SaveData {
 
 export function newSave(now: number): SaveData {
   const restaurants = {} as Record<RestaurantId, RestaurantState>
+  RESTAURANTS.forEach((r, i) => { restaurants[r.id] = newRestaurantState(i === 0) })
