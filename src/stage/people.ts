@@ -402,3 +402,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
     dot(ctx, 0.22 - bite * 0.12, rightY, 0.07, look.skin)
     if (o.action === 'eat') limb(ctx, 0.22 - bite * 0.12, rightY, 0.3 - bite * 0.14, rightY - 0.2, 0.025, '#8a5a32')
   } else if (side) {
+    const reachX = standing ? 0.5 : 0.44
