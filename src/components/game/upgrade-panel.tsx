@@ -13,3 +13,4 @@ import {
   rateAfter,
   stepCost,
   UPGRADE_KINDS,
+  type BuyAmount,
