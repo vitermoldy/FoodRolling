@@ -597,3 +597,4 @@ export function SushiConveyorMenu({
   React.useEffect(() => () => { const s = sim.current; if (s.raf) cancelAnimationFrame(s.raf); s.raf = 0; s.last = 0; }, []);
 
   const geoReady = geo !== null;
+  React.useEffect(() => {
