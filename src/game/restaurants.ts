@@ -15,3 +15,4 @@ export interface ThemeDef {
   /** Restaurant colour: lanterns and progress rings on the stage, tab marker and meters in the UI. */
   accent: string
   wall: string
+  wallLow: string
