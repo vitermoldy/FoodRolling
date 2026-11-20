@@ -496,3 +496,4 @@ export function SushiConveyorMenu({
     live.current.open = true;
     paintBelt();
     setOpenIndex(index);
+    live.current.onOpenChange?.(index);
