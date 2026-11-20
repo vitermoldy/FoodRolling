@@ -264,3 +264,4 @@ export function SushiConveyorMenu({
   const anchors = React.useRef([] as (HTMLSpanElement | null)[]);
   const sim = React.useRef(makeSim());
   const pointer = React.useRef({ id: -1, index: -1, x: 0, y: 0, moved: false, start: 0, lane: 1, lastX: 0, lastT: 0, v: 0 });
+  const pendingOpen = React.useRef(-1);
