@@ -557,3 +557,4 @@ export function SushiConveyorMenu({
       s.init = true;
       s.offset = geo.s / 2 - Math.min(live.current.speed * 1.62, geo.pitch * 0.45);
       s.v = live.current.reduced || live.current.paused ? 0 : live.current.speed;
+    } else if (s.l > 0 && s.l !== geo.l) {
