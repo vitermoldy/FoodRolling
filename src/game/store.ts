@@ -49,3 +49,4 @@ function readStorage(): string | null {
     return localStorage.getItem(SAVE_KEY)
   } catch {
     return null
+  }
