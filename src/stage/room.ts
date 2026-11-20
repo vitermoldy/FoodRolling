@@ -758,3 +758,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
           }
         } else {
           // Cake stand with macarons.
+          ell(ctx, x, y + s * 0.02, s * 0.22, s * 0.1, '#d9d4cc')
