@@ -1001,3 +1001,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
 
   const dismiss = React.useCallback(() => {
     if (closing.current) return;
+    closing.current = true;
