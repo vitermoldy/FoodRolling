@@ -47,3 +47,4 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
 
   return (
     <SushiConveyorMenu
+      key={def.id}
