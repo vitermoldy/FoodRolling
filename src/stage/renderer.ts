@@ -345,3 +345,4 @@ export class StageRenderer {
     ctx.fillStyle = 'rgba(25,15,5,0.2)'
     ctx.beginPath()
     ctx.ellipse(p.x + s * 0.02, p.y + s * 0.05, rx, ry, 0, 0, Math.PI * 2)
+    ctx.fill()
