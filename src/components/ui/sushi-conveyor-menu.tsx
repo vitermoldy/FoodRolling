@@ -861,3 +861,4 @@ export function SushiConveyorMenu({
             <span aria-hidden="true" className="pointer-events-none absolute inset-0 opacity-50 dark:opacity-90">
               <span ref={(node) => { shadows.current[i] = node; }} className="absolute inset-x-[5%] bottom-[-9%] top-[16%] rounded-[50%] bg-black" style={{ filter: `blur(${Math.max(2, g.d * 0.045).toFixed(1)}px)` }} />
             </span>
+            <span ref={(node) => { lifts.current[i] = node; }} data-lift className="absolute inset-0">
