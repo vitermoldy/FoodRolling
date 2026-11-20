@@ -119,3 +119,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
       setLabel(`${def.name}, belum dibuka.`)
       return
     }
+    const sim = new BeltSim(simConfig(def, st), Math.floor(Math.random() * 1e9))
