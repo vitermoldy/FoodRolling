@@ -8,3 +8,5 @@ import { TopBar } from '@/components/game/top-bar'
 import { UpgradePanel } from '@/components/game/upgrade-panel'
 import { BALANCE } from '@/game/balance'
 import { restaurantById } from '@/game/restaurants'
+import { useGame, type PanelTab } from '@/game/store'
+
