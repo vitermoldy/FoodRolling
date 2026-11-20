@@ -12,3 +12,4 @@ export interface DishDef {
 export type HatKind = 'hachimaki' | 'toque' | 'peci' | 'bandana' | 'cap' | 'tall'
 
 export interface ThemeDef {
+  /** Restaurant colour: lanterns and progress rings on the stage, tab marker and meters in the UI. */
