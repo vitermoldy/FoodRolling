@@ -8,3 +8,4 @@ sushi kaiten di Jepang sampai bistro di Paris.
 
 1. **Lihat meter Dapur dan Kursi.** Pendapatan mengikuti sisi yang lebih lambat: kalau pelanggan
    menunggu makanan, dapur yang menahan; kalau piring menumpuk di sabuk, kursi yang menahan.
+2. **Upgrade restoran:**
