@@ -58,3 +58,4 @@ function bestValue(def: RestaurantDef, st: RestaurantState): UpgradeKind | null 
 }
 
 export function UpgradePanel() {
+  const current = useGame((s) => s.current)
