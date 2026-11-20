@@ -69,3 +69,5 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     measure()
     const observer = new ResizeObserver(measure)
     observer.observe(wrap)
+    document.fonts?.ready.then(() => renderer.invalidate())
+
