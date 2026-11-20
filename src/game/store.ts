@@ -79,3 +79,4 @@ export function snapshot(s: SaveData): SaveData {
 
 /** The next restaurant that can be bought, if any. */
 export function nextLocked(s: Pick<SaveData, 'restaurants'>): RestaurantId | null {
+  const def = RESTAURANTS.find((r) => !s.restaurants[r.id].owned)
