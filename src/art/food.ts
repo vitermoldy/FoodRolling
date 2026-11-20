@@ -433,3 +433,5 @@ function quesadilla(rng: Rng) {
     out += circle(cx + Math.cos(a0 + 0.05) * 18, cy + Math.sin(a0 + 0.05) * 18, 2.6, '#ffd23f')
   }
   return out + scatter(rng, 6, 50, 50, 6, [1.2, 2], ['#ffd23f', '#d8412d'])
+}
+
