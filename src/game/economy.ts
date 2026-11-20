@@ -167,3 +167,4 @@ export function rateAfter(def: RestaurantDef, state: RestaurantState, kind: Upgr
 
 export function isRestaurantMaxed(state: RestaurantState): boolean {
   return (['income', 'speed', 'chefs', 'seats'] as UpgradeKind[]).every((k) => isMaxed(state, k))
+}
