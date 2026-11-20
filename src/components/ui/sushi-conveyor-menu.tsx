@@ -405,3 +405,4 @@ export function SushiConveyorMenu({
           s.v *= Math.exp(-7.2 * h);
           if (Math.abs(s.v) < 0.02) s.v = 0;
         } else {
+          let e = s.v - cruise;
