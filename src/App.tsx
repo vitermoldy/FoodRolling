@@ -30,3 +30,4 @@ export default function App() {
     const flush = () => { tick(Date.now()); save() }
     const onVisibility = () => { if (document.hidden) flush() }
     window.addEventListener('pagehide', flush)
+    document.addEventListener('visibilitychange', onVisibility)
