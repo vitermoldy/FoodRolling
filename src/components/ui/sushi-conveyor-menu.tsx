@@ -344,3 +344,4 @@ export function SushiConveyorMenu({
     const g = L.geo;
     const s = sim.current;
     if (!g) return;
+    seamRef.current?.setAttribute("d", slatPath(g, s.offset, 0));
