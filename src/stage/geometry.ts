@@ -176,3 +176,4 @@ export class Layout {
       maxY = Math.max(maxY, pt.y + down * pt.k)
     }
     for (const pt of this.ring(BAND / 2 + COUNTER, 120)) take(pt, 0, 0, 0.45)
+    for (let i = 0; i < SEAT_SPOTS.length; i++) take(this.seat(i), SIT_HEIGHT, 0.45, 0.3)
