@@ -51,3 +51,4 @@ export function RestaurantStrip() {
               aria-selected={active}
               tabIndex={active ? 0 : -1}
               onClick={() => select(r.id)}
+              onKeyDown={(e) => onKeyDown(e, i)}
