@@ -307,3 +307,4 @@ function meksiko(ctx: Ctx, w: Wall) {
   for (const [row, y] of [[0, bottom * 0.06], [1, bottom * 0.24]] as [number, number][]) {
     const pts = swag(-u * 0.5, W + u * 0.5, y, bottom * 0.06, Math.max(6, Math.round(W / (u * 0.75))))
     ctx.strokeStyle = 'rgba(60,40,30,0.6)'
+    ctx.lineWidth = Math.max(1, u * 0.025)
