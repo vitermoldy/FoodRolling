@@ -21,3 +21,4 @@ export function StageFrame() {
   const paused = useGame((s) => s.paused)
   const setPaused = useGame((s) => s.setPaused)
   const def = restaurantById(current)
+  const stage = React.useRef<StageHandle>(null)
