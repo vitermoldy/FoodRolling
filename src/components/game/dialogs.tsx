@@ -82,3 +82,4 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
           </>
         ) : (
           <>
+            <p className="text-sm">Mulai lagi dari Kaiten Hinoki dengan uang nol.</p>
