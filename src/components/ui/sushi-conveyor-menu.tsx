@@ -792,3 +792,4 @@ export function SushiConveyorMenu({
       onPointerCancel={(event) => finishPointer(event, true)}
       onPointerLeave={(event) => {
         if (event.pointerType !== "mouse") return;
+        const s = sim.current;
