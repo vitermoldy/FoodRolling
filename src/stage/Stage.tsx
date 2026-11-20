@@ -120,3 +120,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
       return
     }
     const sim = new BeltSim(simConfig(def, st), Math.floor(Math.random() * 1e9))
+    for (let t = 0; t < 25; t += 0.1) sim.step(0.1)
