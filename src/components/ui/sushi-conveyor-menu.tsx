@@ -299,3 +299,4 @@ export function SushiConveyorMenu({
     onActiveChange: undefined as ((index: number | null) => void) | undefined,
     onPausedChange: undefined as ((value: boolean) => void) | undefined,
     onOpenChange: undefined as ((index: number | null) => void) | undefined,
+    onAdd: undefined as ((item: ConveyorDish) => void) | undefined,
