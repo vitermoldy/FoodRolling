@@ -314,3 +314,5 @@ function nasgor(rng: Rng) {
     scatter(rng, 7, 22, 36, 6, [0.4, 0.8], ['#e0c48a']) +
     circle(77, 52, 6, '#e8f3d0', 'stroke="#5c9a3c" stroke-width="1.6"') + circle(73, 64, 5.5, '#e8f3d0', 'stroke="#5c9a3c" stroke-width="1.5"') +
     circle(74, 39, 6, '#d94a33') + circle(74, 39, 3.6, '#f07a5c') + scatter(rng, 4, 74, 39, 3, [0.4, 0.6], ['#ffe0a0'])
+}
+
