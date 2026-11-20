@@ -580,3 +580,4 @@ export function SushiConveyorMenu({
     const node = sectionRef.current;
     const s = sim.current;
     let inView = true;
+    const update = () => {
