@@ -30,3 +30,4 @@ export function lookFrom(seed: number): Look {
 export interface ChefStyle {
   hat: HatKind
   coat: string
+  apron: string
