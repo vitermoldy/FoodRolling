@@ -70,3 +70,4 @@ describe('upgrades', () => {
   })
 
   it('more chefs only help while the kitchen is the bottleneck', () => {
+    const st = { ...newRestaurantState(true), chefs: 1, seats: 16 }
