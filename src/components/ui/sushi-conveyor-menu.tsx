@@ -276,3 +276,5 @@ export function SushiConveyorMenu({
   const [reduced, setReduced] = React.useState(() => typeof window !== "undefined" && typeof window.matchMedia === "function" && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
   const [playing, setPlaying] = React.useState(autoplay);
   const [center, setCenter] = React.useState(0);
+  const [failed, setFailed] = React.useState({} as { [id: string]: boolean });
+
