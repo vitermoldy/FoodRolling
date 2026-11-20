@@ -17,3 +17,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
           <div className="leading-tight">
             <p className="num text-lg font-medium text-olive sm:text-xl" aria-label={`Uang: ${formatCoins(money)} koin`}>
               {formatCoins(money)}
+            </p>
