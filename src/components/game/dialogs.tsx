@@ -16,3 +16,4 @@ function Modal({ open, onClose, labelledBy, children }: { open: boolean; onClose
   return (
     <dialog
       ref={ref}
+      aria-labelledby={labelledBy}
