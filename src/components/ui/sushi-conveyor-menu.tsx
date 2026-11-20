@@ -1019,3 +1019,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
     animation.onfinish = () => onClose();
   }, [source, reduced, onClose]);
 
+  React.useEffect(() => {
