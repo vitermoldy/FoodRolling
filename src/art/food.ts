@@ -72,3 +72,4 @@ function blob(rng: Rng, cx: number, cy: number, r: number, wobble: number, point
     const p0 = pts[i]
     const p1 = pts[(i + 1) % points]
     const m = [(p0[0] + p1[0]) / 2, (p0[1] + p1[1]) / 2]
+    d += i === 0 ? `M${f(m[0])} ${f(m[1])}` : ''
