@@ -159,3 +159,4 @@ function face(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facing: F
       ctx.fill()
     } else {
       ctx.strokeStyle = ink
+      ctx.lineWidth = r * 0.08
