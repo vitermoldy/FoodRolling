@@ -786,3 +786,4 @@ export function SushiConveyorMenu({
       aria-roledescription="conveyor belt"
       className="relative w-full touch-pan-y select-none"
       style={{ height: g ? g.height : 260, overflowX: "clip" }}
+      onPointerDown={onPointerDown}
