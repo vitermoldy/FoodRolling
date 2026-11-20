@@ -465,3 +465,4 @@ function prancis(ctx: Ctx, w: Wall) {
     ctx.stroke()
   }
   // Chalkboard with the day's dishes.
+  const cw = Math.min(W * 0.3, u * 5)
