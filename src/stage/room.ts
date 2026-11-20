@@ -638,3 +638,4 @@ function ell(ctx: Ctx, x: number, y: number, rx: number, ry: number, fill: strin
   ctx.fill()
 }
 
+/** A low cylinder seen from above: side band, then the top. */
