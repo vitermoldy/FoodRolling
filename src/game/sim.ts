@@ -296,3 +296,4 @@ export class BeltSim {
 
   private newSeat(): Seat {
     return {
+      state: 'empty',
