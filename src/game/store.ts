@@ -12,3 +12,4 @@ export interface Notice {
   goTo?: RestaurantId
 }
 
+interface UiState {
