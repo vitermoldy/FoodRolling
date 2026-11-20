@@ -128,3 +128,4 @@ function kappa(rng: Rng) {
 }
 
 function slicedTopping(rng: Rng, y: number, base: string, edge: string, stripe: string, stripes: number) {
+  let out = nigiriRice(rng, y, 48)
