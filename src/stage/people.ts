@@ -172,3 +172,4 @@ function face(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facing: F
       ctx.moveTo(hx + r * 0.58, hy + r * 0.05)
       ctx.arc(hx + r * 0.36, hy + r * 0.05, r * 0.22, 0, Math.PI * 2)
       ctx.moveTo(hx - r * 0.14, hy + r * 0.02)
+      ctx.lineTo(hx + r * 0.14, hy + r * 0.02)
