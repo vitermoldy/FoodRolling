@@ -516,3 +516,4 @@ export function SushiConveyorMenu({
   };
 
   const togglePause = () => {
+    stop();
