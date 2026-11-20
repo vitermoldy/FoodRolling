@@ -178,3 +178,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     sim.drag(du)
     d.u += du
     const dtMs = Math.max(1, e.timeStamp - d.lastT)
+    d.v = d.v * 0.6 + ((du * 1000) / dtMs) * 0.4
