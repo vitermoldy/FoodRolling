@@ -128,3 +128,4 @@ function hairFront(ctx: Ctx, look: Look, hx: number, hy: number, r: number, faci
       ctx.quadraticCurveTo(hx + r * 0.2, hy - r * 0.55, hx - r * 0.95, hy - r * 0.05)
     }
     ctx.closePath()
+    ctx.fill()
