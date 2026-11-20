@@ -643,3 +643,4 @@ function tub(ctx: Ctx, x: number, y: number, rx: number, h: number, side: string
   const ry = rx * 0.62
   ctx.fillStyle = side
   ctx.beginPath()
+  ctx.ellipse(x, y + h, rx, ry, 0, 0, Math.PI)
