@@ -67,3 +67,4 @@ function jepang(ctx: Ctx, w: Wall) {
     ctx.fillStyle = 'rgba(120,80,40,0.12)'
     ctx.fillRect(x, 0, Math.max(1, u * 0.02), bottom)
   }
+  // Shoji screens at both sides.
