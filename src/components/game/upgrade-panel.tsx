@@ -6,3 +6,4 @@ import {
   eatTime,
   incomeMult,
   incomeRate,
+  isMaxed,
