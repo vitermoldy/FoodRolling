@@ -403,3 +403,4 @@ function taco(rng: Rng) {
       const y = -18 + i * 6 + rng() * 2
       filling += circle((rng() - 0.5) * 5, y, 2.2, '#c47a3e') + rect((rng() - 0.5) * 5 - 1.5, y + 2, 3, 3, 0.6, '#ffd24a')
     }
+    filling += scatter(rng, 8, 0, 0, 14, [0.6, 1], ['#ffffff', '#f2e9ff']) + scatter(rng, 7, 0, 0, 15, [0.7, 1.1], ['#3f9a3a', '#2f7d2c'])
