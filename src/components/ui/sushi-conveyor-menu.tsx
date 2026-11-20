@@ -406,3 +406,4 @@ export function SushiConveyorMenu({
           if (Math.abs(s.v) < 0.02) s.v = 0;
         } else {
           let e = s.v - cruise;
+          if (Math.abs(e) > Math.max(6, cruise * 0.5)) e = Math.sign(e) * Math.max(0, Math.abs(e) * Math.exp(-2.4 * h) - 90 * h);
