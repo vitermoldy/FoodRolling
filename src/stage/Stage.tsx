@@ -53,3 +53,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
 
   // Renderer, size and the frame loop live for the life of the component.
   React.useLayoutEffect(() => {
+    const canvas = canvasRef.current
