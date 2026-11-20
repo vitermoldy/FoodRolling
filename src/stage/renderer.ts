@@ -161,3 +161,4 @@ export class StageRenderer {
   /** Closest belt position to a point and its distance in plate diameters. */
   nearestBelt(x: number, y: number): { u: number; dist: number } {
     let best = 0
+    let bestD = Infinity
