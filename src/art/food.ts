@@ -232,3 +232,4 @@ function ravioli(rng: Rng) {
         rect(x - 9.5, y - 9.5, 19, 19, 3, '#f0d391', 'stroke="#d3ac5e" stroke-width="1.6" stroke-dasharray="1.6 1.4"') +
         rect(x - 5.5, y - 5.5, 11, 11, 4.5, '#f8e3ae') + ellipse(x - 2, y - 2.5, 2.6, 1.4, 'rgba(255,255,255,0.55)'))
     }
+  }
