@@ -271,3 +271,4 @@ function indonesia(ctx: Ctx, w: Wall) {
   for (let y = by; y < by + eh + cell; y += cell) {
     for (let x = bx; x < bx + bw + cell; x += cell) {
       ctx.fillStyle = '#e8c98a'
+      for (const a of [0, Math.PI / 2]) {
