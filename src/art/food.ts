@@ -528,3 +528,4 @@ function thali(rng: Rng) {
 
 /* --------------------------------- Prancis --------------------------------- */
 
+function macaron(rng: Rng) {
