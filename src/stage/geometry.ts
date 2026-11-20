@@ -84,3 +84,4 @@ export class Layout {
     this.orientation = width / Math.max(1, height) >= 1.05 ? 'landscape' : 'portrait'
     const landscape = this.orientation === 'landscape'
     const kb = landscape ? 0.8 : 0.7
+    this.depth = landscape ? RADIUS + SEAT_OUT : STRAIGHT / 2 + RADIUS + SEAT_OUT
