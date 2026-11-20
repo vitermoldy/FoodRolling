@@ -67,3 +67,4 @@ export default function App() {
         Lewati ke panel upgrade
       </a>
       <TopBar onSettings={() => setSettings(true)} />
+      <RestaurantStrip />
