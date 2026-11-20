@@ -43,3 +43,4 @@ while (t < 12 * 3600) {
       cost: def.unlockCost,
       label: `OPEN ${def.name}`,
       apply: () => {
+        states[next].owned = true
