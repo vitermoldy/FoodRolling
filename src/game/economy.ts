@@ -54,3 +54,4 @@ export function bulkCost(
   kind: UpgradeKind,
   amount: BuyAmount,
   money: number,
+): { count: number; cost: number } {
