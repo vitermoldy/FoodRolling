@@ -258,3 +258,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
       break
     }
     case 'peci':
+      ctx.fillStyle = '#1d1d1f'
