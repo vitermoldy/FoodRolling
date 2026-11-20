@@ -155,3 +155,4 @@ export class StageRenderer {
       const inStation = Math.abs(x - st.x) < s * 0.5 && Math.abs(y - st.y) < s * 0.32
       if ((inChef || inStation) && p.y > bestY) { best = i; bestY = p.y }
     }
+    return best
