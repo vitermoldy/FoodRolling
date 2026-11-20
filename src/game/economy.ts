@@ -138,3 +138,4 @@ export function production(def: RestaurantDef, state: RestaurantState): number {
 }
 
 /** Plates per second the seated customers can eat. */
+export function capacity(def: RestaurantDef, state: RestaurantState): number {
