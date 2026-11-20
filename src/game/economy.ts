@@ -84,3 +84,4 @@ export function beltMult(level: number): number {
   return 1 + BALANCE.speed.belt * (level - 1)
 }
 
+export function cookTime(def: RestaurantDef, state: RestaurantState): number {
