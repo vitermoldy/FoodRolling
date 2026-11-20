@@ -160,3 +160,4 @@ function ikura(rng: Rng) {
   return out
 }
 
+function otoro(rng: Rng) {
