@@ -550,3 +550,4 @@ export class StageRenderer {
       for (let k = 0; k < 3; k++) {
         const bob = this.reduced ? 0 : Math.max(0, Math.sin(this.time * 6 - k * 0.8)) * s * 0.04
         ctx.fillStyle = '#5b5348'
+        ctx.beginPath()
