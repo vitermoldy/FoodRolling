@@ -134,3 +134,4 @@ function along(g: Geo, u: number): Point {
   t -= s;
   const f = Math.min(Math.PI, t / r);
   const sin = Math.sin(f);
+  const cos = Math.cos(f);
