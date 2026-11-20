@@ -633,3 +633,4 @@ export function SushiConveyorMenu({
     return { x: event.clientX - (box?.left ?? 0), y: event.clientY - (box?.top ?? 0) };
   };
 
+  const onPointerDown = (event: React.PointerEvent) => {
