@@ -902,3 +902,4 @@ export function SushiConveyorMenu({
       data-center={center}
       className={`relative isolate w-full overflow-hidden bg-background text-foreground ${THEME} ${className ?? ""}`}
     >
+      <div aria-hidden="true" className="pointer-events-none absolute inset-0 -z-10" style={{ background: "radial-gradient(64% 52% at 50% 56%, color-mix(in oklab, var(--color-foreground) 5%, transparent), transparent 72%)" }} />
