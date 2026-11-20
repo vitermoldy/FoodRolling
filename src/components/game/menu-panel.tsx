@@ -22,3 +22,4 @@ function plateUrl(id: string, plate: string) {
 export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
   const current = useGame((s) => s.current)
   const income = useGame((s) => s.restaurants[s.current].income)
+  const owned = useGame((s) => s.restaurants[s.current].owned)
