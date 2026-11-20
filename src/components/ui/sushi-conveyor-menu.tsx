@@ -15,3 +15,4 @@ export interface ConveyorDish {
   price: string;
   /** Price tier 1–5. Kaiten plates are colour-coded by price, so the tier is drawn as the plate ring in chart colour 1–5. */
   tier?: DishTier;
+  /** Top-down photo of the plate, centred on a transparent square canvas. */
