@@ -87,3 +87,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
           renderer.consume(sim.events)
           sim.events.length = 0
         }
+        if (coins > 0) earn(L.id, coins)
