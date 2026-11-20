@@ -398,3 +398,4 @@ function nachos(rng: Rng) {
 function taco(rng: Rng) {
   let out = ''
   for (const [x, a] of [[30, -10], [50, 0], [70, 10]] as [number, number][]) {
+    let filling = ''
