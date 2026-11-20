@@ -45,3 +45,4 @@ export function parseSave(text: string | null, now: number): SaveData | null {
     const r = data.restaurants?.[id]
     if (!r || typeof r !== 'object') continue
     const st = save.restaurants[id]
+    st.owned = id === 'jepang' ? true : r.owned === true
