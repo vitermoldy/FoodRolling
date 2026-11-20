@@ -26,3 +26,4 @@ const rightU = (f: number) => 2 * STRAIGHT + Math.PI * RADIUS + RADIUS * f
 
 /** Seat positions in the order they are bought: centre of both straights first, the curves last. */
 export const SEAT_SPOTS: number[] = [
+  frontU(0.7), frontU(-0.7), backU(-0.7), backU(0.7),
