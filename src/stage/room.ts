@@ -192,3 +192,4 @@ function italia(ctx: Ctx, w: Wall) {
   pts.forEach((p, i) => { if (i % 2 === 0) disc(ctx, p.x, p.y + u * 0.12, u * 0.09, '#ffd98a') })
 }
 
+function indonesia(ctx: Ctx, w: Wall) {
