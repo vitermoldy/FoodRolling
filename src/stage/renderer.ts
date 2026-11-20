@@ -450,3 +450,4 @@ export class StageRenderer {
     ctx.stroke()
     ctx.strokeStyle = this.def.theme.accent
     ctx.beginPath()
+    ctx.arc(rx, ry, r, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * (cooking ? progress : 1))
