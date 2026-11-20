@@ -110,3 +110,4 @@ export class StageRenderer {
           dish: plate.dish,
           tier: this.def.dishes[plate.dish]?.tier ?? 1,
           from: L.station(e.chef),
+          to: () => L.belt(sim.slotPosition(e.slot)),
