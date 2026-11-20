@@ -680,3 +680,4 @@ export function SushiConveyorMenu({
     hoverRef.current(hitTest(at.x, at.y));
   };
 
+  const finishPointer = (event: React.PointerEvent, cancelled: boolean) => {
