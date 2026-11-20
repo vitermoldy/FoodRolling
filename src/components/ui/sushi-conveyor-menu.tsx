@@ -966,3 +966,5 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
   const [shown, setShown] = React.useState(false);
   const [added, setAdded] = React.useState(false);
   const titleId = `${uid}-dish-title`;
+  const tier = tierStyle(item.tier);
+
