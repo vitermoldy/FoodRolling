@@ -127,3 +127,4 @@ export function averagePrice(def: RestaurantDef, state: RestaurantState): number
 
 const C = BALANCE.customer
 const AVG_WANT = (C.wantMin + C.wantMax) / 2
+/** Seconds a seat spends per plate on arriving, leaving and staying empty, spread over the plates eaten. */
