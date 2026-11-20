@@ -67,3 +67,4 @@ export function UpgradePanel() {
       <div className="flex flex-col gap-4">
         <p className="rounded-[12px] border border-dashed border-line-strong p-4 text-sm leading-relaxed text-olive">
           Upgrade {def.name} muncul setelah restoran ini dibuka. Restoran yang sudah buka tetap menghasilkan uang selama kamu melihat-lihat.
+        </p>
