@@ -404,3 +404,4 @@ export function SushiConveyorMenu({
         if (stopped) {
           s.v *= Math.exp(-7.2 * h);
           if (Math.abs(s.v) < 0.02) s.v = 0;
+        } else {
