@@ -321,3 +321,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
 
   if (!standing && facing === 'up') {
     // A stool under a customer seen from behind.
+    ctx.fillStyle = '#5a3e2b'
