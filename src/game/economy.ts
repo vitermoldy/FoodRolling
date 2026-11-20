@@ -111,3 +111,4 @@ export function nextDish(def: RestaurantDef, state: RestaurantState): { dish: Di
   return null
 }
 
+export function tierPrice(def: RestaurantDef, tier: number, incomeLevel: number): number {
