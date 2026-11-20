@@ -148,3 +148,4 @@ class StageBoundary extends React.Component<{ children: React.ReactNode }, { fai
   render() {
     if (this.state.failed) {
       return (
+        <div className="absolute inset-0 grid place-items-center p-6 text-center">
