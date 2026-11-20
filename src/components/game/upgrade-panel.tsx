@@ -213,3 +213,4 @@ function NextRestaurant() {
   const restaurants = useGame((s) => s.restaurants)
   const money = useGame((s) => s.money)
   const select = useGame((s) => s.select)
+  const unlock = useGame((s) => s.unlock)
