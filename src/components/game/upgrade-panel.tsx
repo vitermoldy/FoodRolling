@@ -139,3 +139,4 @@ function AmountPicker() {
           key={o.label}
           type="button"
           aria-pressed={amount === o.value}
+          onClick={() => setAmount(o.value)}
