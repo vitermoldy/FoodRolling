@@ -158,3 +158,5 @@ export class BeltSim {
 
   slotPosition(i: number): number {
     return wrap(this.offset - i * PITCH)
+  }
+
