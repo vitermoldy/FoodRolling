@@ -640,3 +640,4 @@ export function foodMarkup(id: string): string {
   if (hit) return hit
   const draw = DRAW[id]
   const out = draw ? draw(makeRng(seedOf(id))) : circle(50, 50, 20, '#d9c7a8')
+  cache.set(id, out)
