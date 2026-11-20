@@ -637,3 +637,4 @@ const cache = new Map<string, string>()
 /** The dish as SVG markup for a 100 x 100 viewBox, without a plate. */
 export function foodMarkup(id: string): string {
   const hit = cache.get(id)
+  if (hit) return hit
