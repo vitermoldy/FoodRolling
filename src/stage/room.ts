@@ -133,3 +133,4 @@ function italia(ctx: Ctx, w: Wall) {
   const ww = Math.min(W * 0.14, u * 2.4)
   const wh = bottom * 0.66
   for (const x of [u * 0.6, W - u * 0.6 - ww]) {
+    const y = bottom * 0.14
