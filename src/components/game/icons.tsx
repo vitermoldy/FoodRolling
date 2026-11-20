@@ -33,3 +33,4 @@ export function IncomeIcon(props: IconProps) {
 export function SpeedIcon(props: IconProps) {
   return (
     <Svg {...props}>
+      <rect x="10" y="1.8" width="4" height="2.6" rx="1" fill="currentColor" />
