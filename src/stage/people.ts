@@ -139,3 +139,4 @@ function hairFront(ctx: Ctx, look: Look, hx: number, hy: number, r: number, faci
   ctx.lineTo(hx + dir * r * 0.15, hy - r * 0.35)
   ctx.closePath()
   ctx.fill()
+  if (look.style === 2) dot(ctx, hx - dir * r * 0.9, hy - r * 0.55, r * 0.4, look.hair)
