@@ -125,3 +125,4 @@ export function averagePrice(def: RestaurantDef, state: RestaurantState): number
   return open.reduce((sum, i) => sum + dishPrice(def, def.dishes[i], state.income), 0) / open.length
 }
 
+const C = BALANCE.customer
