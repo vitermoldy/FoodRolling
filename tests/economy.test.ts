@@ -100,3 +100,4 @@ describe('save', () => {
     save.restaurants.jepang.chefs = 3
     save.restaurants.italia.owned = true
     save.current = 'italia'
+    const back = parseSave(JSON.stringify(save), 2000)
