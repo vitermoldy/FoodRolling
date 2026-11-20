@@ -49,3 +49,4 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
     <SushiConveyorMenu
       key={def.id}
       items={items}
+      legend={legend}
