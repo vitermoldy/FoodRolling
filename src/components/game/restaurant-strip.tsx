@@ -34,3 +34,4 @@ export function RestaurantStrip() {
     select(RESTAURANTS[next].id)
   }
 
+  return (
