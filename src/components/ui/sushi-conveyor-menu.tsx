@@ -67,3 +67,4 @@ const CURVE = 0.95;
 const BAND = 1.22;
 const TILT = 0.8;
 const SLAT = 0.34;
+const LIFT_Y = -6;
