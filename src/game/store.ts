@@ -157,3 +157,4 @@ export const useGame = create<GameState>()((set, get) => ({
       const coins = incomeRate(def, st) * dt
       if (coins <= 0) continue
       gained += coins
+      restaurants = { ...restaurants, [def.id]: { ...st, earned: st.earned + coins } }
