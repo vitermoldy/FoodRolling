@@ -220,3 +220,4 @@ export class StageRenderer {
       else if (seat.state === 'arriving') { const t = Math.max(0, seat.timer / 0.8); alpha = 1 - t; out = t }
       else if (seat.state === 'leaving') { const t = Math.max(0, seat.timer / 0.8); alpha = t; out = 1 - t }
       if (seat.stack.length) items.push({ y: stack.y, draw: () => this.drawStack(stack, seat.stack, seat.state === 'leaving' ? alpha : 1) })
+      if (seat.state === 'eating' && !flying.has(seat.plateId)) {
