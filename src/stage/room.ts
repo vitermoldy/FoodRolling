@@ -557,3 +557,5 @@ function checker(ctx: Ctx, size: number): CanvasPattern | null {
   g.fillRect(n, 0, n, n)
   g.fillRect(0, n, n, n)
   return ctx.createPattern(c, 'repeat')
+}
+
