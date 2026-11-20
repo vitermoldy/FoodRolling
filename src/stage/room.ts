@@ -342,3 +342,4 @@ function meksiko(ctx: Ctx, w: Wall) {
     rr(ctx, x - u * 0.22, base - u * 1.5, u * 0.44, u * 1.5, u * 0.22, '#3f8a4a')
     rr(ctx, x - u * 0.62, base - u * 1.15, u * 0.26, u * 0.6, u * 0.13, '#4a9a55')
     rr(ctx, x - u * 0.62, base - u * 0.72, u * 0.46, u * 0.22, u * 0.11, '#4a9a55')
+    rr(ctx, x + u * 0.38, base - u * 1.3, u * 0.26, u * 0.6, u * 0.13, '#4a9a55')
