@@ -185,3 +185,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     country: 'Prancis',
     blurb: 'Bistro Paris dengan lantai mosaik hitam putih, cermin berbingkai emas, dan papan menu kapur.',
     scale: 520_000,
+    unlockCost: 15_000_000_000,
