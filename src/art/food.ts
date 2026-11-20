@@ -108,3 +108,4 @@ function tamago(rng: Rng) {
     out += nigiriRice(rng, y)
     out += rect(22, y - 12, 56, 20, 5, '#f4c443', 'stroke="#d9a027" stroke-width="0.9"')
     out += line(28, y - 6, 72, y - 6, 'rgba(176,112,22,0.28)', 1.4) + line(28, y + 1, 72, y + 1, 'rgba(176,112,22,0.22)', 1.2)
+    out += rect(45.5, y - 13.5, 9, 23, 1.6, '#1f2b1d')
