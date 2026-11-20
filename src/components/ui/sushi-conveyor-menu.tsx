@@ -384,3 +384,4 @@ export function SushiConveyorMenu({
   const tick = React.useCallback((now: number) => {
     const s = sim.current;
     const L = live.current;
+    const g = L.geo;
