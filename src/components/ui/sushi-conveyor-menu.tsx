@@ -490,3 +490,4 @@ export function SushiConveyorMenu({
   const open = React.useCallback((index: number) => {
     stop();
     setActive(index);
+    const s = sim.current;
