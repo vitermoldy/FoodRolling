@@ -34,3 +34,4 @@ export function parseSave(text: string | null, now: number): SaveData | null {
     return null
   }
   if (!raw || typeof raw !== 'object') return null
+  const data = raw as Partial<SaveData> & { restaurants?: Record<string, Partial<RestaurantState>> }
