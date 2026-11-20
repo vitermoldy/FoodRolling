@@ -173,3 +173,4 @@ export class StageRenderer {
     return { u: best, dist: Math.sqrt(bestD) / (this.layout.d * p.k) }
   }
 
+  /** Screen movement per unit of arc length at u. */
