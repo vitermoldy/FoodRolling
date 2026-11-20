@@ -84,3 +84,4 @@ describe('upgrades', () => {
     expect(unlockedDishIndexes(jepang, st)).toEqual([0, 1])
     expect(nextDish(jepang, st)?.level).toBe(BALANCE.dishUnlock[2])
     const top = { ...st, income: BALANCE.income.max }
+    expect(unlockedDishIndexes(jepang, top)).toEqual([0, 1, 2, 3, 4, 5])
