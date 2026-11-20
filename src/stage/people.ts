@@ -404,3 +404,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
   } else if (side) {
     const reachX = standing ? 0.5 : 0.44
     const reachY = standing ? -0.6 : -0.42
+    const armY = o.action === 'eat' ? reachY + (headY + 0.3 - reachY) * bite : reachY - (cook ? Math.max(0, chop) * 0.18 : 0)
