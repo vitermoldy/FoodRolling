@@ -656,3 +656,4 @@ export function toDataUrl(svg: string) {
   return `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`
 }
 
+/** The dish alone, for drawing onto a plate on the stage canvas. */
