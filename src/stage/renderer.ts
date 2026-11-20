@@ -183,3 +183,4 @@ export class StageRenderer {
   draw(dt: number) {
     this.time += dt
     const ctx = this.ctx
+    const L = this.layout
