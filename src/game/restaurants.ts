@@ -7,3 +7,5 @@ export interface DishDef {
   description: string
   details: string[]
   tier: Tier
+}
+
