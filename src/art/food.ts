@@ -668,3 +668,4 @@ export function plateSvg(id: string, plate = '#fbf8f1', size = 512) {
     circle(50, 50, 47, plate, 'stroke="rgba(60,40,20,0.14)" stroke-width="0.8"') +
     circle(50, 50, 39, 'none', 'stroke="rgba(60,40,20,0.10)" stroke-width="1.2"') +
     `<path d="M18 30 A38 38 0 0 1 44 13" fill="none" stroke="rgba(255,255,255,0.8)" stroke-width="2.2" stroke-linecap="round"/>`
+  return svgDoc(body + g('translate(50 50) scale(0.92) translate(-50 -50)', foodMarkup(id)), size)
