@@ -274,3 +274,4 @@ export class StageRenderer {
     this.room = c
   }
 
+  private drawSeams(sim: BeltSim) {
