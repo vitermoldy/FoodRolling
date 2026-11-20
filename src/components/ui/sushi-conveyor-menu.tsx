@@ -957,3 +957,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
   onAdd: () => void;
   onClose: () => void;
   action?: (item: ConveyorDish, close: () => void) => React.ReactNode;
+}) {
