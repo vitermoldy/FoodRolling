@@ -63,3 +63,5 @@ describe('belt simulation', () => {
     const before = sim.chefs[0].progress
     expect(sim.help(0)).toBe(true)
     expect(sim.chefs[0].progress).toBeCloseTo(Math.min(1, before + BALANCE.helpProgress), 6)
+  })
+
