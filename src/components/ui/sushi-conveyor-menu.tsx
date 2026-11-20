@@ -555,3 +555,4 @@ export function SushiConveyorMenu({
     if (!geo) return;
     if (!s.init) {
       s.init = true;
+      s.offset = geo.s / 2 - Math.min(live.current.speed * 1.62, geo.pitch * 0.45);
