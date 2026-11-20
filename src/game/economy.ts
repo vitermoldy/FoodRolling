@@ -142,3 +142,4 @@ export function capacity(def: RestaurantDef, state: RestaurantState): number {
   return state.seats / (eatTime(def, state) + SEAT_OVERHEAD + GRAB_WAIT)
 }
 
+export function platesPerSecond(def: RestaurantDef, state: RestaurantState): number {
