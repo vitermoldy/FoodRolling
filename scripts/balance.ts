@@ -22,3 +22,4 @@ type Option = { payback: number; cost: number; label: string; apply: () => void 
 while (t < 12 * 3600) {
   const options: Option[] = []
   const rate = total()
+  RESTAURANTS.forEach((def, i) => {
