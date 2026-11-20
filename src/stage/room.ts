@@ -170,3 +170,4 @@ function italia(ctx: Ctx, w: Wall) {
     }
   }
   // Shelf with bottles.
+  const sw = Math.min(W * 0.34, u * 6)
