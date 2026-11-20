@@ -503,3 +503,4 @@ export function SushiConveyorMenu({
     live.current.open = false;
     setOpenIndex(null);
     live.current.onOpenChange?.(null);
+    kick();
