@@ -152,3 +152,5 @@ export function incomeRate(def: RestaurantDef, state: RestaurantState): number {
   return platesPerSecond(def, state) * averagePrice(def, state)
 }
 
+export type Bottleneck = 'chefs' | 'seats'
+
