@@ -26,3 +26,4 @@ export function RestaurantStrip() {
     let next = -1
     if (e.key === 'ArrowRight') next = (index + 1) % RESTAURANTS.length
     else if (e.key === 'ArrowLeft') next = (index - 1 + RESTAURANTS.length) % RESTAURANTS.length
+    else if (e.key === 'Home') next = 0
