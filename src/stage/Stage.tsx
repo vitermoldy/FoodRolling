@@ -180,3 +180,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     const dtMs = Math.max(1, e.timeStamp - d.lastT)
     d.v = d.v * 0.6 + ((du * 1000) / dtMs) * 0.4
     d.lastX = at.x
+    d.lastY = at.y
