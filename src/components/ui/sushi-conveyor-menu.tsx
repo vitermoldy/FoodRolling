@@ -8,3 +8,4 @@ export type DishTier = 1 | 2 | 3 | 4 | 5;
 export interface ConveyorDish {
   id: string;
   /** Accessible name, chip text and dialog title. */
+  name: string;
