@@ -47,3 +47,4 @@ export interface PersonOptions {
 
 type Ctx = CanvasRenderingContext2D
 
+function roundRect(ctx: Ctx, x: number, y: number, w: number, h: number, r: number) {
