@@ -172,3 +172,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
       setCursor('grabbing')
     }
     if (!d.moved) return
+    const t = renderer.tangent(d.u)
