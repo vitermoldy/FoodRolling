@@ -532,3 +532,4 @@ export class StageRenderer {
     const ctx = this.ctx
     const L = this.layout
     for (let i = 0; i < sim.seats.length; i++) {
+      const seat = sim.seats[i]
