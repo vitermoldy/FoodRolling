@@ -37,3 +37,4 @@ function levelText(kind: UpgradeKind, st: RestaurantState) {
 }
 
 function effectText(kind: UpgradeKind, def: RestaurantDef, st: RestaurantState): string {
+  if (kind === 'income') return `Harga piring x${formatDecimal(incomeMult(st.income), 2)}, naik ${Math.round((BALANCE.income.growth - 1) * 100)}% tiap level.`
