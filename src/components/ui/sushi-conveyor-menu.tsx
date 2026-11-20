@@ -430,3 +430,4 @@ export function SushiConveyorMenu({
     if (s.inside && !s.lock && s.mode === RUN && !L.open && pointer.current.id < 0 && Math.abs(s.v) > 0.3) {
       const hit = hitTest(s.px, s.py);
       if (hit !== null && hit !== L.active) hoverRef.current(hit);
+    }
