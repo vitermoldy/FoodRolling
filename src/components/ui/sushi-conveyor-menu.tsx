@@ -71,3 +71,4 @@ const LIFT_Y = -6;
 const LIFT_SCALE = 0.08;
 const BACK_SHADE = 0.15;
 const CHIP_ROOM = 34;
+const WIDE = 1024;
