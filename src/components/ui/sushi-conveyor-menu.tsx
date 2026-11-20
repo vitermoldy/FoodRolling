@@ -69,3 +69,4 @@ const TILT = 0.8;
 const SLAT = 0.34;
 const LIFT_Y = -6;
 const LIFT_SCALE = 0.08;
+const BACK_SHADE = 0.15;
