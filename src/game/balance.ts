@@ -8,3 +8,4 @@ export const BALANCE = {
   income: { max: 40, growth: 1.1 },
   speed: { max: 25, cook: 0.1, eat: 0.06, belt: 0.035 },
 
+  costs: {
