@@ -272,3 +272,5 @@ export class StageRenderer {
     g.clearRect(0, 0, L.width, L.height)
     paintRoom(g, L, this.def)
     this.room = c
+  }
+
