@@ -37,3 +37,4 @@ describe('belt simulation', () => {
       for (const e of sim.events) {
         if (e.type === 'drop') {
           expect(seen.has(e.plateId)).toBe(false)
+          seen.add(e.plateId)
