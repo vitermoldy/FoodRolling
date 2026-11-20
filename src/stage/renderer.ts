@@ -310,3 +310,4 @@ export class StageRenderer {
     ctx.save()
     ctx.globalAlpha = alpha
     ctx.fillStyle = 'rgba(25,15,5,0.22)'
+    ctx.beginPath()
