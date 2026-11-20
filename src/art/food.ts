@@ -339,3 +339,4 @@ function ayampop(rng: Rng) {
     path(blob(rng, 66, 76, 10, 0.35), '#2f6b2a') + leaf(60, 80, 10, 20, '#3c7d32') + leaf(76, 72, 9, -60, '#357a2e') +
     path(leg, '#f0dfbe', 'stroke="#d2b47a" stroke-width="1.2"') +
     rect(64, 56, 12, 6, 3, '#f6f1e6', 'transform="rotate(42 70 59)" stroke="#d9cfbc" stroke-width="0.8"') +
+    circle(76, 66, 4, '#f8f4ea', 'stroke="#d9cfbc" stroke-width="0.8"') + circle(73, 68.5, 3.4, '#f8f4ea', 'stroke="#d9cfbc" stroke-width="0.8"') +
