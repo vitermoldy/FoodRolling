@@ -32,3 +32,4 @@ di tumpukan piring di depan pelanggan, di legenda menu, di ikon Pendapatan, dan 
 | Warna | Hex | Harga (x harga dasar restoran) |
 |---|---|---|
 | Biru | #3a7cc2 | 1 |
+| Hijau | #3f9450 | 1,8 |
