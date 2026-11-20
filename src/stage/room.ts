@@ -547,3 +547,4 @@ function checker(ctx: Ctx, size: number): CanvasPattern | null {
   c.width = n * 2
   c.height = n * 2
   const g = c.getContext('2d')
+  if (!g) return null
