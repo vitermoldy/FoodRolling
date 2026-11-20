@@ -13,3 +13,4 @@ function state(patch: Partial<RestaurantState>): RestaurantState {
 /** Runs the belt for a warm-up and then measures coins and plates per second. */
 function measure(st: RestaurantState, seconds = 1500, seed = 7) {
   const sim = new BeltSim(simConfig(jepang, st), seed)
+  sim.step(120)
