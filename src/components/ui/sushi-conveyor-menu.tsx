@@ -611,3 +611,4 @@ export function SushiConveyorMenu({
       seekTo(index);
       timer = window.setTimeout(() => {
         if (autoActive.current === index) {
+          autoActive.current = null;
