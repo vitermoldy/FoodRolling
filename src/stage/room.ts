@@ -81,3 +81,4 @@ function jepang(ctx: Ctx, w: Wall) {
     ctx.stroke()
   }
   // Noren curtain in the middle with a round crest.
+  const nw = Math.min(W * 0.3, u * 5)
