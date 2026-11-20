@@ -615,3 +615,5 @@ function ratatouille(rng: Rng) {
     if (d.k === 0) out += scatter(rng, 3, d.x, d.y, 2.4, [0.4, 0.6], ['#ffd9a0'])
   }
   return out + leaf(50, 46, 9, -50, '#3f7a35') + leaf(54, 52, 7, 20, '#4a8a3c')
+}
+
