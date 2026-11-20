@@ -171,3 +171,5 @@ export class StageRenderer {
     }
     const p = this.layout.belt(best)
     return { u: best, dist: Math.sqrt(bestD) / (this.layout.d * p.k) }
+  }
+
