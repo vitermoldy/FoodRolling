@@ -1079,3 +1079,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
           <h3 id={titleId} className="text-2xl font-medium tracking-tight sm:text-3xl">{item.name}</h3>
           {item.description && <p className="text-sm leading-relaxed text-muted-foreground">{item.description}</p>}
           {item.details && item.details.length > 0 && (
+            <ul className="flex flex-wrap justify-center gap-2 sm:justify-start">
