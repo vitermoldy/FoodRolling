@@ -560,3 +560,4 @@ function checker(ctx: Ctx, size: number): CanvasPattern | null {
 }
 
 function counterAndBelt(ctx: Ctx, layout: Layout, id: RestaurantId, theme: ThemeDef) {
+  const d = layout.d
