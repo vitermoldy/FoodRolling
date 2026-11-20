@@ -135,3 +135,4 @@ export class Layout {
   }
 
   station(index: number): ScreenPoint {
+    const spot = CHEF_SPOTS[index]
