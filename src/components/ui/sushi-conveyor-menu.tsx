@@ -944,3 +944,4 @@ export function SushiConveyorMenu({
   );
 }
 
+function DishDialog({ uid, item, index, total, labels, reduced, broken, source, onLift, onAdd, onClose, action }: {
