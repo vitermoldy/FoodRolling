@@ -315,3 +315,4 @@ export class BeltSim {
     chef.plateId = this.nextPlate++
     chef.state = 'cooking'
     chef.progress = 0
+  }
