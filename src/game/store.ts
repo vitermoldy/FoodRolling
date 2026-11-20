@@ -160,3 +160,4 @@ export const useGame = create<GameState>()((set, get) => ({
       restaurants = { ...restaurants, [def.id]: { ...st, earned: st.earned + coins } }
     }
     const patch: Partial<GameState> = {}
+    if (gained > 0) {
