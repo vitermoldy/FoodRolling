@@ -143,3 +143,4 @@ export function capacity(def: RestaurantDef, state: RestaurantState): number {
 }
 
 export function platesPerSecond(def: RestaurantDef, state: RestaurantState): number {
+  return Math.min(production(def, state), capacity(def, state))
