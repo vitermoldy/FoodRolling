@@ -301,3 +301,5 @@ function sate(rng: Rng) {
     out += line(16 + ox, 76 + oy, 82 + ox, 22 + oy, '#d7b27a', 1.8) + meat
   }
   return out + circle(72, 70, 2.6, 'none', 'stroke="#c99bc0" stroke-width="1.3"') + circle(77, 66, 2.2, 'none', 'stroke="#c99bc0" stroke-width="1.2"')
+}
+
