@@ -230,3 +230,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
     }
     case 'toque':
     case 'tall': {
+      const tall = chef.hat === 'tall' ? 1.45 : 1
