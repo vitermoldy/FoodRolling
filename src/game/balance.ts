@@ -17,3 +17,4 @@ export const BALANCE = {
   },
 
   /** Price of each plate colour (tier 1 to 5), times the restaurant scale. Same colour, same price. */
+  tierPrice: [1, 1.8, 3.2, 5.5, 9],
