@@ -281,3 +281,4 @@ export class StageRenderer {
     const pitch = BELT_LENGTH / slats
     const half = BAND * 0.46
     const lift = -L.d * 0.05
+    const path = (shift: number) => {
