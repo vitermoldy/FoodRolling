@@ -131,3 +131,4 @@ function AmountPicker() {
     { value: 1, label: 'x1' },
     { value: 10, label: 'x10' },
     { value: 'max', label: 'Maks' },
+  ]
