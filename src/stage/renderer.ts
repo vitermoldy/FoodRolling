@@ -47,3 +47,4 @@ export class StageRenderer {
   private ctx: Ctx
   private dpr = 1
   layout: Layout
+  private room: HTMLCanvasElement | null = null
