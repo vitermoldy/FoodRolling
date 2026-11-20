@@ -18,3 +18,4 @@ export function Toast() {
       {notice && (
         <div key={notice.id} className="pointer-events-auto flex max-w-md items-center gap-3 rounded-[12px] bg-olive py-2 pl-4 pr-2 text-sm text-bone shadow-[0_14px_30px_-10px_rgb(20_20_5/0.55)]">
           <p className="flex-1">{notice.text}</p>
+          {notice.goTo && (
