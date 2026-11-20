@@ -45,3 +45,5 @@ export function stepCost(def: RestaurantDef, kind: UpgradeKind, level: number): 
   return def.scale * c.seats.base * c.seats.growth ** (level - BALANCE.seats.start)
 }
 
+export type BuyAmount = 1 | 10 | 'max'
+
