@@ -98,3 +98,4 @@
     transition: background-color 120ms, transform 120ms, box-shadow 120ms;
   }
   .btn-primary {
+    background: var(--color-olive);
