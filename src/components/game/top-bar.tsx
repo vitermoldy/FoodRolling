@@ -6,3 +6,5 @@ import { CoinIcon, SettingsIcon } from './icons'
 export function TopBar({ onSettings }: { onSettings: () => void }) {
   const money = useGame((s) => s.money)
   const restaurants = useGame((s) => s.restaurants)
+  const rate = totalRate(restaurants)
+
