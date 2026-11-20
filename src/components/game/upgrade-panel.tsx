@@ -185,3 +185,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
                 )}
                 {best === kind && <p className="mt-1 text-xs font-semibold text-olive">Paling untung untuk harganya</p>}
               </div>
+            </div>
