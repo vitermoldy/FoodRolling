@@ -692,3 +692,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
           ctx.lineTo(x - s * 0.55, y + s * 0.12)
           ctx.closePath()
           ctx.fill()
+          ctx.strokeStyle = 'rgba(80,30,10,0.35)'
