@@ -186,3 +186,4 @@ export class StageRenderer {
     const L = this.layout
     ctx.setTransform(this.dpr, 0, 0, this.dpr, 0, 0)
     this.ensureRoom()
+    if (this.room) ctx.drawImage(this.room, 0, 0, L.width, L.height)
