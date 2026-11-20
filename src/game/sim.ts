@@ -165,3 +165,4 @@ export class BeltSim {
     return ((i % SLOT_COUNT) + SLOT_COUNT) % SLOT_COUNT
   }
 
+  /** Moves the belt by hand (the player dragging it). */
