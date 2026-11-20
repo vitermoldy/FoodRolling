@@ -57,3 +57,4 @@ function bestValue(def: RestaurantDef, st: RestaurantState): UpgradeKind | null 
   return best
 }
 
+export function UpgradePanel() {
