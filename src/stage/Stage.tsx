@@ -187,3 +187,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
   const finish = (e: React.PointerEvent, cancelled: boolean) => {
     const d = drag.current
     const sim = simRef.current
+    if (!d || d.id !== e.pointerId) return
