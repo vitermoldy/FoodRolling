@@ -313,3 +313,4 @@ function meksiko(ctx: Ctx, w: Wall) {
     ctx.stroke()
     pts.forEach((p, i) => {
       if (i === pts.length - 1) return
+      const fw = u * 0.5
