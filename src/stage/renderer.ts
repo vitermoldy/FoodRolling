@@ -473,3 +473,4 @@ export class StageRenderer {
     const key = 1000 + index + this.def.id.length * 31
     let look = this.looks.get(key)
     if (!look) {
+      look = lookFrom(key * 7919)
