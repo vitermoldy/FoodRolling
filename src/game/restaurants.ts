@@ -16,3 +16,4 @@ export interface ThemeDef {
   accent: string
   wall: string
   wallLow: string
+  floor: string
