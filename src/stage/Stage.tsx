@@ -62,3 +62,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     const applyMotion = () => { renderer.reduced = media.matches }
     applyMotion()
     media.addEventListener('change', applyMotion)
+    const measure = () => {
