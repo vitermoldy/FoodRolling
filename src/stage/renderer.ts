@@ -399,3 +399,4 @@ export class StageRenderer {
         ctx.drawImage(img, p.x - fs / 2, p.y - (fs * TILT) / 2 - s * 0.02, fs, fs * TILT)
         ctx.restore()
       }
+      if (!this.reduced && progress > 0.15) this.drawSteam(p.x + s * 0.18, p.y - h / 2, s, index)
