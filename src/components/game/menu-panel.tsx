@@ -54,3 +54,4 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
       caption="Warna piring menandai harga. Pilih piring untuk melihat isinya."
       className="rounded-[14px] border border-line"
       labels={{ add: 'Tutup', close: 'Tutup', previous: 'Piring sebelumnya', next: 'Piring berikutnya', pause: 'Jeda sabuk menu' }}
+      dialogAction={(item, close) => item.locked ? (
