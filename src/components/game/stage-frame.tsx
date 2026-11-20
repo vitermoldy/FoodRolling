@@ -94,3 +94,4 @@ export function StageFrame() {
 }
 
 function LockedCard() {
+  const current = useGame((s) => s.current)
