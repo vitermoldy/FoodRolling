@@ -553,3 +553,4 @@ function checker(ctx: Ctx, size: number): CanvasPattern | null {
   g.fillStyle = 'rgba(190,52,40,0.85)'
   g.fillRect(0, 0, n, n)
   g.fillRect(n, n, n, n)
+  g.fillStyle = 'rgba(190,52,40,0.4)'
