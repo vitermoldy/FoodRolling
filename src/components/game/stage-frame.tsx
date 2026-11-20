@@ -101,3 +101,4 @@ function LockedCard() {
   const def = restaurantById(current)
   const next = nextLocked({ restaurants })
   const isNext = next === current
+  const affordable = canUnlock({ restaurants, money }, current)
