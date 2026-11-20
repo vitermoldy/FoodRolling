@@ -19,3 +19,4 @@ interface Flight {
   /** Where the plate ends up; read every frame because the belt keeps moving. */
   to: () => ScreenPoint
   start: number
+  duration: number
