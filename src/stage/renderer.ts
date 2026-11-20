@@ -536,3 +536,4 @@ export class StageRenderer {
       if (seat.state !== 'waiting' || seat.waited < 3.5) continue
       const p = L.seat(i)
       const s = L.d * p.k
+      const x = p.x + s * 0.34
