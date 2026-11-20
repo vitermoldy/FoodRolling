@@ -79,3 +79,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
       const dt = Math.min(0.1, Math.max(0, (now - last) / 1000))
       last = now
       const sim = simRef.current
+      const L = live.current
