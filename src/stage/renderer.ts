@@ -225,3 +225,4 @@ export class StageRenderer {
         items.push({ y: eat.y, draw: () => this.drawPlate(eat.x, eat.y, L.d * eat.k * 0.78, this.tierOf(seat.dish), seat.dish, left) })
       }
       // The stool stays when nobody sits on it.
+      items.push({
