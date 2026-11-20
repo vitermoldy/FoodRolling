@@ -64,3 +64,4 @@ export interface ScreenPoint {
 
 export class Layout {
   readonly width: number
+  readonly height: number
