@@ -340,3 +340,4 @@ export function SushiConveyorMenu({
   }, []);
 
   const paintBelt = React.useCallback(() => {
+    const L = live.current;
