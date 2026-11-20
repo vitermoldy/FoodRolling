@@ -27,3 +27,4 @@ export interface SushiConveyorMenuLabels {
   add: string;
   close: string;
   previous: string;
+  next: string;
