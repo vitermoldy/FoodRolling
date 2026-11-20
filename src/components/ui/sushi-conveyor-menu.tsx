@@ -567,3 +567,4 @@ export function SushiConveyorMenu({
       if (s.mode !== DRAG) s.mode = RUN;
       if (!s.touched) s.offset = geo.s / 2;
     }
+    s.l = geo.l;
