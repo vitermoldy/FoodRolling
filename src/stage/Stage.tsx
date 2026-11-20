@@ -93,3 +93,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
       renderer.draw(running ? dt : 0)
       if (sim && now - labelAt > 1000) {
         labelAt = now
+        setLabel(describe(sim, restaurantById(L.id).name))
