@@ -507,3 +507,4 @@ export function SushiConveyorMenu({
   }, [kick]);
 
   const go = (index: number, focus: boolean) => {
+    if (count === 0) return;
