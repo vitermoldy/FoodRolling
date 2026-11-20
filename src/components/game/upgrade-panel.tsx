@@ -124,3 +124,4 @@ function Meter({ label, value, max, slow }: { label: string; value: number; max:
   )
 }
 
+function AmountPicker() {
