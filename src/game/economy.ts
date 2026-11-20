@@ -78,3 +78,4 @@ export function cookMult(level: number): number {
   return 1 + BALANCE.speed.cook * (level - 1)
 }
 export function eatMult(level: number): number {
+  return 1 + BALANCE.speed.eat * (level - 1)
