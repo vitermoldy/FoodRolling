@@ -101,3 +101,4 @@ function nigiriRice(rng: Rng, y: number, w = 50) {
     grains(rng, 18, 50, y + 6, 8, ['#e9e3d4', '#ffffff'], 1.1)
 }
 
+function tamago(rng: Rng) {
