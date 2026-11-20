@@ -374,3 +374,4 @@ function churros(rng: Rng) {
       rect(14, y - 4.5, 56, 9, 4.5, '#d6943d', 'stroke="#b2722a" stroke-width="0.8"') +
       line(17, y - 2, 67, y - 2, '#f0bd6c', 1.1) + line(17, y + 1, 67, y + 1, '#c07e30', 1) + line(17, y + 3, 67, y + 3, '#f0bd6c', 0.8) +
       scatter(rng, 10, 42, y, 4, [0.4, 0.8], ['#fff8ec', '#f6e6c8']))
+  }
