@@ -114,3 +114,4 @@
     background: transparent;
     color: var(--color-moss);
     border: 1.5px dashed var(--color-line-strong);
+    box-shadow: none;
