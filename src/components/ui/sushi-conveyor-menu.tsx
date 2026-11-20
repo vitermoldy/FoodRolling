@@ -123,3 +123,4 @@ function along(g: Geo, u: number): Point {
   if (t < s) return { x: s / 2 - t, z: r, nx: 0, nz: 1, tx: -1, tz: 0 };
   t -= s;
   const arc = Math.PI * r;
+  if (t < arc) {
