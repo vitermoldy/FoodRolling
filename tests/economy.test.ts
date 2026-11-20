@@ -29,3 +29,4 @@ describe('restaurants', () => {
     }
   })
 
+  it('every restaurant has six dishes on plate colours 1 to 5, cheapest first', () => {
