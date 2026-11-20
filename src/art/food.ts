@@ -622,3 +622,4 @@ const DRAW: Record<string, (rng: Rng) => string> = {
   bruschetta, margherita, spaghetti, ravioli, lasagna, tiramisu,
   cendol, sate, nasgor, gado, ayampop, rendang,
   churros, nachos, taco, quesadilla, burrito, enchiladas,
+  samosa, naan, dal, biryani, butterchicken, thali,
