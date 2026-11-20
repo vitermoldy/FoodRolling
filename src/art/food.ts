@@ -442,3 +442,4 @@ function burrito(rng: Rng) {
       `<path d="M30 37 Q34 50 30 63 M46 36 Q50 50 46 64" fill="none" stroke="#d6b97c" stroke-width="1.4"/>` +
       scatter(rng, 9, 40, 50, 11, [0.7, 1.4], ['#d6b071', '#c99d58']) +
       ellipse(78, 50, 7, 12.5, '#f6f0e2', 'stroke="#c9ab70" stroke-width="1.2"') +
+      scatter(rng, 9, 78, 50, 6, [1, 1.8], ['#7a2a1e', '#a0522d', '#ffffff', '#4f8a36'])) +
