@@ -592,3 +592,4 @@ function counterAndBelt(ctx: Ctx, layout: Layout, id: RestaurantId, theme: Theme
   // Belt bed between the rails.
   ctx.beginPath()
   polygon(ctx, beltOut)
+  polygon(ctx, beltIn)
