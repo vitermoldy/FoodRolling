@@ -621,3 +621,4 @@ export function SushiConveyorMenu({
     return () => window.clearTimeout(timer);
   }, [playing, reduced, paused, openIndex, count, interval, geoReady, setActive, seekTo]);
 
+  React.useLayoutEffect(() => {
