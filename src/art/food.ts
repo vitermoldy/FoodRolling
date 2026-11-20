@@ -227,3 +227,4 @@ function ravioli(rng: Rng) {
   for (const y of [38, 62]) {
     for (const x of [30, 50, 70]) {
       const a = (rng() - 0.5) * 16
+      out += shadow(rect(x - 9.5, y - 9.5, 19, 19, 3, '#000'))
