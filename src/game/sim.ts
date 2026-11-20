@@ -28,3 +28,4 @@ const rightU = (f: number) => 2 * STRAIGHT + Math.PI * RADIUS + RADIUS * f
 export const SEAT_SPOTS: number[] = [
   frontU(0.7), frontU(-0.7), backU(-0.7), backU(0.7),
   frontU(2.1), backU(-2.1), frontU(-2.1), backU(2.1),
+  frontU(3.5), backU(-3.5), frontU(-3.5), backU(3.5),
