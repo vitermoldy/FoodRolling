@@ -109,3 +109,5 @@ export class Layout {
   belt(u: number, across = 0): ScreenPoint {
     const l = alongLoop(u)
     return this.at(l.p + l.np * across, l.q + l.nq * across)
+  }
+
