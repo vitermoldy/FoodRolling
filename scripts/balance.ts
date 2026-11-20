@@ -19,3 +19,4 @@ const total = () => RESTAURANTS.reduce((sum, def, i) => sum + E.incomeRate(def, 
 
 type Option = { payback: number; cost: number; label: string; apply: () => void }
 
+while (t < 12 * 3600) {
