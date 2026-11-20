@@ -13,3 +13,4 @@ export interface ConveyorDish {
   description?: string;
   /** Price text such as "$4.20", shown on the chip, the caption and the dialog. */
   price: string;
+  /** Price tier 1–5. Kaiten plates are colour-coded by price, so the tier is drawn as the plate ring in chart colour 1–5. */
