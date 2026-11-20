@@ -118,3 +118,4 @@ describe('save', () => {
     rs.india.owned = true
     edited.money = -50
     const back = parseSave(JSON.stringify(edited), 10)!
+    expect(back.restaurants.jepang.chefs).toBe(BALANCE.chefs.max)
