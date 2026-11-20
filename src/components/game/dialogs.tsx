@@ -105,3 +105,4 @@ export function OfflineDialog() {
           <p className="num mt-3 text-3xl font-medium tracking-[-0.03em]">+{formatCoins(offline.coins)}</p>
           {offline.seconds >= BALANCE.offlineCapHours * 3600 - 1 && (
             <p className="mt-1 text-xs text-moss">Dihitung sampai batas {BALANCE.offlineCapHours} jam.</p>
+          )}
