@@ -649,3 +649,4 @@ export function SushiConveyorMenu({
     const g = live.current.geo;
     if (!stage || !g) return;
     const at = local(event);
+    if (event.pointerType === "mouse") { s.px = at.x; s.py = at.y; s.inside = true; }
