@@ -118,3 +118,4 @@ export class StageRenderer {
         const seat = sim.seats[e.seat]
         const dish = seat?.dish ?? 0
         const spot = L.counterSpot(e.seat, 'eat')
+        this.flights.push({
