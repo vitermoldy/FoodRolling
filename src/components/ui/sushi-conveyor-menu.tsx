@@ -977,3 +977,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
     onLift(true);
     let animation = null as Animation | null;
     if (figure && from && !reduced && from.width > 0) {
+      const to = figure.getBoundingClientRect();
