@@ -154,3 +154,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
   const onPointerMove = (e: React.PointerEvent) => {
     const renderer = rendererRef.current
     const sim = simRef.current
+    if (!renderer) return
