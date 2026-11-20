@@ -115,3 +115,4 @@ export const useGame = create<GameState>()((set, get) => ({
   unlock(id) {
     const s = get()
     if (!canUnlock(s, id)) return
+    const def = restaurantById(id)
