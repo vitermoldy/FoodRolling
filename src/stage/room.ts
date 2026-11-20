@@ -51,3 +51,4 @@ interface Wall {
   bottom: number
   /** Decoration unit, about one plate at the back of the room. */
   u: number
+  theme: ThemeDef
