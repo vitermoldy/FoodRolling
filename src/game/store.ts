@@ -185,3 +185,4 @@ export const useGame = create<GameState>()((set, get) => ({
     set({ paused })
   },
   setTab(tab) {
+    set({ tab })
