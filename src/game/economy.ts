@@ -53,3 +53,4 @@ export function bulkCost(
   state: RestaurantState,
   kind: UpgradeKind,
   amount: BuyAmount,
+  money: number,
