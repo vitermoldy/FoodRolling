@@ -458,3 +458,4 @@ export function SushiConveyorMenu({
     if (s.mode === SEEK) s.mode = RUN;
     const auto = autoActive.current;
     if (auto !== null) {
+      autoActive.current = null;
