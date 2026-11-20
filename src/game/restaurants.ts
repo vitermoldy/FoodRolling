@@ -60,3 +60,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     eatTime: 4,
     beltSpeed: 1.9,
     dishes: [
+      { id: 'edamame', name: 'Edamame garam', tier: 1, description: 'Semangkuk kedelai muda rebus dengan garam laut kasar.', details: ['1 mangkuk', 'Vegan'] },
