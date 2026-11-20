@@ -174,3 +174,4 @@ export const useGame = create<GameState>()((set, get) => ({
     if (Object.keys(patch).length) set(patch)
   },
 
+  markLive(id, now) {
