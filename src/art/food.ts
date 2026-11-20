@@ -506,3 +506,4 @@ function biryani(rng: Rng) {
 
 function butterchicken(rng: Rng) {
   let chunks = ''
+  for (const [x, y] of [[42, 42], [60, 46], [46, 60], [58, 62], [36, 54]] as [number, number][]) chunks += path(blob(rng, x, y, 5.5, 0.5, 7), '#c2602a', 'stroke="#9a4418" stroke-width="0.7"')
