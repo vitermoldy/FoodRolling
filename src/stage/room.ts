@@ -767,3 +767,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
             ell(ctx, x + Math.cos(a) * s * 0.24, y - s * 0.22 + Math.sin(a) * s * 0.11, s * 0.08, s * 0.055, cols[i % cols.length])
           }
         }
+        break
