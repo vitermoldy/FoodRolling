@@ -153,3 +153,4 @@ function italia(ctx: Ctx, w: Wall) {
     ctx.strokeStyle = '#f2e6d0'
     ctx.lineWidth = Math.max(1.5, u * 0.06)
     ctx.beginPath()
+    ctx.moveTo(x + ww / 2, y)
