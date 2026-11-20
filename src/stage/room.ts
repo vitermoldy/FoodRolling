@@ -53,3 +53,4 @@ interface Wall {
   u: number
   theme: ThemeDef
   def: RestaurantDef
+  rng: () => number
