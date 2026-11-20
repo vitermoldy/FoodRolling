@@ -888,3 +888,5 @@ export function SushiConveyorMenu({
         );
       })}
     </div>
+  );
+
