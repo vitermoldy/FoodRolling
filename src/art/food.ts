@@ -461,3 +461,4 @@ function enchiladas(rng: Rng) {
 
 function samosa(rng: Rng) {
   let out = ''
+  for (const [x, y, a] of [[38, 46, -12], [60, 56, 24]] as [number, number, number][]) {
