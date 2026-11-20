@@ -177,3 +177,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
                   <h3 className="font-semibold text-olive">{TITLES[kind]}</h3>
                   <span className="text-xs text-moss">{levelText(kind, st)}</span>
                 </div>
+                <p className="mt-0.5 text-sm leading-snug text-olive">{effectText(kind, def, st)}</p>
