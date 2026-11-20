@@ -228,3 +228,4 @@ export class StageRenderer {
       items.push({
         y: sp.y,
         draw: () => {
+          this.drawStool(i, sp, alpha < 1)
