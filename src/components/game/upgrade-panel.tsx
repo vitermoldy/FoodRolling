@@ -77,3 +77,4 @@ export function UpgradePanel() {
     <div className="flex flex-col gap-5">
       <Summary def={def} st={st} />
       <section aria-labelledby="upgrade-heading" className="flex flex-col gap-3">
+        <div className="flex flex-wrap items-center justify-between gap-2">
