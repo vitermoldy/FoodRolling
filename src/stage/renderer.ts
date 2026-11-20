@@ -543,3 +543,4 @@ export class StageRenderer {
       ctx.roundRect(x - s * 0.24, y - s * 0.14, s * 0.48, s * 0.28, s * 0.14)
       ctx.fill()
       ctx.beginPath()
+      ctx.moveTo(x - s * 0.12, y + s * 0.12)
