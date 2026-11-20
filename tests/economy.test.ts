@@ -122,3 +122,4 @@ describe('save', () => {
     expect(back.restaurants.jepang.seats).toBe(BALANCE.seats.start)
     expect(back.restaurants.jepang.income).toBe(1)
     expect(back.money).toBe(0)
+    // India cannot be open while Italia is still closed.
