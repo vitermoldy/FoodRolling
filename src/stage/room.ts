@@ -176,3 +176,4 @@ function italia(ctx: Ctx, w: Wall) {
   for (let i = 0; i < 7; i++) {
     const bx = sx + u * 0.4 + (i * (sw - u * 0.8)) / 6
     const tall = 0.75 + (i % 3) * 0.12
+    const glass = i % 3 === 0 ? '#2f4a2f' : i % 3 === 1 ? '#5a1f22' : '#3c5a3a'
