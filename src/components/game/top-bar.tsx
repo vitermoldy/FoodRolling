@@ -15,3 +15,4 @@ export function TopBar({ onSettings }: { onSettings: () => void }) {
         <div className="flex items-center gap-2" aria-live="off">
           <CoinIcon width={26} height={26} />
           <div className="leading-tight">
+            <p className="num text-lg font-medium text-olive sm:text-xl" aria-label={`Uang: ${formatCoins(money)} koin`}>
