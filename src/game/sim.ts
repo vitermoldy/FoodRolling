@@ -66,3 +66,4 @@ export type ChefState = 'cooking' | 'ready'
 export interface Chef {
   state: ChefState
   progress: number
+  dish: number
