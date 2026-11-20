@@ -7,3 +7,4 @@ export type PanelTab = 'upgrade' | 'menu'
 
 export interface Notice {
   id: number
+  text: string
