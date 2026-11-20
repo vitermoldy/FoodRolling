@@ -6,3 +6,5 @@ const UNITS: [number, string][] = [
   [1e9, 'M'],
   [1e6, 'jt'],
   [1e3, 'rb'],
+]
+
