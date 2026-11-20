@@ -62,3 +62,4 @@ export function parseSave(text: string | null, now: number): SaveData | null {
   return save
 }
 
+export function totalRate(restaurants: Record<RestaurantId, RestaurantState>): number {
