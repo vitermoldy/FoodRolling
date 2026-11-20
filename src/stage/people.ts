@@ -300,3 +300,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
   const { facing, look, chef } = o
   const standing = !!chef
   const t = o.still ? 0 : o.time
+  ctx.save()
