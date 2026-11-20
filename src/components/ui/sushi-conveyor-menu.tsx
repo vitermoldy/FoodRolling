@@ -322,3 +322,4 @@ export function SushiConveyorMenu({
     const q = pose(g, s.offset, i);
     const e = s.lift[i] ?? 0;
     button.style.transform = `translate3d(${(q.x - g.d / 2).toFixed(2)}px,${(q.y - (g.d * TILT) / 2).toFixed(2)}px,0) scale(${q.k.toFixed(4)})`;
+    const z = i === L.active ? 2000 : 100 + Math.round(q.y);
