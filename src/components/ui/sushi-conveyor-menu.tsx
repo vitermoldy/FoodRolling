@@ -972,3 +972,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
     const figure = figureRef.current;
     const from = source();
     closeRef.current?.focus({ preventScroll: true });
+    const overflow = document.body.style.overflow;
