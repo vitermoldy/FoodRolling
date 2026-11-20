@@ -403,3 +403,4 @@ export class StageRenderer {
     }
   }
 
+  private drawSteam(x: number, y: number, s: number, seed: number) {
