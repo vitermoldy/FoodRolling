@@ -35,3 +35,4 @@ export function formatRate(value: number): string {
 }
 
 export function formatDecimal(value: number, digits = 1): string {
+  return number(value, digits)
