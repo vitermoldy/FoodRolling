@@ -327,3 +327,4 @@ export class StageRenderer {
     ctx.ellipse(x, y - size * 0.01, rx * 0.66, ry * 0.66, 0, 0, Math.PI * 2)
     ctx.stroke()
     const img = this.food.get(this.def.dishes[dish]?.id ?? '')
+    if (img && img.complete && img.naturalWidth > 0 && foodLeft > 0) {
