@@ -917,3 +917,4 @@ export function SushiConveyorMenu({
         </div>
       ) : (
         <div className="flex w-full flex-col items-center px-4 pb-6 pt-6">
+          {header}
