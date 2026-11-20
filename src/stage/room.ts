@@ -504,3 +504,4 @@ function floor(ctx: Ctx, id: RestaurantId, theme: ThemeDef, W: number, H: number
       ctx.fillStyle = theme.floorAlt
     }
   } else if (id === 'prancis') {
+    const t = u * 0.6
