@@ -36,3 +36,4 @@ export interface RestaurantDef {
   blurb: string
   /** Price of a tier 1 plate at income level 1. */
   scale: number
+  /** Price to open this restaurant. The first one is free. */
