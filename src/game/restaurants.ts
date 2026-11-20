@@ -116,3 +116,4 @@ export const RESTAURANTS: RestaurantDef[] = [
       { id: 'sate', name: 'Sate ayam', tier: 2, description: 'Tusuk ayam bakar arang dengan saus kacang dan kecap manis.', details: ['5 tusuk', 'Kacang'] },
       { id: 'nasgor', name: 'Nasi goreng', tier: 2, description: 'Nasi goreng kecap dengan telur mata sapi, acar, dan kerupuk.', details: ['1 piring', 'Telur'] },
       { id: 'gado', name: 'Gado-gado', tier: 3, description: 'Sayur rebus, tahu, tempe, dan lontong bersiram saus kacang.', details: ['1 piring', 'Kacang', 'Vegetarian'] },
+      { id: 'ayampop', name: 'Ayam pop', tier: 4, description: 'Ayam kampung rebus air kelapa yang digoreng sebentar, dengan sambal merah.', details: ['1 potong', 'Pedas'] },
