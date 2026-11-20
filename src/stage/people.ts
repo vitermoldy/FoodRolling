@@ -293,3 +293,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
 }
 
 /**
+ * Draws a person at (x, y) with `s` pixels per plate diameter. Customers sit; chefs (with a `chef`
