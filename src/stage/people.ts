@@ -95,3 +95,4 @@ function torso(ctx: Ctx, cx: number, top: number, bottom: number, wTop: number, 
 function hairBack(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facing: Facing) {
   if (look.style === 3) {
     ctx.fillStyle = look.hair
+    roundRect(ctx, hx - r * 1.08, hy - r * 0.2, r * 2.16, r * 1.75, r * 0.5)
