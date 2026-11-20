@@ -867,3 +867,4 @@ export function SushiConveyorMenu({
               </span>
               {!broken && (
                 <img
+                  src={item.image}
