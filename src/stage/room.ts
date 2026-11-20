@@ -317,3 +317,4 @@ function meksiko(ctx: Ctx, w: Wall) {
       const fh = u * 0.62
       ctx.fillStyle = colors[(i + row * 2) % colors.length]
       ctx.beginPath()
+      ctx.moveTo(p.x - fw / 2, p.y)
