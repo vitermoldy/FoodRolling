@@ -33,3 +33,4 @@ while (t < 12 * 3600) {
     }
   })
   const next = states.findIndex((s) => !s.owned)
+  if (next > 0) {
