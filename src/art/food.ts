@@ -127,3 +127,4 @@ function kappa(rng: Rng) {
   return out
 }
 
+function slicedTopping(rng: Rng, y: number, base: string, edge: string, stripe: string, stripes: number) {
