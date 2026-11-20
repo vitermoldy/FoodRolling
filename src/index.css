@@ -1,3 +1,4 @@
 @import 'tailwindcss';
 
 /* The game ships one light theme: the room art is a lit restaurant, and the panels read like a
+   paper menu card beside it. The `dark:` variant is tied to a class that is never set, so the
