@@ -11,3 +11,4 @@ export function CoinIcon(props: IconProps) {
   return (
     <Svg {...props}>
       <ellipse cx="12" cy="13.2" rx="9" ry="8.4" fill="#a8771a" />
+      <ellipse cx="12" cy="12" rx="9" ry="8.4" fill="#e3b23c" />
