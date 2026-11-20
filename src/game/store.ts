@@ -191,3 +191,4 @@ export const useGame = create<GameState>()((set, get) => ({
     set({ offline: null })
   },
   dismissNotice() {
+    set({ notice: null })
