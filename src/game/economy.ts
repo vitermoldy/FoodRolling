@@ -119,3 +119,4 @@ export function dishPrice(def: RestaurantDef, dish: DishDef, incomeLevel: number
   return tierPrice(def, dish.tier, incomeLevel)
 }
 
+export function averagePrice(def: RestaurantDef, state: RestaurantState): number {
