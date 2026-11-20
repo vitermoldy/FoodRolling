@@ -30,3 +30,4 @@ const TITLES: Record<UpgradeKind, string> = {
   seats: 'Tempat duduk',
 }
 
+function levelText(kind: UpgradeKind, st: RestaurantState) {
