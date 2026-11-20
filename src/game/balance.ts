@@ -39,3 +39,4 @@ export const BALANCE = {
 /** Belt layout in plate diameters: straight length, curve radius and slot count. */
 export const BELT = {
   straight: 8.4,
+  radius: 2,
