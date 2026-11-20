@@ -150,3 +150,4 @@ export class StageRenderer {
     for (let i = 0; i < sim.chefs.length; i++) {
       const p = this.layout.chef(i)
       const s = this.layout.d * p.k
+      const st = this.layout.station(i)
