@@ -236,3 +236,4 @@ export class BeltSim {
             seat.stack = []
             seat.waited = 0
           }
+          break
