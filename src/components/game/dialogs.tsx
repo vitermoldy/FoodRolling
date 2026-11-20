@@ -107,3 +107,4 @@ export function OfflineDialog() {
             <p className="mt-1 text-xs text-moss">Dihitung sampai batas {BALANCE.offlineCapHours} jam.</p>
           )}
           <button type="button" className="btn btn-primary mt-5 w-full" onClick={dismiss} autoFocus>
+            Lanjut main
