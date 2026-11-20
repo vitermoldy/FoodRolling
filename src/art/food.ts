@@ -540,3 +540,4 @@ function macaron(rng: Rng) {
 }
 
 function croissant(rng: Rng) {
+  // One crescent body with tapered horns, then the rolled layers as curved bands across it.
