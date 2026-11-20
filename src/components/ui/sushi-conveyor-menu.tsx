@@ -1075,3 +1075,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
           <p className="flex items-center justify-center gap-2 font-mono text-[11px] tracking-[0.2em] text-muted-foreground sm:justify-start">
             <span aria-hidden="true" className={`size-2 rounded-full ${tier.dot}`} />
             {pad(index + 1)} / {pad(total)}
+          </p>
