@@ -165,3 +165,4 @@ export class StageRenderer {
     const steps = 180
     for (let i = 0; i < steps; i++) {
       const u = (i / steps) * BELT_LENGTH
+      const p = this.layout.belt(u)
