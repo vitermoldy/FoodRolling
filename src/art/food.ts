@@ -368,3 +368,4 @@ function churros(rng: Rng) {
   let out = ''
   for (let i = 0; i < 4; i++) {
     const y = 30 + i * 11
+    const a = -18 + i * 4
