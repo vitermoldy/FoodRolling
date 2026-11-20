@@ -583,3 +583,4 @@ export function SushiConveyorMenu({
     const update = () => {
       const visible = inView && !document.hidden;
       if (visible === s.visible) return;
+      s.visible = visible;
