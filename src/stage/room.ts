@@ -645,3 +645,4 @@ function tub(ctx: Ctx, x: number, y: number, rx: number, h: number, side: string
   ctx.beginPath()
   ctx.ellipse(x, y + h, rx, ry, 0, 0, Math.PI)
   ctx.lineTo(x - rx, y)
+  ctx.ellipse(x, y, rx, ry, 0, Math.PI, 0, true)
