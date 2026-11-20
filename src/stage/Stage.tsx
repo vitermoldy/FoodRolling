@@ -33,3 +33,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
   const live = React.useRef({ paused, owned: state.owned, id: current })
   live.current = { paused, owned: state.owned, id: current }
   const helpTurn = React.useRef(0)
+  const [label, setLabel] = React.useState('')
