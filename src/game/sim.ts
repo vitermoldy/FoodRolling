@@ -41,3 +41,4 @@ export const CHEF_SPOTS: { p: number; facing: Facing; u: number }[] = [
   { p: 2.1, facing: 'front', u: frontU(2.1) },
   { p: -2.1, facing: 'back', u: backU(-2.1) },
   { p: -3.5, facing: 'front', u: frontU(-3.5) },
+  { p: 3.5, facing: 'back', u: backU(3.5) },
