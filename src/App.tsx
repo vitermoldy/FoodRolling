@@ -107,3 +107,4 @@ export default function App() {
       <OfflineDialog />
       <Toast />
     </div>
+  )
