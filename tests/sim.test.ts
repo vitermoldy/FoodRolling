@@ -10,3 +10,4 @@ function state(patch: Partial<RestaurantState>): RestaurantState {
   return { ...newRestaurantState(true), ...patch }
 }
 
+/** Runs the belt for a warm-up and then measures coins and plates per second. */
