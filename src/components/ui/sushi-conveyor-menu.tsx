@@ -1026,3 +1026,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
       if (event.key === "Escape") { event.preventDefault(); dismiss(); }
       else if (event.key === "Tab") {
         const first = dialog.querySelector("button");
+        if (first) { event.preventDefault(); first.focus(); }
