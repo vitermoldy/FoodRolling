@@ -91,3 +91,4 @@ export interface Seat {
   waited: number
 }
 
+export type SimEvent =
