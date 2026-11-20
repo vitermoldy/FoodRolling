@@ -328,3 +328,4 @@ function meksiko(ctx: Ctx, w: Wall) {
         ctx.beginPath()
         ctx.moveTo(p.x + dx * u, p.y + dy * u - u * 0.07)
         ctx.lineTo(p.x + dx * u + u * 0.06, p.y + dy * u)
+        ctx.lineTo(p.x + dx * u, p.y + dy * u + u * 0.07)
