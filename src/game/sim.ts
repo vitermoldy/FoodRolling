@@ -201,3 +201,4 @@ export class BeltSim {
       // Ease back to cruise after a flick, quickly when far off.
       const k = 1 - Math.exp(-2.6 * h)
       this.velocity += (cfg.beltSpeed - this.velocity) * k
+    }
