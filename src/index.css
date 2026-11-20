@@ -50,3 +50,4 @@
 @layer base {
   html,
   body {
+    background: var(--color-bone);
