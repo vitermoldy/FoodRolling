@@ -428,3 +428,4 @@ export class StageRenderer {
     drawPerson(ctx, p.x, p.y, s, {
       facing: this.layout.chefFacing(index),
       look: this.chefLook(index),
+      chef,
