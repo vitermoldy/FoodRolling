@@ -584,3 +584,4 @@ function quiche(rng: Rng) {
     scatter(rng, 9, 50, 46, 13, [1.2, 2.4], ['#c98c3b', '#d9a24d'])
 }
 
+function brulee(rng: Rng) {
