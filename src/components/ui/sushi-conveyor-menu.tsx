@@ -752,3 +752,4 @@ export function SushiConveyorMenu({
     </div>
   );
 
+  const captionNode = (
