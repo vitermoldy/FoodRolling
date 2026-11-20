@@ -366,3 +366,4 @@ export function SushiConveyorMenu({
     let bestY = -Infinity;
     for (let i = 0; i < L.count; i++) {
       const q = pose(g, s.offset, i);
+      const e = clamp(s.lift[i] ?? 0, 0, 1.2);
