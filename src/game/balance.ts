@@ -34,3 +34,5 @@ export const BALANCE = {
   helpProgress: 0.18,
 
   offlineCapHours: 8,
+} as const
+
