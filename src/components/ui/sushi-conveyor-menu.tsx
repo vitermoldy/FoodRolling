@@ -1063,3 +1063,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
         <div ref={figureRef} data-dish-figure className="relative mx-auto aspect-square w-full max-w-[min(42vh,22rem)]">
           <span aria-hidden="true" className="absolute inset-x-[8%] bottom-[-4%] top-[14%] rounded-full bg-black opacity-25 blur-2xl dark:opacity-70" />
           {broken ? (
+            <span aria-hidden="true" className="absolute inset-[3%] rounded-full border border-border bg-muted">
