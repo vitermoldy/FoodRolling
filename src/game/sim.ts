@@ -136,3 +136,4 @@ export class BeltSim {
   private nextPlate = 1
 
   constructor(config: SimConfig, seed = 1) {
+    this.config = config
