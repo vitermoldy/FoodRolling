@@ -235,3 +235,4 @@ export function SushiConveyorMenu({
   caption,
   action,
   speed = 26,
+  paused: pausedProp,
