@@ -47,3 +47,4 @@ export function RestaurantStrip() {
               type="button"
               role="tab"
               id={`tab-${r.id}`}
+              aria-controls="restaurant-view"
