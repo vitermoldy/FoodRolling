@@ -146,3 +146,4 @@ export function platesPerSecond(def: RestaurantDef, state: RestaurantState): num
   return Math.min(production(def, state), capacity(def, state))
 }
 
+/** Expected coins per second of a running restaurant. */
