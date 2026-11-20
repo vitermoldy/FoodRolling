@@ -80,3 +80,4 @@ export default function App() {
                 role="tab"
                 id={`panel-tab-${t.id}`}
                 aria-controls={`panel-${t.id}`}
+                aria-selected={tab === t.id}
