@@ -294,3 +294,4 @@ export class BeltSim {
     return chef
   }
 
+  private newSeat(): Seat {
