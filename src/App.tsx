@@ -81,3 +81,4 @@ export default function App() {
                 id={`panel-tab-${t.id}`}
                 aria-controls={`panel-${t.id}`}
                 aria-selected={tab === t.id}
+                tabIndex={tab === t.id ? 0 : -1}
