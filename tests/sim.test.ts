@@ -15,3 +15,4 @@ function measure(st: RestaurantState, seconds = 1500, seed = 7) {
   const sim = new BeltSim(simConfig(jepang, st), seed)
   sim.step(120)
   sim.events.length = 0
+  let coins = 0
