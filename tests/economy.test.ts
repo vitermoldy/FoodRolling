@@ -72,3 +72,4 @@ describe('upgrades', () => {
   it('more chefs only help while the kitchen is the bottleneck', () => {
     const st = { ...newRestaurantState(true), chefs: 1, seats: 16 }
     expect(bottleneck(jepang, st)).toBe('chefs')
+    expect(rateAfter(jepang, st, 'chefs')).toBeGreaterThan(incomeRate(jepang, st))
