@@ -683,3 +683,4 @@ export function SushiConveyorMenu({
   const finishPointer = (event: React.PointerEvent, cancelled: boolean) => {
     const p = pointer.current;
     if (p.id !== event.pointerId) return;
+    const s = sim.current;
