@@ -188,3 +188,4 @@ function italia(ctx: Ctx, w: Wall) {
   ctx.lineWidth = Math.max(1, u * 0.025)
   ctx.beginPath()
   pts.forEach((p, i) => (i ? ctx.lineTo(p.x, p.y) : ctx.moveTo(p.x, p.y)))
+  ctx.stroke()
