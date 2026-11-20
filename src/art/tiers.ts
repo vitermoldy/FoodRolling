@@ -3,3 +3,4 @@
 export const TIER_COLORS = ['#3a7cc2', '#3f9450', '#cf4430', '#c99317', '#2b2a28'] as const
 export const TIER_NAMES = ['Biru', 'Hijau', 'Merah', 'Emas', 'Hitam'] as const
 
+export function tierColor(tier: number): string {
