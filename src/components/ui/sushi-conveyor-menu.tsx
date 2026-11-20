@@ -1054,3 +1054,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
   return createPortal(
     <div ref={dialogRef} role="dialog" aria-modal="true" aria-labelledby={titleId} data-dish-dialog className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto p-4 text-foreground sm:p-8" onKeyDown={onKeyDown}>
       <div aria-hidden="true" className={`absolute inset-0 bg-background/80 backdrop-blur-md transition-opacity duration-300 motion-reduce:transition-none ${shown ? "opacity-100" : "opacity-0"}`} onClick={dismiss} />
+      <div className="relative grid w-full max-w-[52rem] items-center gap-6 p-5 sm:grid-cols-[minmax(0,1fr)_minmax(0,19rem)] sm:gap-10 sm:p-8">
