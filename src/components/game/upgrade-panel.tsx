@@ -97,3 +97,4 @@ function Summary({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
     <section aria-label="Ringkasan restoran" className="rounded-[14px] bg-paper p-4 shadow-[0_1px_0_rgb(56_69_15/0.12)]">
       <p className="text-sm text-moss">Pendapatan restoran ini</p>
       <p className="num mt-0.5 text-[1.75rem] font-medium leading-none tracking-[-0.03em] text-olive">+{formatRate(incomeRate(def, st))}</p>
+      <div className="mt-4 flex flex-col gap-2.5">
