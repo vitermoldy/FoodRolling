@@ -35,3 +35,4 @@ export function isMaxed(state: RestaurantState, kind: UpgradeKind): boolean {
   return state[kind] >= maxOf(kind)
 }
 
+/** Cost to go from `level` to `level + 1` (level counts chefs and seats for those kinds). */
