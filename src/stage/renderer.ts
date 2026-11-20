@@ -380,3 +380,4 @@ export class StageRenderer {
     ctx.fillStyle = edge
     ctx.beginPath()
     ctx.roundRect(p.x - w / 2, p.y - h / 2, w, h + face, s * 0.08)
+    ctx.fill()
