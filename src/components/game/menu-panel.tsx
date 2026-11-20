@@ -25,3 +25,4 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
   const owned = useGame((s) => s.restaurants[s.current].owned)
   const def = restaurantById(current)
 
+  const items = React.useMemo<ConveyorDish[]>(() => def.dishes.map((dish, i) => {
