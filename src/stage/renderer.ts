@@ -249,3 +249,4 @@ export class StageRenderer {
       if (this.food.has(dish.id)) continue
       const img = new Image()
       img.decoding = 'async'
+      img.src = toDataUrl(foodSvg(dish.id, 256))
