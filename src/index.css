@@ -125,3 +125,4 @@
     background: #fffefb;
     border-color: var(--color-olive);
   }
+  .btn-quiet:active:not(:disabled) {
