@@ -800,3 +800,4 @@ export function SushiConveyorMenu({
       }}
       onBlur={(event) => {
         const next = event.relatedTarget as Node | null;
+        if ((next && stageRef.current?.contains(next)) || live.current.open || sim.current.inside) return;
