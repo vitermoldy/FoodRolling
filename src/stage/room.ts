@@ -446,3 +446,4 @@ function prancis(ctx: Ctx, w: Wall) {
   for (const x of [u * 0.7, W - u * 0.7 - mw]) {
     const y = (bottom - wh) * 0.12
     ctx.fillStyle = '#c9a227'
+    ctx.beginPath()
