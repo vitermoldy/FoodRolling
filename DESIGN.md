@@ -72,3 +72,4 @@ sungguhan. Semua angka (harga, waktu masak, pendapatan) adalah aturan permainan 
 - Sabuk berjalan terus selama restoran dibuka; tombol Jeda menghentikannya (restoran tetap menghasilkan
   uang lewat rumus selama dijeda).
 - Piring melompat dari meja chef ke sabuk dan dari sabuk ke konter pelanggan dalam busur pendek
+  (0,3 sampai 0,4 detik) supaya mata bisa mengikuti ke mana piring pergi.
