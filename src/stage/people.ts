@@ -234,3 +234,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
       ctx.fillStyle = '#ffffff'
       ctx.strokeStyle = 'rgba(80,70,60,0.25)'
       ctx.lineWidth = r * 0.06
+      roundRect(ctx, hx - r * 0.82, hy - r * (1.55 * tall), r * 1.64, r * (1.0 * tall + 0.15), r * 0.2)
