@@ -491,3 +491,4 @@ export function SushiConveyorMenu({
     stop();
     setActive(index);
     const s = sim.current;
+    s.v = 0;
