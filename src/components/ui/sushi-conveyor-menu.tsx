@@ -466,3 +466,4 @@ export function SushiConveyorMenu({
   const seekTo = React.useCallback((index: number) => {
     const s = sim.current;
     const g = live.current.geo;
+    if (!g) return;
