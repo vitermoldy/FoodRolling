@@ -65,3 +65,4 @@ describe('upgrades', () => {
     const money = stepCost(jepang, 'speed', 1) + stepCost(jepang, 'speed', 2) + 1
     expect(bulkCost(jepang, st, 'speed', 'max', money).count).toBe(2)
     const full = { ...st, chefs: BALANCE.chefs.max }
+    expect(isMaxed(full, 'chefs')).toBe(true)
