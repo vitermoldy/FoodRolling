@@ -214,3 +214,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
         onPointerMove={onPointerMove}
         onPointerUp={(e) => finish(e, false)}
         onPointerCancel={(e) => finish(e, true)}
+        onPointerLeave={() => { if (!drag.current && cursor !== 'default') setCursor('default') }}
