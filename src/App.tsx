@@ -59,3 +59,5 @@ export default function App() {
     const next = (index + (e.key === 'ArrowRight' ? 1 : -1) + TABS.length) % TABS.length
     setTab(TABS[next].id)
     tabRefs.current[next]?.focus()
+  }
+
