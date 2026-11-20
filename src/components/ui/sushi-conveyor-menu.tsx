@@ -942,3 +942,5 @@ export function SushiConveyorMenu({
       )}
     </section>
   );
+}
+
