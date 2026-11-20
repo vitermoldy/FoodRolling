@@ -196,3 +196,4 @@ export class BeltSim {
     const cfg = this.config
     let earned = 0
 
+    if (this.holding) this.velocity = 0
