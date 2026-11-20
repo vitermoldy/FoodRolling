@@ -227,3 +227,4 @@ export class StageRenderer {
       // The stool stays when nobody sits on it.
       items.push({
         y: sp.y,
+        draw: () => {
