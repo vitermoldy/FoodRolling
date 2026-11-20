@@ -77,3 +77,4 @@ export function snapshot(s: SaveData): SaveData {
   }
 }
 
+/** The next restaurant that can be bought, if any. */
