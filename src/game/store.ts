@@ -81,3 +81,5 @@ export function snapshot(s: SaveData): SaveData {
 export function nextLocked(s: Pick<SaveData, 'restaurants'>): RestaurantId | null {
   const def = RESTAURANTS.find((r) => !s.restaurants[r.id].owned)
   return def ? def.id : null
+}
+
