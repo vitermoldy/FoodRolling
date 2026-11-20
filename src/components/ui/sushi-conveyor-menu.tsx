@@ -19,3 +19,4 @@ export interface ConveyorDish {
   image: string;
   /** Short facts such as the piece count or allergens, listed as chips in the dialog. */
   details?: string[];
+  /** Not on the menu yet: the plate is drawn faded and grey. */
