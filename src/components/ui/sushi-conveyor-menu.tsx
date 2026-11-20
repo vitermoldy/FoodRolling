@@ -749,3 +749,4 @@ export function SushiConveyorMenu({
           ))}
         </ul>
       )}
+    </div>
