@@ -567,3 +567,4 @@ function counterAndBelt(ctx: Ctx, layout: Layout, id: RestaurantId, theme: Theme
   const island = layout.ring(-BAND / 2 - 0.02)
   const face = d * 0.34
 
+  // Floor shadow.
