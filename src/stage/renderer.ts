@@ -27,3 +27,5 @@ interface Coin {
   y: number
   text: string
   start: number
+}
+
