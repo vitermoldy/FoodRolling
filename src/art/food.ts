@@ -312,3 +312,4 @@ function nasgor(rng: Rng) {
     circle(51, 45, 6, '#f6ae17') + circle(49.5, 43.6, 1.8, 'rgba(255,255,255,0.7)') +
     path(blob(rng, 22, 36, 9, 0.3, 11), '#f6e5bd', 'stroke="#e2c88f" stroke-width="0.8"') +
     scatter(rng, 7, 22, 36, 6, [0.4, 0.8], ['#e0c48a']) +
+    circle(77, 52, 6, '#e8f3d0', 'stroke="#5c9a3c" stroke-width="1.6"') + circle(73, 64, 5.5, '#e8f3d0', 'stroke="#5c9a3c" stroke-width="1.5"') +
