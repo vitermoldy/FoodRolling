@@ -102,3 +102,4 @@ export function unlockedDishIndexes(def: RestaurantDef, state: RestaurantState):
   return def.dishes.map((_, i) => i).filter((i) => isDishUnlocked(i, state.income))
 }
 
+/** The next dish the income upgrade brings to the menu, with the level it needs. */
