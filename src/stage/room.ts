@@ -611,3 +611,4 @@ function counterAndBelt(ctx: Ctx, layout: Layout, id: RestaurantId, theme: Theme
   ctx.fillStyle = theme.island
   ctx.fill()
   ctx.strokeStyle = 'rgba(255,255,255,0.25)'
+  ctx.lineWidth = Math.max(1, d * 0.02)
