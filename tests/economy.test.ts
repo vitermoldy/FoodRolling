@@ -108,3 +108,4 @@ describe('save', () => {
   })
 
   it('rejects garbage and clamps edited values', () => {
+    expect(parseSave('not json', 0)).toBeNull()
