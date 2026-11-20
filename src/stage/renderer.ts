@@ -575,3 +575,4 @@ export class StageRenderer {
       const x = Math.min(L.width - half, Math.max(half, c.x))
       ctx.globalAlpha = t < 0.7 ? 1 : 1 - (t - 0.7) / 0.3
       ctx.lineWidth = Math.max(3, size * 0.22)
+      ctx.strokeStyle = 'rgba(255,253,246,0.95)'
