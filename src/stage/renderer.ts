@@ -492,3 +492,4 @@ export class StageRenderer {
     ctx.fillStyle = '#5a3e2b'
     ctx.fillRect(p.x - s * 0.05, p.y - s * 0.02, s * 0.1, s * 0.12)
     ctx.fillStyle = '#7a5538'
+    ctx.beginPath()
