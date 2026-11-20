@@ -77,3 +77,4 @@ function shade(hex: string, amount: number): string {
   return `rgb(${r},${g},${b})`
 }
 
+/** Torso as a soft trapezoid from the shoulders down to the waist. */
