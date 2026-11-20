@@ -846,3 +846,4 @@ export function SushiConveyorMenu({
             key={item.id}
             ref={(node) => { plates.current[i] = node; }}
             type="button"
+            data-dish={i}
