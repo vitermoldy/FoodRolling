@@ -423,3 +423,4 @@ export function SushiConveyorMenu({
     }
     let busy = s.mode !== RUN || s.v !== 0 || (!stopped && cruise > 0);
     for (let i = 0; i < L.count; i++) {
+      const goal = i === L.active ? 1 : 0;
