@@ -16,3 +16,4 @@ function measure(st: RestaurantState, seconds = 1500, seed = 7) {
   sim.step(120)
   sim.events.length = 0
   let coins = 0
+  for (let t = 0; t < seconds; t += 0.05) coins += sim.step(0.05)
