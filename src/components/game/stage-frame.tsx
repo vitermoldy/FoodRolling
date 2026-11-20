@@ -55,3 +55,4 @@ export function StageFrame() {
 
       {owned && (
         <>
+          {paused && (
