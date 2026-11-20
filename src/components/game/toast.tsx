@@ -7,3 +7,4 @@ export function Toast() {
   const dismiss = useGame((s) => s.dismissNotice)
   const select = useGame((s) => s.select)
 
+  React.useEffect(() => {
