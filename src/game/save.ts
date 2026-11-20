@@ -63,3 +63,4 @@ export function parseSave(text: string | null, now: number): SaveData | null {
 }
 
 export function totalRate(restaurants: Record<RestaurantId, RestaurantState>): number {
+  return RESTAURANTS.reduce((sum, def) => sum + incomeRate(def, restaurants[def.id]), 0)
