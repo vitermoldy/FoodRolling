@@ -94,3 +94,4 @@ export function beltSpeed(def: RestaurantDef, state: RestaurantState): number {
   return def.beltSpeed * beltMult(state.speed)
 }
 
+export function isDishUnlocked(index: number, incomeLevel: number): boolean {
