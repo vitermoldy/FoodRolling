@@ -44,3 +44,4 @@ export function parseSave(text: string | null, now: number): SaveData | null {
   for (const id of RESTAURANT_IDS) {
     const r = data.restaurants?.[id]
     if (!r || typeof r !== 'object') continue
+    const st = save.restaurants[id]
