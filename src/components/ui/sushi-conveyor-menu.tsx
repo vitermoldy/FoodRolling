@@ -818,3 +818,4 @@ export function SushiConveyorMenu({
               </filter>
               <linearGradient id={`${uid}-island`} x1="0" x2="0" y1="0" y2="1">
                 <stop offset="0" style={{ stopColor: "var(--island)" }} />
+                <stop offset="1" style={{ stopColor: "var(--island-low)" }} />
