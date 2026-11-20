@@ -32,3 +32,5 @@ export interface ChefStyle {
   coat: string
   apron: string
   trim: string
+}
+
