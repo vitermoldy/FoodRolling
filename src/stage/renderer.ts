@@ -294,3 +294,4 @@ export class StageRenderer {
     }
     ctx.lineCap = 'round'
     path(0)
+    ctx.strokeStyle = 'rgba(0,0,0,0.32)'
