@@ -1003,3 +1003,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
     if (closing.current) return;
     closing.current = true;
     setShown(false);
+    const figure = figureRef.current;
