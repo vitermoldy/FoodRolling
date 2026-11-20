@@ -851,3 +851,4 @@ export function SushiConveyorMenu({
             tabIndex={i === roving ? 0 : -1}
             aria-label={`${item.name}, ${item.price}`}
             aria-describedby={`${uid}-caption`}
+            aria-haspopup="dialog"
