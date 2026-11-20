@@ -733,3 +733,5 @@ export function SushiConveyorMenu({
   const roving = active ?? center;
   const tiers = legendEntries(items, legend);
   const g = geo;
+  const control = "inline-flex size-11 items-center justify-center rounded-full border border-border bg-card text-muted-foreground shadow-sm outline-none transition-colors hover:text-foreground focus-visible:ring-2 focus-visible:ring-ring motion-reduce:transition-none";
+
