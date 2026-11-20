@@ -557,3 +557,4 @@ function croissant(rng: Rng) {
 
 function crepe(rng: Rng) {
   const shape = 'M22 70 L22 32 Q50 22 76 46 Q60 66 22 70Z'
+  let out = shadow(path(shape, '#000')) + path(shape, '#ecc27f', 'stroke="#c99752" stroke-width="1.2"')
