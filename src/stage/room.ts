@@ -161,3 +161,4 @@ function italia(ctx: Ctx, w: Wall) {
     // Vine over the arch.
     for (let i = 0; i < 9; i++) {
       const a = Math.PI + (i / 8) * Math.PI
+      const lx = x + ww / 2 + Math.cos(a) * (ww / 2 + u * 0.15)
