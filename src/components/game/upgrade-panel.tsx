@@ -228,3 +228,4 @@ function NextRestaurant() {
   const affordable = canUnlock({ restaurants, money }, next)
   const share = Math.min(1, money / def.unlockCost)
   return (
+    <section aria-labelledby="next-heading" className="rounded-[14px] border border-line-strong bg-paper p-4">
