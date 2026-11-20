@@ -38,3 +38,4 @@ interface Actions {
   setTab: (tab: PanelTab) => void
   dismissOffline: () => void
   dismissNotice: () => void
+  save: () => boolean
