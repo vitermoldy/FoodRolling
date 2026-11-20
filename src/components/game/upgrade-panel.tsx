@@ -182,3 +182,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
                   <p className="mt-1 text-xs text-moss">
                     Level {dish.level}: {dish.dish.name} masuk menu.
                   </p>
+                )}
