@@ -240,3 +240,5 @@ export class StageRenderer {
     this.drawFlights()
     this.drawBubbles(sim)
     this.drawCoins()
+  }
+
