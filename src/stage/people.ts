@@ -34,3 +34,4 @@ export interface ChefStyle {
   trim: string
 }
 
+export interface PersonOptions {
