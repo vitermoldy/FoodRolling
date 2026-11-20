@@ -86,3 +86,4 @@
     letter-spacing: -0.01em;
   }
   .btn {
+    display: inline-flex;
