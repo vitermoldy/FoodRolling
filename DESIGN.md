@@ -78,3 +78,5 @@ sungguhan. Semua angka (harga, waktu masak, pendapatan) adalah aturan permainan 
   berpindah tanpa busur, angka koin memudar di tempat. Sabuk tetap berjalan karena itu inti permainan,
   dan tombol Jeda selalu tersedia.
 
+## Aksesibilitas
+
