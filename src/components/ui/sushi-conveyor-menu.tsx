@@ -744,3 +744,4 @@ export function SushiConveyorMenu({
           {tiers.map((entry) => (
             <li key={entry.tier} className="inline-flex items-center gap-1.5">
               <span className={`size-2.5 rounded-full border-2 bg-transparent ${tierStyle(entry.tier).ring}`} />
+              {entry.label}
