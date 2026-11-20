@@ -473,3 +473,4 @@ function prancis(ctx: Ctx, w: Wall) {
   rr(ctx, cx, cy, cw, ch, u * 0.02, '#26302b')
   ctx.fillStyle = '#f3f1ea'
   const size = Math.max(9, Math.min(u * 0.34, ch / 4.2))
+  ctx.font = `600 ${size}px "Urbanist Variable", Urbanist, system-ui, sans-serif`
