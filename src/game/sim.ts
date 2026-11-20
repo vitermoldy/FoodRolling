@@ -219,3 +219,5 @@ export class BeltSim {
           this.startDish(chef)
         }
       }
+    }
+
