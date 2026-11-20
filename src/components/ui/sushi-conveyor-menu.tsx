@@ -563,3 +563,4 @@ export function SushiConveyorMenu({
       s.target *= f;
     }
     if (live.current.reduced) {
+      s.v = 0;
