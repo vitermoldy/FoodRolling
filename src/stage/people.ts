@@ -393,3 +393,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
 
   if (facing === 'down') {
     // Arms come forward over the body to the counter or the station.
+    const handY = standing ? 0.18 : 0.12
