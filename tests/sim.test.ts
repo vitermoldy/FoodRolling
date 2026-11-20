@@ -58,3 +58,4 @@ describe('belt simulation', () => {
     expect(reported).toBeCloseTo(paid, 6)
   })
 
+  it('a tap on a chef moves cooking forward', () => {
