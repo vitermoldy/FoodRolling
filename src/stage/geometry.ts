@@ -66,3 +66,4 @@ export class Layout {
   readonly width: number
   readonly height: number
   readonly orientation: Orientation
+  /** Plate diameter at the front, in CSS pixels. */
