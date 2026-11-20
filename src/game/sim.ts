@@ -4,3 +4,4 @@ import {
   cookTime,
   dishPrice,
   eatTime,
+  unlockedDishIndexes,
