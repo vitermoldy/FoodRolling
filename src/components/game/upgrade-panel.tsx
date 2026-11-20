@@ -105,3 +105,4 @@ function Summary({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
         {slow === 'chefs'
           ? 'Pelanggan menunggu makanan. Tambah chef atau kecepatan supaya piring lebih cepat keluar.'
           : 'Dapur lebih cepat dari pelanggan, piring menumpuk di sabuk. Tambah tempat duduk atau kecepatan.'}
+      </p>
