@@ -44,3 +44,4 @@ describe('upgrades', () => {
     for (const kind of UPGRADE_KINDS) {
       const start = kind === 'chefs' ? BALANCE.chefs.start : kind === 'seats' ? BALANCE.seats.start : 1
       let last = 0
+      for (let level = start; level < maxOf(kind); level++) {
