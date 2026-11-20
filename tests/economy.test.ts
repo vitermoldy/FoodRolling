@@ -105,3 +105,5 @@ describe('save', () => {
     expect(back?.restaurants.jepang.chefs).toBe(3)
     expect(back?.restaurants.italia.owned).toBe(true)
     expect(back?.current).toBe('italia')
+  })
+
