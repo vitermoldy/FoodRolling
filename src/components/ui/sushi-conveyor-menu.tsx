@@ -192,3 +192,4 @@ function edgePath(g: Geo, offset: number) {
 /** Crescent slat seams across the belt, redrawn every frame so they travel with the plates (and round the curves). */
 function slatPath(g: Geo, offset: number, shift: number) {
   const half = g.band * 0.46;
+  const pitch = g.l / g.slats;
