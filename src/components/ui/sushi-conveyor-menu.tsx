@@ -845,3 +845,4 @@ export function SushiConveyorMenu({
           <button
             key={item.id}
             ref={(node) => { plates.current[i] = node; }}
+            type="button"
