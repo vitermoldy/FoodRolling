@@ -513,3 +513,4 @@ function floor(ctx: Ctx, id: RestaurantId, theme: ThemeDef, W: number, H: number
     ctx.strokeStyle = 'rgba(70,30,15,0.28)'
     ctx.lineWidth = Math.max(1, u * 0.03)
     ctx.beginPath()
+    for (let y = top; y < H; y += t) { ctx.moveTo(0, y); ctx.lineTo(W, y) }
