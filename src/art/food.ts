@@ -133,3 +133,4 @@ function slicedTopping(rng: Rng, y: number, base: string, edge: string, stripe: 
   for (let i = 0; i < stripes; i++) {
     const x = 30 + i * (40 / Math.max(1, stripes - 1)) + rng() * 2
     out += path(`M${f(x)} ${y - 11} Q${f(x + 4)} ${y - 2} ${f(x - 1)} ${y + 6}`, 'none', `stroke="${stripe}" stroke-width="2.2" stroke-linecap="round" opacity="0.85"`)
+  }
