@@ -71,3 +71,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     observer.observe(wrap)
     document.fonts?.ready.then(() => renderer.invalidate())
 
+    let raf = 0
