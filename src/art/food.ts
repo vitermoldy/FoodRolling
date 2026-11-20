@@ -568,3 +568,4 @@ function crepe(rng: Rng) {
 }
 
 function quiche(rng: Rng) {
+  const a0 = -Math.PI / 2 - 0.5
