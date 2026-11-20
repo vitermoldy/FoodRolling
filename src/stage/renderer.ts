@@ -22,3 +22,4 @@ interface Flight {
   duration: number
 }
 
+interface Coin {
