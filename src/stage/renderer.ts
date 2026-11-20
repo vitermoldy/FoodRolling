@@ -17,3 +17,4 @@ interface Flight {
   tier: number
   from: ScreenPoint
   /** Where the plate ends up; read every frame because the belt keeps moving. */
+  to: () => ScreenPoint
