@@ -46,3 +46,4 @@ export function RestaurantStrip() {
               ref={(node) => { refs.current[i] = node }}
               type="button"
               role="tab"
+              id={`tab-${r.id}`}
