@@ -572,3 +572,4 @@ function counterAndBelt(ctx: Ctx, layout: Layout, id: RestaurantId, theme: Theme
   ctx.filter = `blur(${Math.round(d * 0.18)}px)`
   ctx.fillStyle = 'rgba(30,18,8,0.32)'
   ctx.beginPath()
+  polygon(ctx, outer, face + d * 0.1)
