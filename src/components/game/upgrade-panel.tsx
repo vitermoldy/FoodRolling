@@ -15,3 +15,4 @@ import {
   UPGRADE_KINDS,
   type BuyAmount,
   type RestaurantState,
+  type UpgradeKind,
