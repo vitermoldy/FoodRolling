@@ -34,3 +34,4 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
       price: formatCoins(dishPrice(def, dish, income)),
       tier: dish.tier as DishTier,
       image: plateUrl(dish.id, def.theme.plate),
+      details: [...dish.details, open ? 'Ada di sabuk' : `Masuk menu di Pendapatan level ${BALANCE.dishUnlock[i]}`],
