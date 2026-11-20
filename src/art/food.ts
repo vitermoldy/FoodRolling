@@ -413,3 +413,4 @@ function taco(rng: Rng) {
 }
 
 function quesadilla(rng: Rng) {
+  let out = ''
