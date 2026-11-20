@@ -21,3 +21,5 @@ import { BALANCE } from '@/game/balance'
 import { restaurantById, type RestaurantDef } from '@/game/restaurants'
 import { canUnlock, nextLocked, useGame } from '@/game/store'
 import { formatCoins, formatDecimal, formatRate } from '@/lib/format'
+import { UPGRADE_ICONS } from './icons'
+
