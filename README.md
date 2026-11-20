@@ -21,3 +21,4 @@ sushi kaiten di Jepang sampai bistro di Paris.
    lama tetap berjalan dan menghasilkan uang, juga saat kamu melihat restoran lain.
 
 | No | Restoran | Negara | Harga buka | Suasana |
+|---|---|---|---|---|
