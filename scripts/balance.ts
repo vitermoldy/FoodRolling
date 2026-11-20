@@ -24,3 +24,4 @@ while (t < 12 * 3600) {
   const rate = total()
   RESTAURANTS.forEach((def, i) => {
     const st = states[i]
+    if (!st.owned) return
