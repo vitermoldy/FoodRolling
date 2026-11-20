@@ -479,3 +479,4 @@ export class StageRenderer {
     return look
   }
 
+  private drawStool(index: number, p: ScreenPoint, empty: boolean) {
