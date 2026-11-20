@@ -62,3 +62,4 @@ describe('upgrades', () => {
 
   it('"Maks" buys what the money covers and stops at the cap', () => {
     const st = newRestaurantState(true)
+    const money = stepCost(jepang, 'speed', 1) + stepCost(jepang, 'speed', 2) + 1
