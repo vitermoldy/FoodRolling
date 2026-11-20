@@ -631,3 +631,5 @@ export function SushiConveyorMenu({
   const local = (event: React.PointerEvent) => {
     const box = stageRef.current?.getBoundingClientRect();
     return { x: event.clientX - (box?.left ?? 0), y: event.clientY - (box?.top ?? 0) };
+  };
+
