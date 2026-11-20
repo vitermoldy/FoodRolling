@@ -1067,3 +1067,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
               <span className="absolute inset-[30%] rounded-full bg-muted-foreground/25" />
             </span>
           ) : (
+            <img src={item.image} alt={item.name} draggable={false} className={`relative size-full select-none object-contain ${item.locked ? "opacity-50 grayscale" : ""}`} />
