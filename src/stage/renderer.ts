@@ -395,3 +395,4 @@ export class StageRenderer {
       if (img && img.complete && img.naturalWidth > 0 && progress > 0.08) {
         const fs = s * 0.5
         ctx.save()
+        ctx.globalAlpha = Math.min(1, progress * 1.1)
