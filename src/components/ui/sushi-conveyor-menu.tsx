@@ -857,3 +857,4 @@ export function SushiConveyorMenu({
             style={{ width: g.d, height: g.d * TILT, visibility: lifted === i ? "hidden" : undefined }}
             onFocus={() => { if (pointer.current.id < 0) { stop(); setActive(i); } }}
             onClick={(event) => { const pending = pendingOpen.current; pendingOpen.current = -1; if (event.detail === 0 || pending === i) open(i); }}
+          >
