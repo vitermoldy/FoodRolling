@@ -39,3 +39,4 @@ describe('belt simulation', () => {
           expect(seen.has(e.plateId)).toBe(false)
           seen.add(e.plateId)
         }
+      }
