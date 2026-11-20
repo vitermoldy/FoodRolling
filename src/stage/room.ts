@@ -368,3 +368,4 @@ function india(ctx: Ctx, w: Wall) {
   const aw = Math.min(W * 0.13, u * 2.2)
   const ah = bottom * 0.72
   for (const x of [u * 0.6, W - u * 0.6 - aw]) {
+    const y = bottom * 0.16
