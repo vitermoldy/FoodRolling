@@ -58,3 +58,4 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
         <span className="num font-medium">{formatCoins(totalEarned)}</span>
       </p>
 
+      <div className="mt-4 flex flex-wrap items-center gap-3">
