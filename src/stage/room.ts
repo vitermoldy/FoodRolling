@@ -265,3 +265,4 @@ function indonesia(ctx: Ctx, w: Wall) {
   rr(ctx, bx, by, bw, eh, u * 0.04, '#4a2a16')
   ctx.save()
   ctx.beginPath()
+  ctx.rect(bx, by, bw, eh)
