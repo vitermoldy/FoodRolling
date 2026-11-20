@@ -352,3 +352,4 @@ export function SushiConveyorMenu({
     if (c !== s.center) { s.center = c; setCenter(c); }
   }, []);
 
+  const paintAll = React.useCallback(() => {
