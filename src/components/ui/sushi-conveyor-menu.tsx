@@ -881,3 +881,4 @@ export function SushiConveyorMenu({
                   <span className={`size-1.5 rounded-full ${tier.dot}`} />
                   {item.name}
                   <span className="tabular-nums text-muted-foreground">{item.price}</span>
+                </span>
