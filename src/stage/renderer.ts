@@ -307,3 +307,4 @@ export class StageRenderer {
     const ctx = this.ctx
     const rx = size / 2
     const ry = rx * TILT
+    ctx.save()
