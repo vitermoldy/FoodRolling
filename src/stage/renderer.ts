@@ -292,3 +292,4 @@ export class StageRenderer {
         ctx.quadraticCurveTo(2 * m.x - (a.x + b.x) / 2, 2 * m.y - (a.y + b.y) / 2 + lift, b.x, b.y + lift)
       }
     }
+    ctx.lineCap = 'round'
