@@ -107,3 +107,4 @@ export const useGame = create<GameState>()((set, get) => ({
     const { count, cost } = bulkCost(def, st, kind, s.buyAmount, s.money)
     if (count <= 0 || cost > s.money) return
     set({
+      money: s.money - cost,
