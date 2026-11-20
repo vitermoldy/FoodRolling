@@ -258,3 +258,4 @@ export class BeltSim {
         case 'eating':
           seat.timer -= h
           if (seat.timer <= 0) {
+            // Each empty plate is paid straight away, so coins keep coming even at the start.
