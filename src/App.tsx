@@ -78,3 +78,4 @@ export default function App() {
                 ref={(node) => { tabRefs.current[i] = node }}
                 type="button"
                 role="tab"
+                id={`panel-tab-${t.id}`}
