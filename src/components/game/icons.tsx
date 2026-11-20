@@ -21,3 +21,4 @@ export function CoinIcon(props: IconProps) {
 /** A stack of three plates in tier colours: income grows by price. */
 export function IncomeIcon(props: IconProps) {
   return (
+    <Svg {...props}>
