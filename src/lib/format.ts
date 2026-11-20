@@ -16,3 +16,5 @@ function number(value: number, digits: number) {
     formatters.set(digits, fmt)
   }
   return fmt.format(value)
+}
+
