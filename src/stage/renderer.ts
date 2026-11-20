@@ -164,3 +164,4 @@ export class StageRenderer {
     let bestD = Infinity
     const steps = 180
     for (let i = 0; i < steps; i++) {
+      const u = (i / steps) * BELT_LENGTH
