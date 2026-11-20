@@ -477,3 +477,5 @@ export class StageRenderer {
       this.looks.set(key, look)
     }
     return look
+  }
+
