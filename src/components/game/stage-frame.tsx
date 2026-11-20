@@ -153,3 +153,4 @@ class StageBoundary extends React.Component<{ children: React.ReactNode }, { fai
             Browser ini tidak bisa menggambar restoran (Canvas 2D tidak tersedia). Restoran tetap menghasilkan uang dan panel upgrade tetap bisa dipakai.
           </p>
         </div>
+      )
