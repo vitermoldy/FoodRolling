@@ -56,3 +56,4 @@ export default function App() {
   const onTabKey = (e: React.KeyboardEvent, index: number) => {
     if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return
     e.preventDefault()
+    const next = (index + (e.key === 'ArrowRight' ? 1 : -1) + TABS.length) % TABS.length
