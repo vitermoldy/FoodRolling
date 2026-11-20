@@ -124,3 +124,4 @@ function LockedCard() {
               {affordable ? `Buka ${def.name}` : `Kurang ${formatCoins(def.unlockCost - money)} koin`}
             </button>
             {!affordable && (
+              <div className="mt-3 h-2 overflow-hidden rounded-full bg-stone" role="progressbar" aria-label="Uang terkumpul untuk membuka" aria-valuemin={0} aria-valuemax={100} aria-valuenow={Math.floor(Math.min(1, money / def.unlockCost) * 100)}>
