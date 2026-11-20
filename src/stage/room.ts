@@ -543,3 +543,4 @@ function floor(ctx: Ctx, id: RestaurantId, theme: ThemeDef, W: number, H: number
 
 function checker(ctx: Ctx, size: number): CanvasPattern | null {
   const c = document.createElement('canvas')
+  const n = Math.max(4, Math.round(size))
