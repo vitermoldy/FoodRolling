@@ -120,3 +120,4 @@ function LockedCard() {
         </div>
         {isNext ? (
           <>
+            <button type="button" className="btn btn-primary mt-3 w-full" disabled={!affordable} onClick={() => unlock(current)}>
