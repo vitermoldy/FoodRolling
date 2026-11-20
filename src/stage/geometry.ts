@@ -146,3 +146,4 @@ export class Layout {
 
   /** Where a customer's plate stack sits on the counter, and where the plate being eaten sits. */
   counterSpot(index: number, side: 'stack' | 'eat'): ScreenPoint {
+    const u = SEAT_SPOTS[index]
