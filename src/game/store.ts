@@ -75,3 +75,5 @@ export function snapshot(s: SaveData): SaveData {
     startedAt: s.startedAt,
     savedAt: Date.now(),
   }
+}
+
