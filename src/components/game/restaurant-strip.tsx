@@ -17,3 +17,4 @@ function thumb(id: string) {
 
 /** One tab per restaurant, in the order they open. Arrow keys move between them. */
 export function RestaurantStrip() {
+  const current = useGame((s) => s.current)
