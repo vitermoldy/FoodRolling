@@ -116,3 +116,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     if (!st.owned) {
       simRef.current = null
       renderer?.setRestaurant(def, null)
+      setLabel(`${def.name}, belum dibuka.`)
