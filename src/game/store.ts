@@ -54,3 +54,4 @@ function readStorage(): string | null {
 
 function boot(now: number): SaveData & Pick<UiState, 'offline'> {
   const loaded = parseSave(readStorage(), now)
+  if (!loaded) return { ...newSave(now), offline: null }
