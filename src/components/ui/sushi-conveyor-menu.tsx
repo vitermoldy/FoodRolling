@@ -1013,3 +1013,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
     const dy = to.top + to.height / 2 - (from.top + from.height / 2);
     const animation = figure.animate([
       { transform: "none" },
+      { transform: `translate(${dx * 0.58}px, ${dy * 0.58 - 36}px) scale(${(sx + 1) / 2}, ${(sy + 1) / 2})`, offset: 0.55 },
