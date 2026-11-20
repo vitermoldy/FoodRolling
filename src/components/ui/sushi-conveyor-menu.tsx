@@ -540,3 +540,4 @@ export function SushiConveyorMenu({
     const stage = stageRef.current;
     if (!section || !stage) return;
     const measure = () => {
+      const next = { section: Math.round(section.clientWidth), stage: Math.round(stage.clientWidth) };
