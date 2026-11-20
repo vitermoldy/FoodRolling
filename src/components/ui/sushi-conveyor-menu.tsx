@@ -526,3 +526,4 @@ export function SushiConveyorMenu({
   };
 
   React.useEffect(() => {
+    const media = window.matchMedia("(prefers-reduced-motion: reduce)");
