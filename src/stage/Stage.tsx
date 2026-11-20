@@ -85,3 +85,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
         const coins = sim.step(dt)
         if (sim.events.length) {
           renderer.consume(sim.events)
+          sim.events.length = 0
