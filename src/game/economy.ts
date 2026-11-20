@@ -150,3 +150,5 @@ export function platesPerSecond(def: RestaurantDef, state: RestaurantState): num
 export function incomeRate(def: RestaurantDef, state: RestaurantState): number {
   if (!state.owned) return 0
   return platesPerSecond(def, state) * averagePrice(def, state)
+}
+
