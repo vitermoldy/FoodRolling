@@ -94,3 +94,4 @@ export const RESTAURANTS: RestaurantDef[] = [
       { id: 'tiramisu', name: 'Tiramisu', tier: 5, description: 'Biskuit kopi, krim mascarpone, dan taburan kakao.', details: ['1 potong', 'Kopi', 'Pilihan chef'] },
     ],
     theme: {
+      accent: '#b8402f',
