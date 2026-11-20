@@ -5,3 +5,4 @@ import * as E from '../src/game/economy.ts'
 
 const fmt = (n: number) => {
   if (n < 1e3) return n.toFixed(1)
+  const u = ['rb', 'jt', 'M', 'T', 'Kd', 'Kt']
