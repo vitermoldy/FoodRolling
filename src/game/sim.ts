@@ -209,3 +209,4 @@ export class BeltSim {
       chef.helped += h
       if (chef.state === 'cooking') {
         chef.progress += h / cfg.cookTime
+        if (chef.progress >= 1) { chef.progress = 1; chef.state = 'ready' }
