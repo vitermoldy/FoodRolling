@@ -124,3 +124,4 @@ export class StageRenderer {
           tier: this.def.dishes[dish]?.tier ?? 1,
           from: L.belt(sim.slotPosition(e.slot)),
           to: () => spot,
+          start: now,
