@@ -21,3 +21,4 @@ function rr(ctx: Ctx, x: number, y: number, w: number, h: number, r: number | nu
 
 function disc(ctx: Ctx, x: number, y: number, r: number, fill: string) {
   ctx.fillStyle = fill
+  ctx.beginPath()
