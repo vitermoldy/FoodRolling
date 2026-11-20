@@ -119,3 +119,4 @@ describe('save', () => {
     edited.money = -50
     const back = parseSave(JSON.stringify(edited), 10)!
     expect(back.restaurants.jepang.chefs).toBe(BALANCE.chefs.max)
+    expect(back.restaurants.jepang.seats).toBe(BALANCE.seats.start)
