@@ -20,3 +20,4 @@ export function StageFrame() {
   const owned = useGame((s) => s.restaurants[s.current].owned)
   const paused = useGame((s) => s.paused)
   const setPaused = useGame((s) => s.setPaused)
+  const def = restaurantById(current)
