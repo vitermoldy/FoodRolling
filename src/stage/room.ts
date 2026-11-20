@@ -590,3 +590,4 @@ function counterAndBelt(ctx: Ctx, layout: Layout, id: RestaurantId, theme: Theme
   ctx.stroke()
 
   // Belt bed between the rails.
+  ctx.beginPath()
