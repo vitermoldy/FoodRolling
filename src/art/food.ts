@@ -223,3 +223,4 @@ function spaghetti(rng: Rng) {
 }
 
 function ravioli(rng: Rng) {
+  let out = path(blob(rng, 50, 50, 31, 0.15, 12), 'rgba(214,160,58,0.45)')
