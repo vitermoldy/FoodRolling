@@ -555,3 +555,5 @@ export class StageRenderer {
         ctx.fill()
       }
     }
+  }
+
