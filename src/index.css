@@ -38,3 +38,4 @@
 }
 
 @theme inline {
+  --color-accent: var(--accent);
