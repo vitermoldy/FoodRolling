@@ -77,3 +77,4 @@ function blob(rng: Rng, cx: number, cy: number, r: number, wobble: number, point
     const m2 = [(p1[0] + p2[0]) / 2, (p1[1] + p2[1]) / 2]
     d += `Q${f(p1[0])} ${f(p1[1])} ${f(m2[0])} ${f(m2[1])}`
   }
+  return d + 'Z'
