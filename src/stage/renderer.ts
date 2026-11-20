@@ -107,3 +107,4 @@ export class StageRenderer {
         if (!plate) continue
         this.flights.push({
           plateId: e.plateId,
+          dish: plate.dish,
