@@ -869,3 +869,4 @@ export function SushiConveyorMenu({
                 <img
                   src={item.image}
                   alt=""
+                  draggable={false}
