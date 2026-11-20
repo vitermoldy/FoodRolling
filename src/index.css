@@ -5,3 +5,4 @@
    conveyor component from the prompt stays in its light look on dark-mode systems too. */
 @custom-variant dark (&:where(.dark, .dark *));
 
+@theme {
