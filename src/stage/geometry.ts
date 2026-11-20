@@ -155,3 +155,4 @@ export class Layout {
 
   /** Outline of the loop at `across` diameters from the centre line, as screen points. */
   ring(across: number, steps = 160): ScreenPoint[] {
+    const out: ScreenPoint[] = []
