@@ -108,3 +108,4 @@ export class Layout {
   /** Point on the belt at arc position u, `across` diameters outward from the centre line. */
   belt(u: number, across = 0): ScreenPoint {
     const l = alongLoop(u)
+    return this.at(l.p + l.np * across, l.q + l.nq * across)
