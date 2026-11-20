@@ -144,3 +144,4 @@ export class Layout {
     return this.belt(SEAT_SPOTS[index], SEAT_OUT)
   }
 
+  /** Where a customer's plate stack sits on the counter, and where the plate being eaten sits. */
