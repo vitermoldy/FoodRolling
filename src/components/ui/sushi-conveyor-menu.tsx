@@ -742,3 +742,4 @@ export function SushiConveyorMenu({
       {tiers.length > 0 && (
         <ul aria-hidden="true" data-legend className={`mt-1 flex flex-wrap items-center gap-x-3.5 gap-y-1.5 text-[11px] tabular-nums text-muted-foreground ${wide ? "justify-start" : "justify-center"} ${narrow ? "max-w-[15rem]" : ""}`}>
           {tiers.map((entry) => (
+            <li key={entry.tier} className="inline-flex items-center gap-1.5">
