@@ -191,3 +191,4 @@ function face(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facing: F
   ctx.fillStyle = look.skin
   ctx.beginPath()
   ctx.ellipse(hx + dir * r * 0.98, hy + r * 0.2, r * 0.14, r * 0.16, 0, 0, Math.PI * 2)
+  ctx.fill()
