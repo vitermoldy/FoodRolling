@@ -254,3 +254,4 @@ export function SushiConveyorMenu({
   const count = items.length;
   const sectionRef = React.useRef(null as HTMLElement | null);
   const stageRef = React.useRef(null as HTMLDivElement | null);
+  const beltRef = React.useRef(null as HTMLDivElement | null);
