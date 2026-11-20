@@ -187,3 +187,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
               </div>
             </div>
             <div className="mt-2.5 flex items-center justify-between gap-3">
+              <span className="num text-xs text-moss">
