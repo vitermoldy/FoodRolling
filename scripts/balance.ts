@@ -28,3 +28,4 @@ while (t < 12 * 3600) {
     for (const kind of E.UPGRADE_KINDS) {
       if (E.isMaxed(st, kind)) continue
       const cost = E.stepCost(def, kind, st[kind])
+      const gain = E.rateAfter(def, st, kind) - E.incomeRate(def, st)
