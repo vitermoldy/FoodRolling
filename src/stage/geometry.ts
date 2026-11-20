@@ -29,3 +29,4 @@ export interface LoopPoint {
   nq: number
   /** Direction of travel. */
   tp: number
+  tq: number
