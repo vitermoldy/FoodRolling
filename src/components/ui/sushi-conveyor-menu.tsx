@@ -657,3 +657,4 @@ export function SushiConveyorMenu({
         p.moved = true;
         stop();
         setActive(null);
+        s.mode = DRAG;
