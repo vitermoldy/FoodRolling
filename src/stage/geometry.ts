@@ -100,3 +100,4 @@ export class Layout {
     return { x: this.cx + x * k * this.d, y: this.ym + TILT * (this.a * z + (this.b * z * z) / 2) * this.d, k }
   }
 
+  at(p: number, q: number): ScreenPoint {
