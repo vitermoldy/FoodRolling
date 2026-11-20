@@ -153,3 +153,4 @@ export const useGame = create<GameState>()((set, get) => ({
       if (!st.owned) continue
       // The restaurant on screen earns through its belt; every other one earns by the formula.
       const live = s.liveId === def.id && now - s.liveAt < 1500
+      if (live) continue
