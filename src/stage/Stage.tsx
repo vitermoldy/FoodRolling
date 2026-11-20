@@ -137,3 +137,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
   const drag = React.useRef<{ id: number; x: number; y: number; u: number; moved: boolean; chef: number; lastX: number; lastY: number; lastT: number; v: number } | null>(null)
 
   const local = (e: React.PointerEvent) => {
+    const box = canvasRef.current!.getBoundingClientRect()
