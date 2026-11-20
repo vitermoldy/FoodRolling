@@ -450,3 +450,4 @@ function prancis(ctx: Ctx, w: Wall) {
     ctx.roundRect(x - u * 0.12, y - u * 0.12, mw + u * 0.24, mh + u * 0.24, [mw / 2, mw / 2, u * 0.06, u * 0.06])
     ctx.fill()
     const glass = ctx.createLinearGradient(x, y, x + mw, y + mh)
+    glass.addColorStop(0, '#dfe8ea')
