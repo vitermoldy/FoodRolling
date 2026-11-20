@@ -374,3 +374,4 @@ export function SushiConveyorMenu({
       const dy = (py - (q.y + (LIFT_Y / 100) * g.d * TILT * q.k * e)) / ry;
       if (dx * dx + dy * dy > 1) continue;
       if (i === L.active) return i;
+      if (q.y > bestY) { best = i; bestY = q.y; }
