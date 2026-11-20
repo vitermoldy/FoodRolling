@@ -249,3 +249,4 @@ function NextRestaurant() {
             Lihat ruangannya
           </button>
         )}
+      </div>
