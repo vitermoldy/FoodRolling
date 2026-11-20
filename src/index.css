@@ -21,3 +21,4 @@
   --color-line-strong: rgb(56 69 15 / 0.32);
   --color-danger: #9b2c1c;
 
+  /* Tokens the shadcn component in src/components/ui expects. */
