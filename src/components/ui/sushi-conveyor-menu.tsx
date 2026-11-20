@@ -929,3 +929,4 @@ export function SushiConveyorMenu({
           uid={uid}
           item={items[openIndex]}
           index={openIndex}
+          total={count}
