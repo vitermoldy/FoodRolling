@@ -112,3 +112,4 @@
   }
   .btn-primary:disabled {
     background: transparent;
+    color: var(--color-moss);
