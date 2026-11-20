@@ -161,3 +161,4 @@ export class BeltSim {
   }
 
   nearestSlot(u: number): number {
+    const i = Math.round((this.offset - u) / PITCH)
