@@ -120,3 +120,4 @@ function italia(ctx: Ctx, w: Wall) {
   const { W, bottom, u, theme, rng } = w
   // Brick wall.
   const bh = u * 0.32
+  const bw = u * 0.78
