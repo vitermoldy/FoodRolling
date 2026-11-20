@@ -447,3 +447,4 @@ export function SushiConveyorMenu({
     const L = live.current;
     if (L.active === next) return;
     if (!L.activeControlled) { L.active = next; setInnerActive(next); }
+    L.onActiveChange?.(next);
