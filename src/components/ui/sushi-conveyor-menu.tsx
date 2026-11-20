@@ -1048,3 +1048,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
     if (added || closing.current) return;
     onAdd();
     setAdded(true);
+    timer.current = window.setTimeout(dismiss, reduced ? 0 : 450);
