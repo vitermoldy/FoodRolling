@@ -91,3 +91,4 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
   )
 }
 
+export function OfflineDialog() {
