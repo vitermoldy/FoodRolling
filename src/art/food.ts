@@ -665,3 +665,4 @@ export function foodSvg(id: string, size = 256) {
 export function plateSvg(id: string, plate = '#fbf8f1', size = 512) {
   const body =
     circle(51.5, 53, 47, 'rgba(30,20,10,0.16)') +
+    circle(50, 50, 47, plate, 'stroke="rgba(60,40,20,0.14)" stroke-width="0.8"') +
