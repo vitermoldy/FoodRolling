@@ -229,3 +229,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
       break
     }
     case 'toque':
+    case 'tall': {
