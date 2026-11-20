@@ -178,3 +178,4 @@ export const useGame = create<GameState>()((set, get) => ({
     set({ liveId: id, liveAt: now })
   },
 
+  setBuyAmount(buyAmount) {
