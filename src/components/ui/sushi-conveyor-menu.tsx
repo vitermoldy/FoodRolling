@@ -951,3 +951,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
   total: number;
   labels: SushiConveyorMenuLabels;
   reduced: boolean;
+  broken: boolean;
