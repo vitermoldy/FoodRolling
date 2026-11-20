@@ -103,3 +103,4 @@ describe('save', () => {
     const back = parseSave(JSON.stringify(save), 2000)
     expect(back?.money).toBe(1234.5)
     expect(back?.restaurants.jepang.chefs).toBe(3)
+    expect(back?.restaurants.italia.owned).toBe(true)
