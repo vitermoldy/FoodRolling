@@ -48,3 +48,4 @@ export default function App() {
     setTab('upgrade')
     window.setTimeout(() => {
       const button = document.getElementById('upgrade-income')
+      button?.scrollIntoView({ block: 'center', behavior: 'smooth' })
