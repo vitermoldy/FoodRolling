@@ -176,3 +176,5 @@ export const useGame = create<GameState>()((set, get) => ({
 
   markLive(id, now) {
     set({ liveId: id, liveAt: now })
+  },
+
