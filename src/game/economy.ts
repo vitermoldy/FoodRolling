@@ -90,3 +90,4 @@ export function cookTime(def: RestaurantDef, state: RestaurantState): number {
 export function eatTime(def: RestaurantDef, state: RestaurantState): number {
   return def.eatTime / eatMult(state.speed)
 }
+export function beltSpeed(def: RestaurantDef, state: RestaurantState): number {
