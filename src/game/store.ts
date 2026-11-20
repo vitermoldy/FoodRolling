@@ -147,3 +147,4 @@ export const useGame = create<GameState>()((set, get) => ({
     lastTick = now
     const s = get()
     let gained = 0
+    let restaurants = s.restaurants
