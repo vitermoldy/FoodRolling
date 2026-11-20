@@ -686,3 +686,4 @@ export function SushiConveyorMenu({
     const s = sim.current;
     const stage = stageRef.current;
     if (stage?.hasPointerCapture(event.pointerId)) stage.releasePointerCapture(event.pointerId);
+    pointer.current = { ...p, id: -1 };
