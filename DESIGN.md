@@ -17,3 +17,4 @@ ilustrasi sabuk kaiten dari komponen prompt.
 
 Dial: ENERGY 2 / RHYTHM 2 / MOTION 2
 
+- ENERGY 2: panggung restoran menjadi pusat perhatian; panel tenang seperti kartu menu kertas supaya
