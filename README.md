@@ -22,3 +22,4 @@ sushi kaiten di Jepang sampai bistro di Paris.
 
 | No | Restoran | Negara | Harga buka | Suasana |
 |---|---|---|---|---|
+| 1 | Kaiten Hinoki | Jepang | gratis | Dinding kayu hinoki, shoji, noren, lentera kertas |
