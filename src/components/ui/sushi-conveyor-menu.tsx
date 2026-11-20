@@ -1087,3 +1087,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
             <p className="text-2xl font-semibold tabular-nums tracking-tight">{item.price}</p>
             {action ? action(item, dismiss) : <button type="button" data-add onClick={add} className="inline-flex items-center gap-2 rounded-full bg-foreground px-5 py-2.5 text-sm font-medium text-background shadow-sm outline-none transition-[translate,box-shadow] hover:-translate-y-px hover:shadow-md focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background motion-reduce:transition-none">
               {added
+                ? <svg aria-hidden="true" viewBox="0 0 16 16" className="size-4" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round"><path d="M3.5 8.5l3 3 6-7" /></svg>
