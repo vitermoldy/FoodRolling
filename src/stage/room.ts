@@ -454,3 +454,4 @@ function prancis(ctx: Ctx, w: Wall) {
     glass.addColorStop(0.5, '#b9c9cd')
     glass.addColorStop(1, '#e8eeef')
     ctx.fillStyle = glass
+    ctx.beginPath()
