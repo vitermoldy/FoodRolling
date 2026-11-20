@@ -160,3 +160,4 @@ function face(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facing: F
     } else {
       ctx.strokeStyle = ink
       ctx.lineWidth = r * 0.08
+      ctx.beginPath()
