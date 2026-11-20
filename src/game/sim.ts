@@ -149,3 +149,4 @@ export class BeltSim {
   }
 
   configure(config: SimConfig) {
+    this.config = config
