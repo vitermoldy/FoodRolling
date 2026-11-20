@@ -348,3 +348,4 @@ export class StageRenderer {
     ctx.fill()
     tiers.forEach((tier, i) => {
       const y = p.y - i * s * 0.075
+      ctx.fillStyle = tierColor(tier)
