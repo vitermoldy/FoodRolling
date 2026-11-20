@@ -436,3 +436,4 @@ function quesadilla(rng: Rng) {
 }
 
 function burrito(rng: Rng) {
+  return shadow(rect(14, 37, 68, 28, 14, '#000')) +
