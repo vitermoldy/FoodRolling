@@ -480,3 +480,4 @@ function prancis(ctx: Ctx, w: Wall) {
   ctx.font = `400 ${size * 0.82}px "Urbanist Variable", Urbanist, system-ui, sans-serif`
   const names = [def.dishes[1].name, def.dishes[3].name, def.dishes[5].name]
   names.forEach((n, i) => ctx.fillText(n, W / 2, cy + ch * (0.45 + i * 0.18)))
+  // Globe pendant lamps.
