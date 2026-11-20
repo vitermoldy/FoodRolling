@@ -134,3 +134,4 @@ export const useGame = create<GameState>()((set, get) => ({
   earn(id, amount) {
     if (!(amount > 0)) return
     const s = get()
+    const st = s.restaurants[id]
