@@ -282,3 +282,4 @@ function indonesia(ctx: Ctx, w: Wall) {
   ctx.restore()
 }
 
+function meksiko(ctx: Ctx, w: Wall) {
