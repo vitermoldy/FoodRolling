@@ -163,3 +163,5 @@ export function bottleneck(def: RestaurantDef, state: RestaurantState): Bottlene
 export function rateAfter(def: RestaurantDef, state: RestaurantState, kind: UpgradeKind, count = 1): number {
   const next = { ...state, [kind]: Math.min(maxOf(kind), state[kind] + count) }
   return incomeRate(def, next)
+}
+
