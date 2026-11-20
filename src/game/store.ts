@@ -195,3 +195,4 @@ export const useGame = create<GameState>()((set, get) => ({
   },
 
   save() {
+    try {
