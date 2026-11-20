@@ -57,3 +57,4 @@ export function loopDelta(a: number, b: number): number {
 
 export interface Plate {
   /** Unique id so the renderer can follow one plate from station to belt to counter. */
+  id: number
