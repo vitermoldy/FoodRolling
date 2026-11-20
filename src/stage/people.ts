@@ -221,3 +221,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
       if (facing === 'up' || side) {
         const kx = side ? hx - dir * r * 0.95 : hx
         ctx.fillStyle = '#f4f1ea'
+        ctx.beginPath()
