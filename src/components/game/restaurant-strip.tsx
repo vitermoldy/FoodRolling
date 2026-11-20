@@ -39,3 +39,4 @@ export function RestaurantStrip() {
       <div role="tablist" aria-label="Pilih restoran" className="relative flex gap-1 overflow-x-auto px-3 py-2 sm:px-5 [scrollbar-width:thin]">
         {RESTAURANTS.map((r, i) => {
           const st = restaurants[r.id]
+          const active = r.id === current
