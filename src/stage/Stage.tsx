@@ -113,3 +113,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
   React.useEffect(() => {
     const renderer = rendererRef.current
     const st = useGame.getState().restaurants[current]
+    if (!st.owned) {
