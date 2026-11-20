@@ -251,3 +251,4 @@ export function SushiConveyorMenu({
   ...rest
 }: SushiConveyorMenuProps) {
   const uid = React.useId().replace(/[^a-zA-Z0-9_-]/g, "");
+  const count = items.length;
