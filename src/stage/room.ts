@@ -327,3 +327,4 @@ function meksiko(ctx: Ctx, w: Wall) {
       for (const [dx, dy] of [[0, 0.22], [-0.13, 0.42], [0.13, 0.42]] as [number, number][]) {
         ctx.beginPath()
         ctx.moveTo(p.x + dx * u, p.y + dy * u - u * 0.07)
+        ctx.lineTo(p.x + dx * u + u * 0.06, p.y + dy * u)
