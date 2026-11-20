@@ -694,3 +694,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
           ctx.fill()
           ctx.strokeStyle = 'rgba(80,30,10,0.35)'
           ctx.lineWidth = Math.max(1, s * 0.02)
+          ctx.beginPath()
