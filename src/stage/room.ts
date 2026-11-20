@@ -684,3 +684,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
         break
       case 'italia':
         if (side === 0) {
+          // Stone oven: a brick dome with a glowing mouth.
