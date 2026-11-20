@@ -570,3 +570,4 @@ export class StageRenderer {
     for (const c of this.coins) {
       const t = (this.time - c.start) / 1.3
       const y = c.y - (this.reduced ? 0 : t * L.d * 0.6)
+      // Keep the number inside the stage near the edges.
