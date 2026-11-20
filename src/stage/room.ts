@@ -94,3 +94,4 @@ function jepang(ctx: Ctx, w: Wall) {
   ctx.lineWidth = Math.max(1.5, u * 0.07)
   ctx.beginPath()
   ctx.arc(W / 2, ny + Math.min(bottom * 0.25, u * 0.75), u * 0.36, 0, Math.PI * 2)
+  ctx.stroke()
