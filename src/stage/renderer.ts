@@ -90,3 +90,5 @@ export class StageRenderer {
   /** Repaint the room on the next frame (fonts finished loading, for example). */
   invalidate() {
     this.roomKey = ''
+  }
+
