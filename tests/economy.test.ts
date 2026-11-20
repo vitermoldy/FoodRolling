@@ -56,3 +56,4 @@ describe('upgrades', () => {
   it('buying x10 costs the sum of ten single steps', () => {
     const st = newRestaurantState(true)
     let sum = 0
+    for (let i = 0; i < 10; i++) sum += stepCost(jepang, 'income', 1 + i)
