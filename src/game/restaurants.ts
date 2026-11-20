@@ -20,3 +20,4 @@ export interface ThemeDef {
   floorAlt: string
   counter: string
   counterEdge: string
+  island: string
