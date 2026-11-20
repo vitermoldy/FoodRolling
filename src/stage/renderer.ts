@@ -45,3 +45,4 @@ function ease(t: number) {
 export class StageRenderer {
   readonly canvas: HTMLCanvasElement
   private ctx: Ctx
+  private dpr = 1
