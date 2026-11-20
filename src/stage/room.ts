@@ -202,3 +202,4 @@ function indonesia(ctx: Ctx, w: Wall) {
   ctx.fillRect(0, 0, W, bandH)
   ctx.fillStyle = '#1f1410'
   ctx.fillRect(0, bandH, W, u * 0.08)
+  ctx.strokeStyle = '#d9a521'
