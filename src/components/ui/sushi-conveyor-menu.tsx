@@ -732,3 +732,4 @@ export function SushiConveyorMenu({
   const current = active === null ? null : items[active] ?? null;
   const roving = active ?? center;
   const tiers = legendEntries(items, legend);
+  const g = geo;
