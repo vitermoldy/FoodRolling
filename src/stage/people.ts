@@ -324,3 +324,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
     ctx.fillStyle = '#5a3e2b'
     roundRect(ctx, -0.05, -0.05, 0.1, 0.32, 0.03)
     ctx.fill()
+    ctx.fillStyle = '#7a5538'
