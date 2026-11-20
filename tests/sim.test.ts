@@ -46,3 +46,4 @@ describe('belt simulation', () => {
   })
 
   it('pays each customer the plates they ate', () => {
+    const sim = new BeltSim(simConfig(jepang, state({ chefs: 3, seats: 4 })), 11)
