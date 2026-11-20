@@ -68,3 +68,4 @@ export const RESTAURANTS: RestaurantDef[] = [
       { id: 'otoro', name: 'Otoro nigiri', tier: 5, description: 'Perut tuna berlemak yang meleleh di lidah.', details: ['2 potong', 'Ikan', 'Pilihan chef'] },
     ],
     theme: {
+      accent: '#c8432b',
