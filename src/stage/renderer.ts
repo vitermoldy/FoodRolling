@@ -335,3 +335,4 @@ export class StageRenderer {
     ctx.restore()
   }
 
+  private drawStack(p: ScreenPoint, tiers: number[], alpha: number) {
