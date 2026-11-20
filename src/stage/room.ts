@@ -233,3 +233,4 @@ function indonesia(ctx: Ctx, w: Wall) {
   const ew = Math.min(W * 0.17, u * 3)
   const eh = bottom * 0.5
   const ex = u * 0.5
+  const ey = bottom - eh - u * 0.3
