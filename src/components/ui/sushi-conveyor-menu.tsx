@@ -1012,3 +1012,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
     const dx = to.left + to.width / 2 - (from.left + from.width / 2);
     const dy = to.top + to.height / 2 - (from.top + from.height / 2);
     const animation = figure.animate([
+      { transform: "none" },
