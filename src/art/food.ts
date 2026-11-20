@@ -330,3 +330,5 @@ function gado(rng: Rng) {
   for (const [x, y] of [[28, 52], [70, 30]] as [number, number][]) out += circle(x, y, 6, '#f6f3e6', 'stroke="#9fc275" stroke-width="1.6"')
   out += `<path d="M24 46 Q36 38 48 48 T74 50 M30 62 Q44 56 58 64 T76 64" fill="none" stroke="#a6612a" stroke-width="4.2" stroke-linecap="round" opacity="0.92"/>`
   return out + scatter(rng, 14, 50, 50, 24, [0.6, 1.1], ['#7e4317', '#9b5a24'])
+}
+
