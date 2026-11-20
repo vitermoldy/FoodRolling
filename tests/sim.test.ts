@@ -19,3 +19,5 @@ function measure(st: RestaurantState, seconds = 1500, seed = 7) {
   for (let t = 0; t < seconds; t += 0.05) coins += sim.step(0.05)
   const eaten = sim.events.filter((e) => e.type === 'grab').length
   return { coins: coins / seconds, plates: eaten / seconds }
+}
+
