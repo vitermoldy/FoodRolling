@@ -44,3 +44,4 @@ export function formatDuration(seconds: number): string {
   const m = Math.floor((s % 3600) / 60)
   if (h > 0) return m > 0 ? `${h} jam ${m} menit` : `${h} jam`
   if (m > 0) return `${m} menit`
+  return `${s} detik`
