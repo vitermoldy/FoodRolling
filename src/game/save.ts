@@ -66,3 +66,4 @@ export function totalRate(restaurants: Record<RestaurantId, RestaurantState>): n
   return RESTAURANTS.reduce((sum, def) => sum + incomeRate(def, restaurants[def.id]), 0)
 }
 
+/** What the restaurants earned while the game was closed, capped at BALANCE.offlineCapHours. */
