@@ -31,3 +31,4 @@ export interface ChefStyle {
   hat: HatKind
   coat: string
   apron: string
+  trim: string
