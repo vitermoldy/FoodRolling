@@ -212,3 +212,4 @@ export class BeltSim {
         if (chef.progress >= 1) { chef.progress = 1; chef.state = 'ready' }
       }
       if (chef.state === 'ready') {
+        const slot = this.nearestSlot(CHEF_SPOTS[i].u)
