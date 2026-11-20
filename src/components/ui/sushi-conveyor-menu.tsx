@@ -512,3 +512,4 @@ export function SushiConveyorMenu({
     stop();
     if (focus) plates.current[next]?.focus({ preventScroll: true });
     setActive(next);
+    seekTo(next);
