@@ -648,3 +648,4 @@ export function hasFoodArt(id: string): boolean {
   return id in DRAW
 }
 
+function svgDoc(inner: string, size: number) {
