@@ -31,3 +31,5 @@ export const BALANCE = {
     wantMax: 3,
   },
   /** One tap on a chef adds this much cooking progress. */
+  helpProgress: 0.18,
+
