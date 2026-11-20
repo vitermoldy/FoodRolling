@@ -53,3 +53,4 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
       <p className="mt-2 text-sm leading-relaxed">
         Progres tersimpan otomatis di browser ini setiap 5 detik dan saat tab ditutup. Selama game ditutup, restoran tetap berjalan sampai {BALANCE.offlineCapHours} jam.
       </p>
+      <p className="mt-3 flex items-baseline justify-between border-t border-line pt-3 text-sm">
