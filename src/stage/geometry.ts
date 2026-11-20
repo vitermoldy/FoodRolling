@@ -105,3 +105,4 @@ export class Layout {
     return this.project(w.x, w.z)
   }
 
+  /** Point on the belt at arc position u, `across` diameters outward from the centre line. */
