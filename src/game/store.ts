@@ -210,3 +210,4 @@ export const useGame = create<GameState>()((set, get) => ({
       localStorage.removeItem(SAVE_KEY)
     } catch {
       // Storage may be blocked; the in-memory game still resets.
+    }
