@@ -33,3 +33,4 @@ export function parseSave(text: string | null, now: number): SaveData | null {
   } catch {
     return null
   }
+  if (!raw || typeof raw !== 'object') return null
