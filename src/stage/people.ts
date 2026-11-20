@@ -20,3 +20,4 @@ export function lookFrom(seed: number): Look {
   const rng = makeRng(seed)
   return {
     skin: SKINS[Math.floor(rng() * SKINS.length)],
+    hair: HAIRS[Math.floor(rng() * HAIRS.length)],
