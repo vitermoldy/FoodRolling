@@ -34,3 +34,4 @@ interface Actions {
   tick: (now: number) => void
   markLive: (id: RestaurantId | null, now: number) => void
   setBuyAmount: (amount: BuyAmount) => void
+  setPaused: (paused: boolean) => void
