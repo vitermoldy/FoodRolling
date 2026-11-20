@@ -1052,3 +1052,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
   };
 
   return createPortal(
+    <div ref={dialogRef} role="dialog" aria-modal="true" aria-labelledby={titleId} data-dish-dialog className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto p-4 text-foreground sm:p-8" onKeyDown={onKeyDown}>
