@@ -632,3 +632,5 @@ function seedOf(id: string) {
   return h >>> 0
 }
 
+const cache = new Map<string, string>()
+
