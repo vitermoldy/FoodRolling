@@ -246,3 +246,4 @@ function indonesia(ctx: Ctx, w: Wall) {
     for (let i = 0; i < n; i++) {
       const cx = ex + ew * (0.2 + i * 0.3)
       for (let h = 0; h < 2; h++) {
+        const cy = sy - u * 0.08 - h * u * 0.13
