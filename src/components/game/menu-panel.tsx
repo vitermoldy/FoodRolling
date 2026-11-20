@@ -37,3 +37,5 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
       details: [...dish.details, open ? 'Ada di sabuk' : `Masuk menu di Pendapatan level ${BALANCE.dishUnlock[i]}`],
       locked: !open,
     }
+  }), [def, income, owned])
+
