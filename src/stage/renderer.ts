@@ -372,3 +372,4 @@ export class StageRenderer {
     const [top, edge] = STATION_TOP[this.def.id]
     const w = s * 0.95
     const h = s * 0.5 * TILT
+    const face = s * 0.2
