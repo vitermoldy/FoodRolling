@@ -56,3 +56,4 @@ export function parseSave(text: string | null, now: number): SaveData | null {
   let open = true
   for (const id of RESTAURANT_IDS) {
     if (!save.restaurants[id].owned) open = false
+    else if (!open) save.restaurants[id].owned = false
