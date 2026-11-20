@@ -55,3 +55,4 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
       </p>
       <p className="mt-3 flex items-baseline justify-between border-t border-line pt-3 text-sm">
         <span className="text-moss">Total uang yang pernah didapat</span>
+        <span className="num font-medium">{formatCoins(totalEarned)}</span>
