@@ -574,3 +574,5 @@ export function SushiConveyorMenu({
     kick();
   }, [geo, items, reduced, paintAll, kick]);
 
+  React.useEffect(() => { kick(); }, [active, paused, openIndex, reduced, speed, kick]);
+
