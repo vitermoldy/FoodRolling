@@ -547,3 +547,4 @@ function croissant(rng: Rng) {
     const dx = Math.abs(x - 50)
     const top = 30 + dx * 0.42
     const bottom = 69 - dx * 0.2
+    const bend = x < 50 ? -4 : x > 50 ? 4 : 0
