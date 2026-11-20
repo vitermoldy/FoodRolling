@@ -278,3 +278,4 @@ export class BeltSim {
         case 'leaving':
           seat.timer -= h
           if (seat.timer <= 0) {
+            seat.state = 'empty'
