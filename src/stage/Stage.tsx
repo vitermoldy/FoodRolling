@@ -133,3 +133,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     if (sim && owned) sim.configure(simConfig(def, { owned, income, speed, chefs, seats, earned: 0 }))
   }, [def, owned, income, speed, chefs, seats])
 
+  // Pointer: drag the belt to roll it, tap a chef to help.
