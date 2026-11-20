@@ -35,3 +35,4 @@ export function RestaurantStrip() {
   }
 
   return (
+    <nav aria-label="Restoran" className="border-b border-line bg-bone">
