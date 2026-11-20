@@ -138,3 +138,4 @@ function hairFront(ctx: Ctx, look: Look, hx: number, hy: number, r: number, faci
   ctx.ellipse(hx - dir * r * 0.08, hy - r * 0.12, r * 1.05, r * 0.95, 0, dir > 0 ? Math.PI * 0.55 : Math.PI * -0.55, dir > 0 ? Math.PI * 1.95 : Math.PI * 0.95, dir < 0)
   ctx.lineTo(hx + dir * r * 0.15, hy - r * 0.35)
   ctx.closePath()
+  ctx.fill()
