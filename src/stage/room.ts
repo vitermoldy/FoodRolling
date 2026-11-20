@@ -777,3 +777,4 @@ export function paintRoom(ctx: Ctx, layout: Layout, def: RestaurantDef) {
   const { width: W, height: H } = layout
   const theme = def.theme
   const u = layout.d * 0.85
+  const wallBottom = Math.max(u * 1.2, layout.floorY)
