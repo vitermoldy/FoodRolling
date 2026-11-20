@@ -119,3 +119,4 @@ function Meter({ label, value, max, slow }: { label: string; value: number; max:
       </span>
       <span className="num w-[9.5rem] text-right text-xs text-olive">
         {formatDecimal(value, 2)} piring/detik{slow ? <span className="sr-only">, ini yang menahan</span> : null}
+      </span>
