@@ -306,3 +306,4 @@ function sate(rng: Rng) {
 function nasgor(rng: Rng) {
   return shadow(circle(48, 52, 27, '#000')) +
     path(blob(rng, 48, 52, 27, 0.12, 14), '#c0803f') +
+    grains(rng, 70, 48, 52, 24, ['#d9a061', '#a96a31', '#e2b47a', '#8f5526'], 1.25) +
