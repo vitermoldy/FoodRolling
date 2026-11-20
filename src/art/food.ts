@@ -186,3 +186,4 @@ function bruschetta(rng: Rng) {
       scatter(rng, 8, 0, 0, 9, [0.5, 1], ['#c98e48']) + top +
       ellipse(-4, -9, 4, 2, 'rgba(255,240,180,0.35)'))
   }
+  return out
