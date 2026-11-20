@@ -102,3 +102,4 @@ export class Layout {
 
   at(p: number, q: number): ScreenPoint {
     const w = this.world(p, q)
+    return this.project(w.x, w.z)
