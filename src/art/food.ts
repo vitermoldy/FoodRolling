@@ -322,3 +322,4 @@ function gado(rng: Rng) {
   for (let i = 0; i < 6; i++) {
     const x = 30 + rng() * 40
     const y = 30 + rng() * 40
+    const a = rng() * 180
