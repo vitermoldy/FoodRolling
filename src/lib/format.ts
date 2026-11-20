@@ -38,3 +38,4 @@ export function formatDecimal(value: number, digits = 1): string {
   return number(value, digits)
 }
 
+export function formatDuration(seconds: number): string {
