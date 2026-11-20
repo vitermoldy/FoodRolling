@@ -380,3 +380,4 @@ function india(ctx: Ctx, w: Wall) {
     }
     ctx.fillStyle = theme.accent
     arch(-u * 0.14)
+    ctx.fill()
