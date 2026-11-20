@@ -83,3 +83,4 @@ export function PauseIcon(props: IconProps) {
 export function PlayIcon(props: IconProps) {
   return (
     <Svg {...props}>
+      <path d="M7 4.8v14.4a1 1 0 0 0 1.5.9l11.4-7.2a1 1 0 0 0 0-1.7L8.5 3.9A1 1 0 0 0 7 4.8Z" fill="currentColor" />
