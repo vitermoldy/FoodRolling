@@ -116,3 +116,4 @@ function Meter({ label, value, max, slow }: { label: string; value: number; max:
       <span className="text-sm font-medium text-olive">{label}</span>
       <span className="h-2.5 overflow-hidden rounded-full bg-stone" aria-hidden="true">
         <span className="block h-full rounded-full" style={{ width: `${Math.max(4, (value / Math.max(1e-9, max)) * 100)}%`, background: slow ? 'var(--accent)' : 'var(--color-olive)' }} />
+      </span>
