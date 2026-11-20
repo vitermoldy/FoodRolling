@@ -100,3 +100,4 @@ function Summary({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
       <div className="mt-4 flex flex-col gap-2.5">
         <Meter label="Dapur" value={p} max={top} slow={slow === 'chefs'} />
         <Meter label="Kursi" value={c} max={top} slow={slow === 'seats'} />
+      </div>
