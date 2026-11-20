@@ -238,3 +238,4 @@ export class StageRenderer {
     for (const item of items) item.draw()
 
     this.drawFlights()
+    this.drawBubbles(sim)
