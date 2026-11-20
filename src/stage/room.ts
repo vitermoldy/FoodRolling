@@ -139,3 +139,4 @@ function italia(ctx: Ctx, w: Wall) {
     ctx.roundRect(x - u * 0.12, y - u * 0.12, ww + u * 0.24, wh + u * 0.24, [ww / 2 + u * 0.12, ww / 2 + u * 0.12, u * 0.05, u * 0.05])
     ctx.fill()
     const sky = ctx.createLinearGradient(0, y, 0, y + wh)
+    sky.addColorStop(0, '#a9d6ec')
