@@ -193,3 +193,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     if (!sim) return
     if (d.moved) {
       sim.holding = false
+      // Letting go after holding still drops most of the flick.
