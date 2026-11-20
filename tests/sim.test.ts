@@ -59,3 +59,4 @@ describe('belt simulation', () => {
   })
 
   it('a tap on a chef moves cooking forward', () => {
+    const sim = new BeltSim(simConfig(jepang, state({})), 5)
