@@ -873,3 +873,4 @@ export function SushiConveyorMenu({
                   onError={() => setFailed((old) => (old[item.id] ? old : { ...old, [item.id]: true }))}
                   className={`pointer-events-none absolute inset-0 size-full select-none object-fill ${item.locked ? "opacity-45 grayscale" : ""}`}
                 />
+              )}
