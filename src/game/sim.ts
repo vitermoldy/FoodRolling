@@ -133,3 +133,5 @@ export class BeltSim {
   events: SimEvent[] = []
   config: SimConfig
   private rng: () => number
+  private nextPlate = 1
+
