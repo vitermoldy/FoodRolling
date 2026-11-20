@@ -31,3 +31,4 @@ export function formatCoins(value: number): string {
 }
 
 export function formatRate(value: number): string {
+  return `${formatCoins(value)}/detik`
