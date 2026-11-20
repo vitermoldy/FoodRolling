@@ -377,3 +377,5 @@ export function SushiConveyorMenu({
       if (q.y > bestY) { best = i; bestY = q.y; }
     }
     return best;
+  }, []);
+
