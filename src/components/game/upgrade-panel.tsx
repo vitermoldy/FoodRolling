@@ -245,3 +245,4 @@ function NextRestaurant() {
           {affordable ? 'Buka sekarang' : `Kurang ${formatCoins(def.unlockCost - money)}`}
         </button>
         {current !== next && (
+          <button type="button" className="btn btn-quiet" onClick={() => select(next)}>
