@@ -175,3 +175,4 @@ function halfSpan(g: Geo) {
     const plate = project(g, p.x, p.z);
     span = Math.max(span, Math.abs(rim.x - g.cx) + 3, Math.abs(plate.x - g.cx) + (plate.k * g.d * (1 + LIFT_SCALE)) / 2);
   }
+  return span;
