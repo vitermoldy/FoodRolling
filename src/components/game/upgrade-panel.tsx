@@ -172,3 +172,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
               <span className="mt-0.5 grid size-10 shrink-0 place-items-center rounded-[10px] bg-stone text-olive">
                 <Icon width={24} height={24} />
               </span>
+              <div className="min-w-0 flex-1">
