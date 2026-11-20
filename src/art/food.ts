@@ -25,3 +25,4 @@ function g(transform: string, inner: string) {
   return `<g transform="${transform}">${inner}</g>`
 }
 /** A soft shadow under the food, offset towards the bottom right. */
+function shadow(inner: string, dx = 1.6, dy = 2.4) {
