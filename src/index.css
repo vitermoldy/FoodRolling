@@ -107,3 +107,4 @@
     transform: translateY(-1px);
   }
   .btn-primary:active:not(:disabled) {
+    transform: translateY(1px);
