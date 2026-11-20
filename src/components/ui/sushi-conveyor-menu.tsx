@@ -334,3 +334,4 @@ export function SushiConveyorMenu({
     if (shadow) {
       shadow.style.transform = `translate3d(0,${(g.d * TILT * 0.05 * e).toFixed(2)}px,0) scale(${(1 + 0.14 * e).toFixed(3)})`;
       shadow.style.opacity = (1 - 0.5 * clamp(e, 0, 1)).toFixed(3);
+    }
