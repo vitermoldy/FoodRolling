@@ -49,3 +49,5 @@ export function ChefIcon(props: IconProps) {
       <rect x="6" y="16.6" width="12" height="4.4" rx="1.2" fill="currentColor" />
     </Svg>
   )
+}
+
