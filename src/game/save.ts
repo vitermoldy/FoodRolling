@@ -29,3 +29,4 @@ export function parseSave(text: string | null, now: number): SaveData | null {
   if (!text) return null
   let raw: unknown
   try {
+    raw = JSON.parse(text)
