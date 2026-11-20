@@ -471,3 +471,4 @@ export function SushiConveyorMenu({
     s.target = base + Math.round((s.offset - base) / g.l) * g.l;
     if (live.current.reduced) { s.offset = s.target; s.v = 0; s.mode = RUN; paintAll(); return; }
     s.mode = SEEK;
+    kick();
