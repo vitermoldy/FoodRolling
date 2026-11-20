@@ -403,3 +403,4 @@ function india(ctx: Ctx, w: Wall) {
   const loops = Math.max(3, Math.round(W / (u * 2.6)))
   for (let i = 0; i < loops; i++) {
     const x0 = (W / loops) * i
+    const x1 = (W / loops) * (i + 1)
