@@ -459,3 +459,4 @@ function enchiladas(rng: Rng) {
 
 /* ---------------------------------- India ---------------------------------- */
 
+function samosa(rng: Rng) {
