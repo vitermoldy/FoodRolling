@@ -86,3 +86,4 @@ sungguhan. Semua angka (harga, waktu masak, pendapatan) adalah aturan permainan 
 - Skip link ke panel, tab restoran dan tab panel dengan tombol panah, dialog asli `<dialog>` yang
   tertutup dengan Escape.
 - Kanvas punya label yang diperbarui tiap detik (berapa chef memasak, kursi terisi, pelanggan menunggu,
+  piring di sabuk). Menyeret sabuk dan mengetuk chef punya pengganti keyboard: tombol "Bantu chef".
