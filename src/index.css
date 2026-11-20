@@ -67,3 +67,4 @@
     cursor: pointer;
   }
   button:disabled,
+  [aria-disabled='true'] {
