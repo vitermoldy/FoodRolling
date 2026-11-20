@@ -154,3 +154,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     },
   },
   {
+    id: 'india',
