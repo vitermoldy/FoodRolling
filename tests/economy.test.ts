@@ -81,3 +81,4 @@ describe('upgrades', () => {
 
   it('the income upgrade brings dishes onto the menu at set levels', () => {
     const st = newRestaurantState(true)
+    expect(unlockedDishIndexes(jepang, st)).toEqual([0, 1])
