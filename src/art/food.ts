@@ -437,3 +437,4 @@ function quesadilla(rng: Rng) {
 
 function burrito(rng: Rng) {
   return shadow(rect(14, 37, 68, 28, 14, '#000')) +
+    g('rotate(-22 50 50)',
