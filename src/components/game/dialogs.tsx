@@ -62,3 +62,4 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
         <button type="button" className="btn btn-primary" onClick={saveNow}>Simpan sekarang</button>
         <p className="text-sm" role="status">
           {saveError ? 'Browser menolak penyimpanan. Progres hilang saat tab ditutup.' : savedAt ? `Tersimpan pukul ${savedAt}.` : ''}
+        </p>
