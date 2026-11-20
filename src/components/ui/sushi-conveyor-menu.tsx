@@ -282,3 +282,4 @@ export function SushiConveyorMenu({
   const active = requested !== null && requested >= 0 && requested < count ? requested : null;
   const paused = pausedProp ?? innerPaused;
   const wide = size.section >= WIDE;
+  const narrow = size.section > 0 && size.section < 480;
