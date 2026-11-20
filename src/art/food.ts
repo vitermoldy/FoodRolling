@@ -565,3 +565,5 @@ function crepe(rng: Rng) {
   }
   out += path(blob(rng, 34, 56, 6, 0.4), '#fffaf0', 'stroke="#efe6d6" stroke-width="0.6"')
   return out + scatter(rng, 30, 46, 48, 22, [0.3, 0.6], ['#ffffff'])
+}
+
