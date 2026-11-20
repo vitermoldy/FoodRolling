@@ -591,3 +591,4 @@ function brulee(rng: Rng) {
     flute += circle(50 + Math.cos(a) * 30, 50 + Math.sin(a) * 30, 3.2, '#f6f5f1')
   }
   return shadow(circle(50, 50, 32, '#000')) + flute + circle(50, 50, 30.5, '#fbfbf8', 'stroke="#e6e2d8" stroke-width="1"') +
+    `<defs><radialGradient id="caramel" cx="0.45" cy="0.4" r="0.7"><stop offset="0" stop-color="#e9b65c"/><stop offset="1" stop-color="#b8731f"/></radialGradient></defs>` +
