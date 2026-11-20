@@ -108,3 +108,4 @@ function jepang(ctx: Ctx, w: Wall) {
     ctx.ellipse(x, cy, u * 0.34, u * 0.44, 0, 0, Math.PI * 2)
     ctx.fill()
     ctx.strokeStyle = 'rgba(80,20,10,0.35)'
+    ctx.lineWidth = Math.max(1, u * 0.025)
