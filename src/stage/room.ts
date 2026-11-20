@@ -121,3 +121,4 @@ function italia(ctx: Ctx, w: Wall) {
   // Brick wall.
   const bh = u * 0.32
   const bw = u * 0.78
+  ctx.fillStyle = '#e8d6c2'
