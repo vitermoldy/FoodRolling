@@ -420,3 +420,4 @@ export function SushiConveyorMenu({
         s.lift[i] = x + v * h;
         s.vlift[i] = v;
       }
+    }
