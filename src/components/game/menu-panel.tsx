@@ -62,3 +62,4 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
           disabled={!owned}
         >
           {owned ? 'Lihat upgrade Pendapatan' : 'Restoran belum dibuka'}
+        </button>
