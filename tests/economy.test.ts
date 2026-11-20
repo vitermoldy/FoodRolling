@@ -54,3 +54,4 @@ describe('upgrades', () => {
   })
 
   it('buying x10 costs the sum of ten single steps', () => {
+    const st = newRestaurantState(true)
