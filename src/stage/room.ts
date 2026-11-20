@@ -335,3 +335,4 @@ function meksiko(ctx: Ctx, w: Wall) {
       }
     })
   }
+  // Potted cacti at both sides.
