@@ -282,3 +282,4 @@ export class BeltSim {
             seat.timer = C.respawnMin + this.rng() * (C.respawnMax - C.respawnMin)
             seat.stack = []
           }
+          break
