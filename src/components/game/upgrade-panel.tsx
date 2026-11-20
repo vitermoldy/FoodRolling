@@ -209,3 +209,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
   )
 }
 
+function NextRestaurant() {
