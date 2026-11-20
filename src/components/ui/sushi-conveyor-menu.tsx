@@ -675,3 +675,4 @@ export function SushiConveyorMenu({
     if (event.pointerType !== "mouse" || live.current.open) return;
     if (s.lock) {
       if (Math.hypot(at.x - s.lockX, at.y - s.lockY) < 4) return;
+      s.lock = false;
