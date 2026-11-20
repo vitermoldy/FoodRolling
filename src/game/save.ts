@@ -14,3 +14,4 @@ export interface SaveData {
   savedAt: number
 }
 
+export function newSave(now: number): SaveData {
