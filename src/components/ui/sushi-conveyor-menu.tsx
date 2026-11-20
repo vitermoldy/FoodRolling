@@ -225,3 +225,4 @@ function legendEntries(items: ConveyorDish[], legend: { [tier: number]: string }
 }
 
 function pad(value: number) {
+  return String(value).padStart(2, "0");
