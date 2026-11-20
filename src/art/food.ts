@@ -468,3 +468,4 @@ function samosa(rng: Rng) {
       scatter(rng, 9, 0, 2, 9, [0.8, 1.6], ['#ebbd6a', '#c98a35']) +
       `<path d="M-12 11 L12 11" stroke="#b17426" stroke-width="1.6" stroke-dasharray="1.5 1.8"/>`)
   }
+  out += shadow(circle(74, 30, 9.5, '#000')) + circle(74, 30, 9.5, '#f3efe6', 'stroke="#d8d1c2" stroke-width="1"') + circle(74, 30, 7.4, '#5aa548') + scatter(rng, 4, 74, 30, 5, [0.5, 0.8], ['#8fd07a'])
