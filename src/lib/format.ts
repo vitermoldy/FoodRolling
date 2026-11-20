@@ -39,3 +39,4 @@ export function formatDecimal(value: number, digits = 1): string {
 }
 
 export function formatDuration(seconds: number): string {
+  const s = Math.max(0, Math.round(seconds))
