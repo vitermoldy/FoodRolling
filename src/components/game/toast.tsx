@@ -11,3 +11,5 @@ export function Toast() {
     if (!notice) return
     const timer = window.setTimeout(dismiss, 7000)
     return () => window.clearTimeout(timer)
+  }, [notice, dismiss])
+
