@@ -58,3 +58,4 @@ export interface SushiConveyorMenuProps extends React.ComponentProps<"section"> 
   /** Price label per tier for the legend. Derived from the items when omitted. */
   legend?: { [tier: number]: string };
   labels?: SushiConveyorMenuLabels;
+  /** Replaces the dialog's add button; `close` runs the dialog's closing animation. */
