@@ -162,3 +162,4 @@ export class StageRenderer {
   nearestBelt(x: number, y: number): { u: number; dist: number } {
     let best = 0
     let bestD = Infinity
+    const steps = 180
