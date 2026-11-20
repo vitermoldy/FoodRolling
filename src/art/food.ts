@@ -45,3 +45,4 @@ function grains(rng: Rng, count: number, cx: number, cy: number, radius: number,
   let out = ''
   for (let i = 0; i < count; i++) {
     const a = rng() * Math.PI * 2
+    const d = Math.sqrt(rng()) * radius
