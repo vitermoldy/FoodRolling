@@ -299,3 +299,4 @@ function sate(rng: Rng) {
     }
     out += shadow(line(16 + ox, 76 + oy, 82 + ox, 22 + oy, '#000', 6))
     out += line(16 + ox, 76 + oy, 82 + ox, 22 + oy, '#d7b27a', 1.8) + meat
+  }
