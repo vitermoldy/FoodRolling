@@ -256,3 +256,4 @@ export class BeltSim {
           break
         }
         case 'eating':
+          seat.timer -= h
