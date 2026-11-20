@@ -463,3 +463,4 @@ export function SushiConveyorMenu({
     }
   }, [setActive]);
 
+  const seekTo = React.useCallback((index: number) => {
