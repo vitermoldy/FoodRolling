@@ -77,3 +77,4 @@ export class StageRenderer {
     this.roomKey = ''
   }
 
+  setRestaurant(def: RestaurantDef, sim: BeltSim | null) {
