@@ -184,3 +184,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     name: 'Bistro Lumière',
     country: 'Prancis',
     blurb: 'Bistro Paris dengan lantai mosaik hitam putih, cermin berbingkai emas, dan papan menu kapur.',
+    scale: 520_000,
