@@ -43,3 +43,5 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
     const out: { [tier: number]: string } = {}
     for (let tier = 1; tier <= 5; tier++) out[tier] = formatCoins(tierPrice(def, tier, income))
     return out
+  }, [def, income])
+
