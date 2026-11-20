@@ -23,3 +23,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
   const state = useGame((s) => s.restaurants[s.current])
   const paused = useGame((s) => s.paused)
   const earn = useGame((s) => s.earn)
+  const markLive = useGame((s) => s.markLive)
