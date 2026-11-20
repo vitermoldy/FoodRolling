@@ -250,3 +250,4 @@ export function SushiConveyorMenu({
   ref,
   ...rest
 }: SushiConveyorMenuProps) {
+  const uid = React.useId().replace(/[^a-zA-Z0-9_-]/g, "");
