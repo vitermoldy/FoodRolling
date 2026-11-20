@@ -40,3 +40,4 @@ function swag(x0: number, x1: number, y: number, sag: number, n: number) {
   const pts: { x: number; y: number }[] = []
   for (let i = 0; i <= n; i++) {
     const t = i / n
+    pts.push({ x: x0 + (x1 - x0) * t, y: y + Math.sin(t * Math.PI) * sag })
