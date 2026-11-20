@@ -315,3 +315,4 @@ function meksiko(ctx: Ctx, w: Wall) {
       if (i === pts.length - 1) return
       const fw = u * 0.5
       const fh = u * 0.62
+      ctx.fillStyle = colors[(i + row * 2) % colors.length]
