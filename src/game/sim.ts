@@ -93,3 +93,4 @@ export interface Seat {
 
 export type SimEvent =
   | { type: 'drop'; chef: number; slot: number; plateId: number }
+  | { type: 'grab'; seat: number; slot: number; plateId: number }
