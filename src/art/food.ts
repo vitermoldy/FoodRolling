@@ -623,3 +623,4 @@ const DRAW: Record<string, (rng: Rng) => string> = {
   cendol, sate, nasgor, gado, ayampop, rendang,
   churros, nachos, taco, quesadilla, burrito, enchiladas,
   samosa, naan, dal, biryani, butterchicken, thali,
+  macaron, croissant, crepe, quiche, brulee, ratatouille,
