@@ -580,3 +580,4 @@ function quiche(rng: Rng) {
   return shadow(path(shape, '#000')) + path(shape, '#d4a058', 'stroke="#b07f3c" stroke-width="1.2"') +
     `<path d="M${f(p0[0])} ${f(p0[1])}A${r} ${r} 0 0 1 ${f(p1[0])} ${f(p1[1])}" fill="none" stroke="#e8bd76" stroke-width="3" stroke-dasharray="3 2.2"/>` +
     path(inner, '#f0cd70') +
+    scatter(rng, 12, 50, 46, 12, [1, 2.2], ['#4d7f2f', '#3e6d26']) +
