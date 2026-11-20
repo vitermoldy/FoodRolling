@@ -134,3 +134,4 @@ function AmountPicker() {
   ]
   return (
     <div role="group" aria-label="Jumlah beli" className="flex gap-1 rounded-[12px] bg-stone p-1">
+      {options.map((o) => (
