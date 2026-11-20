@@ -168,3 +168,4 @@ function italia(ctx: Ctx, w: Wall) {
       ctx.ellipse(lx, ly, u * 0.16, u * 0.09, a, 0, Math.PI * 2)
       ctx.fill()
     }
+  }
