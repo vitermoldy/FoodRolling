@@ -530,3 +530,4 @@ export function SushiConveyorMenu({
     const update = () => setReduced(media.matches);
     update();
     media.addEventListener("change", update);
+    return () => media.removeEventListener("change", update);
