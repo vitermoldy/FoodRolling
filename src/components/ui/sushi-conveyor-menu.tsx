@@ -221,3 +221,4 @@ function legendEntries(items: ConveyorDish[], legend: { [tier: number]: string }
     const label = legend ? legend[tier] : items.find((item) => (item.tier ?? 1) === tier)?.price;
     if (label) out.push({ tier, label });
   }
+  return out;
