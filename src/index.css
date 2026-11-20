@@ -22,3 +22,4 @@
   --color-danger: #9b2c1c;
 
   /* Tokens the shadcn component in src/components/ui expects. */
+  --color-background: var(--color-paper);
