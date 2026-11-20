@@ -495,3 +495,4 @@ function dal(rng: Rng) {
 function biryani(rng: Rng) {
   return shadow(circle(50, 52, 29, '#000')) +
     path(blob(rng, 50, 52, 29, 0.12, 14), '#f6e9c6') +
+    grains(rng, 90, 50, 52, 26, ['#fbf3dc', '#f2c24f', '#e8892e', '#fffaf0', '#f7e2a8'], 1.15) +
