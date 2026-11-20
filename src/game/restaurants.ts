@@ -148,3 +148,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     theme: {
       accent: '#1f5fa8',
       wall: '#e7a26a', wallLow: '#cf8550', floor: '#b5653d', floorAlt: '#a45832',
+      counter: '#f2e6cf', counterEdge: '#c9b48d', island: '#2f6fb3', islandEdge: '#204f85',
