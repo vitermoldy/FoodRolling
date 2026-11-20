@@ -908,3 +908,4 @@ export function SushiConveyorMenu({
           <div className="flex flex-col items-start gap-6">
             {header}
             {captionNode}
+            {action}
