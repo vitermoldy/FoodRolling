@@ -199,3 +199,4 @@ function face(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facing: F
   if (look.glasses) {
     ctx.strokeStyle = '#2a2a2a'
     ctx.lineWidth = r * 0.07
+    ctx.beginPath()
