@@ -29,3 +29,4 @@ function Modal({ open, onClose, labelledBy, children }: { open: boolean; onClose
 export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () => void }) {
   const save = useGame((s) => s.save)
   const reset = useGame((s) => s.reset)
+  const saveError = useGame((s) => s.saveError)
