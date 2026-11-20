@@ -717,3 +717,4 @@ export function SushiConveyorMenu({
     event.preventDefault();
     const own = (event.target as HTMLElement).closest("[data-dish]")?.getAttribute("data-dish");
     const from = own != null ? Number(own) : (active ?? center);
+    go(event.key === "Home" ? 0 : event.key === "End" ? count - 1 : from + (event.key === "ArrowRight" ? 1 : -1), true);
