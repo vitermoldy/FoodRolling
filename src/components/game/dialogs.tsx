@@ -8,3 +8,4 @@ import { CloseIcon } from './icons'
 function Modal({ open, onClose, labelledBy, children }: { open: boolean; onClose: () => void; labelledBy: string; children: React.ReactNode }) {
   const ref = React.useRef<HTMLDialogElement>(null)
   React.useEffect(() => {
+    const dialog = ref.current
