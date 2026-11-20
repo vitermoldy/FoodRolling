@@ -74,3 +74,4 @@ describe('belt simulation', () => {
       coins += sim.step(0.05)
     }
     expect(coins).toBeGreaterThan(0)
+  })
