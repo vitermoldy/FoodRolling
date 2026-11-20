@@ -3,3 +3,4 @@
 // `npm run balance` plays the game with a greedy bot and prints when each restaurant opens.
 
 export const BALANCE = {
+  chefs: { start: 1, max: 6 },
