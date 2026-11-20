@@ -172,3 +172,4 @@ export class Layout {
     const take = (pt: ScreenPoint, up = 0, half = 0, down = 0) => {
       minX = Math.min(minX, pt.x - half * pt.k)
       maxX = Math.max(maxX, pt.x + half * pt.k)
+      minY = Math.min(minY, pt.y - up * pt.k)
