@@ -247,3 +247,4 @@ export class BeltSim {
           const plate = this.slots[slot]
           if (plate) {
             this.slots[slot] = null
+            seat.state = 'eating'
