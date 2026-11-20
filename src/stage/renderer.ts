@@ -126,3 +126,4 @@ export class StageRenderer {
           to: () => spot,
           start: now,
           duration: this.reduced ? 0.01 : 0.32,
+        })
