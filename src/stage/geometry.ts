@@ -9,3 +9,4 @@ export const TILT = 0.8
 /** Width of the counter ring outside the belt, where customers put their plates. */
 export const COUNTER = 0.8
 /** Distance from the belt centre line to a seated customer. */
+export const SEAT_OUT = BAND / 2 + COUNTER + 0.24
