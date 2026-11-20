@@ -358,3 +358,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
       roundRect(ctx, -0.24, shoulder + 0.38, 0.48, waist - shoulder - 0.3, 0.06)
       ctx.fill()
       dot(ctx, -0.1, shoulder + 0.16, 0.025, chef.trim)
+      dot(ctx, 0.1, shoulder + 0.16, 0.025, chef.trim)
