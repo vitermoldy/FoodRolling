@@ -105,3 +105,4 @@ export class StageRenderer {
       if (e.type === 'drop') {
         const plate = sim.slots[e.slot]
         if (!plate) continue
+        this.flights.push({
