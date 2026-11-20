@@ -16,3 +16,4 @@ export interface RestaurantState {
   earned: number
 }
 
+export function newRestaurantState(owned: boolean): RestaurantState {
