@@ -240,3 +240,4 @@ export function SushiConveyorMenu({
   autoplay = false,
   interval = 3000,
   active: activeProp,
+  onActiveChange,
