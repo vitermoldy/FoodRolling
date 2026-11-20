@@ -309,3 +309,4 @@ export function SushiConveyorMenu({
 
   const setSectionRef = React.useCallback((node: HTMLElement | null) => {
     sectionRef.current = node;
+    if (typeof ref === "function") ref(node);
