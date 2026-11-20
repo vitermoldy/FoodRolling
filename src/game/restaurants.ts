@@ -205,3 +205,5 @@ export const RESTAURANTS: RestaurantDef[] = [
       chef: { hat: 'tall', coat: '#ffffff', apron: '#1e3a5f', trim: '#c9a227' },
     },
   },
+]
+
