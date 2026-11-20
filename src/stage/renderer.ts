@@ -141,3 +141,4 @@ export class StageRenderer {
     }
   }
 
+  /** Chef index under a point (CSS pixels), or -1. */
