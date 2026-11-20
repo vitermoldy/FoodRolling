@@ -81,3 +81,4 @@ export class Layout {
   constructor(width: number, height: number) {
     this.width = width
     this.height = height
+    this.orientation = width / Math.max(1, height) >= 1.05 ? 'landscape' : 'portrait'
