@@ -57,3 +57,4 @@ export interface SushiConveyorMenuProps extends React.ComponentProps<"section"> 
   onAdd?: (item: ConveyorDish) => void;
   /** Price label per tier for the legend. Derived from the items when omitted. */
   legend?: { [tier: number]: string };
+  labels?: SushiConveyorMenuLabels;
