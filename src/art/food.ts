@@ -356,3 +356,4 @@ function rendang(rng: Rng) {
     out += path(blob(rng, x, y, r, 0.45, 7), '#5a2b13', 'stroke="#3a1a09" stroke-width="0.9"')
     out += path(blob(rng, x - 2, y - 2.5, r * 0.45, 0.5, 6), '#7b4421')
   }
+  out += scatter(rng, 40, 50, 51, 25, [0.5, 1.2], ['#8d552a', '#a86a35', '#4a220d'])
