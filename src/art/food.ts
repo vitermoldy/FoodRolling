@@ -268,3 +268,4 @@ function cendol(rng: Rng) {
     const d = Math.sqrt(rng()) * 19
     const x = 50 + Math.cos(a) * d
     const y = 50 + Math.sin(a) * d
+    const t = rng() * Math.PI
