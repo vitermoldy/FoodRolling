@@ -132,3 +132,4 @@ export class BeltSim {
   seats: Seat[] = []
   events: SimEvent[] = []
   config: SimConfig
+  private rng: () => number
