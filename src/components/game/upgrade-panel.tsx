@@ -194,3 +194,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
                 id={kind === 'income' ? 'upgrade-income' : undefined}
                 type="button"
                 className="btn btn-primary min-w-[9.5rem] justify-between px-3"
+                disabled={!affordable}
