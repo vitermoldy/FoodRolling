@@ -318,3 +318,4 @@ function nasgor(rng: Rng) {
 
 function gado(rng: Rng) {
   let out = shadow(circle(50, 50, 31, '#000')) + path(blob(rng, 50, 50, 31, 0.14, 13), '#cfe3a5')
+  out += scatter(rng, 7, 50, 50, 22, [5, 8], ['#bcd98d', '#d9ebb7'])
