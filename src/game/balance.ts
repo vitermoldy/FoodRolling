@@ -29,3 +29,4 @@ export const BALANCE = {
     /** Plates one customer eats before paying. */
     wantMin: 1,
     wantMax: 3,
+  },
