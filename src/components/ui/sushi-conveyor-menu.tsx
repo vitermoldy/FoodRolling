@@ -758,3 +758,4 @@ export function SushiConveyorMenu({
         {current ? <>{current.name} <span className="ml-2 font-normal tabular-nums text-muted-foreground">{current.price}</span></> : caption}
       </p>
       {current?.description && <p className="mt-0.5 text-[13px] leading-snug text-muted-foreground">{current.description}</p>}
+    </div>
