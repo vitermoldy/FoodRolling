@@ -670,3 +670,4 @@ export function SushiConveyorMenu({
         s.v = live.current.reduced ? 0 : -p.lane * p.v * 1000 * scale;
         kick();
       }
+      return;
