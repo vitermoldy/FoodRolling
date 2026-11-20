@@ -33,3 +33,4 @@ export default function App() {
     document.addEventListener('visibilitychange', onVisibility)
     return () => {
       window.clearInterval(ticker)
+      window.clearInterval(saver)
