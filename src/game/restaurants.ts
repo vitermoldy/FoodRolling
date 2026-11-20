@@ -114,3 +114,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     dishes: [
       { id: 'cendol', name: 'Es cendol', tier: 1, description: 'Cendol hijau pandan dengan santan dan gula aren cair.', details: ['1 gelas', 'Santan'] },
       { id: 'sate', name: 'Sate ayam', tier: 2, description: 'Tusuk ayam bakar arang dengan saus kacang dan kecap manis.', details: ['5 tusuk', 'Kacang'] },
+      { id: 'nasgor', name: 'Nasi goreng', tier: 2, description: 'Nasi goreng kecap dengan telur mata sapi, acar, dan kerupuk.', details: ['1 piring', 'Telur'] },
