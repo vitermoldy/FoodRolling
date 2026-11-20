@@ -476,3 +476,4 @@ export function SushiConveyorMenu({
 
   const focusVisible = () => !!stageRef.current?.querySelector("[data-dish]:focus-visible");
 
+  hoverRef.current = (hit: number | null) => {
