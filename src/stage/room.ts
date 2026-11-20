@@ -314,3 +314,4 @@ function meksiko(ctx: Ctx, w: Wall) {
     pts.forEach((p, i) => {
       if (i === pts.length - 1) return
       const fw = u * 0.5
+      const fh = u * 0.62
