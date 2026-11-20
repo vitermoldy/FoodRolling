@@ -702,3 +702,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
           ctx.ellipse(x, y + s * 0.1, s * 0.22, s * 0.2, 0, Math.PI, 0)
           ctx.fill()
           ell(ctx, x, y + s * 0.06, s * 0.13, s * 0.05, '#f5a33a')
+        } else {
