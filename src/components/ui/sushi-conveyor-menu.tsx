@@ -932,3 +932,4 @@ export function SushiConveyorMenu({
           total={count}
           labels={labels}
           reduced={reduced}
+          broken={!!failed[items[openIndex].id]}
