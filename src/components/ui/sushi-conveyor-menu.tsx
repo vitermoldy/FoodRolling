@@ -262,3 +262,4 @@ export function SushiConveyorMenu({
   const shades = React.useRef([] as (HTMLSpanElement | null)[]);
   const shadows = React.useRef([] as (HTMLSpanElement | null)[]);
   const anchors = React.useRef([] as (HTMLSpanElement | null)[]);
+  const sim = React.useRef(makeSim());
