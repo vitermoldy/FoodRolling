@@ -649,3 +649,4 @@ function tub(ctx: Ctx, x: number, y: number, rx: number, h: number, side: string
   ctx.closePath()
   ctx.fill()
   ell(ctx, x, y, rx, ry, top)
+  if (inner) ell(ctx, x, y, rx * 0.82, ry * 0.82, inner)
