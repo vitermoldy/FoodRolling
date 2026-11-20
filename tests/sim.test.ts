@@ -90,3 +90,4 @@ describe('the income formula matches the running belt', () => {
       const st = state(patch)
       const got = measure(st)
       const want = platesPerSecond(jepang, st)
+      expect(got.plates / want).toBeGreaterThan(0.9)
