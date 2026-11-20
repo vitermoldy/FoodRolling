@@ -47,3 +47,4 @@ export default function App() {
   const showIncome = () => {
     setTab('upgrade')
     window.setTimeout(() => {
+      const button = document.getElementById('upgrade-income')
