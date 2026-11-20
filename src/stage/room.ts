@@ -615,3 +615,4 @@ function counterAndBelt(ctx: Ctx, layout: Layout, id: RestaurantId, theme: Theme
   ctx.stroke()
 
   // Rails.
+  for (const [pts, width] of [[beltOut, 0.05], [beltIn, 0.04]] as [ScreenPoint[], number][]) {
