@@ -160,3 +160,4 @@ function italia(ctx: Ctx, w: Wall) {
     ctx.stroke()
     // Vine over the arch.
     for (let i = 0; i < 9; i++) {
+      const a = Math.PI + (i / 8) * Math.PI
