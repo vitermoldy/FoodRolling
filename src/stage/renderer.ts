@@ -62,3 +62,4 @@ export class StageRenderer {
   constructor(canvas: HTMLCanvasElement, def: RestaurantDef) {
     this.canvas = canvas
     const ctx = canvas.getContext('2d')
+    if (!ctx) throw new Error('Canvas 2D is not available')
