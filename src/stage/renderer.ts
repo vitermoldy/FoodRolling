@@ -290,3 +290,4 @@ export class StageRenderer {
         const m = L.belt(u + pitch * 0.2, 0)
         ctx.moveTo(a.x, a.y + lift)
         ctx.quadraticCurveTo(2 * m.x - (a.x + b.x) / 2, 2 * m.y - (a.y + b.y) / 2 + lift, b.x, b.y + lift)
+      }
