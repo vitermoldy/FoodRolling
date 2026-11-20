@@ -86,3 +86,4 @@ export interface Seat {
   stack: number[]
   /** The plate being eaten (dish index), or -1. */
   dish: number
+  plateId: number
