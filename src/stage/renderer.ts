@@ -444,3 +444,4 @@ export class StageRenderer {
     ctx.beginPath()
     ctx.arc(rx, ry, r + ctx.lineWidth * 0.6, 0, Math.PI * 2)
     ctx.fill()
+    ctx.strokeStyle = 'rgba(40,30,20,0.18)'
