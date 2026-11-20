@@ -218,3 +218,4 @@ export class StageRenderer {
       let out = 0
       if (seat.state === 'empty') alpha = 0
       else if (seat.state === 'arriving') { const t = Math.max(0, seat.timer / 0.8); alpha = 1 - t; out = t }
+      else if (seat.state === 'leaving') { const t = Math.max(0, seat.timer / 0.8); alpha = t; out = 1 - t }
