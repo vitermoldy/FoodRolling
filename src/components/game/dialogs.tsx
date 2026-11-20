@@ -95,3 +95,4 @@ export function OfflineDialog() {
   const offline = useGame((s) => s.offline)
   const dismiss = useGame((s) => s.dismissOffline)
   return (
+    <Modal open={!!offline} onClose={dismiss} labelledBy="offline-title">
