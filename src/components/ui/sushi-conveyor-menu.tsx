@@ -754,3 +754,4 @@ export function SushiConveyorMenu({
 
   const captionNode = (
     <div id={`${uid}-caption`} aria-live="polite" data-caption className={wide ? "min-h-[3.25rem]" : `mx-auto mt-2 max-w-md px-2 text-center ${narrow ? "min-h-[3.75rem]" : "min-h-[2.75rem]"}`}>
+      <p className={`text-sm ${current ? "font-medium text-foreground" : "text-muted-foreground"}`}>
