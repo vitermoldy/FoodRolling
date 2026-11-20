@@ -47,3 +47,4 @@ export type GameState = SaveData & UiState & Actions
 function readStorage(): string | null {
   try {
     return localStorage.getItem(SAVE_KEY)
+  } catch {
