@@ -251,3 +251,4 @@ function NextRestaurant() {
         )}
       </div>
     </section>
+  )
