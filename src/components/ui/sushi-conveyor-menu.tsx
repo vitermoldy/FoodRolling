@@ -187,3 +187,5 @@ function edgePath(g: Geo, offset: number) {
     d += `${j ? "L" : "M"}${q.x.toFixed(1)} ${q.y.toFixed(1)}`;
   }
   return `${d}Z`;
+}
+
