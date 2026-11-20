@@ -32,3 +32,4 @@ export function maxOf(kind: UpgradeKind): number {
 }
 
 export function isMaxed(state: RestaurantState, kind: UpgradeKind): boolean {
+  return state[kind] >= maxOf(kind)
