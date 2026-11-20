@@ -80,3 +80,4 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
               </button>
             </div>
           </>
+        ) : (
