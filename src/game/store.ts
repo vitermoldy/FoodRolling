@@ -197,3 +197,4 @@ export const useGame = create<GameState>()((set, get) => ({
   save() {
     try {
       localStorage.setItem(SAVE_KEY, JSON.stringify(snapshot(get())))
+      if (get().saveError) set({ saveError: false })
