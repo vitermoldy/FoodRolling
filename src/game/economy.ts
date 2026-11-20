@@ -50,3 +50,4 @@ export type BuyAmount = 1 | 10 | 'max'
 /** How many steps of an upgrade the amount buys and what they cost together. */
 export function bulkCost(
   def: RestaurantDef,
+  state: RestaurantState,
