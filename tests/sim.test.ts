@@ -81,3 +81,4 @@ describe('the income formula matches the running belt', () => {
   const cases: [string, Partial<RestaurantState>][] = [
     ['start', {}],
     ['chef-bound', { chefs: 1, seats: 12 }],
+    ['seat-bound', { chefs: 6, seats: 4 }],
