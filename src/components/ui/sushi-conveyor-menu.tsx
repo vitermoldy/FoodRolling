@@ -205,3 +205,4 @@ function slatPath(g: Geo, offset: number, shift: number) {
   return d;
 }
 
+function pose(g: Geo, offset: number, i: number) {
