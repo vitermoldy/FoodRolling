@@ -515,3 +515,4 @@ export function SushiConveyorMenu({
     seekTo(next);
   };
 
+  const togglePause = () => {
