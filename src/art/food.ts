@@ -592,3 +592,4 @@ function brulee(rng: Rng) {
   }
   return shadow(circle(50, 50, 32, '#000')) + flute + circle(50, 50, 30.5, '#fbfbf8', 'stroke="#e6e2d8" stroke-width="1"') +
     `<defs><radialGradient id="caramel" cx="0.45" cy="0.4" r="0.7"><stop offset="0" stop-color="#e9b65c"/><stop offset="1" stop-color="#b8731f"/></radialGradient></defs>` +
+    circle(50, 50, 25.5, 'url(#caramel)') +
