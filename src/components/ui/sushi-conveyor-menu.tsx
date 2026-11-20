@@ -799,3 +799,4 @@ export function SushiConveyorMenu({
         if (pointer.current.id < 0 && !live.current.open && current !== null && current !== autoActive.current && !focusVisible()) setActive(null);
       }}
       onBlur={(event) => {
+        const next = event.relatedTarget as Node | null;
