@@ -652,3 +652,4 @@ function tub(ctx: Ctx, x: number, y: number, rx: number, h: number, side: string
   if (inner) ell(ctx, x, y, rx * 0.82, ry * 0.82, inner)
 }
 
+function plateStack(ctx: Ctx, x: number, y: number, s: number, colors: string[]) {
