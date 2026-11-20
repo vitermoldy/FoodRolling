@@ -216,3 +216,4 @@ function indonesia(ctx: Ctx, w: Wall) {
   const ry = bandH + u * 0.2
   const rh = Math.min(bottom * 0.42, u * 1.4)
   ctx.fillStyle = '#2b1d16'
+  ctx.beginPath()
