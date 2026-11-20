@@ -42,3 +42,4 @@ function scatter(rng: Rng, count: number, cx: number, cy: number, radius: number
 
 /** Short grains (rice) scattered inside a circle. */
 function grains(rng: Rng, count: number, cx: number, cy: number, radius: number, colors: string[], size = 1.3) {
+  let out = ''
