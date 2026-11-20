@@ -39,3 +39,4 @@ export interface PersonOptions {
   look: Look
   chef?: ChefStyle
   /** Seconds, drives the arm motion. */
+  time: number
