@@ -114,3 +114,5 @@ function clamp(value: number, min: number, max: number) {
 
 function tierStyle(tier: number | undefined) {
   return TIERS[clamp(Math.round(tier ?? 1), 1, 5) - 1] ?? TIERS[0];
+}
+
