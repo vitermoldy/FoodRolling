@@ -166,3 +166,4 @@ export const useGame = create<GameState>()((set, get) => ({
       patch.restaurants = restaurants
     }
     const money = patch.money ?? s.money
+    const next = nextLocked(s)
