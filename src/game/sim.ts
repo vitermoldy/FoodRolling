@@ -140,3 +140,4 @@ export class BeltSim {
     this.rng = makeRng(seed)
     this.velocity = config.beltSpeed
     this.configure(config)
+    // Open with a few customers already seated and chefs part-way through a dish.
