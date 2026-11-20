@@ -41,3 +41,4 @@ export interface PersonOptions {
   /** Seconds, drives the arm motion. */
   time: number
   action: 'idle' | 'eat' | 'cook' | 'wait'
+  /** Freeze arm motion (reduced motion). */
