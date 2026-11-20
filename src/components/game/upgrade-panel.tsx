@@ -43,3 +43,4 @@ function effectText(kind: UpgradeKind, def: RestaurantDef, st: RestaurantState):
   return `Pelanggan menghabiskan ${formatDecimal(capacity(def, st), 2)} piring per detik.`
 }
 
+/** Best coins-per-second gained per coin spent among the four upgrades, for the "Paling untung" tag. */
