@@ -35,3 +35,4 @@ function scatter(rng: Rng, count: number, cx: number, cy: number, radius: number
   for (let i = 0; i < count; i++) {
     const a = rng() * Math.PI * 2
     const d = Math.sqrt(rng()) * radius
+    out += circle(cx + Math.cos(a) * d, cy + Math.sin(a) * d, r[0] + rng() * (r[1] - r[0]), colors[Math.floor(rng() * colors.length)], extra)
