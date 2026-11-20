@@ -14,3 +14,4 @@ import { makeRng } from './rng.ts'
 // straight first (right to left), round the left curve, back along the rear straight and round the
 // right curve, the same parametrisation as the sushi conveyor component in Prompt.txt.
 export const STRAIGHT = BELT.straight
+export const RADIUS = BELT.radius
