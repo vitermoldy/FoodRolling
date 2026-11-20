@@ -8,3 +8,4 @@ const fmt = (n: number) => {
   const u = ['rb', 'jt', 'M', 'T', 'Kd', 'Kt']
   const e = Math.min(u.length, Math.floor(Math.log10(n) / 3))
   return (n / 10 ** (e * 3)).toFixed(2) + ' ' + u[e - 1]
+}
