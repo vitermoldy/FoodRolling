@@ -483,3 +483,4 @@ export function SushiConveyorMenu({
       if (hit !== null && autoActive.current === hit) { autoActive.current = null; setPlaying(false); }
       return;
     }
+    if (hit !== null) { stop(); setActive(hit); return; }
