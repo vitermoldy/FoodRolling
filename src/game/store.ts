@@ -42,3 +42,5 @@ interface Actions {
   reset: () => void
 }
 
+export type GameState = SaveData & UiState & Actions
+
