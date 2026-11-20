@@ -205,3 +205,4 @@ export class StageRenderer {
       const chef = sim.chefs[i]
       const st = L.station(i)
       const cp = L.chef(i)
+      items.push({ y: st.y, draw: () => this.drawStation(i, st, chef.state === 'ready', chef.dish, chef.progress, flying.has(chef.plateId)) })
