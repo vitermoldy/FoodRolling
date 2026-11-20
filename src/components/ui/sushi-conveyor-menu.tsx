@@ -148,3 +148,4 @@ function makeGeo(width: number, n: number, d: number, kb: number): Geo {
   const l = Math.max(1, n) * SPACING * d;
   const r = Math.min(CURVE * d, l / (2 * Math.PI));
   const s = Math.max(0, (l - 2 * Math.PI * r) / 2);
+  const g: Geo = { width, height: 0, d, r, s, l, pitch: l / Math.max(1, n), n: Math.max(1, n), kb, cx: width / 2, ym: 0, a: (1 + kb) / 2, b: (1 - kb) / (2 * r), band: BAND * d, slats: Math.max(10, Math.round(l / (SLAT * d))), side: Math.max(3, d * 0.07), edgeTop: 0 };
