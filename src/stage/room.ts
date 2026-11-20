@@ -243,3 +243,4 @@ function indonesia(ctx: Ctx, w: Wall) {
     const sy = ey + eh * (0.32 + row * 0.3)
     rr(ctx, ex + u * 0.06, sy, ew - u * 0.12, Math.max(1.5, u * 0.05), 0, 'rgba(90,46,24,0.55)')
     const n = 3
+    for (let i = 0; i < n; i++) {
