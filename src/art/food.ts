@@ -543,3 +543,4 @@ function croissant(rng: Rng) {
   // One crescent body with tapered horns, then the rolled layers as curved bands across it.
   const body = 'M12 66 Q14 48 28 38 Q40 28 50 28 Q60 28 72 38 Q86 48 88 66 Q80 62 72 64 Q62 70 50 70 Q38 70 28 64 Q20 62 12 66Z'
   let out = shadow(path(body, '#000')) + path(body, '#d68a37', 'stroke="#a8621e" stroke-width="1.2"')
+  for (const x of [24, 36, 50, 64, 76]) {
