@@ -99,3 +99,4 @@ type Geo = {
 type Point = { x: number; z: number; nx: number; nz: number; tx: number; tz: number };
 type Sim = {
   offset: number; v: number; mode: number; target: number;
+  lift: number[]; vlift: number[]; z: number[]; lane: string[];
