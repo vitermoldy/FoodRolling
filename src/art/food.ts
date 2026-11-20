@@ -598,3 +598,4 @@ function brulee(rng: Rng) {
     ellipse(40, 38, 7, 2.6, 'rgba(255,240,200,0.45)', 'transform="rotate(-25 40 38)"')
 }
 
+function ratatouille(rng: Rng) {
