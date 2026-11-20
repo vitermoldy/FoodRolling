@@ -15,3 +15,4 @@ export function Toast() {
 
   return (
     <div role="status" aria-live="polite" className="pointer-events-none fixed inset-x-0 bottom-4 z-40 flex justify-center px-4">
+      {notice && (
