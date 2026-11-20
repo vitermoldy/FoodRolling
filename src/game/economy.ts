@@ -37,3 +37,4 @@ export function isMaxed(state: RestaurantState, kind: UpgradeKind): boolean {
 
 /** Cost to go from `level` to `level + 1` (level counts chefs and seats for those kinds). */
 export function stepCost(def: RestaurantDef, kind: UpgradeKind, level: number): number {
+  const c = BALANCE.costs
