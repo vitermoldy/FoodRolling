@@ -58,3 +58,4 @@ while (t < 12 * 3600) {
   }
   money += rate * dt
   t += dt
+}
