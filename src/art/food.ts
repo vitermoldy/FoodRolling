@@ -416,3 +416,4 @@ function quesadilla(rng: Rng) {
   let out = ''
   for (let i = 0; i < 4; i++) {
     const a0 = (i / 4) * Math.PI * 2 + 0.06
+    const a1 = ((i + 1) / 4) * Math.PI * 2 - 0.06
