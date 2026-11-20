@@ -156,3 +156,4 @@ function italia(ctx: Ctx, w: Wall) {
     ctx.moveTo(x + ww / 2, y)
     ctx.lineTo(x + ww / 2, y + wh)
     ctx.moveTo(x, y + wh * 0.55)
+    ctx.lineTo(x + ww, y + wh * 0.55)
