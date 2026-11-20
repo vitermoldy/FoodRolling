@@ -427,3 +427,4 @@ export class StageRenderer {
     const chef = this.def.theme.chef
     drawPerson(ctx, p.x, p.y, s, {
       facing: this.layout.chefFacing(index),
+      look: this.chefLook(index),
