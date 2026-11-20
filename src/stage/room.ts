@@ -780,3 +780,4 @@ export function paintRoom(ctx: Ctx, layout: Layout, def: RestaurantDef) {
   const wallBottom = Math.max(u * 1.2, layout.floorY)
   ctx.save()
   ctx.beginPath()
+  ctx.rect(0, 0, W, wallBottom)
