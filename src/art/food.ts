@@ -129,3 +129,4 @@ function kappa(rng: Rng) {
 
 function slicedTopping(rng: Rng, y: number, base: string, edge: string, stripe: string, stripes: number) {
   let out = nigiriRice(rng, y, 48)
+  out += path(`M23 ${y - 4} Q24 ${y - 13} 36 ${y - 12} L70 ${y - 10} Q79 ${y - 9} 77 ${y + 1} Q75 ${y + 9} 64 ${y + 8} L30 ${y + 6} Q21 ${y + 5} 23 ${y - 4}Z`, base, `stroke="${edge}" stroke-width="0.9"`)
