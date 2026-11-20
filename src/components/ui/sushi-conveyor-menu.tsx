@@ -551,3 +551,4 @@ export function SushiConveyorMenu({
   }, [count > 0]);
 
   React.useLayoutEffect(() => {
+    const s = sim.current;
