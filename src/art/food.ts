@@ -16,3 +16,4 @@ function rect(x: number, y: number, w: number, h: number, rx: number, fill: stri
   return `<rect x="${f(x)}" y="${f(y)}" width="${f(w)}" height="${f(h)}" rx="${f(rx)}" fill="${fill}" ${extra}/>`
 }
 function path(d: string, fill: string, extra = '') {
+  return `<path d="${d}" fill="${fill}" ${extra}/>`
