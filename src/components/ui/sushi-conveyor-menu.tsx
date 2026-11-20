@@ -142,3 +142,5 @@ function along(g: Geo, u: number): Point {
 function project(g: Geo, x: number, z: number) {
   const k = g.a + g.b * z;
   return { x: g.cx + x * k, y: g.ym + TILT * (g.a * z + (g.b * z * z) / 2), k };
+}
+
