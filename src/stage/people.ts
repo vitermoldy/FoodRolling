@@ -161,3 +161,4 @@ function face(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facing: F
       ctx.strokeStyle = ink
       ctx.lineWidth = r * 0.08
       ctx.beginPath()
+      ctx.arc(hx, hy + r * 0.3, r * 0.17, Math.PI * 0.2, Math.PI * 0.8)
