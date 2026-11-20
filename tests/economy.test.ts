@@ -48,3 +48,4 @@ describe('upgrades', () => {
         const cost = stepCost(jepang, kind, level)
         expect(cost).toBeGreaterThan(last)
         last = cost
+      }
