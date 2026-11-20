@@ -22,3 +22,5 @@ export function newRestaurantState(owned: boolean): RestaurantState {
 
 export function levelOf(state: RestaurantState, kind: UpgradeKind): number {
   return state[kind]
+}
+
