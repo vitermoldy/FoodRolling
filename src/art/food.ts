@@ -212,3 +212,4 @@ function spaghetti(rng: Rng) {
     const x1 = 50 + Math.cos(a1) * r
     const y1 = 50 + Math.sin(a1) * r
     const arc = `M${f(x0)} ${f(y0)}A${f(r)} ${f(r)} 0 0 1 ${f(x1)} ${f(y1)}`
+    // A darker edge under each strand keeps the strands apart at small sizes.
