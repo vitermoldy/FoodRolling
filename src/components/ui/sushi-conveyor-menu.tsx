@@ -1099,3 +1099,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
   );
 }
 
+export default SushiConveyorMenu;
