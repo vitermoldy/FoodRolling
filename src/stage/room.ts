@@ -213,3 +213,4 @@ function indonesia(ctx: Ctx, w: Wall) {
   // Rumah gadang roof in the middle: the upswept gonjong horns.
   const rw = Math.min(W * 0.36, u * 6.4)
   const rx = W / 2 - rw / 2
+  const ry = bandH + u * 0.2
