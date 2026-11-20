@@ -134,3 +134,4 @@
     border-color: var(--color-olive);
   }
   .sr-only-focusable:not(:focus) {
+    position: absolute;
