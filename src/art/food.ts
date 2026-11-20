@@ -539,3 +539,4 @@ function macaron(rng: Rng) {
   return out
 }
 
+function croissant(rng: Rng) {
