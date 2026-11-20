@@ -203,3 +203,4 @@ function indonesia(ctx: Ctx, w: Wall) {
   ctx.fillStyle = '#1f1410'
   ctx.fillRect(0, bandH, W, u * 0.08)
   ctx.strokeStyle = '#d9a521'
+  ctx.lineWidth = Math.max(1.2, u * 0.05)
