@@ -169,3 +169,4 @@ function otoro(rng: Rng) {
 
 /* ---------------------------------- Italia ---------------------------------- */
 
+function bruschetta(rng: Rng) {
