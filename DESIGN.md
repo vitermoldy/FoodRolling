@@ -37,3 +37,5 @@ di tumpukan piring di depan pelanggan, di legenda menu, di ikon Pendapatan, dan 
 | Emas | #c99317 | 5,5 |
 | Hitam | #2b2a28 | 9 |
 
+## Keputusan dan alasannya
+
