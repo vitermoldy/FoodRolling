@@ -62,3 +62,4 @@ export interface ScreenPoint {
   k: number
 }
 
+export class Layout {
