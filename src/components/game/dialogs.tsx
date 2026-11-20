@@ -99,3 +99,4 @@ export function OfflineDialog() {
       {offline && (
         <>
           <h2 id="offline-title" className="font-display text-xl font-semibold">Selamat datang kembali</h2>
+          <p className="mt-2 text-sm leading-relaxed">
