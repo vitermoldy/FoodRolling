@@ -186,3 +186,4 @@ function face(ctx: Ctx, look: Look, hx: number, hy: number, r: number, facing: F
     ctx.fill()
     return
   }
+  const dir = facing === 'right' ? 1 : -1
