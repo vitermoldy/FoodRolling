@@ -68,3 +68,4 @@ export function StageFrame() {
               onClick={() => setPaused(!paused)}
             >
               {paused ? <PlayIcon /> : <PauseIcon />}
+              {paused ? 'Jalankan' : 'Jeda'}
