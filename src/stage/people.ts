@@ -336,3 +336,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
   const fidget = o.action === 'wait' ? Math.sin(t * 2.4) * 0.03 : 0
 
   if (facing === 'up') {
+    // Seen from behind: arms reach away from us, so only the elbows and hands peek out at the sides.
