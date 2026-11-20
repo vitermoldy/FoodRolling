@@ -131,3 +131,4 @@
   .btn-quiet[aria-pressed='true'] {
     background: var(--color-olive);
     color: var(--color-bone);
+    border-color: var(--color-olive);
