@@ -148,3 +148,4 @@ function ikura(rng: Rng) {
   for (const x of [35, 65]) {
     out += shadow(ellipse(x, 50, 15, 18, '#000'))
     out += ellipse(x, 50, 15, 18, '#1d291c', 'stroke="#2f3d2c" stroke-width="1"') + ellipse(x, 50, 12.2, 15, '#d5521b')
+    for (let i = 0; i < 16; i++) {
