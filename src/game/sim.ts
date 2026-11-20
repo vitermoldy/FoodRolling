@@ -45,3 +45,4 @@ export const CHEF_SPOTS: { p: number; facing: Facing; u: number }[] = [
 ]
 
 export function wrap(u: number): number {
+  return ((u % BELT_LENGTH) + BELT_LENGTH) % BELT_LENGTH
