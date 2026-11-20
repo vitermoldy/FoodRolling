@@ -146,3 +146,4 @@ function italia(ctx: Ctx, w: Wall) {
     ctx.roundRect(x, y, ww, wh, [ww / 2, ww / 2, 0, 0])
     ctx.fill()
     ctx.fillStyle = '#7fa35a'
+    ctx.beginPath()
