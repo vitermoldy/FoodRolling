@@ -56,3 +56,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     blurb: 'Bar sushi kaiten berdinding kayu hinoki, dengan lentera kertas dan tirai noren di pintu.',
     scale: 1,
     unlockCost: 0,
+    cookTime: 3,
