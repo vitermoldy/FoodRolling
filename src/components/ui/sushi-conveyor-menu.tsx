@@ -1046,3 +1046,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
 
   const add = () => {
     if (added || closing.current) return;
+    onAdd();
