@@ -139,3 +139,4 @@ function LockedCard() {
   )
 }
 
+/** If the canvas cannot start, say so instead of leaving a blank stage. */
