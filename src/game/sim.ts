@@ -229,3 +229,4 @@ export class BeltSim {
           if (seat.timer <= 0) {
             seat.state = 'arriving'
             seat.timer = C.arrive
+            seat.look = Math.floor(this.rng() * 1e9)
