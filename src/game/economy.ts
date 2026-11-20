@@ -63,3 +63,4 @@ export function bulkCost(
     const next = stepCost(def, kind, level)
     // "Max" stops at what you can pay; a fixed amount shows its full price even when it is out of reach.
     if (amount === 'max' && cost + next > money) break
+    cost += next
