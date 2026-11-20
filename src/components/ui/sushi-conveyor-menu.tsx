@@ -622,3 +622,4 @@ export function SushiConveyorMenu({
   }, [playing, reduced, paused, openIndex, count, interval, geoReady, setActive, seekTo]);
 
   React.useLayoutEffect(() => {
+    if (openIndex !== null || lifted !== null || returnFocus.current === null) return;
