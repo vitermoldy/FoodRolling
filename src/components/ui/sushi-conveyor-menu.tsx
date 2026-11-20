@@ -411,3 +411,4 @@ export function SushiConveyorMenu({
           s.v = cruise + (Math.abs(e) < 0.01 ? 0 : e);
         }
         s.offset += s.v * h;
+      }
