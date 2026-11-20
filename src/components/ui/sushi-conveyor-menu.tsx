@@ -747,3 +747,4 @@ export function SushiConveyorMenu({
               {entry.label}
             </li>
           ))}
+        </ul>
