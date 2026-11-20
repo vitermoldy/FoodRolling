@@ -99,3 +99,4 @@ export function isDishUnlocked(index: number, incomeLevel: number): boolean {
 }
 
 export function unlockedDishIndexes(def: RestaurantDef, state: RestaurantState): number[] {
+  return def.dishes.map((_, i) => i).filter((i) => isDishUnlocked(i, state.income))
