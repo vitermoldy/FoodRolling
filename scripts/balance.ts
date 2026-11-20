@@ -17,3 +17,5 @@ let t = 0
 const dt = 1
 const total = () => RESTAURANTS.reduce((sum, def, i) => sum + E.incomeRate(def, states[i]), 0)
 
+type Option = { payback: number; cost: number; label: string; apply: () => void }
+
