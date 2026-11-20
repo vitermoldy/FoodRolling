@@ -509,3 +509,4 @@ export class StageRenderer {
       if (this.looks.size > 400) this.looks.clear()
       this.looks.set(seed, look)
     }
+    this.ctx.save()
