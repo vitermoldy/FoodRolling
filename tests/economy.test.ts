@@ -37,3 +37,5 @@ describe('restaurants', () => {
       expect(new Set(tiers)).toEqual(new Set([1, 2, 3, 4, 5]))
     }
   })
+})
+
