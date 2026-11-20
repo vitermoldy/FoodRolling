@@ -121,3 +121,4 @@ function hairFront(ctx: Ctx, look: Look, hx: number, hy: number, r: number, faci
       ctx.lineTo(hx + r * 0.75, hy + r * 0.45)
       ctx.lineTo(hx + r * 0.7, hy - r * 0.15)
       ctx.lineTo(hx - r * 0.7, hy - r * 0.15)
+      ctx.lineTo(hx - r * 0.75, hy + r * 0.45)
