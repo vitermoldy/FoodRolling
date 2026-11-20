@@ -733,3 +733,4 @@ function islandProps(ctx: Ctx, layout: Layout, id: RestaurantId) {
       case 'meksiko':
         if (side === 0) {
           ell(ctx, x, y, s * 0.46, s * 0.3, '#2a2522')
+          ell(ctx, x, y - s * 0.02, s * 0.4, s * 0.25, '#3a3430')
