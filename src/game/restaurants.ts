@@ -105,3 +105,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     id: 'indonesia',
     name: 'Rumah Makan Gonjong',
     country: 'Indonesia',
+    blurb: 'Rumah makan Padang beratap gonjong, dengan ukiran kayu Minang dan tumpukan piring di etalase.',
