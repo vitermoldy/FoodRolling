@@ -532,3 +532,4 @@ function macaron(rng: Rng) {
   const shells: [number, number, string, string][] = [[38, 40, '#a8c97b', '#8fb062'], [62, 42, '#e8778e', '#cf5c74'], [50, 63, '#f1e1bc', '#d8c69c']]
   let out = ''
   for (const [x, y, c, e] of shells) {
+    out += shadow(circle(x, y, 13.5, '#000'))
