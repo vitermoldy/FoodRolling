@@ -128,3 +128,4 @@ describe('save', () => {
 
   it('pays offline time at the full rate, up to the cap', () => {
     const save = newSave(0)
+    const rate = totalRate(save.restaurants)
