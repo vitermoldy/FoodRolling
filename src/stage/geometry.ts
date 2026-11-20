@@ -51,3 +51,4 @@ export function alongLoop(u: number): LoopPoint {
   t -= s
   const f = Math.min(Math.PI, t / r)
   const sin = Math.sin(f)
+  const cos = Math.cos(f)
