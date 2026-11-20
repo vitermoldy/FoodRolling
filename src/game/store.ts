@@ -92,3 +92,4 @@ export const useGame = create<GameState>()((set, get) => ({
   buyAmount: 1,
   paused: false,
   tab: 'upgrade',
+  liveId: null,
