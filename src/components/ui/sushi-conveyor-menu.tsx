@@ -81,3 +81,4 @@ const TIERS = [
   { ring: "border-chart-1", dot: "bg-chart-1" },
   { ring: "border-chart-2", dot: "bg-chart-2" },
   { ring: "border-chart-3", dot: "bg-chart-3" },
+  { ring: "border-chart-4", dot: "bg-chart-4" },
