@@ -161,3 +161,4 @@ export const useGame = create<GameState>()((set, get) => ({
     }
     const patch: Partial<GameState> = {}
     if (gained > 0) {
+      patch.money = s.money + gained
