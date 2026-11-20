@@ -374,3 +374,4 @@ function india(ctx: Ctx, w: Wall) {
       ctx.moveTo(x + inset, y + ah)
       ctx.lineTo(x + inset, y + aw * 0.55)
       ctx.quadraticCurveTo(x + inset, y + inset, x + aw / 2, y - aw * 0.25 + inset * 1.4)
+      ctx.quadraticCurveTo(x + aw - inset, y + inset, x + aw - inset, y + aw * 0.55)
