@@ -777,3 +777,4 @@ export function SushiConveyorMenu({
     </div>
   );
 
+  const stage = count > 0 && (
