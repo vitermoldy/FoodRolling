@@ -357,3 +357,4 @@ export function SushiConveyorMenu({
     paintBelt();
   }, [paintPlate, paintBelt]);
 
+  const hitTest = React.useCallback((px: number, py: number) => {
