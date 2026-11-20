@@ -36,3 +36,4 @@ export default function App() {
       window.clearInterval(saver)
       window.removeEventListener('pagehide', flush)
       document.removeEventListener('visibilitychange', onVisibility)
+    }
