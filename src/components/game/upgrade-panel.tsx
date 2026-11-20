@@ -27,3 +27,4 @@ const TITLES: Record<UpgradeKind, string> = {
   income: 'Pendapatan',
   speed: 'Kecepatan',
   chefs: 'Jumlah chef',
+  seats: 'Tempat duduk',
