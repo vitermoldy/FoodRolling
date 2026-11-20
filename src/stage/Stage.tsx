@@ -143,3 +143,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
 
   const onPointerDown = (e: React.PointerEvent) => {
     const renderer = rendererRef.current
+    if (!renderer || !simRef.current || e.button !== 0) return
