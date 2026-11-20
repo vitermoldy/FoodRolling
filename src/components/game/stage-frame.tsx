@@ -118,3 +118,4 @@ function LockedCard() {
           <span className="text-sm text-moss">Harga buka</span>
           <span className="num text-lg font-medium text-olive">{formatCoins(def.unlockCost)}</span>
         </div>
+        {isNext ? (
