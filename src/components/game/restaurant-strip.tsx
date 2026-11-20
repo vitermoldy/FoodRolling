@@ -12,3 +12,4 @@ function thumb(id: string) {
     url = toDataUrl(foodSvg(id, 64))
     thumbs.set(id, url)
   }
+  return url
