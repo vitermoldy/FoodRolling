@@ -32,3 +32,5 @@ export function SettingsDialog({ open, onClose }: { open: boolean; onClose: () =
   const saveError = useGame((s) => s.saveError)
   const totalEarned = useGame((s) => s.totalEarned)
   const [savedAt, setSavedAt] = React.useState<string | null>(null)
+  const [confirm, setConfirm] = React.useState(false)
+
