@@ -77,3 +77,4 @@ const RUN = 0;
 const SEEK = 1;
 const DRAG = 2;
 const DEFAULT_LABELS: SushiConveyorMenuLabels = { add: "Add to order", close: "Close", previous: "Previous plate", next: "Next plate", pause: "Pause belt" };
+const TIERS = [
