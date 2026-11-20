@@ -909,3 +909,4 @@ export function SushiConveyorMenu({
             {header}
             {captionNode}
             {action}
+          </div>
