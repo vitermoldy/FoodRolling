@@ -585,3 +585,4 @@ export function SushiConveyorMenu({
       if (visible === s.visible) return;
       s.visible = visible;
       if (visible) kick();
+      else if (s.raf) { cancelAnimationFrame(s.raf); s.raf = 0; s.last = 0; }
