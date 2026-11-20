@@ -57,3 +57,4 @@ function limb(ctx: Ctx, x1: number, y1: number, x2: number, y2: number, width: n
   ctx.lineWidth = width
   ctx.lineCap = 'round'
   ctx.beginPath()
+  ctx.moveTo(x1, y1)
