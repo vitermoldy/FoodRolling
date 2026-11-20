@@ -51,3 +51,4 @@ while (t < 12 * 3600) {
   options.sort((a, b) => a.payback - b.payback)
   const best = options[0]
   if (!best) break
+  if (best.cost <= money) {
