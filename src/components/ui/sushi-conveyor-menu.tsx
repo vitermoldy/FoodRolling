@@ -85,3 +85,4 @@ const TIERS = [
   { ring: "border-chart-5", dot: "bg-chart-5" },
 ] as const;
 const THEME =
+  "[--belt:color-mix(in_oklab,var(--color-foreground)_78%,var(--color-background))] dark:[--belt:color-mix(in_oklab,var(--color-foreground)_16%,var(--color-background))] " +
