@@ -156,3 +156,4 @@ export const useGame = create<GameState>()((set, get) => ({
       if (live) continue
       const coins = incomeRate(def, st) * dt
       if (coins <= 0) continue
+      gained += coins
