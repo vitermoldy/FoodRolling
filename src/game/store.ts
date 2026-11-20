@@ -131,3 +131,4 @@ export const useGame = create<GameState>()((set, get) => ({
     set({ current: id })
   },
 
+  earn(id, amount) {
