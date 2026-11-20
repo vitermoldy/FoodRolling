@@ -30,3 +30,4 @@ export function RestaurantStrip() {
     else if (e.key === 'End') next = RESTAURANTS.length - 1
     if (next < 0) return
     e.preventDefault()
+    refs.current[next]?.focus()
