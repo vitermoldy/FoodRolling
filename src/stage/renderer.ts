@@ -23,3 +23,4 @@ interface Flight {
 }
 
 interface Coin {
+  x: number
