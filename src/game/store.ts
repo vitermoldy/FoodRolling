@@ -36,3 +36,4 @@ interface Actions {
   setBuyAmount: (amount: BuyAmount) => void
   setPaused: (paused: boolean) => void
   setTab: (tab: PanelTab) => void
+  dismissOffline: () => void
