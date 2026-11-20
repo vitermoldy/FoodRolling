@@ -35,3 +35,4 @@ export function SpeedIcon(props: IconProps) {
     <Svg {...props}>
       <rect x="10" y="1.8" width="4" height="2.6" rx="1" fill="currentColor" />
       <circle cx="12" cy="13.5" r="8.6" fill="currentColor" />
+      <circle cx="12" cy="13.5" r="6.6" fill="#fbf8f1" />
