@@ -19,3 +19,4 @@ const SHIRTS = ['#2f6f8f', '#c96f3a', '#6a8f3d', '#d9b44a', '#3c4a63', '#b84a4a'
 export function lookFrom(seed: number): Look {
   const rng = makeRng(seed)
   return {
+    skin: SKINS[Math.floor(rng() * SKINS.length)],
