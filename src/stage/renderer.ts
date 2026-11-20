@@ -235,3 +235,5 @@ export class StageRenderer {
     }
 
     items.sort((a, b) => a.y - b.y)
+    for (const item of items) item.draw()
+
