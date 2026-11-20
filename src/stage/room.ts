@@ -472,3 +472,4 @@ function prancis(ctx: Ctx, w: Wall) {
   rr(ctx, cx - u * 0.1, cy - u * 0.1, cw + u * 0.2, ch + u * 0.2, u * 0.05, '#6b4a2b')
   rr(ctx, cx, cy, cw, ch, u * 0.02, '#26302b')
   ctx.fillStyle = '#f3f1ea'
+  const size = Math.max(9, Math.min(u * 0.34, ch / 4.2))
