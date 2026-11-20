@@ -114,3 +114,4 @@ export class StageRenderer {
           start: now,
           duration: this.reduced ? 0.01 : 0.38,
         })
+      } else if (e.type === 'grab') {
