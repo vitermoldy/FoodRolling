@@ -16,3 +16,5 @@ export function CoinIcon(props: IconProps) {
       <path d="M9.4 9.6h5.2M9.4 12h5.2M9.4 14.4h5.2" stroke="#a8771a" strokeWidth="1.3" strokeLinecap="round" />
     </Svg>
   )
+}
+
