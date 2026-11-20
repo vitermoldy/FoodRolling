@@ -115,3 +115,4 @@ export const Stage = React.forwardRef<StageHandle, { className?: string }>(funct
     const st = useGame.getState().restaurants[current]
     if (!st.owned) {
       simRef.current = null
+      renderer?.setRestaurant(def, null)
