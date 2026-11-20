@@ -13,3 +13,4 @@ function Modal({ open, onClose, labelledBy, children }: { open: boolean; onClose
     if (open && !dialog.open) dialog.showModal()
     if (!open && dialog.open) dialog.close()
   }, [open])
+  return (
