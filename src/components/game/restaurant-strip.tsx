@@ -68,3 +68,4 @@ export function RestaurantStrip() {
             </button>
           )
         })}
+      </div>
