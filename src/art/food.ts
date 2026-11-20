@@ -482,3 +482,4 @@ function naan(rng: Rng) {
     scatter(rng, 18, 50, 52, 20, [0.6, 1.1], ['#4d8a35', '#f8f1dc'])
 }
 
+function dal(rng: Rng) {
