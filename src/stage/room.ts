@@ -174,3 +174,4 @@ function italia(ctx: Ctx, w: Wall) {
   const sx = W / 2 - sw / 2
   const sy = bottom * 0.42
   for (let i = 0; i < 7; i++) {
+    const bx = sx + u * 0.4 + (i * (sw - u * 0.8)) / 6
