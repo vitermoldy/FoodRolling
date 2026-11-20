@@ -720,3 +720,4 @@ export function SushiConveyorMenu({
     go(event.key === "Home" ? 0 : event.key === "End" ? count - 1 : from + (event.key === "ArrowRight" ? 1 : -1), true);
   };
 
+  const openSource = React.useCallback(() => (openIndex === null ? null : lifts.current[openIndex]?.getBoundingClientRect() ?? null), [openIndex]);
