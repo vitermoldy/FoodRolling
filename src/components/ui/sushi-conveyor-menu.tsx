@@ -539,3 +539,4 @@ export function SushiConveyorMenu({
     const section = sectionRef.current;
     const stage = stageRef.current;
     if (!section || !stage) return;
+    const measure = () => {
