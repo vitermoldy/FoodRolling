@@ -232,3 +232,4 @@ function indonesia(ctx: Ctx, w: Wall) {
   // Display window with stacked plates at the left.
   const ew = Math.min(W * 0.17, u * 3)
   const eh = bottom * 0.5
+  const ex = u * 0.5
