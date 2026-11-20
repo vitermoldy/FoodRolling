@@ -497,3 +497,4 @@ export class StageRenderer {
     ctx.fill()
   }
 
+  private drawCustomer(index: number, p: ScreenPoint, alpha: number, out: number, seed: number, action: 'idle' | 'eat' | 'wait') {
