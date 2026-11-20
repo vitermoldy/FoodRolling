@@ -370,3 +370,4 @@ export class StageRenderer {
     const ctx = this.ctx
     const s = this.layout.d * p.k
     const [top, edge] = STATION_TOP[this.def.id]
+    const w = s * 0.95
