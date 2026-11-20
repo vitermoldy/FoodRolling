@@ -339,3 +339,4 @@ export class StageRenderer {
     const ctx = this.ctx
     const s = this.layout.d * p.k
     const rx = s * 0.3
+    const ry = rx * TILT
