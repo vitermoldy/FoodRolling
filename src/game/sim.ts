@@ -186,3 +186,5 @@ export class BeltSim {
     const h = dt / steps
     for (let s = 0; s < steps; s++) earned += this.substep(h)
     return earned
+  }
+
