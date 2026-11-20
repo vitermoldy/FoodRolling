@@ -601,3 +601,4 @@ function counterAndBelt(ctx: Ctx, layout: Layout, id: RestaurantId, theme: Theme
   ctx.fillStyle = theme.belt
   ctx.fill('evenodd')
 
+  // Island: a low wall and the prep surface.
