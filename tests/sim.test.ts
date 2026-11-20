@@ -72,3 +72,4 @@ describe('belt simulation', () => {
     for (let t = 0; t < 200; t += 0.05) {
       sim.drag(-0.08)
       coins += sim.step(0.05)
+    }
