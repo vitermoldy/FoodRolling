@@ -269,3 +269,4 @@ function indonesia(ctx: Ctx, w: Wall) {
   ctx.clip()
   const cell = u * 0.5
   for (let y = by; y < by + eh + cell; y += cell) {
+    for (let x = bx; x < bx + bw + cell; x += cell) {
