@@ -585,3 +585,4 @@ export class StageRenderer {
 }
 
 /** Arc length between neighbouring plate slots, for the drag handler. */
+export const SLOT_PITCH = PITCH
