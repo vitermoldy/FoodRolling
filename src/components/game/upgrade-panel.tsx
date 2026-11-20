@@ -157,3 +157,4 @@ function UpgradeRows({ def, st }: { def: RestaurantDef; st: RestaurantState }) {
   const rate = incomeRate(def, st)
 
   return (
+    <ul className="flex flex-col gap-2">
