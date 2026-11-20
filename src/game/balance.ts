@@ -22,3 +22,4 @@ export const BALANCE = {
   dishUnlock: [1, 1, 5, 12, 20, 30],
 
   customer: {
+    arrive: 0.8,
