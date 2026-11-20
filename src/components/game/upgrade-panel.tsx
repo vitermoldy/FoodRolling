@@ -246,3 +246,4 @@ function NextRestaurant() {
         </button>
         {current !== next && (
           <button type="button" className="btn btn-quiet" onClick={() => select(next)}>
+            Lihat ruangannya
