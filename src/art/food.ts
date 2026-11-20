@@ -119,3 +119,4 @@ function kappa(rng: Rng) {
   for (const y of [40, 62]) {
     for (const x of [29, 50, 71]) {
       out += shadow(circle(x, y, 10.5, '#000'))
+      out += circle(x, y, 10.5, '#1d281c') + circle(x, y, 8.7, '#f8f5ee')
