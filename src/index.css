@@ -122,3 +122,4 @@
     border: 1px solid var(--color-line-strong);
   }
   .btn-quiet:hover:not(:disabled) {
+    background: #fffefb;
