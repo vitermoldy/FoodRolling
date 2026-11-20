@@ -274,3 +274,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
       ctx.fill()
       dot(ctx, hx - r * 0.3, hy - r * 0.75, r * 0.08, '#fff2e4')
       dot(ctx, hx + r * 0.35, hy - r * 0.6, r * 0.08, '#fff2e4')
+      if (facing !== 'down') {
