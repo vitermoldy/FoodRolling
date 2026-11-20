@@ -280,3 +280,4 @@ export function SushiConveyorMenu({
 
   const requested = activeProp !== undefined ? activeProp : innerActive;
   const active = requested !== null && requested >= 0 && requested < count ? requested : null;
+  const paused = pausedProp ?? innerPaused;
