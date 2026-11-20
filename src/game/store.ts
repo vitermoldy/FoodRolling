@@ -180,3 +180,4 @@ export const useGame = create<GameState>()((set, get) => ({
 
   setBuyAmount(buyAmount) {
     set({ buyAmount })
+  },
