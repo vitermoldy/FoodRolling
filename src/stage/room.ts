@@ -436,3 +436,4 @@ function prancis(ctx: Ctx, w: Wall) {
   const wh = bottom * 0.36
   ctx.fillStyle = theme.wallLow
   ctx.fillRect(0, bottom - wh, W, wh)
+  rr(ctx, 0, bottom - wh - u * 0.08, W, u * 0.1, 0, '#c9a227')
