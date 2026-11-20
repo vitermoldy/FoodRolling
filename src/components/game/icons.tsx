@@ -104,3 +104,4 @@ export function SettingsIcon(props: IconProps) {
     <Svg {...props}>
       <path d="M4 7h9M17 7h3M4 17h3M11 17h9" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
       <circle cx="15" cy="7" r="2.6" fill="currentColor" />
+      <circle cx="9" cy="17" r="2.6" fill="currentColor" />
