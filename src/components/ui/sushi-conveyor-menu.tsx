@@ -779,3 +779,4 @@ export function SushiConveyorMenu({
 
   const stage = count > 0 && (
     <div
+      ref={stageRef}
