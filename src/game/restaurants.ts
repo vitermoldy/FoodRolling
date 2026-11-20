@@ -172,3 +172,4 @@ export const RESTAURANTS: RestaurantDef[] = [
       { id: 'thali', name: 'Thali', tier: 5, description: 'Nampan bundar dengan nasi, roti, dan enam mangkuk kecil lauk.', details: ['1 nampan', 'Pilihan chef'] },
     ],
     theme: {
+      accent: '#0f766e',
