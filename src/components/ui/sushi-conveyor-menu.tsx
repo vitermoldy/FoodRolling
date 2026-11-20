@@ -652,3 +652,4 @@ export function SushiConveyorMenu({
     if (event.pointerType === "mouse") { s.px = at.x; s.py = at.y; s.inside = true; }
     if (p.id === event.pointerId) {
       const dx = event.clientX - p.x;
+      const now = event.timeStamp;
