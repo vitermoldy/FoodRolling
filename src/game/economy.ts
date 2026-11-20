@@ -112,3 +112,4 @@ export function nextDish(def: RestaurantDef, state: RestaurantState): { dish: Di
 }
 
 export function tierPrice(def: RestaurantDef, tier: number, incomeLevel: number): number {
+  return def.scale * (BALANCE.tierPrice[tier - 1] ?? 1) * incomeMult(incomeLevel)
