@@ -222,3 +222,4 @@ function spaghetti(rng: Rng) {
     scatter(rng, 18, 50, 50, 16, [0.5, 0.9], ['#fff7dc', '#f7eccb']) + leaf(56, 41, 10, -35, '#2c7d32')
 }
 
+function ravioli(rng: Rng) {
