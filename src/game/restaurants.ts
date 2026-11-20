@@ -9,3 +9,5 @@ export interface DishDef {
   tier: Tier
 }
 
+export type HatKind = 'hachimaki' | 'toque' | 'peci' | 'bandana' | 'cap' | 'tall'
+
