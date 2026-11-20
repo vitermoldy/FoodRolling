@@ -518,3 +518,4 @@ export class StageRenderer {
   private drawFlights() {
     const L = this.layout
     this.flights = this.flights.filter((f) => this.time - f.start < f.duration)
+    for (const f of this.flights) {
