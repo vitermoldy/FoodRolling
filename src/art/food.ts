@@ -196,3 +196,4 @@ function margherita(rng: Rng) {
   return shadow(circle(50, 50, 34, '#000')) +
     circle(50, 50, 34, '#d9a05a', 'stroke="#b97b37" stroke-width="1"') +
     scatter(rng, 9, 50, 50, 32, [1, 1.9], ['#8b5524', '#a5672d']) +
+    circle(50, 50, 28, '#c7381f') + circle(50, 50, 28, 'none', 'stroke="#a92a16" stroke-width="1.2"') +
