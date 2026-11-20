@@ -87,3 +87,4 @@ export class StageRenderer {
     this.loadFood(def)
   }
 
+  /** Repaint the room on the next frame (fonts finished loading, for example). */
