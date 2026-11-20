@@ -80,3 +80,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     name: 'Trattoria Basilico',
     country: 'Italia',
     blurb: 'Trattoria berdinding bata dengan taplak kotak-kotak, botol di rak kayu, dan oven batu.',
+    scale: 14,
