@@ -45,3 +45,4 @@ describe('belt simulation', () => {
     }
   })
 
+  it('pays each customer the plates they ate', () => {
