@@ -29,3 +29,4 @@ export function MenuPanel({ onShowIncome }: { onShowIncome: () => void }) {
     const open = owned && isDishUnlocked(i, income)
     return {
       id: dish.id,
+      name: dish.name,
