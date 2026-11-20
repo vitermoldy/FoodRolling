@@ -22,3 +22,4 @@ export function RestaurantStrip() {
   const select = useGame((s) => s.select)
   const refs = React.useRef<(HTMLButtonElement | null)[]>([])
 
+  const onKeyDown = (e: React.KeyboardEvent, index: number) => {
