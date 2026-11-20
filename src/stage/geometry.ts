@@ -79,3 +79,4 @@ export class Layout {
   sceneTop = 0
 
   constructor(width: number, height: number) {
+    this.width = width
