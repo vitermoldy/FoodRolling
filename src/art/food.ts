@@ -381,3 +381,4 @@ function churros(rng: Rng) {
 
 function nachos(rng: Rng) {
   let out = ''
+  for (let i = 0; i < 11; i++) {
