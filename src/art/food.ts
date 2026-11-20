@@ -421,3 +421,4 @@ function quesadilla(rng: Rng) {
     const ox = Math.cos(mid) * 2.5
     const oy = Math.sin(mid) * 2.5
     const cx = 50 + ox
+    const cy = 50 + oy
