@@ -62,3 +62,4 @@ export default function App() {
   }
 
   return (
+    <div className="flex min-h-svh flex-col lg:h-svh">
