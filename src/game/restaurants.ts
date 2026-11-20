@@ -110,3 +110,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     unlockCost: 180_000,
     cookTime: 3.8,
     eatTime: 4.8,
+    beltSpeed: 1.95,
