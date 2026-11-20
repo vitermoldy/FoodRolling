@@ -572,3 +572,4 @@ function quiche(rng: Rng) {
   const a1 = -Math.PI / 2 + 0.5
   const cx = 50
   const cy = 76
+  const r = 52
