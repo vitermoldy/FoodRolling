@@ -307,3 +307,4 @@ export function SushiConveyorMenu({
     onActiveChange, onPausedChange, onOpenChange, onAdd,
   };
 
+  const setSectionRef = React.useCallback((node: HTMLElement | null) => {
