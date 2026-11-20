@@ -794,3 +794,4 @@ export function SushiConveyorMenu({
         if (event.pointerType !== "mouse") return;
         const s = sim.current;
         s.inside = false;
+        s.lock = false;
