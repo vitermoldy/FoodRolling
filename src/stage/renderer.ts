@@ -369,3 +369,4 @@ export class StageRenderer {
   private drawStation(index: number, p: ScreenPoint, ready: boolean, dish: number, progress: number, flying: boolean) {
     const ctx = this.ctx
     const s = this.layout.d * p.k
+    const [top, edge] = STATION_TOP[this.def.id]
