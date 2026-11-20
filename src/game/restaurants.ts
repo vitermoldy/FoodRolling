@@ -133,3 +133,4 @@ export const RESTAURANTS: RestaurantDef[] = [
     country: 'Meksiko',
     blurb: 'Taqueria berdinding terakota dengan bendera kertas papel picado dan ubin talavera biru.',
     scale: 2_600,
+    unlockCost: 7_500_000,
