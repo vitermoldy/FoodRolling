@@ -3,3 +3,4 @@ import type { SVGProps } from 'react'
 
 type IconProps = SVGProps<SVGSVGElement>
 
+function Svg(props: IconProps) {
