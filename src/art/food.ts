@@ -395,3 +395,4 @@ function nachos(rng: Rng) {
   return out
 }
 
+function taco(rng: Rng) {
