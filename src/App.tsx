@@ -39,3 +39,4 @@ export default function App() {
     }
   }, [])
 
+  // The open restaurant lends its colour to the interface.
