@@ -25,3 +25,4 @@ export function StageFrame() {
   const [hintSeen, setHintSeen] = React.useState(readHintSeen)
 
   const seeHint = () => {
+    if (hintSeen) return
