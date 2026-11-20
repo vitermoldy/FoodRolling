@@ -8,3 +8,4 @@ import { useGame } from '@/game/store'
 import { formatCoins } from '@/lib/format'
 
 const plates = new Map<string, string>()
+function plateUrl(id: string, plate: string) {
