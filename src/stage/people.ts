@@ -65,3 +65,4 @@ function limb(ctx: Ctx, x1: number, y1: number, x2: number, y2: number, width: n
 function dot(ctx: Ctx, x: number, y: number, r: number, color: string) {
   ctx.fillStyle = color
   ctx.beginPath()
+  ctx.arc(x, y, r, 0, Math.PI * 2)
