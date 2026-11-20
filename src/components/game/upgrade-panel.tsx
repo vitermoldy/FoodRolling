@@ -14,3 +14,4 @@ import {
   stepCost,
   UPGRADE_KINDS,
   type BuyAmount,
+  type RestaurantState,
