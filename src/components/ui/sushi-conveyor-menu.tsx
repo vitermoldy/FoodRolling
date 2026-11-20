@@ -398,3 +398,4 @@ export function SushiConveyorMenu({
       if (s.mode === SEEK) {
         const w = 5.6;
         s.v += (w * w * (s.target - s.offset) - 2 * w * s.v) * h;
+        s.offset += s.v * h;
