@@ -30,3 +30,4 @@ export interface ThemeDef {
 }
 
 export interface RestaurantDef {
+  id: RestaurantId
