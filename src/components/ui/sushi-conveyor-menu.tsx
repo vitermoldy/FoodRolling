@@ -1064,3 +1064,4 @@ function DishDialog({ uid, item, index, total, labels, reduced, broken, source, 
           <span aria-hidden="true" className="absolute inset-x-[8%] bottom-[-4%] top-[14%] rounded-full bg-black opacity-25 blur-2xl dark:opacity-70" />
           {broken ? (
             <span aria-hidden="true" className="absolute inset-[3%] rounded-full border border-border bg-muted">
+              <span className="absolute inset-[30%] rounded-full bg-muted-foreground/25" />
