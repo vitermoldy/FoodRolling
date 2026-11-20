@@ -144,3 +144,4 @@ function project(g: Geo, x: number, z: number) {
   return { x: g.cx + x * k, y: g.ym + TILT * (g.a * z + (g.b * z * z) / 2), k };
 }
 
+function makeGeo(width: number, n: number, d: number, kb: number): Geo {
