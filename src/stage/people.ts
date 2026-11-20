@@ -337,3 +337,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
 
   if (facing === 'up') {
     // Seen from behind: arms reach away from us, so only the elbows and hands peek out at the sides.
+    const reach = shoulder - 0.02
