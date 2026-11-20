@@ -438,3 +438,4 @@ function quesadilla(rng: Rng) {
 function burrito(rng: Rng) {
   return shadow(rect(14, 37, 68, 28, 14, '#000')) +
     g('rotate(-22 50 50)',
+      rect(14, 36, 68, 28, 14, '#efd9a6', 'stroke="#c9ab70" stroke-width="1"') +
