@@ -559,3 +559,4 @@ export class StageRenderer {
 
   private drawCoins() {
     const ctx = this.ctx
+    const L = this.layout
