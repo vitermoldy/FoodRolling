@@ -712,3 +712,4 @@ export function SushiConveyorMenu({
     else pendingOpen.current = p.index;
   };
 
+  const onKeyDown = (event: React.KeyboardEvent) => {
