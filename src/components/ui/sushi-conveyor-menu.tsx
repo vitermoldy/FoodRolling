@@ -813,3 +813,4 @@ export function SushiConveyorMenu({
         {g && paths && (
           <svg className="absolute left-0 top-0 overflow-visible" width={g.width} height={g.height} viewBox={`0 0 ${g.width} ${g.height}`} focusable="false">
             <defs>
+              <filter id={`${uid}-soft`} x="-10%" y="-30%" width="120%" height="160%">
