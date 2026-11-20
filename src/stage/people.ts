@@ -279,3 +279,4 @@ function hat(ctx: Ctx, chef: ChefStyle, hx: number, hy: number, r: number, facin
         limb(ctx, kx, hy - r * 0.3, kx - dir * r * 0.2, hy + r * 0.25, r * 0.16, chef.apron)
       }
       break
+    case 'cap':
