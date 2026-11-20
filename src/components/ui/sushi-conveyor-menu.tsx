@@ -453,3 +453,4 @@ export function SushiConveyorMenu({
 
   const stop = React.useCallback(() => {
     setPlaying(false);
+    const s = sim.current;
