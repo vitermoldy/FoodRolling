@@ -392,3 +392,4 @@ export function drawPerson(ctx: Ctx, x: number, y: number, s: number, o: PersonO
   if (chef) hat(ctx, chef, side ? dir * 0.03 : 0, headY + fidget, r, facing)
 
   if (facing === 'down') {
+    // Arms come forward over the body to the counter or the station.
