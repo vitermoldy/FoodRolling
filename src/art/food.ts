@@ -336,3 +336,4 @@ function ayampop(rng: Rng) {
   // A drumstick: round meaty end at the top left, a narrowing shaft and the bone knob at the bottom right.
   const leg = 'M24 40 Q22 22 40 22 Q56 22 60 38 Q62 46 66 52 L72 60 Q66 66 60 62 L52 56 Q44 58 34 56 Q24 52 24 40Z'
   return shadow(path(leg, '#000')) +
+    path(blob(rng, 66, 76, 10, 0.35), '#2f6b2a') + leaf(60, 80, 10, 20, '#3c7d32') + leaf(76, 72, 9, -60, '#357a2e') +
