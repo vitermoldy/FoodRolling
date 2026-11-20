@@ -188,3 +188,4 @@ export const useGame = create<GameState>()((set, get) => ({
     set({ tab })
   },
   dismissOffline() {
+    set({ offline: null })
