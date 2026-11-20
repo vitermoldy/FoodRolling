@@ -59,3 +59,4 @@ export function RestaurantStrip() {
                 <img src={thumb(r.dishes[5].id)} alt="" width={28} height={28} className={st.owned ? '' : 'opacity-40 grayscale'} />
                 {!st.owned && <LockIcon width={14} height={14} className="absolute -bottom-1 -right-1 rounded-full bg-paper p-[1px] text-olive" />}
               </span>
+              <span className="leading-tight">
