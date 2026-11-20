@@ -654,3 +654,4 @@ function tub(ctx: Ctx, x: number, y: number, rx: number, h: number, side: string
 
 function plateStack(ctx: Ctx, x: number, y: number, s: number, colors: string[]) {
   colors.forEach((c, i) => {
+    ell(ctx, x, y - i * s * 0.07, s * 0.26, s * 0.16, 'rgba(0,0,0,0.25)')
