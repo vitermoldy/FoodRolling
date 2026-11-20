@@ -419,3 +419,4 @@ export function SushiConveyorMenu({
         const v = (s.vlift[i] ?? 0) + (330 * (goal - x) - 23 * (s.vlift[i] ?? 0)) * h;
         s.lift[i] = x + v * h;
         s.vlift[i] = v;
+      }
