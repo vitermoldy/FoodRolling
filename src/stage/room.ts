@@ -185,3 +185,4 @@ function italia(ctx: Ctx, w: Wall) {
   // String lights.
   const pts = swag(-u, W + u, bottom * 0.07, bottom * 0.12, 26)
   ctx.strokeStyle = 'rgba(40,30,20,0.6)'
+  ctx.lineWidth = Math.max(1, u * 0.025)
