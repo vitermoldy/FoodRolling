@@ -248,3 +248,4 @@ export class BeltSim {
           if (plate) {
             this.slots[slot] = null
             seat.state = 'eating'
+            seat.timer = cfg.eatTime
