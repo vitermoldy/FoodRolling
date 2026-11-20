@@ -125,3 +125,4 @@ export const RESTAURANTS: RestaurantDef[] = [
       counter: '#6e3a20', counterEdge: '#4f2814', island: '#7a4426', islandEdge: '#552d17',
       belt: '#b9a98e', beltSide: '#8a7a60', rail: '#e8dcc2', plate: '#fffaf0',
       chef: { hat: 'peci', coat: '#fbf7ee', apron: '#7a2a1c', trim: '#d9a521' },
+    },
