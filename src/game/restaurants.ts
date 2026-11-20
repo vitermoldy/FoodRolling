@@ -38,3 +38,4 @@ export interface RestaurantDef {
   scale: number
   /** Price to open this restaurant. The first one is free. */
   unlockCost: number
+  /** Seconds one chef needs for a dish at speed level 1. */
