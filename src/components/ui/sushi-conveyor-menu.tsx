@@ -788,3 +788,4 @@ export function SushiConveyorMenu({
       style={{ height: g ? g.height : 260, overflowX: "clip" }}
       onPointerDown={onPointerDown}
       onPointerMove={onPointerMove}
+      onPointerUp={(event) => finishPointer(event, false)}
