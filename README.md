@@ -16,3 +16,4 @@ sushi kaiten di Jepang sampai bistro di Paris.
    - **Tempat duduk** menambah kursi di sekeliling sabuk (sampai 16).
    Pilih x1, x10, atau Maks untuk membeli beberapa level sekaligus.
 3. **Bantu sendiri.** Seret sabuk untuk memutarnya, ketuk chef untuk mempercepat masakannya. Di keyboard,
+   tombol "Bantu chef" melakukan hal yang sama.
