@@ -484,3 +484,4 @@ export class StageRenderer {
     // A seated customer facing away covers the stool and draws it; otherwise show the empty seat.
     if (!empty && facing === 'up') return
     const ctx = this.ctx
+    const s = this.layout.d * p.k
